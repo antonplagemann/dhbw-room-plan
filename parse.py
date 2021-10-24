@@ -16,6 +16,7 @@ if not os.path.exists(folder_path):
 # Download all ical files
 with open(os.path.join(sys.path[0], "links.txt")) as f:
     lines = f.readlines()
+    lines = []
     for i, line in enumerate(lines):
         course, url = line.split(",")
         # Get filename from url
@@ -44,7 +45,8 @@ START = date.today()
 END = date(2021, 12, 24)
 
 # Data
-dates = {}
+events_by_date = {}
+events_by_room = {}
 rooms = set()
 
 # Code
@@ -64,32 +66,43 @@ for i, ical in enumerate(files):
             continue
         # Get german date string
         date_string = event.start.date().strftime("%d.%m.%Y")
-        # Get existing data
-        date = dates.get(date_string, {})
+        # Get existing data (events_by_date)
+        date = events_by_date.get(date_string, {})
         room = date.get(event.location, [])
         event_start = event.start.strftime("%H:%M")
         event_end = event.end.strftime("%H:%M")
         events_string = f"{event_start}-{event_end}: {event.summary} ({course})"
         room.append(events_string)
-        # Save changes
+        # Save changes (events_by_date)
         date[event.location] = room
-        dates[date_string] = date
-        rooms.add(event.location)
+        events_by_date[date_string] = date
+        # Get existing data (events_by_room)
+        ev_room = events_by_room.get(event.location, {})
+        ev_date = ev_room.get(date_string, [])
+        event_start = event.start.strftime("%H:%M")
+        event_end = event.end.strftime("%H:%M")
+        events_string = f"{event_start}-{event_end}: {event.summary} ({course})"
+        ev_date.append(events_string)
+        # Save changes (events_by_room)
+        ev_room[date_string] = ev_date
+        events_by_room[event.location] = ev_room
+
+# Calculate all rooms
+rooms = sorted(set(events_by_room.keys()), reverse=True)
 
 # Export as csv
 data = []
-rooms = sorted(rooms, reverse=True)
 # Contruct titlerow
 titlerow = ["Datum"] + rooms
 data.append(titlerow)
-# Sort dates ascending (needs to convert 'str -> datetime -> str' for sorting)
-dates_obj = [datetime.strptime(date_str, "%d.%m.%Y") for date_str in dates.keys()]
-dates_str = [date_obj.strftime("%d.%m.%Y") for date_obj in sorted(dates_obj)]
+# Sort events_by_date ascending (needs to convert 'str -> datetime -> str' for sorting)
+events_by_date_obj = [datetime.strptime(date_str, "%d.%m.%Y") for date_str in events_by_date.keys()]
+events_by_date_str = [date_obj.strftime("%d.%m.%Y") for date_obj in sorted(events_by_date_obj)]
 # Go though each date and build data row
-for date in dates_str:
+for date in events_by_date_str:
     row = [date]
     for room in rooms:
-        events_strings = dates[date].get(room, [])
+        events_strings = events_by_date[date].get(room, [])
         events_string = " & ".join(events_strings)
         row.append(events_string)
     data.append(row)
@@ -101,7 +114,7 @@ with open(filepath, 'w', newline='') as csvfile:
 # Export also as json file
 filepath = os.path.join(sys.path[0], 'rooms.json')
 with open(filepath, 'w', encoding="utf8") as jsonfile:
-    export_data = {"rooms": list(rooms), "dates": dates}
+    export_data = {"rooms": rooms, "events_by_date": events_by_date}
     json.dump(export_data, jsonfile, indent=4)
 # Finished
 print("Finished")
