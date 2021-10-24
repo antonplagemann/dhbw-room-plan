@@ -3,6 +3,7 @@ name: update-room-plan
 on:
   schedule:
     - cron: '0 6 * * *' # runs at 06:00 UTC everyday
+  workflow_dispatch:
 
 jobs:
   build:
