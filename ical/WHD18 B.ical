@@ -1,0 +1,487 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+METHOD:PUBLISH
+X-WR-TIMEZONE:Europe/Berlin
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+DTSTART:19810329T020000
+TZNAME:GMT+02:00
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+DTSTART:19961027T030000
+TZNAME:GMT+01:00
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:20200324T081101Z-255224012@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Quantitative Methoden im Handel//Grdlg. d. Markoökonomie/Infoveranstaltung 2. PA/Grdlg. Arbeits- und Insolvenzrecht/Teilkostenrechnung/Personalwirtschaft/Geld und Währung/
+DTSTART:20200427T080000
+DTEND:20200427T173000
+DTSTAMP:20200427T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081101Z-255224011@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Quantitative Methoden im Handel//Grdlg. d. Markoökonomie/Infoveranstaltung 2. PA/Grdlg. Arbeits- und Insolvenzrecht/Teilkostenrechnung/Personalwirtschaft/Geld und Währung/
+DTSTART:20200504T080000
+DTEND:20200504T173000
+DTSTAMP:20200427T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081101Z-255224010@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Quantitative Methoden im Handel//Grdlg. d. Markoökonomie/Infoveranstaltung 2. PA/Grdlg. Arbeits- und Insolvenzrecht/Teilkostenrechnung/Personalwirtschaft/Geld und Währung/
+DTSTART:20200511T080000
+DTEND:20200511T173000
+DTSTAMP:20200427T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081101Z-255224009@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Quantitative Methoden im Handel//Grdlg. d. Markoökonomie/Infoveranstaltung 2. PA/Grdlg. Arbeits- und Insolvenzrecht/Teilkostenrechnung/Personalwirtschaft/Geld und Währung/
+DTSTART:20200518T080000
+DTEND:20200518T173000
+DTSTAMP:20200427T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081101Z-255224008@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Quantitative Methoden im Handel//Grdlg. d. Markoökonomie/Infoveranstaltung 2. PA/Grdlg. Arbeits- und Insolvenzrecht/Teilkostenrechnung/Personalwirtschaft/Geld und Währung/
+DTSTART:20200525T080000
+DTEND:20200525T173000
+DTSTAMP:20200427T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081101Z-255224007@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Quantitative Methoden im Handel//Grdlg. d. Markoökonomie/Infoveranstaltung 2. PA/Grdlg. Arbeits- und Insolvenzrecht/Teilkostenrechnung/Personalwirtschaft/Geld und Währung/
+DTSTART:20200601T080000
+DTEND:20200601T173000
+DTSTAMP:20200427T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081101Z-255224006@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Quantitative Methoden im Handel//Grdlg. d. Markoökonomie/Infoveranstaltung 2. PA/Grdlg. Arbeits- und Insolvenzrecht/Teilkostenrechnung/Personalwirtschaft/Geld und Währung/
+DTSTART:20200608T080000
+DTEND:20200608T173000
+DTSTAMP:20200427T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081101Z-255224005@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Quantitative Methoden im Handel//Grdlg. d. Markoökonomie/Infoveranstaltung 2. PA/Grdlg. Arbeits- und Insolvenzrecht/Teilkostenrechnung/Personalwirtschaft/Geld und Währung/
+DTSTART:20200615T080000
+DTEND:20200615T173000
+DTSTAMP:20200427T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081101Z-255224004@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Quantitative Methoden im Handel//Grdlg. d. Markoökonomie/Infoveranstaltung 2. PA/Grdlg. Arbeits- und Insolvenzrecht/Teilkostenrechnung/Personalwirtschaft/Geld und Währung/
+DTSTART:20200622T080000
+DTEND:20200622T173000
+DTSTAMP:20200427T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081101Z-255224003@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Quantitative Methoden im Handel//Grdlg. d. Markoökonomie/Infoveranstaltung 2. PA/Grdlg. Arbeits- und Insolvenzrecht/Teilkostenrechnung/Personalwirtschaft/Geld und Währung/
+DTSTART:20200629T080000
+DTEND:20200629T173000
+DTSTAMP:20200427T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081101Z-255224002@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Quantitative Methoden im Handel//Grdlg. d. Markoökonomie/Infoveranstaltung 2. PA/Grdlg. Arbeits- und Insolvenzrecht/Teilkostenrechnung/Personalwirtschaft/Geld und Währung/
+DTSTART:20200706T080000
+DTEND:20200706T173000
+DTSTAMP:20200427T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081101Z-255224001@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Quantitative Methoden im Handel//Grdlg. d. Markoökonomie/Infoveranstaltung 2. PA/Grdlg. Arbeits- und Insolvenzrecht/Teilkostenrechnung/Personalwirtschaft/Geld und Währung/
+DTSTART:20200713T080000
+DTEND:20200713T173000
+DTSTAMP:20200427T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081419Z-255226012@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währung/Teilkostenrechnung/Org. u. Projektmanagement/Personalwirschaft/wiss. Arbeiten/
+DTSTART:20200428T080000
+DTEND:20200428T173000
+DTSTAMP:20200428T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081419Z-255226011@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währung/Teilkostenrechnung/Org. u. Projektmanagement/Personalwirschaft/wiss. Arbeiten/
+DTSTART:20200505T080000
+DTEND:20200505T173000
+DTSTAMP:20200428T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081419Z-255226010@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währung/Teilkostenrechnung/Org. u. Projektmanagement/Personalwirschaft/wiss. Arbeiten/
+DTSTART:20200512T080000
+DTEND:20200512T173000
+DTSTAMP:20200428T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081419Z-255226009@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währung/Teilkostenrechnung/Org. u. Projektmanagement/Personalwirschaft/wiss. Arbeiten/
+DTSTART:20200519T080000
+DTEND:20200519T173000
+DTSTAMP:20200428T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081419Z-255226008@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währung/Teilkostenrechnung/Org. u. Projektmanagement/Personalwirschaft/wiss. Arbeiten/
+DTSTART:20200526T080000
+DTEND:20200526T173000
+DTSTAMP:20200428T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081419Z-255226007@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währung/Teilkostenrechnung/Org. u. Projektmanagement/Personalwirschaft/wiss. Arbeiten/
+DTSTART:20200602T080000
+DTEND:20200602T173000
+DTSTAMP:20200428T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081419Z-255226006@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währung/Teilkostenrechnung/Org. u. Projektmanagement/Personalwirschaft/wiss. Arbeiten/
+DTSTART:20200609T080000
+DTEND:20200609T173000
+DTSTAMP:20200428T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081419Z-255226005@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währung/Teilkostenrechnung/Org. u. Projektmanagement/Personalwirschaft/wiss. Arbeiten/
+DTSTART:20200616T080000
+DTEND:20200616T173000
+DTSTAMP:20200428T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081419Z-255226004@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währung/Teilkostenrechnung/Org. u. Projektmanagement/Personalwirschaft/wiss. Arbeiten/
+DTSTART:20200623T080000
+DTEND:20200623T173000
+DTSTAMP:20200428T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081419Z-255226003@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währung/Teilkostenrechnung/Org. u. Projektmanagement/Personalwirschaft/wiss. Arbeiten/
+DTSTART:20200630T080000
+DTEND:20200630T173000
+DTSTAMP:20200428T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081419Z-255226002@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währung/Teilkostenrechnung/Org. u. Projektmanagement/Personalwirschaft/wiss. Arbeiten/
+DTSTART:20200707T080000
+DTEND:20200707T173000
+DTSTAMP:20200428T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081419Z-255226001@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währung/Teilkostenrechnung/Org. u. Projektmanagement/Personalwirschaft/wiss. Arbeiten/
+DTSTART:20200714T080000
+DTEND:20200714T173000
+DTSTAMP:20200428T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081804Z-255227012@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währug/Chancen- und Risikomanagement/Planspiel TOPSIM/Personalwirtschaft/Teilkostenrechnung/wissenschaftl. Arbeiten
+DTSTART:20200429T080000
+DTEND:20200429T183000
+DTSTAMP:20200429T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081804Z-255227011@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währug/Chancen- und Risikomanagement/Planspiel TOPSIM/Personalwirtschaft/Teilkostenrechnung/wissenschaftl. Arbeiten
+DTSTART:20200506T080000
+DTEND:20200506T183000
+DTSTAMP:20200429T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081804Z-255227010@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währug/Chancen- und Risikomanagement/Planspiel TOPSIM/Personalwirtschaft/Teilkostenrechnung/wissenschaftl. Arbeiten
+DTSTART:20200513T080000
+DTEND:20200513T183000
+DTSTAMP:20200429T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081804Z-255227009@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währug/Chancen- und Risikomanagement/Planspiel TOPSIM/Personalwirtschaft/Teilkostenrechnung/wissenschaftl. Arbeiten
+DTSTART:20200520T080000
+DTEND:20200520T183000
+DTSTAMP:20200429T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081804Z-255227008@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währug/Chancen- und Risikomanagement/Planspiel TOPSIM/Personalwirtschaft/Teilkostenrechnung/wissenschaftl. Arbeiten
+DTSTART:20200527T080000
+DTEND:20200527T183000
+DTSTAMP:20200429T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081804Z-255227007@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währug/Chancen- und Risikomanagement/Planspiel TOPSIM/Personalwirtschaft/Teilkostenrechnung/wissenschaftl. Arbeiten
+DTSTART:20200603T080000
+DTEND:20200603T183000
+DTSTAMP:20200429T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081804Z-255227006@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währug/Chancen- und Risikomanagement/Planspiel TOPSIM/Personalwirtschaft/Teilkostenrechnung/wissenschaftl. Arbeiten
+DTSTART:20200610T080000
+DTEND:20200610T183000
+DTSTAMP:20200429T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081804Z-255227005@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währug/Chancen- und Risikomanagement/Planspiel TOPSIM/Personalwirtschaft/Teilkostenrechnung/wissenschaftl. Arbeiten
+DTSTART:20200617T080000
+DTEND:20200617T183000
+DTSTAMP:20200429T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081804Z-255227004@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währug/Chancen- und Risikomanagement/Planspiel TOPSIM/Personalwirtschaft/Teilkostenrechnung/wissenschaftl. Arbeiten
+DTSTART:20200624T080000
+DTEND:20200624T183000
+DTSTAMP:20200429T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081804Z-255227003@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währug/Chancen- und Risikomanagement/Planspiel TOPSIM/Personalwirtschaft/Teilkostenrechnung/wissenschaftl. Arbeiten
+DTSTART:20200701T080000
+DTEND:20200701T183000
+DTSTAMP:20200429T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081804Z-255227002@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währug/Chancen- und Risikomanagement/Planspiel TOPSIM/Personalwirtschaft/Teilkostenrechnung/wissenschaftl. Arbeiten
+DTSTART:20200708T080000
+DTEND:20200708T183000
+DTSTAMP:20200429T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T081804Z-255227001@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Grdzg. d. Arbeits- und Insolvenzrechtes/Geld und Währug/Chancen- und Risikomanagement/Planspiel TOPSIM/Personalwirtschaft/Teilkostenrechnung/wissenschaftl. Arbeiten
+DTSTART:20200715T080000
+DTEND:20200715T183000
+DTSTAMP:20200429T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082250Z-255228012@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Geld und Währung/Bibliotheksführung/Grdl. d. Makro/Planspiel TopSim/Personalwirtschaft/Chancen- und Risikomanagement/wiss. Arbeiten
+DTSTART:20200430T080000
+DTEND:20200430T171500
+DTSTAMP:20200430T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082250Z-255228011@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Geld und Währung/Bibliotheksführung/Grdl. d. Makro/Planspiel TopSim/Personalwirtschaft/Chancen- und Risikomanagement/wiss. Arbeiten
+DTSTART:20200507T080000
+DTEND:20200507T171500
+DTSTAMP:20200430T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082250Z-255228010@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Geld und Währung/Bibliotheksführung/Grdl. d. Makro/Planspiel TopSim/Personalwirtschaft/Chancen- und Risikomanagement/wiss. Arbeiten
+DTSTART:20200514T080000
+DTEND:20200514T171500
+DTSTAMP:20200430T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082250Z-255228009@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Geld und Währung/Bibliotheksführung/Grdl. d. Makro/Planspiel TopSim/Personalwirtschaft/Chancen- und Risikomanagement/wiss. Arbeiten
+DTSTART:20200521T080000
+DTEND:20200521T171500
+DTSTAMP:20200430T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082250Z-255228008@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Geld und Währung/Bibliotheksführung/Grdl. d. Makro/Planspiel TopSim/Personalwirtschaft/Chancen- und Risikomanagement/wiss. Arbeiten
+DTSTART:20200528T080000
+DTEND:20200528T171500
+DTSTAMP:20200430T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082250Z-255228007@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Geld und Währung/Bibliotheksführung/Grdl. d. Makro/Planspiel TopSim/Personalwirtschaft/Chancen- und Risikomanagement/wiss. Arbeiten
+DTSTART:20200604T080000
+DTEND:20200604T171500
+DTSTAMP:20200430T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082250Z-255228006@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Geld und Währung/Bibliotheksführung/Grdl. d. Makro/Planspiel TopSim/Personalwirtschaft/Chancen- und Risikomanagement/wiss. Arbeiten
+DTSTART:20200611T080000
+DTEND:20200611T171500
+DTSTAMP:20200430T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082250Z-255228005@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Geld und Währung/Bibliotheksführung/Grdl. d. Makro/Planspiel TopSim/Personalwirtschaft/Chancen- und Risikomanagement/wiss. Arbeiten
+DTSTART:20200618T080000
+DTEND:20200618T171500
+DTSTAMP:20200430T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082250Z-255228004@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Geld und Währung/Bibliotheksführung/Grdl. d. Makro/Planspiel TopSim/Personalwirtschaft/Chancen- und Risikomanagement/wiss. Arbeiten
+DTSTART:20200625T080000
+DTEND:20200625T171500
+DTSTAMP:20200430T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082250Z-255228003@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Geld und Währung/Bibliotheksführung/Grdl. d. Makro/Planspiel TopSim/Personalwirtschaft/Chancen- und Risikomanagement/wiss. Arbeiten
+DTSTART:20200702T080000
+DTEND:20200702T171500
+DTSTAMP:20200430T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082250Z-255228002@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Geld und Währung/Bibliotheksführung/Grdl. d. Makro/Planspiel TopSim/Personalwirtschaft/Chancen- und Risikomanagement/wiss. Arbeiten
+DTSTART:20200709T080000
+DTEND:20200709T171500
+DTSTAMP:20200430T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082250Z-255228001@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Geld und Währung/Bibliotheksführung/Grdl. d. Makro/Planspiel TopSim/Personalwirtschaft/Chancen- und Risikomanagement/wiss. Arbeiten
+DTSTART:20200716T080000
+DTEND:20200716T171500
+DTSTAMP:20200430T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082659Z-255229009@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Org. + Projektmanagement/Geld und Währung/Planspiel Topsim/Personalwirtschaft/Grdl. d. Makro/Chancen- u. Risikomanagement
+DTSTART:20200522T080000
+DTEND:20200522T171500
+DTSTAMP:20200522T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082659Z-255229008@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Org. + Projektmanagement/Geld und Währung/Planspiel Topsim/Personalwirtschaft/Grdl. d. Makro/Chancen- u. Risikomanagement
+DTSTART:20200529T080000
+DTEND:20200529T171500
+DTSTAMP:20200522T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082659Z-255229007@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Org. + Projektmanagement/Geld und Währung/Planspiel Topsim/Personalwirtschaft/Grdl. d. Makro/Chancen- u. Risikomanagement
+DTSTART:20200605T080000
+DTEND:20200605T171500
+DTSTAMP:20200522T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082659Z-255229006@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Org. + Projektmanagement/Geld und Währung/Planspiel Topsim/Personalwirtschaft/Grdl. d. Makro/Chancen- u. Risikomanagement
+DTSTART:20200612T080000
+DTEND:20200612T171500
+DTSTAMP:20200522T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082659Z-255229005@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Org. + Projektmanagement/Geld und Währung/Planspiel Topsim/Personalwirtschaft/Grdl. d. Makro/Chancen- u. Risikomanagement
+DTSTART:20200619T080000
+DTEND:20200619T171500
+DTSTAMP:20200522T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082659Z-255229004@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Org. + Projektmanagement/Geld und Währung/Planspiel Topsim/Personalwirtschaft/Grdl. d. Makro/Chancen- u. Risikomanagement
+DTSTART:20200626T080000
+DTEND:20200626T171500
+DTSTAMP:20200522T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082659Z-255229003@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Org. + Projektmanagement/Geld und Währung/Planspiel Topsim/Personalwirtschaft/Grdl. d. Makro/Chancen- u. Risikomanagement
+DTSTART:20200703T080000
+DTEND:20200703T171500
+DTSTAMP:20200522T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082659Z-255229002@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Org. + Projektmanagement/Geld und Währung/Planspiel Topsim/Personalwirtschaft/Grdl. d. Makro/Chancen- u. Risikomanagement
+DTSTART:20200710T080000
+DTEND:20200710T171500
+DTSTAMP:20200522T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20200324T082659Z-255229001@group-e.dhbw-mannheim.de
+LOCATION:K-Raum 203D
+SUMMARY:Org. + Projektmanagement/Geld und Währung/Planspiel Topsim/Personalwirtschaft/Grdl. d. Makro/Chancen- u. Risikomanagement
+DTSTART:20200717T080000
+DTEND:20200717T171500
+DTSTAMP:20200522T080000
+END:VEVENT
+BEGIN:VEVENT
+UID:20201001T101452Z-269279001@group-e.dhbw-mannheim.de
+LOCATION:
+SUMMARY:Wir von CURE suchen Dich – werde Teil von etwas Großem!
+DTSTART:20201105T170000
+DTEND:20201105T180000
+DTSTAMP:20201105T170000
+END:VEVENT
+END:VCALENDAR
