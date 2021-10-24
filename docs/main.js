@@ -21,12 +21,12 @@ new Vue({
       });
   },
   data: {
-    room: "",             // Selected room
-    json: null,           // JSON object with all data
-    lastUpdated: "",      // Update time of the JSON file
+    room: "", // Selected room
+    json: null, // JSON object with all data
+    lastUpdated: "", // Update time of the JSON file
     // Dates
-    date: new Date(),     // Selected date
-    minDate: new Date(),  // Minimum date to select (today)
+    date: new Date(), // Selected date
+    minDate: new Date(), // Minimum date to select (today)
   },
   computed: {
     /**
@@ -83,7 +83,7 @@ new Vue({
       if (!this.json) {
         return [];
       }
-      return this.json.rooms.filter((option) => {
+      return Object.keys(this.json.events_by_room).filter((option) => {
         return (
           option
             .toString()

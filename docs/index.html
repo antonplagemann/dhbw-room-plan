@@ -49,11 +49,41 @@
       #eventsId {
         margin-bottom: 10px !important;
       }
+      /*Make navbar transparent*/
+      nav.navbar.is-fixed-top {
+        background: transparent;
+      }
     </style>
   </head>
 
   <body>
     <div id="app">
+      <b-navbar
+        :fixed-top="true"
+        :transparent="true"
+        type="is-dark"
+        :mobile-burger="false"
+        centered
+      >
+        <template #brand>
+          <b-navbar-item
+            tag="router-link"
+            :to="{ path: '/' }"
+            style="padding-right: 0px"
+          >
+            <img src="dhbw_transparent.png" alt="DHBW-Mannheim" />
+          </b-navbar-item>
+          <b-navbar-item
+            style="
+              padding-bottom: 12px;
+              padding-left: 0px;
+              margin-left: -3px;
+            "
+          >
+            Raumplan
+          </b-navbar-item>
+        </template>
+      </b-navbar>
       <b-modal active has-modal-card can-cancel="false">
         <div class="modal-card" style="padding: 1cm">
           <!--Room picker-->
