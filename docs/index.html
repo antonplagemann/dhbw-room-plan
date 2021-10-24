@@ -45,10 +45,13 @@
         <!--Date picker-->
         <b-field label="Tag auswählen" custom-class="has-text-white" style="margin-bottom: 1cm;">
           <b-datepicker
+          
               v-model="date"
               placeholder="Type or select a date..."
               :min-date="minDate"
               :max-date="maxDate"
+              :events="eventListByRoom"
+              indicators="bars"
               icon="calendar-today"
               locale="de-DE"
               editable

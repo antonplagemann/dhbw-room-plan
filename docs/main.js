@@ -30,7 +30,7 @@ new Vue({
     events() {
       if (!this.room) {return "Kein Raum ausgewählt"}
       try {
-        const eventArray = this.json.dates[this.dateString][this.room];
+        const eventArray = this.json.events_by_date[this.dateString][this.room];
         return eventArray.sort().join("\n");
       } catch (error) {
         console.log(error);
@@ -42,15 +42,24 @@ new Vue({
     },
     filteredRoomArray() {
       if (!this.json.rooms) {return []}
-      console.log(this.json.rooms);
       return this.json.rooms.filter((option) => {
           return option
               .toString()
               .toLowerCase()
               .indexOf(this.room.toLowerCase()) >= 0
       })
+    },
+    eventListByRoom() {
+      if (!this.room) {return []}
+      var eventsList = this.json.events_by_room[this.room]
+      if (!eventsList) {return []}
+      var res =  Object.keys(eventsList).map((date) => {
+        var parts = date.split('.');
+        return new Date(parts[2],parts[1] - 1, parts[0]);
+      })
+      console.log("list:", res);
+      return res;
     }
-    
   },
   methods: {
     /**

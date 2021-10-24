@@ -16,7 +16,6 @@ if not os.path.exists(folder_path):
 # Download all ical files
 with open(os.path.join(sys.path[0], "links.txt")) as f:
     lines = f.readlines()
-    lines = []
     for i, line in enumerate(lines):
         course, url = line.split(",")
         # Get filename from url
@@ -114,7 +113,7 @@ with open(filepath, 'w', newline='') as csvfile:
 # Export also as json file
 filepath = os.path.join(sys.path[0], 'rooms.json')
 with open(filepath, 'w', encoding="utf8") as jsonfile:
-    export_data = {"rooms": rooms, "events_by_date": events_by_date}
+    export_data = {"rooms": rooms, "events_by_date": events_by_date, "events_by_room": events_by_room}
     json.dump(export_data, jsonfile, indent=4)
 # Finished
 print("Finished")
