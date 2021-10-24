@@ -4,7 +4,7 @@ import os
 import re
 import shutil
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 
 import icalevents.icalevents
 import requests
@@ -39,6 +39,7 @@ with open(os.path.join(sys.path[0], "links.txt")) as f:
             print(f'\tFile {filename} couldn\'t be retrieved')
 
 # Constants
+LAST_UPDATED = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 FOLDER = os.path.join(sys.path[0], "ical")
 START = date.today()
 END = date(2021, 12, 24)
@@ -111,9 +112,14 @@ with open(filepath, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter=';')
     writer.writerows(data)
 # Export also as json file
-filepath = os.path.join(sys.path[0], 'rooms.json')
+filepath = os.path.join(sys.path[0], "docs", 'rooms.json')
 with open(filepath, 'w', encoding="utf8") as jsonfile:
-    export_data = {"rooms": rooms, "events_by_date": events_by_date, "events_by_room": events_by_room}
-    json.dump(export_data, jsonfile, indent=4)
+    export_data = {
+        "last_updated": LAST_UPDATED,
+        "rooms": rooms, 
+        "events_by_date": events_by_date, 
+        "events_by_room": events_by_room
+        }
+    json.dump(export_data, jsonfile, indent=4, sort_keys=True)
 # Finished
 print("Finished")
