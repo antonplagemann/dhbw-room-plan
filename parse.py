@@ -34,7 +34,8 @@ with open(os.path.join(sys.path[0], "links.txt")) as f:
             with open(os.path.join(folder_path, f"{course}.ical"), 'wb') as f:
                 shutil.copyfileobj(res.raw, f)
 
-            print(f'\tFile {filename} sucessfully downloaded; saved as {course}.ical')
+            print(
+                f'\tFile {filename} sucessfully downloaded; saved as {course}.ical')
         else:
             print(f'\tFile {filename} couldn\'t be retrieved')
 
@@ -96,8 +97,10 @@ data = []
 titlerow = ["Datum"] + rooms
 data.append(titlerow)
 # Sort events_by_date ascending (needs to convert 'str -> datetime -> str' for sorting)
-events_by_date_obj = [datetime.strptime(date_str, "%d.%m.%Y") for date_str in events_by_date.keys()]
-events_by_date_str = [date_obj.strftime("%d.%m.%Y") for date_obj in sorted(events_by_date_obj)]
+events_by_date_obj = [datetime.strptime(
+    date_str, "%d.%m.%Y") for date_str in events_by_date.keys()]
+events_by_date_str = [date_obj.strftime(
+    "%d.%m.%Y") for date_obj in sorted(events_by_date_obj)]
 # Go though each date and build data row
 for date in events_by_date_str:
     row = [date]
@@ -116,10 +119,10 @@ filepath = os.path.join(sys.path[0], "docs", 'rooms.json')
 with open(filepath, 'w', encoding="utf8") as jsonfile:
     export_data = {
         "last_updated": LAST_UPDATED,
-        "rooms": rooms, 
-        "events_by_date": events_by_date, 
+        "rooms": rooms,
+        "events_by_date": events_by_date,
         "events_by_room": events_by_room
-        }
+    }
     json.dump(export_data, jsonfile, indent=4, sort_keys=True)
 # Finished
 print("Finished")
