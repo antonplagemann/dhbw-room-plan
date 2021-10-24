@@ -1,0 +1,75 @@
+<!-- LTeX: enabled=false -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/buefy/dist/buefy.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css">
+  <title id="title">Success!</title>
+  <style>
+    /*Set background image*/
+    body, html {
+      height: 100%;
+      width: 100%;
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      overflow: hidden;
+    }
+    /*Disable transparent modal background*/
+    .modal-background {
+      position: unset;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <b-modal active has-modal-card can-cancel="false">
+      <div class="modal-card">
+        <!--Room picker-->
+        <b-field label="Raum auswählen" custom-class="has-text-white" style="margin-bottom: 1cm;">
+          <b-autocomplete
+              rounded
+              v-model="room"
+              :data="filteredRoomArray"
+              placeholder="z.B. Raum 048B"
+              icon="magnify"
+              clearable>
+              <template #empty>No results found</template>
+          </b-autocomplete>
+      </b-field>
+        <!--Date picker-->
+        <b-field label="Tag auswählen" custom-class="has-text-white" style="margin-bottom: 1cm;">
+          <b-datepicker
+              v-model="date"
+              placeholder="Type or select a date..."
+              :min-date="minDate"
+              :max-date="maxDate"
+              icon="calendar-today"
+              locale="de-DE"
+              editable
+              append-to-body>
+          </b-datepicker>
+        </b-field>
+        <!--Results display-->
+        <b-message :title="messageTitle" 
+          has-icon type="is-primary"
+          style="margin-bottom: 1cm;">
+          <b-message type="is-primary">
+            <span style="white-space: pre-wrap;">{{events}}</span>
+          </b-message>
+        </b-message>
+      </div>
+    </b-modal>
+  </div>
+
+  <script src="https://unpkg.com/vue@2.6.14/dist/vue.min.js"></script>
+  <script src="https://unpkg.com/buefy/dist/buefy.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
