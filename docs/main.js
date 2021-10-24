@@ -39,12 +39,12 @@ new Vue({
       });
     },
     events() {
-      if (!this.room) {return "Kein Raum ausgewählt"}
+      if (!this.room) {return ["Kein Raum ausgewählt"]}
       try {
         const eventArray = this.json.events_by_date[this.dateString][this.room];
-        return eventArray.sort().join("\n");
+        return eventArray.sort();
       } catch (error) {
-        return "Keine Termine eingetragen";
+        return ["Keine Termine eingetragen"];
       }
     },
     messageTitle() {

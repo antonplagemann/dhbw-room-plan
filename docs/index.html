@@ -32,18 +32,28 @@
       .modal-background {
         position: unset;
       }
+      .media-content {
+        overflow-y: hidden !important;
+      }
+      #eventsId .message-body {
+        padding-top: 5px !important; 
+        padding-bottom: 5px !important;
+      }
+      #eventsId {
+        margin-bottom: 10px !important;
+      }
     </style>
   </head>
 
   <body>
     <div id="app">
       <b-modal active has-modal-card can-cancel="false">
-        <div class="modal-card" style="padding: 1cm;">
+        <div class="modal-card" style="padding: 1cm">
           <!--Room picker-->
           <b-field
             label="Raum auswählen"
             custom-class="has-text-white"
-            style="margin-bottom: 1cm;"
+            style="margin-bottom: 1cm"
           >
             <b-autocomplete
               rounded
@@ -60,10 +70,10 @@
           <b-field
             label="Tag auswählen"
             custom-class="has-text-white"
-            style="margin-bottom: 1cm;"
+            style="margin-bottom: 1cm"
           >
             <b-datepicker
-              :mobile-native="false"
+              :mobile-native="true"
               v-model="date"
               placeholder="Bitte ein Datum eingeben oder auswählen..."
               :min-date="minDate"
@@ -83,18 +93,23 @@
             :title="messageTitle"
             has-icon
             type="is-primary"
-            style="margin-bottom: 1cm;"
+            style="margin-bottom: 1cm; overflow-y: auto"
           >
-            <b-message type="is-primary">
-              <span style="white-space: pre-wrap">{{events}}</span>
+            <b-message type="is-primary" v-for="event in events" id="eventsId">
+              {{event}}
             </b-message>
-            <b-taglist attached>
+            <b-taglist attached style="margin-top: 25px !important;">
               <b-tag type="is-dark">Zuletzt aktualisiert:</b-tag>
               <b-tag type="is-primary">{{lastUpdated}}</b-tag>
             </b-taglist>
             <b-taglist attached>
               <b-tag type="is-dark">Quelle:</b-tag>
-              <b-tag type="is-success"><a href="https://github.com/antonplagemann/dhbw-room-plan">GitHub Repo</a></b-tag>
+              <b-tag type="is-success"
+                ><a
+                  href="https://github.com/antonplagemann/dhbw-room-plan"
+                  >GitHub Repo</a
+                ></b-tag
+              >
             </b-taglist>
           </b-message>
         </div>
