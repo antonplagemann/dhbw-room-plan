@@ -7,12 +7,13 @@ import sys
 from datetime import date, datetime, timezone
 from dateutil.relativedelta import relativedelta
 
-import icalevents.icalevents
+from icalevents import icalevents, icaldownload
 import requests
 
 # Constants
 DOWNLOAD_FOLDER = "ical"  # Folder name where to download all ical files
 WEBSITE_FOLDER = "docs"  # Folder name where to save the json file
+ICAL_URL = "http://vorlesungsplan.dhbw-mannheim.de/ical.php"
 LAST_UPDATED = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 START_DATE = date.today()
 END_DATE = date.today() + relativedelta(months=+3)
@@ -20,54 +21,33 @@ END_DATE = date.today() + relativedelta(months=+3)
 LINKS_FILE = "links.txt"
 OUTPUT_FILE = "rooms"    # The output file name (csv and json)
 
-# Create folder
-donwload_path = os.path.join(sys.path[0], DOWNLOAD_FOLDER)
-if not os.path.exists(donwload_path):
-    os.makedirs(donwload_path)
+# Download ical list
+response = requests.get("https://vorlesungsplan.dhbw-mannheim.de/ical.php")
+# Parse HTML
+results = re.findall(r'<option label="(.+?)" value="(\d+)">.+?</option>', response.text)
 
-# Download all ical files
-with open(os.path.join(sys.path[0], LINKS_FILE)) as f:
-    lines = f.readlines()
-    for i, line in enumerate(lines):
-        course, url = line.split(",")
-        # Get filename from url
-        filename = re.findall(r"\w*\.ical", url)[0]
-        print(f"{i+1} of {len(lines)}: Downloading {filename}")
-        # Download file
-        res = requests.get(url.strip(), stream=True)
-        # Check if the image was retrieved successfully
-        if res.status_code == 200:
-            # Set decode_content value to True, otherwise the downloaded image file's size will be zero.
-            res.raw.decode_content = True
-            # Open a local file with wb (write binary) permission.
-            with open(os.path.join(donwload_path, f"{course}.ical"), 'wb') as f:
-                shutil.copyfileobj(res.raw, f)
-            print(
-                f'\tFile {filename} sucessfully downloaded; saved as {course}.ical')
-        else:
-            print(f'\tFile {filename} couldn\'t be retrieved')
-
-
-# Initialize csv_data variables
+# Initialize data variables
+downloads = []
 events_by_date = {}
 events_by_room = {}
 rooms = set()
 
-# Parse every ical file and event
-files = os.listdir(DOWNLOAD_FOLDER)
-for i, ical in enumerate(files):
-    print(f"{i+1} of {len(files)}: Processing ical {ical}...")
-    filepath = os.path.join(DOWNLOAD_FOLDER, ical)
+# Process each ical of the list
+for i, item in enumerate(results):
+    course_name, course_id = item
+    print(f"{i+1} of {len(results)}: Processing '{course_name}' ({course_id}.ical)")
+    # Download file
     try:
-        # Parse ical file and load events
-        events = icalevents.icalevents.events(
-            file=filepath, start=START_DATE, end=END_DATE)
+        events = icalevents.events(
+            url=f"{ICAL_URL}?uid={course_id}", 
+            start=START_DATE, end=END_DATE)
+        print(f'\tFile {course_id}.ical sucessfully downloaded')
     except Exception as e:
         # Skip invalid ical or empty files
         print(e)
+        print(f'\tFile {course_id}.ical couldn\'t be retrieved')
         continue
-    # Get course name from filename
-    course = ical.split(".")[0]
+
     # Process each event
     for event in events:
         if not event.location:
@@ -76,7 +56,7 @@ for i, ical in enumerate(files):
         # Create event string
         event_start = event.start.strftime("%H:%M")
         event_end = event.end.strftime("%H:%M")
-        events_string = f"{event_start}-{event_end}: {event.summary} ({course})"
+        events_string = f"{event_start}-{event_end}: {event.summary} ({course_name})"
         # Get german date string (dd.mm.yyyy)
         date_string = event.start.date().strftime("%d.%m.%Y")
         # Get existing csv_data (events_by_date)
@@ -93,8 +73,10 @@ for i, ical in enumerate(files):
         r_date.append(events_string)
         r_room[date_string] = r_date
         events_by_room[event.location] = r_room
+    # Processing finished
+    print(f'\tFile {course_id}.ical sucessfully processed')
 
-# Calculate all rooms
+# Calculate and sort all rooms
 rooms = sorted(set(events_by_room.keys()), reverse=True)
 
 # Export as csv
