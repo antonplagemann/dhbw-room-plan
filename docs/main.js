@@ -61,9 +61,7 @@ new Vue({
         return ["Kein Raum ausgewählt"];
       }
       try {
-        const eventArray =
-          this.json.events_by_date[this.dateString][this.room];
-        return eventArray.sort();
+        return this.json.events_by_date[this.dateString][this.room];
       } catch (error) {
         return ["Keine Termine eingetragen"];
       }
