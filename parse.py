@@ -53,7 +53,6 @@ class ICalParser():
             events = icalevents.events(
                 url=f"{self.ical_url}?uid={course_id}",
                 start=self.start_date, end=self.end_date)
-            print(f'\tFile {course_id}.ical sucessfully downloaded')
         except Exception as e:
             # Skip invalid ical or empty files
             self.log.exception(e)
@@ -70,6 +69,7 @@ class ICalParser():
             events_string = f"{event_start}-{event_end}: {event.summary} ({course_name})"
             # Get german date string (dd.mm.yyyy)
             date_string = event.start.date().strftime("%d.%m.%Y")
+            # Read and write data
             with self.thread_lock:
                 # Get existing data (self.events_by_date)
                 d_date = self.events_by_date.get(date_string, {})
@@ -89,40 +89,15 @@ class ICalParser():
         print(f'\tFile {course_id}.ical sucessfully processed')
 
     def parse(self) -> None:
-        # Process each ical of the list
+        # Use threading (5x faster)
         with concurrent.futures.ThreadPoolExecutor() as executor:
+            # Start threads for each ical
             list(executor.map(self.__process_ical, self.icals))
 
         # Calculate and sort all rooms
         self.rooms = sorted(set(self.events_by_room.keys()), reverse=True)
 
-    def __export_csv(self) -> None:
-        '''Exports all data as csv.'''
-        # Export as csv
-        csv_data = []
-        # Contruct titlerow
-        titlerow = ["Datum"] + self.rooms
-        csv_data.append(titlerow)
-        # Sort self.events_by_date ascending (needs to convert 'str -> datetime -> str' for sorting)
-        self.events_by_date_obj = [datetime.strptime(
-            date_str, "%d.%m.%Y") for date_str in self.events_by_date.keys()]
-        self.events_by_date_str = [date_obj.strftime(
-            "%d.%m.%Y") for date_obj in sorted(self.events_by_date_obj)]
-        # Go though each date and build csv row
-        for date in self.events_by_date_str:
-            row = [date]
-            for room in self.rooms:
-                events_strings = self.events_by_date[date].get(room, [])
-                events_string = " & ".join(events_strings)
-                row.append(events_string)
-            csv_data.append(row)
-        # Write to file
-        filepath = os.path.join(sys.path[0], self.output_file + '.csv')
-        with open(filepath, 'w', newline='') as csvfile:
-            writer = csv.writer(csvfile, delimiter=';')
-            writer.writerows(csv_data)
-
-    def __export_json(self) -> None:
+    def export(self) -> None:
         '''Exports all data as json.'''
         # Export also as json file
         filepath = os.path.join(
@@ -134,11 +109,6 @@ class ICalParser():
                 "events_by_room": self.events_by_room
             }
             json.dump(export_csv_data, jsonfile, indent=4, sort_keys=True)
-
-    def export(self) -> None:
-        "Call all export functions."
-        self.__export_csv()
-        self.__export_json()
 
 
 # Start
