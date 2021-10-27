@@ -1,5 +1,6 @@
 {
     "events_by_date": {
+        "01.01.2022": {},
         "01.11.2021": {
             "Ep-Raum 1.47B": [
                 "13:30-17:45: Ada (TMT20 EW1)"
@@ -419,7 +420,8 @@
                 "14:00-18:45: VL - Pr\u00e4sentationskompetenz (WWI21 DSB)"
             ],
             "Raum 278C": [
-                "08:30-12:30: Grundlagen des Managements (WME20 MPG)"
+                "08:30-12:30: Grundlagen des Managements (WME20 MPG)",
+                "14:00-15:30: Mobile Development (WME20 MPG)"
             ],
             "Raum 302D": [
                 "10:45-14:00: Beschaffungscontrolling (WRSW19 AC1)"
@@ -471,6 +473,7 @@
                 "08:00-17:00: Integrationsseminar (WIB19 B)"
             ]
         },
+        "02.01.2022": {},
         "02.11.2021": {
             "CAD-Ep-Raum E.51": [
                 "16:00-19:15: CAD (TWIW20 B)"
@@ -667,9 +670,6 @@
                 "10:00-12:00: Einf\u00fchrungsveranstaltung (WGW21 A)",
                 "13:00-16:15: Einf\u00fchrung in die VWL (WGW21 A)"
             ],
-            "Raum 022A": [
-                "13:00-18:00: Betriebliches Management   (TMB19 PT)"
-            ],
             "Raum 035B": [
                 "09:00-11:30: Systemarchitekturen der Informationstechnik: Verteilte Systeme (TINF19 IT2)"
             ],
@@ -718,9 +718,6 @@
             "Raum 103D": [
                 "08:00-12:00: Wirtschaftspolitik (WIW19 A)"
             ],
-            "Raum 104D": [
-                "09:30-11:45: Spanisch II / Intermediate / Gruppe I (W3WI_IBI306) (WIMBIT19 A)"
-            ],
             "Raum 105A": [
                 "09:00-12:15: Simulationstechnik (TMB19 AM1)",
                 "09:00-12:15: Simulationstechnik (TMB19 AM2)",
@@ -762,9 +759,6 @@
                 "08:00-09:30: GET3 + BSS (TEL20 AT2)",
                 "09:45-13:00: Mathematik 3 (TEL20 AT2)",
                 "14:15-17:30: Signale und Systeme (TEL20 AT2)"
-            ],
-            "Raum 120A": [
-                "09:30-12:45: Mathematik III (TMB20 HVT)"
             ],
             "Raum 121A": [
                 "09:15-12:30: Chemische Reaktionstechnik (TCT 19)",
@@ -968,7 +962,8 @@
                 "13:00-15:30: Technische Informatik II: Betriebssysteme (TINF20 IT2)"
             ],
             "Raum Carl-Benz-H\u00f6rsaal": [
-                "09:00-11:00: Gesch\u00e4ftsprozesse und deren Umsetzung (WWI19 SEA)"
+                "09:00-11:00: Gesch\u00e4ftsprozesse und deren Umsetzung (WWI19 SEA)",
+                "13:00-18:00: Betriebliches Management (TMB19 PT)"
             ],
             "Raum SAP LIDL H\u00f6rsaal": [
                 "09:00-10:00: Neue Konzepte (WWI19 AMA)"
@@ -1314,6 +1309,7 @@
                 "08:00-12:15: Skills for Freight Forwarders (WSTL20 D)"
             ],
             "Raum 215D": [
+                "09:00-12:15: Grundlagen der BWL (WSTL21 D)",
                 "13:30-16:00: Bahnverkehr I (WSTL21 D)"
             ],
             "Raum 216D": [
@@ -1330,6 +1326,9 @@
             "Raum 227A": [
                 "08:00-11:15: Regelungstechnik 1 (TEL19 EU)",
                 "08:00-11:15: Regelungstechnik 1 (TEL19 MED)"
+            ],
+            "Raum 236B (WWI-Labor)": [
+                "13:30-16:45: Grundlagen der IT (WWI21 DSB)"
             ],
             "Raum 239B": [
                 "13:00-16:00: Heizungstechnk 2 (TMB19 KVEM)"
@@ -1436,12 +1435,6 @@
             "Raum 184C": [
                 "08:45-12:00: Projektkonzeption (WWI19 DSA)",
                 "13:00-17:00: Gesch\u00e4ftsprozessmanagement (WWI19 DSA)"
-            ],
-            "Raum 215D": [
-                "13:45-17:00: Grundlagen der BWL (WSTL21 D)"
-            ],
-            "Raum 216D": [
-                "09:00-12:15: Grundlagen der BWL (WSTL21 C)"
             ],
             "Raum 240B": [
                 "16:30-19:30: Fallstudie (WWI20 SEB)"
@@ -1844,9 +1837,11 @@
                 "08:00-17:00: Einf\u00fchrung in MS Word /Aufgeteilt in 2 Gruppen (WSTL21 B)"
             ],
             "Raum 215D": [
-                "08:30-12:45: Grundlagen, B\u00fcrgerliches Recht I (WSTL21 D)"
+                "08:30-12:45: Grundlagen, B\u00fcrgerliches Recht I (WSTL21 D)",
+                "13:30-16:45: Grundlagen der BWL (WSTL21 D)"
             ],
             "Raum 216D": [
+                "09:00-12:15: Grundlagen der BWL (WSTL21 C)",
                 "14:00-16:00: WKL \"Funktionen u. Systeme der Logistik\" 4. Hj. (WSTL19 A)",
                 "14:00-16:00: WKL \"Funktionen u. Systeme der Logistik\" 4. Hj. (WSTL19 B)",
                 "14:00-16:00: WKL \"Funktionen u. Systeme der Logistik\" 4. Hj. (WSTL19 C)",
@@ -1863,9 +1858,6 @@
                 "11:30-13:00: Werkstofftechnik (TEL19 EO)",
                 "11:30-13:00: Werkstofftechnik (TEL19 EU)",
                 "13:30-16:00: Radiologie & Strahlenschutz (TEL19 MED)"
-            ],
-            "Raum 236B (WWI-Labor)": [
-                "13:45-17:00: Grundlagen der IT (WWI21 DSB)"
             ],
             "Raum 238B": [
                 "12:45-20:00: Qualit\u00e4tsmanagement (WF) (TCT 19)",
@@ -2256,6 +2248,9 @@
                 "08:45-12:00: Grundlagen der Logistik (WSTL21 D)",
                 "12:45-15:15: Ladungssicherung (WSTL21 D)"
             ],
+            "Raum 216D": [
+                "09:00-12:15: Grundlagen der BWL (WSTL21 C)"
+            ],
             "Raum 217D ": [
                 "08:30-11:30: Technik der Finanzbuchf\u00fchrung I (WSTL21 B)",
                 "13:15-17:30: Einf\u00fchrung in die VWL (WSTL21 B)"
@@ -2378,12 +2373,6 @@
             ],
             "Raum 184C": [
                 "08:30-14:00: Gesch\u00e4ftsprozessmanagement (WWI19 DSA)"
-            ],
-            "Raum 215D": [
-                "13:45-17:00: Grundlagen der BWL (WSTL21 D)"
-            ],
-            "Raum 216D": [
-                "09:00-12:15: Grundlagen der BWL (WSTL21 C)"
             ],
             "Raum 240B": [
                 "09:00-13:15: Advanced IT (WWI20 SEB)",
@@ -2704,6 +2693,9 @@
             "Raum 117A": [
                 "08:45-11:45: Festigkeitslehre III (TMB20 C)",
                 "14:00-17:15: Thermodynamik 1 (TMB20 C)"
+            ],
+            "Raum 117D": [
+                "12:15-14:30: Spanisch II / Intermediate / Gruppe I (W3WI_IBI306) (WIMBIT19 A)"
             ],
             "Raum 118A": [
                 "13:30-16:00: Mikrocomputertechnik 1 (TEL20 AT2)"
@@ -3176,7 +3168,8 @@
                 "13:00-17:00: Finanzbuchf\u00fchrung  (WGW21 A)"
             ],
             "Raum 022A": [
-                "09:00-13:00: Mechanische Verfahrenstechnik (TMB19 HVT)"
+                "09:00-13:00: Mechanische Verfahrenstechnik (TMB19 HVT)",
+                "13:30-16:45: Regelungstechnik (TMB19 PM)"
             ],
             "Raum 036B": [
                 "09:00-11:00: Gesch\u00e4ftsprozesse und deren Umsetzung (WWI19 AMA)"
@@ -3340,9 +3333,6 @@
                 "09:00-12:15: Int.Operat.Manage (WIB20 Bi)",
                 "13:00-16:15: Com.&Corp. Law (WIB20 Bi)"
             ],
-            "Raum 209A": [
-                "13:30-16:45: Regelungstechnik (TMB19 PM)"
-            ],
             "Raum 210A": [
                 "09:00-12:15: WF5: Digital Finance (WFD19 A)"
             ],
@@ -3364,8 +3354,7 @@
                 "14:30-17:00: Bahnverkehr I (WSTL21 D)"
             ],
             "Raum 216D": [
-                "08:30-12:15: Bahnverkehr I (WSTL21 C)",
-                "13:45-17:00: Grundlagen der BWL (WSTL21 C)"
+                "08:30-12:15: Bahnverkehr I (WSTL21 C)"
             ],
             "Raum 217D ": [
                 "08:30-11:30: Technik der Finanzbuchf\u00fchrung I (WSTL21 B)",
@@ -3401,7 +3390,8 @@
                 "13:00-15:30: Grundlagen der IT (WWI21 DSA)"
             ],
             "Raum 278C": [
-                "09:00-11:30: Mobile Commerce (WME20 MPG)"
+                "09:00-11:30: Mobile Commerce (WME20 MPG)",
+                "13:00-16:30: Mobile Development (WME20 MPG)"
             ],
             "Raum 301D": [
                 "09:15-13:30: Unternehmensf\u00fchrung (WSTL19 D)"
@@ -3463,6 +3453,8 @@
                 "13:45-16:15: Wiederholungsklausur Makro\u00f6konomik (WSTL19 C)"
             ]
         },
+        "05.12.2021": {},
+        "06.01.2022": {},
         "06.11.2021": {
             "Raum 001D": [
                 "08:30-16:30: W3M10903.1 (CAS Masterkurse)"
@@ -3471,11 +3463,17 @@
                 "09:00-11:00: Maschinendynamik (TMB19 BV)",
                 "11:15-13:15: Maschinendynamik (TMB19 BV)"
             ],
+            "Raum 003D": [
+                "09:00-15:00: Einf\u00fchrung in die \u00f6ffentliche BWL (WOW21 B)"
+            ],
             "Raum 105D": [
                 "08:30-17:00: B: Handels- und Gesellschaftsrecht (WFD20 A)"
             ],
             "Raum 109D": [
                 "07:30-17:00: T3M20204.1 (CAS Masterkurse)"
+            ],
+            "Raum 308.3 D": [
+                "09:00-15:00: Energiehandel - nur Versorger ! (WOW20 B)"
             ]
         },
         "06.12.2021": {
@@ -3803,8 +3801,12 @@
                 "09:00-12:15: Rechtsgrundlagen / Haftung See (WSTL20 D)",
                 "14:00-17:15: Bilanzierung und Jahresabschlussanalyse (WSTL20 D)"
             ],
+            "Raum 215D": [
+                "09:00-12:15: Grundlagen der BWL (WSTL21 D)"
+            ],
             "Raum 216D": [
-                "08:00-08:00: Binnenschifffahrt Ib (WSTL21 C)"
+                "08:00-08:00: Binnenschifffahrt Ib (WSTL21 C)",
+                "13:00-16:15: Grundlagen der BWL (WSTL21 C)"
             ],
             "Raum 217D ": [
                 "09:00-11:45: Wirtschaftsmathematik (WSTL21 B)",
@@ -4326,6 +4328,7 @@
                 "13:00-15:00: Klausur \"Technische Mechanik / Festigkeitslehre III\" (TMB20 HVT)"
             ]
         },
+        "08.01.2022": {},
         "08.11.2021": {
             "CAD-Ep-Raum E.13 ": [
                 "15:15-19:30: Informatik 2 Informatik u. Progr.2, Datenb.  (TMT20 AM1)"
@@ -4735,7 +4738,8 @@
                 "12:45-16:00: Einf\u00fchrung in das wissenschaftliche Arbeiten (WSTL21 D)"
             ],
             "Raum 216D": [
-                "09:30-12:00: Einf\u00fchrung in das wissenschaftliche Arbeiten (WSTL21 C)"
+                "09:30-12:00: Einf\u00fchrung in das wissenschaftliche Arbeiten (WSTL21 C)",
+                "12:45-16:00: Grundlagen der BWL (WSTL21 C)"
             ],
             "Raum 217D ": [
                 "09:00-11:45: Wirtschaftsmathematik (WSTL21 B)",
@@ -5202,6 +5206,7 @@
                 "16:45-18:15: Klausur Informatik 3 (TEL20 AT3)"
             ]
         },
+        "09.01.2022": {},
         "09.11.2021": {
             "CAD-Ep-Raum E.51": [
                 "16:00-19:15: CAD (TWIW20 B)"
@@ -5652,7 +5657,7 @@
                 "17:00-19:30: Klimatechnik 2 (TMB19 KVEM)"
             ],
             "Raum 255B": [
-                "13:00-17:15: Fluidmechanik (TMB20 KVEM)"
+                "11:00-15:15: Fluidmechanik (TMB20 KVEM)"
             ],
             "Raum 256B": [
                 "09:30-12:40: Einf\u00fchrung in die BWL (WWI21 AMA)",
@@ -6045,9 +6050,7 @@
                 "15:00-19:00: Einf\u00fchrung in die Wirtschaftsinformatik (WWI21 AMA)"
             ],
             "Raum 269C": [
-                "08:45-10:15: Mathematik I (TINF21 CS1)",
-                "11:00-12:00: Klausur: Datenbanken I (TINF20 IT1)",
-                "13:00-14:00: Klausur: Datenbanken I (TINF20 IT2)"
+                "08:45-10:15: Mathematik I (TINF21 CS1)"
             ],
             "Raum 271C": [
                 "09:00-12:45: Statistik (WWI20 DSB)",
@@ -6104,7 +6107,9 @@
                 "15:00-16:30: Klausur Mathe 3 (TEL20 AT1)"
             ],
             "Raum SAP LIDL H\u00f6rsaal": [
-                "09:00-11:00: Technische Mechanik + Festigkeitslehre III Klausur (TMB20 KVEM)"
+                "09:00-11:00: Technische Mechanik + Festigkeitslehre III Klausur (TMB20 KVEM)",
+                "12:00-13:00: Klausur: Datenbanken  (TINF20 IT1)",
+                "12:00-13:00: Klausur: Datenbanken  (TINF20 IT2)"
             ],
             "Raum folgt": [
                 "13:00-16:00: Integrationsseminar / Audimax (WSTL20 C)"
@@ -6575,7 +6580,6 @@
                 "09:30-12:00: Wdh-Klausuren (WRSW20 ST1)"
             ],
             "Raum 208.2D Vorlesungungsraum": [
-                "09:00-12:15: Corporate Tax (WIB20 Bi)",
                 "17:00-18:30: Franz\u00f6sischkurs Advanced P (WIB20 Bi)"
             ],
             "Raum 210A": [
@@ -6607,9 +6611,6 @@
                 "11:30-13:00: Werkstofftechnik (TEL19 EO)",
                 "11:30-13:00: Werkstofftechnik (TEL19 EU)",
                 "13:30-16:00: Radiologie & Strahlenschutz (TEL19 MED)"
-            ],
-            "Raum 236B (WWI-Labor)": [
-                "13:45-17:00: Grundlagen der IT (WWI21 DSB)"
             ],
             "Raum 238B": [
                 "12:45-20:00: Qualit\u00e4tsmanagement (WF) (TCT 19)",
@@ -6648,8 +6649,7 @@
             ],
             "Raum 303D": [
                 "08:00-11:15: Handelsrecht (WRSW20 AC1)",
-                "12:00-15:15: Handelsrecht (WRSW20 AC1)",
-                "15:30-18:45: Pr\u00e4sentationskompetenz (Gruppe I) (WRSW21 AC1)"
+                "12:00-15:15: Handelsrecht (WRSW20 AC1)"
             ],
             "Raum 304D": [
                 "09:30-12:45: ABWL (WRSW21 AC1)",
@@ -6663,7 +6663,8 @@
                 "13:30-16:45: Labor Grundlagen ET 3 (TEL19 EU)"
             ],
             "Raum 306D": [
-                "09:00-12:15: SM (WMKE19 A)"
+                "09:00-12:15: SM (WMKE19 A)",
+                "14:30-17:45: Pr\u00e4sentationskompetenz I (Gruppe I) (WRSW21 AC1)"
             ],
             "Raum 307A": [
                 "09:45-13:00: Labor GET2 (TEL20 AT3)"
@@ -6930,6 +6931,9 @@
             ],
             "Raum 213D": [
                 "08:30-12:30: Makro\u00f6konomik (WSTL20 D)"
+            ],
+            "Raum 216D": [
+                "09:00-12:15: Grundlagen der BWL (WSTL21 C)"
             ],
             "Raum 217D ": [
                 "09:00-11:30: LKW-Technik und -Konzepte (WSTL21 B)",
@@ -7572,7 +7576,7 @@
                 "14:30-16:30: Wiederholungsklausur Steuern I (WRSW20 AC1)"
             ],
             "Raum 304D": [
-                "08:00-14:00: Pr\u00e4sentationskompetenz I (Gruppe I) (WRSW21 AC1)"
+                "09:00-15:00: Pr\u00e4sentationskompetenz I (Gruppe I) (WRSW21 AC1)"
             ],
             "Raum 306A": [
                 "08:00-11:15: Labor Grundlagen ET 3 (TEL19 AT3)",
@@ -7615,11 +7619,17 @@
             ]
         },
         "11.12.2021": {
+            "Raum 003D": [
+                "08:30-14:45: Kommunalrecht (WOW21 B)"
+            ],
             "Raum 006D": [
                 "08:30-14:45: Kommunalrecht (WOW21 A)"
             ],
             "Raum 019D": [
                 "09:00-12:15: Grundlagen des wissenschaftlichen Arbeitens (WGW21 A)"
+            ],
+            "Raum 308.3 D": [
+                "09:00-16:30: Bilanzierung (WOW20 B)"
             ],
             "Raum folgt": [
                 "08:30-14:00: Workshop Wertanalyse (TMB19 PT)"
@@ -8042,9 +8052,6 @@
                 "08:00-17:00: Pr\u00e4sentieren mit PowerPoint / Aufgeteilt in 2 Gruppen (WSTL18 A)",
                 "08:00-17:00: Pr\u00e4sentieren mit PowerPoint / Aufgeteilt in 2 Gruppen (WSTL21 A)"
             ],
-            "Raum 215D": [
-                "13:45-17:00: Grundlagen der BWL (WSTL21 D)"
-            ],
             "Raum 216D": [
                 "09:00-12:15: Grundlagen der BWL (WSTL21 C)",
                 "14:00-17:15: Marketing (WSTL21 C)"
@@ -8094,7 +8101,8 @@
                 "14:45-17:00: Einf\u00fchrung in die Wirtschaftsinformatik (WWI21 SCB)"
             ],
             "Raum 278C": [
-                "09:00-11:30: Mobile Commerce (WME20 MPG)"
+                "09:00-11:30: Mobile Commerce (WME20 MPG)",
+                "14:00-17:30: Mobile Development (WME20 MPG)"
             ],
             "Raum 301D": [
                 "09:15-13:30: Unternehmensf\u00fchrung (WSTL19 D)"
@@ -8146,6 +8154,7 @@
                 "13:00-15:00: Finanzierung u. Rechnungswesen (WWI20 SCA)"
             ]
         },
+        "12.12.2021": {},
         "13.01.2022": {
             "CAD-Raum 04A": [
                 "09:00-10:30: Numerische Str\u00f6mungsmechanik (CFD) (TMB19 BV)",
@@ -8235,6 +8244,9 @@
             ]
         },
         "13.11.2021": {
+            "Raum 003D": [
+                "09:00-15:00: Einf\u00fchrung in die \u00f6ffentliche BWL (WOW21 B)"
+            ],
             "Raum 004D": [
                 "08:00-16:00: Maschinen und Anlagensicherheit (TMT19 AM1)",
                 "08:00-16:00: Maschinen und Anlagensicherheit (TMT19 AM2)"
@@ -8441,6 +8453,7 @@
                 "12:45-14:45: Wiederholungsklausur - Volkswirtschaftslehre I (WFD20 A)"
             ],
             "Raum 215D": [
+                "09:00-12:15: Grundlagen der BWL (WSTL21 D)",
                 "14:30-17:00: Grundlagen der Logistik (WSTL21 A)"
             ],
             "Raum 216D": [
@@ -8597,6 +8610,7 @@
                 "09:00-11:00: Klausur VBL I (WSTL21 D)"
             ]
         },
+        "14.11.2021": {},
         "14.12.2021": {
             "CAD-Raum 224A": [
                 "09:45-13:00: Programmieren (TINF21 CS1)"
@@ -8878,6 +8892,7 @@
                 "08:30-10:00: Klausur Qualit\u00e4tsmanagement (TMB19 PT)"
             ]
         },
+        "15.01.2022": {},
         "15.11.2021": {
             "CAD-Ep-Raum E.13 ": [
                 "15:15-19:30: Informatik 2 Informatik u. Progr.2, Datenb.  (TMT20 AM1)"
@@ -9562,6 +9577,9 @@
             "Raum 178C": [
                 "11:00-12:30: Kraftwerkstechnik (TEL19 EE)"
             ],
+            "Raum 180C": [
+                "14:00-15:00: Analysis und Lineare Algebra (WWI21 EG/EH)"
+            ],
             "Raum 201D": [
                 "09:00-11:30: Haftung/Versicherung I (WSTL19 A)",
                 "13:00-17:00: GG/SI: GGVSE/ADR (WSTL19 A)",
@@ -9652,6 +9670,7 @@
                 "10:00-11:00: Mathematik II (W3WI_602) (WIMBIT20 B)"
             ]
         },
+        "16.01.2022": {},
         "16.11.2021": {
             "CAD-Raum 224A": [
                 "09:45-13:00: Programmieren (TINF21 CS1)"
@@ -10083,7 +10102,8 @@
             "Raum 238B": [
                 "08:15-11:30: Thermodynamik I (TCT 20)",
                 "11:45-13:15: Mathematik III (TCT 20)",
-                "14:00-16:30: Einf\u00fchrung in die Pharmazie (TCT 20)"
+                "14:00-16:30: Einf\u00fchrung in die Pharmazie (TCT 20)",
+                "17:00-19:30: Biochemie (TCT 20)"
             ],
             "Raum 239B": [
                 "17:00-19:30: Klimatechnik 2 (TMB19 KVEM)"
@@ -10128,7 +10148,7 @@
             "Raum 302D": [
                 "08:00-10:30: HGB Konzern (WRSW19 AC1)",
                 "10:45-13:15: Integrationsseminar (WRSW19 AC1)",
-                "15:45-18:15: Pr\u00e4sentationskompetenz I (Gruppe II) (WRSW21 AC1)"
+                "14:45-17:15: Pr\u00e4sentationskompetenz I (Gruppe II) (WRSW21 AC1)"
             ],
             "Raum 303D": [
                 "08:00-11:15: Handelsrecht (WRSW20 AC1)",
@@ -10136,8 +10156,8 @@
             ],
             "Raum 304D": [
                 "09:00-12:15: Wirtschaftsmathematik (WRSW21 AC1)",
-                "13:00-15:30: ABWL-Marketing (WRSW21 AC1)",
-                "15:45-19:00: Pr\u00e4sentationskompetenz I (Gruppe I) (WRSW21 AC1)"
+                "13:00-14:30: ABWL-Marketing (WRSW21 AC1)",
+                "14:45-18:00: Pr\u00e4sentationskompetenz I (Gruppe I) (WRSW21 AC1)"
             ],
             "Raum 305D": [
                 "13:45-17:45: Einf\u00fchrung in die VWL (WIW21 B)"
@@ -10250,6 +10270,9 @@
                 "09:00-12:00: Industriebetriebslehre (WIN21 B)",
                 "12:30-16:00: Digitalisierung und Informationsmanagement (WIN21 B)"
             ],
+            "K-Raum 606D": [
+                "12:00-14:00: Klausur KLR WIN20B (WIN20 B)"
+            ],
             "Raum 006D": [
                 "09:00-12:15: Mathematik (WOW21 A)",
                 "15:00-18:00: Einf\u00fchrung in die \u00f6ffentliche BWL (WOW21 A)"
@@ -10324,6 +10347,9 @@
             "Raum 179C": [
                 "13:00-15:30: Betriebssysteme (TINF20 AI2)"
             ],
+            "Raum 180C": [
+                "08:00-10:30: WWI21AMB Programmierung I (WWI21 AMB)"
+            ],
             "Raum 201D": [
                 "09:00-17:30: Case Study Lean Management (WSTL19 A)"
             ],
@@ -10358,7 +10384,7 @@
             ],
             "Raum 216D": [
                 "09:00-11:45: Grundlagen, B\u00fcrgerliches Recht I (WSTL21 C)",
-                "14:30-17:45: Grundlagen der BWL (WSTL21 C)"
+                "12:30-15:45: Grundlagen der BWL (WSTL21 C)"
             ],
             "Raum 217D ": [
                 "09:00-11:45: Wirtschaftsmathematik (WSTL21 B)",
@@ -10868,6 +10894,7 @@
                 "09:00-11:30: Handels- und Gesellschaftsrecht (WSTL20 D)"
             ],
             "Raum 215D": [
+                "09:00-12:15: Grundlagen der BWL (WSTL21 D)",
                 "13:30-17:00: Wirtschaftsmathematik (WSTL21 D)"
             ],
             "Raum 216D": [
@@ -10890,9 +10917,6 @@
                 "11:30-13:00: Werkstofftechnik (TEL19 EO)",
                 "11:30-13:00: Werkstofftechnik (TEL19 EU)",
                 "13:30-16:00: Radiologie & Strahlenschutz (TEL19 MED)"
-            ],
-            "Raum 236B (WWI-Labor)": [
-                "13:45-17:00: Grundlagen der IT (WWI21 DSB)"
             ],
             "Raum 238B": [
                 "12:45-20:00: Qualit\u00e4tsmanagement (WF) (TCT 19)",
@@ -11108,6 +11132,9 @@
                 "13:00-14:45: Statistik (WWI20 DSA)",
                 "15:00-16:45: Datenbanken I  (WWI20 DSA)"
             ],
+            "Raum 105A": [
+                "11:15-12:45: Klausur: Web Engineering (TINF21 AI1)"
+            ],
             "Raum 106A": [
                 "08:00-18:00: Vorlesungen TMB21G (1. Semester) (TMB21 G)"
             ],
@@ -11118,7 +11145,7 @@
                 "09:00-11:30: Mechanische Verfahrenstechnik - Klausur (TMB19 HVT)"
             ],
             "Raum 138B": [
-                "08:30-12:30: Webentwicklung (WME21 MPG)"
+                "09:00-11:30: Mobile Commerce (WME20 MPG)"
             ],
             "Raum 179C": [
                 "13:30-17:45: Entwicklung mobiler Applikationen (TINF20 AI2)"
@@ -11137,7 +11164,7 @@
                 "09:15-13:30: DLS: digital technology enhanced SCM I (WSTL19 C)"
             ],
             "Raum 215D": [
-                "14:30-17:45: Grundlagen der BWL (WSTL21 D)"
+                "09:00-12:15: Grundlagen der BWL (WSTL21 D)"
             ],
             "Raum 217D ": [
                 "09:00-11:30: LKW-Technik und -Konzepte (WSTL21 B)",
@@ -11452,8 +11479,7 @@
                 "09:30-13:00: Network Security (TINF19 CS1)"
             ],
             "Raum 062C": [
-                "09:00-12:30: Gruppenarbeit Projekt (WWI19 SCB)",
-                "14:00-16:00: M\u00fcndliche Pr\u00fcfung: Grundlagen der Rechnungslegung (WWI20 EG/EH)"
+                "09:00-12:30: Gruppenarbeit Projekt (WWI19 SCB)"
             ],
             "Raum 064C": [
                 "14:30-17:45: Mathe I/Logik und Algebra (WWI21 SEB)"
@@ -12166,8 +12192,7 @@
                 "08:30-12:30: Makro\u00f6konomik (WSTL20 D)"
             ],
             "Raum 215D": [
-                "09:00-11:30: LKW-Technik und -Konzepte (WSTL21 D)",
-                "13:45-17:00: Grundlagen der BWL (WSTL21 D)"
+                "09:00-11:30: LKW-Technik und -Konzepte (WSTL21 D)"
             ],
             "Raum 216D": [
                 "09:00-12:15: Grundlagen der BWL (WSTL21 C)",
@@ -12216,7 +12241,8 @@
                 "13:00-16:15: Marketing (WWI21 DSB)"
             ],
             "Raum 278C": [
-                "09:00-11:30: Mobile Commerce (WME20 MPG)"
+                "09:00-11:30: Mobile Commerce (WME20 MPG)",
+                "13:00-16:30: Mobile Development (WME20 MPG)"
             ],
             "Raum 302D": [
                 "08:00-14:45: Rechtsformwahl und Besteuerung (WRSW19 AC1)",
@@ -12266,6 +12292,7 @@
                 "11:30-13:00: Elektronik 2 (TEL20 MED)"
             ]
         },
+        "19.12.2021": {},
         "20.01.2022": {
             "CAD-Raum 04A": [
                 "09:00-10:30: Numerische Str\u00f6mungsmechanik (CFD) (TMB19 BV)",
@@ -12324,6 +12351,7 @@
                 "09:00-18:00: Seminar CAS  (CAS Masterkurse)"
             ]
         },
+        "20.11.2021": {},
         "20.12.2021": {
             "Ep-Raum 1.53": [
                 "09:00-11:00: Klausur MST3 - 5. Semester (TMT19 AM1)",
@@ -12377,7 +12405,8 @@
             ],
             "Raum 036B": [
                 "09:00-10:00: VWL (WRSW20 ST1)",
-                "11:00-13:00: REWE I (WRSW21 ST1)"
+                "11:00-13:00: REWE I (WRSW21 ST1)",
+                "15:00-17:00: Grundlagen der BWL  (WWI21 EG/EH)"
             ],
             "Raum 064C": [
                 "15:00-18:30: SQ I/Komm./Pr\u00e4sentation (WWI21 SEB)"
@@ -12412,10 +12441,11 @@
                 "09:00-17:00: PA II-Pr\u00e4sentationen (WSTL19 D)"
             ],
             "Raum 215D": [
-                "10:00-12:30: Grundlagen der Logistik (WSTL21 D)"
+                "10:00-12:30: Grundlagen der Logistik (WSTL21 D)",
+                "13:15-16:30: Grundlagen der BWL (WSTL21 D)"
             ],
             "Raum 216D": [
-                "14:30-17:45: Grundlagen der BWL (WSTL21 C)"
+                "09:00-12:15: Grundlagen der BWL (WSTL21 C)"
             ],
             "Raum 217D ": [
                 "09:00-12:45: Bahnverkehr I (WSTL21 B)",
@@ -12464,13 +12494,16 @@
             ],
             "Raum Carl-Benz-H\u00f6rsaal": [
                 "10:00-12:00: Grundlagen der Betriebswirtschaftslehre (W3WI_201) (WIMBIT21 A)",
-                "10:00-12:00: Grundlagen der Betriebswirtschaftslehre (W3WI_201) (WIMBIT21 B)"
+                "10:00-12:00: Grundlagen der Betriebswirtschaftslehre (W3WI_201) (WIMBIT21 B)",
+                "13:00-14:30: Klausur: Lineare Algebra (TINF21 AI1)"
             ],
             "Raum SAP LIDL H\u00f6rsaal": [
-                "09:00-11:00: Grundlagen Management (BWL/Recht) (WME20 MMK)"
+                "09:00-11:00: Grundlagen Management (BWL/Recht) (WME20 MMK)",
+                "15:00-16:30: Klausur: Lineare Algebra (TINF21 AI2)"
             ],
             "Raum SV-Auditorium (Audimax)": [
-                "09:00-10:00: Mathematik (WRSW21 AC1)"
+                "09:00-10:00: Mathematik (WRSW21 AC1)",
+                "11:00-13:30: Webentwicklung (WME21 MPG)"
             ]
         },
         "21.01.2022": {
@@ -12517,6 +12550,7 @@
                 "15:00-17:45: Datenbanken I (WWI20 DSB)"
             ]
         },
+        "21.11.2021": {},
         "21.12.2021": {
             "Ep-Raum 1.59": [
                 "09:00-12:15: Technische Mechanik (TWIW21 A)",
@@ -12535,6 +12569,10 @@
             "Ep-Raum E.59": [
                 "09:00-12:15: Mathematik (TWIW21 C)",
                 "13:00-16:15: Technische Mechanik (TWIW21 C)"
+            ],
+            "K-Raum 001B": [
+                "10:00-11:00: Programmieren in C (TINF21 AI1)",
+                "10:00-11:00: Programmieren in C (TINF21 AI2)"
             ],
             "K-Raum 401C": [
                 "09:00-12:15: Bilanzierung und Grundlagen der Jahresabschlussanalyse (WIN20 C)",
@@ -12599,9 +12637,6 @@
                 "09:00-17:00: PA II-Pr\u00e4sentationen (WSTL19 C)",
                 "09:00-17:00: PA II-Pr\u00e4sentationen (WSTL19 D)"
             ],
-            "Raum 215D": [
-                "14:30-17:45: Grundlagen der BWL (WSTL21 D)"
-            ],
             "Raum 216D": [
                 "09:15-13:30: Beschaffungslogistik (WSTL21 C)"
             ],
@@ -12654,6 +12689,7 @@
                 "09:00-11:00: Wirtschaftspolitik (WGW19 A)"
             ]
         },
+        "22.01.2022": {},
         "22.11.2021": {
             "CAD-Ep-Raum E.13 ": [
                 "15:15-19:30: Informatik 2 Informatik u. Progr.2, Datenb.  (TMT20 AM1)"
@@ -12997,6 +13033,9 @@
                 "11:30-12:40: Hochspannungstechnik (TEL19 EU)",
                 "15:15-18:30: Regelungstechnik 1 (TEL19 EE)"
             ],
+            "Raum 184C": [
+                "15:00-17:00: M\u00fcndliche Pr\u00fcfung: Grundlagen der Rechnungslegung (WWI20 EG/EH)"
+            ],
             "Raum 185C": [
                 "10:00-12:15: Planspiel TMB20A (TEL18 AAT)",
                 "13:30-16:45: Drehstromnetz und Trafo (TEL19 EU)"
@@ -13042,8 +13081,7 @@
                 "13:45-17:45: Einf\u00fchrung in die VWL (WSTL21 D)"
             ],
             "Raum 216D": [
-                "08:15-12:30: Einf\u00fchrung in die VWL (WSTL21 C)",
-                "13:45-17:00: Grundlagen der BWL (WSTL21 C)"
+                "08:15-12:30: Einf\u00fchrung in die VWL (WSTL21 C)"
             ],
             "Raum 217D ": [
                 "13:30-17:15: Spediteur-Sammelgutverkehr (WSTL21 B)"
@@ -13058,7 +13096,8 @@
             ],
             "Raum 238B": [
                 "09:00-12:15: Konstruktion (TCT 20)",
-                "12:30-13:15: Konstruktionsentwurf (TCT 20)"
+                "12:30-13:15: Konstruktionsentwurf (TCT 20)",
+                "14:00-16:30: Einf\u00fchrung in die Pharmazie (TCT 20)"
             ],
             "Raum 239B": [
                 "08:30-12:15: K\u00e4ltetechnik (TMB19 KVEM)"
@@ -13179,6 +13218,10 @@
             "Ep-Raum E.59": [
                 "14:30-18:30: Volkswirtschaftslehre (TWIW21 C)"
             ],
+            "K-Raum 001B": [
+                "14:30-16:00: Klausur: Mathematik I (TINF21 CS2)",
+                "14:30-16:00: Klausur: Mathematik I (TINF21 IT1)"
+            ],
             "K-Raum 401C": [
                 "09:00-12:15: Makro\u00f6konomik (WIN20 C)",
                 "13:00-16:15: Informationsbeschaffung u. Marketingentscheidungen (WIN20 C)"
@@ -13212,13 +13255,16 @@
             ],
             "Raum 036B": [
                 "09:00-10:00: B-Recht (WRSW21 ST1)",
-                "11:00-12:00: U-Recht (WRSW20 ST1)"
+                "11:00-12:00: U-Recht (WRSW20 ST1)",
+                "13:00-14:30: Klausur: Grundlagen und Logik (TINF21 AI1)"
             ],
             "Raum 064C": [
                 "10:00-13:15: Grundlagen BWL/Einf\u00fchrung (WWI21 SEB)"
             ],
             "Raum 067C": [
-                "09:00-11:00: BWL I (WMKE21 A)"
+                "09:00-11:00: BWL I (WMKE21 A)",
+                "12:00-13:30: Klausur: Grundlagen und Logik (TINF21 AI2)",
+                "14:30-16:00: Klausur: Lineare Algebra (TINF21 CS1)"
             ],
             "Raum 069C": [
                 "11:30-12:45: Datenbanken I  (WWI20 DSA)",
@@ -13307,6 +13353,7 @@
                 "14:00-15:00: Mathematik I (W3WI_601) (WIMBIT21 B)"
             ]
         },
+        "23.01.2022": {},
         "23.11.2021": {
             "CAD-Raum 224A": [
                 "09:45-13:00: Programmieren (TINF21 CS1)"
@@ -13488,7 +13535,7 @@
                 "09:00-12:15: Informationsmanagement im \u00f6ffentlichen Sektor (WOW20 A)"
             ],
             "Raum 018D": [
-                "10:00-12:00: Wiederholungsklausur Grundl. VWL u. Mikro\u00f6konomie (WGW20 A)",
+                "10:00-12:00: Wiederholungsklausur BGB (WGW20 A)",
                 "13:00-16:15: Bilanzierung (WGW20 A)"
             ],
             "Raum 022A": [
@@ -13677,14 +13724,14 @@
                 "09:00-13:15: Skills for Freight Forwarders (WSTL20 C)"
             ],
             "Raum 208.2D Vorlesungungsraum": [
+                "09:00-12:15: Corporate Tax (WIB20 Bi)",
                 "13:00-16:15: Appl MR (WIB20 Bi)"
             ],
             "Raum 213D": [
                 "13:15-16:30: Versenderberatung und Vergleichskalkulation (WSTL20 D)"
             ],
             "Raum 215D": [
-                "08:30-12:00: Spediteur-Sammelgutverkehr (WSTL21 D)",
-                "13:45-17:00: Grundlagen der BWL (WSTL21 D)"
+                "08:30-12:00: Spediteur-Sammelgutverkehr (WSTL21 D)"
             ],
             "Raum 216D": [
                 "08:15-12:30: Einf\u00fchrung in die VWL (WSTL21 C)",
@@ -13705,7 +13752,8 @@
             "Raum 238B": [
                 "08:15-11:30: Thermodynamik I (TCT 20)",
                 "11:45-13:15: Mathematik III (TCT 20)",
-                "14:00-16:30: Einf\u00fchrung in die Pharmazie (TCT 20)"
+                "14:00-16:30: Einf\u00fchrung in die Pharmazie (TCT 20)",
+                "17:00-19:30: Biochemie (TCT 20)"
             ],
             "Raum 239B": [
                 "17:00-19:30: Klimatechnik 2 (TMB19 KVEM)"
@@ -13848,6 +13896,9 @@
             ],
             "Raum 010A": [
                 "08:00-18:00: Vorlesungen TMB21F (1. Semester) (TMB21 F)"
+            ],
+            "Raum 036B": [
+                "11:00-12:30: Klausur: Web Engineering I (TINF21 AI2)"
             ],
             "Raum 106A": [
                 "08:00-18:00: Vorlesungen TMB21G (1. Semester) (TMB21 G)"
@@ -14305,6 +14356,7 @@
                 "09:00-11:30: Handels- und Gesellschaftsrecht (WSTL20 D)"
             ],
             "Raum 215D": [
+                "09:00-12:15: Grundlagen der BWL (WSTL21 D)",
                 "13:30-17:00: Wirtschaftsmathematik (WSTL21 D)"
             ],
             "Raum 216D": [
@@ -14326,9 +14378,6 @@
                 "11:30-13:00: Werkstofftechnik (TEL19 EO)",
                 "11:30-13:00: Werkstofftechnik (TEL19 EU)",
                 "13:30-16:00: Radiologie & Strahlenschutz (TEL19 MED)"
-            ],
-            "Raum 236B (WWI-Labor)": [
-                "13:45-17:00: Grundlagen der IT (WWI21 DSB)"
             ],
             "Raum 238B": [
                 "12:45-20:00: Qualit\u00e4tsmanagement (WF) (TCT 19)",
@@ -14357,6 +14406,9 @@
             ],
             "Raum 277C": [
                 "09:00-13:00:  Einf\u00fchrung in die Programmierung (WWI21 DSB)"
+            ],
+            "Raum 278C": [
+                "13:00-17:00: Mobile Development (WME20 MPG)"
             ],
             "Raum 301D": [
                 "09:15-13:30: DLS: Working session II (WSTL19 D)"
@@ -14412,6 +14464,7 @@
                 "12:45-16:45: Labor Messtechnik (TMB20 A)"
             ]
         },
+        "24.12.2021": {},
         "25.01.2022": {
             "Ep-Raum 1.59": [
                 "09:00-12:15: Technische Mechanik (TWIW21 A)"
@@ -14606,6 +14659,9 @@
             ],
             "Raum 006D": [
                 "13:00-15:00: Pr\u00e4sentations- und Kommunikatioskompetenzen (WOW21 A)"
+            ],
+            "Raum 010A": [
+                "17:30-18:30: M\u00fcndliche Pr\u00fcfung TMB20B Elektrotechnik (TMB19 A)"
             ],
             "Raum 017D": [
                 "14:00-16:00: WH B\u00fcrgerliches Recht (WOW20 A)"
@@ -14942,6 +14998,7 @@
                 "09:00-12:30: Krisenmanagement der Stadt Mannheim in der Pandemie (WOW19 A)"
             ]
         },
+        "25.12.2021": {},
         "26.01.2022": {
             "CAD-Ep-Raum E.13 ": [
                 "10:30-13:45: Informatik (TWIW21 C)"
@@ -15387,6 +15444,7 @@
                 "11:30-13:00: Elektronik 2 (TEL20 MED)"
             ]
         },
+        "26.12.2021": {},
         "27.10.2021": {
             "CAD-Ep-Raum E.13 ": [
                 "16:00-19:30: angew. Maschbau angew. Konstr. (TMT20 AM1)"
@@ -15667,9 +15725,6 @@
             "Raum 136.1B": [
                 "10:30-12:00: Tutorium Mathematik (TINF21 IT1)"
             ],
-            "Raum 136B": [
-                "10:00-13:15: Mathe I/Analysis u. Lineare Algebra (WWI21 SEA)"
-            ],
             "Raum 137.1B": [
                 "09:30-12:45: BankManWertorRisikosteuerung (WBK19 B)",
                 "13:15-16:30: Wertpapiermanagement (WBK19 B)"
@@ -15773,9 +15828,6 @@
                 "11:30-13:00: Werkstofftechnik (TEL19 EU)",
                 "13:30-16:00: Radiologie & Strahlenschutz (TEL19 MED)"
             ],
-            "Raum 236B (WWI-Labor)": [
-                "13:45-17:00: Grundlagen der IT (WWI21 DSB)"
-            ],
             "Raum 238B": [
                 "17:00-18:30: Thermodynamik I (TCT 20)"
             ],
@@ -15849,8 +15901,7 @@
                 "08:00-14:45: Planspiel Investor (WRSW20 ST1)"
             ],
             "Raum 323A": [
-                "08:00-08:45: Klausureinsicht (TEL19 AT2)",
-                "11:30-13:00: Elektronik 4 (TEL19 AT3)"
+                "08:00-08:45: Klausureinsicht (TEL19 AT2)"
             ],
             "Raum 336B": [
                 "09:00-11:30: Maschinelles Lernen (TINF19 IT1)",
@@ -15865,6 +15916,9 @@
                 "09:00-11:00: Maschinendynamik (TMB19 BV)",
                 "11:15-13:15: Maschinendynamik (TMB19 BV)"
             ],
+            "Raum 003D": [
+                "09:00-12:00: Einf\u00fchrung in \u00f6ffentliche Dienstleistungen (WOW21 B)"
+            ],
             "Raum 004D": [
                 "08:00-16:00: Maschinen und Anlagensicherheit (TMT19 AM1)",
                 "08:00-16:00: Maschinen und Anlagensicherheit (TMT19 AM2)"
@@ -15876,6 +15930,7 @@
                 "08:30-17:00: B: Handels- und Gesellschaftsrecht (WFD20 A)"
             ]
         },
+        "27.12.2021": {},
         "28.10.2021": {
             "CAD-Ep-Raum E.13 ": [
                 "08:00-12:15: Informatik 2 Informatik u. Progr.2, Datenb.  (TMT20 AM1)"
@@ -16128,10 +16183,6 @@
             "Raum 105D": [
                 "08:00-11:30: B: Betriebliche Steuerlehre (WFD20 A)"
             ],
-            "Raum 106A": [
-                "08:30-13:00: Pr\u00e4senz-Vorlesung: Thermodynamik 1 (TMB20 G)",
-                "16:00-18:30: Steuerungstechnik (TMB20 G)"
-            ],
             "Raum 106D": [
                 "10:45-13:15: B\u00fcrgerliches Recht I (WRSW21 ST1)",
                 "14:00-17:15: VWL (WRSW21 ST1)"
@@ -16190,7 +16241,6 @@
                 "08:00-10:00: Digitaltechnik (TINF21 IT1)"
             ],
             "Raum 136B": [
-                "09:15-12:15: Grundlagen BWL/Einf\u00fchrung (WWI21 SEA)",
                 "13:00-15:30: SQ I/Comm./Presentation (WWI21 SEA)"
             ],
             "Raum 137B": [
@@ -16228,7 +16278,7 @@
                 "13:30-16:00: Mikrocomputertechnik 1 (TEL20 EE)"
             ],
             "Raum 178C": [
-                "11:30-16:00: Wellen & Leitungen +BSS (TEL19 AT2)"
+                "12:30-17:00: Wellen & Leitungen +BSS (TEL19 AT2)"
             ],
             "Raum 179C": [
                 "13:00-15:30: Betriebssysteme (TINF20 AI2)",
@@ -16286,11 +16336,11 @@
                 "13:15-17:15: Handels- u Gesellschaftsrecht (WBK20 B)"
             ],
             "Raum 215D": [
+                "09:00-12:15: Grundlagen der BWL (WSTL21 D)",
                 "14:00-17:15: Marketing (WSTL21 D)"
             ],
             "Raum 216D": [
-                "09:00-11:45: Grundlagen, B\u00fcrgerliches Recht I (WSTL21 C)",
-                "13:45-17:00: Grundlagen der BWL (WSTL21 C)"
+                "09:00-11:45: Grundlagen, B\u00fcrgerliches Recht I / Online (WSTL21 C)"
             ],
             "Raum 217D ": [
                 "09:00-11:45: Wirtschaftsmathematik (online) (WSTL21 B)",
@@ -16397,6 +16447,8 @@
                 "09:30-11:00: Klausureinsicht (WBK19 B)"
             ]
         },
+        "28.11.2021": {},
+        "28.12.2021": {},
         "29.10.2021": {
             "CAD-Ep-Raum E.51": [
                 "12:30-16:30: ERP Systeme Labor (TWIW20 D)"
@@ -16558,7 +16610,7 @@
             ],
             "Raum 010A": [
                 "08:00-11:30: Technische Mechanik III (TMB20 F)",
-                "13:30-16:00: Mathematik III-\u00dcbung (TMB20 F)"
+                "12:30-15:00: !!! Achtung Uhrzeit\u00e4nderung !!! Mathematik III-\u00dcbung (TMB20 F)"
             ],
             "Raum 022A": [
                 "09:00-13:00: Mechanische Verfahrenstechnik (TMB19 HVT)"
@@ -16609,8 +16661,7 @@
                 "13:00-16:15: WF2: Analyse von Wertpapieren (WFD20 A)"
             ],
             "Raum 106A": [
-                "09:00-11:30: Mathematik III + Mathe III-\u00dcbung (TMB20 G)",
-                "12:30-17:00: Pr\u00e4senz-Vorlesung: Thermodynamik 1 (TMB20 G)"
+                "09:00-11:30: Mathematik III + Mathe III-\u00dcbung (TMB20 G)"
             ],
             "Raum 106D": [
                 "08:00-10:30: KLR (WRSW21 ST1)",
@@ -16623,6 +16674,9 @@
             "Raum 112D": [
                 "09:00-12:15: Spanisch I / Intermediate I (W3WI_IBI305) (WIMBIT20 B)",
                 "13:00-16:15: Datenbanken (W3WI_105) (WIMBIT20 B)"
+            ],
+            "Raum 113D": [
+                "09:00-12:15: Wiederholung m\u00fcndliche Bachelorpr\u00fcfung (WSTL18 B)"
             ],
             "Raum 114D": [
                 "13:00-15:35: Unternehmensf\u00fchrung (WIW19 B)"
@@ -16739,11 +16793,10 @@
                 "08:00-17:45: WF3: Leasing (WFD20 A)"
             ],
             "Raum 215D": [
-                "09:30-12:00: Einf\u00fchrung in das wissenschaftliche Arbeiten (WSTL21 D)",
-                "13:45-17:00: Grundlagen der BWL (WSTL21 D)"
+                "09:30-12:00: Einf\u00fchrung in das wissenschaftliche Arbeiten (WSTL21 D)"
             ],
             "Raum 216D": [
-                "09:00-12:15: Wiederholung m\u00fcndliche Bachelorpr\u00fcfung (WSTL18 B)",
+                "08:30-11:45: Grundlagen der BWL (WSTL21 C)",
                 "12:30-15:45: Einf\u00fchrung in das wissenschaftliche Arbeiten (WSTL21 C)"
             ],
             "Raum 217D ": [
@@ -16757,8 +16810,8 @@
             ],
             "Raum 227A": [
                 "08:00-09:30: Medizinprodukteentwicklung (TEL19 MED)",
-                "09:45-12:15: Mathematische Anwendungen (TEL19 EU)",
-                "09:45-12:15: Mathematische Anwendungen (TEL19 MED)",
+                "09:45-11:15: Mathematische Anwendungen (TEL19 EU)",
+                "09:45-11:15: Mathematische Anwendungen (TEL19 MED)",
                 "13:30-15:00: Anatomie und Physiologie (TEL20 MED)"
             ],
             "Raum 237B": [
@@ -17306,6 +17359,7 @@
                 "08:00-11:30: Vorlesung WIB19A /WIB19B (WIB19 B)"
             ]
         },
+        "29.12.2021": {},
         "30.10.2021": {
             "Raum 001D": [
                 "09:00-12:00: Schl\u00fcsselqualifikationen I (W3WI_701) (WIMBIT21 A)",
@@ -17748,6 +17802,9 @@
             "Raum 277C": [
                 "09:00-12:15: Marketing (WWI21 DSB)"
             ],
+            "Raum 278C": [
+                "13:00-16:15: Einf\u00fchrung in Datenbanken (WME20 MPG)"
+            ],
             "Raum 280C (L)": [
                 "09:30-12:30: Crossmedia-Design (WME20 MPG)"
             ],
@@ -17804,7 +17861,10 @@
                 "08:00-17:00: Integrationsseminar (WIB19 A)",
                 "08:00-17:00: Integrationsseminar (WIB19 B)"
             ]
-        }
+        },
+        "30.12.2021": {},
+        "31.10.2021": {},
+        "31.12.2021": {}
     },
     "events_by_room": {
         "CAD-Ep-Raum E.13 ": {
@@ -21210,6 +21270,14 @@
             "15.12.2021": [
                 "13:00-14:00: Kurztest Informationsbeschaffung und Marketingentscheidungen, WIN20A+C (WIN20 A)",
                 "13:00-14:00: Kurztest Informationsbeschaffung und Marketingentscheidungen, WIN20A+C (WIN20 C)"
+            ],
+            "21.12.2021": [
+                "10:00-11:00: Programmieren in C (TINF21 AI1)",
+                "10:00-11:00: Programmieren in C (TINF21 AI2)"
+            ],
+            "22.12.2021": [
+                "14:30-16:00: Klausur: Mathematik I (TINF21 CS2)",
+                "14:30-16:00: Klausur: Mathematik I (TINF21 IT1)"
             ]
         },
         "K-Raum 101D": {
@@ -22990,6 +23058,9 @@
             "06.12.2021": [
                 "12:00-14:00: Weiterf\u00fchrende Unternehmensrechnung, WIN20A (WIN20 A)"
             ],
+            "16.12.2021": [
+                "12:00-14:00: Klausur KLR WIN20B (WIN20 B)"
+            ],
             "20.12.2021": [
                 "15:00-17:00: Klausur Bilanzierung und Besteuerung, WIN20A (WIN20 A)"
             ],
@@ -23395,6 +23466,9 @@
                 "11:45-13:15: Marketing in Germany (IP (International Program))",
                 "14:00-15:30: German Culture & Art from the Past to the Present (IP (International Program))"
             ],
+            "06.11.2021": [
+                "09:00-15:00: Einf\u00fchrung in die \u00f6ffentliche BWL (WOW21 B)"
+            ],
             "06.12.2021": [
                 "10:00-11:30: Financial Market in Germany (IP (International Program))",
                 "11:45-13:15: Marketing in Germany (IP (International Program))"
@@ -23415,10 +23489,16 @@
                 "11:45-13:15: Marketing in Germany (IP (International Program))",
                 "14:00-15:30: German Culture & Art from the Past to the Present (IP (International Program))"
             ],
+            "11.12.2021": [
+                "08:30-14:45: Kommunalrecht (WOW21 B)"
+            ],
             "12.11.2021": [
                 "10:00-11:30: Financial Market in Germany (IP (International Program))",
                 "11:45-13:15: Marketing in Germany (IP (International Program))",
                 "14:00-15:30: German Culture & Art from the Past to the Present (IP (International Program))"
+            ],
+            "13.11.2021": [
+                "09:00-15:00: Einf\u00fchrung in die \u00f6ffentliche BWL (WOW21 B)"
             ],
             "13.12.2021": [
                 "10:00-11:30: Financial Market in Germany (IP (International Program))",
@@ -23452,6 +23532,9 @@
             "27.10.2021": [
                 "09:00-12:00: Economic and Political System of the EU (IP (International Program))",
                 "17:00-18:30: Global Business (IP (International Program))"
+            ],
+            "27.11.2021": [
+                "09:00-12:00: Einf\u00fchrung in \u00f6ffentliche Dienstleistungen (WOW21 B)"
             ],
             "29.11.2021": [
                 "10:00-11:30: Financial Market in Germany (IP (International Program))",
@@ -23953,6 +24036,9 @@
             "24.11.2021": [
                 "08:30-11:45: Mathematik III (TMB20 F)"
             ],
+            "25.11.2021": [
+                "17:30-18:30: M\u00fcndliche Pr\u00fcfung TMB20B Elektrotechnik (TMB19 A)"
+            ],
             "26.11.2021": [
                 "08:00-11:30: Technische Mechanik III (TMB20 F)",
                 "13:30-16:00: Mathematik III-\u00dcbung (TMB20 F)"
@@ -23967,7 +24053,7 @@
             ],
             "29.10.2021": [
                 "08:00-11:30: Technische Mechanik III (TMB20 F)",
-                "13:30-16:00: Mathematik III-\u00dcbung (TMB20 F)"
+                "12:30-15:00: !!! Achtung Uhrzeit\u00e4nderung !!! Mathematik III-\u00dcbung (TMB20 F)"
             ],
             "30.11.2021": [
                 "12:30-15:45: BWL-Planspiel (TMB20 F)",
@@ -24317,7 +24403,7 @@
                 "13:45-17:00: Bilanzierung (WGW20 A)"
             ],
             "23.11.2021": [
-                "10:00-12:00: Wiederholungsklausur Grundl. VWL u. Mikro\u00f6konomie (WGW20 A)",
+                "10:00-12:00: Wiederholungsklausur BGB (WGW20 A)",
                 "13:00-16:15: Bilanzierung (WGW20 A)"
             ],
             "24.11.2021": [
@@ -24487,9 +24573,6 @@
                 "08:30-12:30: Nachhaltige Energiesysteme (TMB19 PM)",
                 "08:30-12:30: Nachhaltige Energiesysteme (TMB19 PT)"
             ],
-            "02.11.2021": [
-                "13:00-18:00: Betriebliches Management   (TMB19 PT)"
-            ],
             "02.12.2021": [
                 "13:00-16:15: Produktionssysteme und Produktionsmanagement (TMB19 PT)"
             ],
@@ -24508,7 +24591,8 @@
                 "13:00-16:15: Produktionssysteme und Produktionsmanagement (TMB19 PT)"
             ],
             "05.11.2021": [
-                "09:00-13:00: Mechanische Verfahrenstechnik (TMB19 HVT)"
+                "09:00-13:00: Mechanische Verfahrenstechnik (TMB19 HVT)",
+                "13:30-16:45: Regelungstechnik (TMB19 PM)"
             ],
             "07.12.2021": [
                 "08:00-12:45: Betriebliches Management   (TMB19 PT)",
@@ -24776,7 +24860,8 @@
             ],
             "20.12.2021": [
                 "09:00-10:00: VWL (WRSW20 ST1)",
-                "11:00-13:00: REWE I (WRSW21 ST1)"
+                "11:00-13:00: REWE I (WRSW21 ST1)",
+                "15:00-17:00: Grundlagen der BWL  (WWI21 EG/EH)"
             ],
             "21.12.2021": [
                 "12:00-14:30: Steuern V (WRSW19 ST1)"
@@ -24787,7 +24872,11 @@
             ],
             "22.12.2021": [
                 "09:00-10:00: B-Recht (WRSW21 ST1)",
-                "11:00-12:00: U-Recht (WRSW20 ST1)"
+                "11:00-12:00: U-Recht (WRSW20 ST1)",
+                "13:00-14:30: Klausur: Grundlagen und Logik (TINF21 AI1)"
+            ],
+            "23.12.2021": [
+                "11:00-12:30: Klausur: Web Engineering I (TINF21 AI2)"
             ],
             "24.11.2021": [
                 "09:00-11:00: Int. Financial & Managerial Accounting (WIB19 A)",
@@ -25266,8 +25355,7 @@
                 "13:30-17:30: Begr\u00fc\u00dfung (WWI19 SCB)"
             ],
             "18.11.2021": [
-                "09:00-12:30: Gruppenarbeit Projekt (WWI19 SCB)",
-                "14:00-16:00: M\u00fcndliche Pr\u00fcfung: Grundlagen der Rechnungslegung (WWI20 EG/EH)"
+                "09:00-12:30: Gruppenarbeit Projekt (WWI19 SCB)"
             ],
             "27.10.2021": [
                 "09:00-13:00: Inv. und Finanzierung (WWI20 SEA)"
@@ -25625,7 +25713,9 @@
                 "09:30-12:30: Wiederholungsklausuren WI (WWI20 SEB)"
             ],
             "22.12.2021": [
-                "09:00-11:00: BWL I (WMKE21 A)"
+                "09:00-11:00: BWL I (WMKE21 A)",
+                "12:00-13:30: Klausur: Grundlagen und Logik (TINF21 AI2)",
+                "14:30-16:00: Klausur: Lineare Algebra (TINF21 CS1)"
             ],
             "24.11.2021": [
                 "12:00-14:00: Nach-und Wiederholungsklausuren (WWI19 AMC)",
@@ -26303,9 +26393,6 @@
             "01.12.2021": [
                 "13:15-16:30: Gesch\u00e4ftsprozesse und deren Umsetzung (W3WI_106) (WIMBIT19 A)"
             ],
-            "02.11.2021": [
-                "09:30-11:45: Spanisch II / Intermediate / Gruppe I (W3WI_IBI306) (WIMBIT19 A)"
-            ],
             "02.12.2021": [
                 "09:30-12:45: Spanisch II / Intermediate / Gruppe I (W3WI_IBI306) (WIMBIT19 A)",
                 "13:00-16:15: Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402) (WIMBIT19 A)"
@@ -26538,6 +26625,9 @@
             ],
             "17.11.2021": [
                 "10:30-12:00: Mathematik I (TINF21 CS1)"
+            ],
+            "17.12.2021": [
+                "11:15-12:45: Klausur: Web Engineering (TINF21 AI1)"
             ],
             "18.01.2022": [
                 "09:00-12:00: Numerische Str\u00f6mungsmechanik (CFD) (TMB19 BV)",
@@ -26795,13 +26885,8 @@
                 "08:45-12:00: Fluidmechanik (TMB20 C)",
                 "13:00-16:00: Festigkeitslehre III (TMB20 G)"
             ],
-            "28.10.2021": [
-                "08:30-13:00: Pr\u00e4senz-Vorlesung: Thermodynamik 1 (TMB20 G)",
-                "16:00-18:30: Steuerungstechnik (TMB20 G)"
-            ],
             "29.10.2021": [
-                "09:00-11:30: Mathematik III + Mathe III-\u00dcbung (TMB20 G)",
-                "12:30-17:00: Pr\u00e4senz-Vorlesung: Thermodynamik 1 (TMB20 G)"
+                "09:00-11:30: Mathematik III + Mathe III-\u00dcbung (TMB20 G)"
             ],
             "29.11.2021": [
                 "08:00-11:45: Konstruktionslehre III (TMB20 G)",
@@ -27313,6 +27398,9 @@
                 "09:00-12:30: Datenbanken (W3WI_105) (WIMBIT20 A)",
                 "14:00-18:00: VWL (W3WI_505) (WIMBIT20 A)"
             ],
+            "29.10.2021": [
+                "09:00-12:15: Wiederholung m\u00fcndliche Bachelorpr\u00fcfung (WSTL18 B)"
+            ],
             "29.11.2021": [
                 "08:30-12:00: Entwicklung verteilter Systeme (W3WI_110) (WIMBIT20 A)",
                 "14:45-17:00: Spanisch I / Advanced I (W3WI_IBI305) (WIMBIT20 A)"
@@ -27755,6 +27843,9 @@
                 "09:00-12:15: Grundlagen der Betriebswirtschaftslehre (W3WI_201) (WIMBIT21 B)",
                 "13:00-17:00: Programmierung I (W3WI_108) (WIMBIT21 B)"
             ],
+            "04.11.2021": [
+                "12:15-14:30: Spanisch II / Intermediate / Gruppe I (W3WI_IBI306) (WIMBIT19 A)"
+            ],
             "05.11.2021": [
                 "13:00-16:15: Recht (W3WI_506) (WIMBIT21 B)"
             ],
@@ -27944,9 +28035,6 @@
             ]
         },
         "Raum 120A": {
-            "02.11.2021": [
-                "09:30-12:45: Mathematik III (TMB20 HVT)"
-            ],
             "02.12.2021": [
                 "08:30-11:00: Thermodynamik (TMB20 HVT)"
             ],
@@ -28569,11 +28657,7 @@
                 "10:00-13:15: Methoden der WI/Einf\u00fchrung (WWI21 SEA)",
                 "14:00-18:00: Programmierung I (WWI21 SEA)"
             ],
-            "27.10.2021": [
-                "10:00-13:15: Mathe I/Analysis u. Lineare Algebra (WWI21 SEA)"
-            ],
             "28.10.2021": [
-                "09:15-12:15: Grundlagen BWL/Einf\u00fchrung (WWI21 SEA)",
                 "13:00-15:30: SQ I/Comm./Presentation (WWI21 SEA)"
             ],
             "29.10.2021": [
@@ -28757,7 +28841,7 @@
                 "08:30-12:30: Grundlagen des wissenschaftlichen Arbeitens (WME21 MPG)"
             ],
             "17.12.2021": [
-                "08:30-12:30: Webentwicklung (WME21 MPG)"
+                "09:00-11:30: Mobile Commerce (WME20 MPG)"
             ],
             "18.11.2021": [
                 "13:30-16:45: Internet-Technologien (WME21 MPG)"
@@ -29871,7 +29955,7 @@
                 "16:15-18:30: Kommunikationstechnik + BSS (TEL19 MED)"
             ],
             "28.10.2021": [
-                "11:30-16:00: Wellen & Leitungen +BSS (TEL19 AT2)"
+                "12:30-17:00: Wellen & Leitungen +BSS (TEL19 AT2)"
             ],
             "29.10.2021": [
                 "09:45-11:15: Elektronik 4 (TEL19 AT2)",
@@ -30011,10 +30095,16 @@
             "14.12.2021": [
                 "08:30-09:00: Erl\u00f6s- / Kostencontrolling (WGW19 A)"
             ],
+            "15.12.2021": [
+                "14:00-15:00: Analysis und Lineare Algebra (WWI21 EG/EH)"
+            ],
             "16.11.2021": [
                 "10:30-13:00: Mikrocomputertechnik 1 (TEL20 AT3)",
                 "10:30-13:00: Mikrocomputertechnik 1 (TEL20 EU)",
                 "10:30-13:00: Mikrocomputertechnik 1 (TEL20 MED)"
+            ],
+            "16.12.2021": [
+                "08:00-10:30: WWI21AMB Programmierung I (WWI21 AMB)"
             ],
             "17.12.2021": [
                 "09:30-11:30: Grundlagen der BWL (WWI21 SEA)",
@@ -30083,6 +30173,9 @@
             "20.01.2022": [
                 "08:30-15:45: Projektkonzeption (WWI19 DSA)",
                 "15:45-16:45: Gesch\u00e4ftsprozessmanagement (WWI19 DSA)"
+            ],
+            "22.11.2021": [
+                "15:00-17:00: M\u00fcndliche Pr\u00fcfung: Grundlagen der Rechnungslegung (WWI20 EG/EH)"
             ],
             "23.11.2021": [
                 "09:00-12:00: Advanced Applied Machine Learning (WWI19 DSA)"
@@ -30981,7 +31074,6 @@
                 "09:00-18:00: Int. Operat. Management (WIB20 Bi)"
             ],
             "10.11.2021": [
-                "09:00-12:15: Corporate Tax (WIB20 Bi)",
                 "17:00-18:30: Franz\u00f6sischkurs Advanced P (WIB20 Bi)"
             ],
             "11.11.2021": [
@@ -31019,6 +31111,7 @@
                 "16:30-19:00: Spanish (Beg.) (WIB20 Bi)"
             ],
             "23.11.2021": [
+                "09:00-12:15: Corporate Tax (WIB20 Bi)",
                 "13:00-16:15: Appl MR (WIB20 Bi)"
             ],
             "24.11.2021": [
@@ -31070,9 +31163,6 @@
             "04.11.2021": [
                 "08:45-12:15: Investitions- und Wirtschaftlichkeitsrechnung (TMB19 PT)",
                 "13:00-16:30: Qualit\u00e4tsmanagement (TMB19 AM1)"
-            ],
-            "05.11.2021": [
-                "13:30-16:45: Regelungstechnik (TMB19 PM)"
             ],
             "09.11.2021": [
                 "09:30-10:00: M\u00fcndl. Pr\u00fcfung Mathematik II (TMB20 KVEM)",
@@ -31452,24 +31542,23 @@
                 "13:30-17:00: Wirtschaftsmathematik (WSTL21 D)"
             ],
             "02.12.2021": [
+                "09:00-12:15: Grundlagen der BWL (WSTL21 D)",
                 "13:30-16:00: Bahnverkehr I (WSTL21 D)"
             ],
-            "03.01.2022": [
-                "13:45-17:00: Grundlagen der BWL (WSTL21 D)"
-            ],
             "03.11.2021": [
-                "08:30-12:45: Grundlagen, B\u00fcrgerliches Recht I (WSTL21 D)"
+                "08:30-12:45: Grundlagen, B\u00fcrgerliches Recht I (WSTL21 D)",
+                "13:30-16:45: Grundlagen der BWL (WSTL21 D)"
             ],
             "03.12.2021": [
                 "08:45-12:00: Grundlagen der Logistik (WSTL21 D)",
                 "12:45-15:15: Ladungssicherung (WSTL21 D)"
             ],
-            "04.01.2022": [
-                "13:45-17:00: Grundlagen der BWL (WSTL21 D)"
-            ],
             "05.11.2021": [
                 "09:00-12:15: Grundlagen der BWL (WSTL21 D)",
                 "14:30-17:00: Bahnverkehr I (WSTL21 D)"
+            ],
+            "06.12.2021": [
+                "09:00-12:15: Grundlagen der BWL (WSTL21 D)"
             ],
             "07.12.2021": [
                 "09:00-12:15: Binnenschifffahrt Ib (WSTL21 D)"
@@ -31492,10 +31581,8 @@
                 "08:30-12:45: Grundlagen, B\u00fcrgerliches Recht I (WSTL21 D)",
                 "14:00-17:15: Marketing (WSTL21 D)"
             ],
-            "12.11.2021": [
-                "13:45-17:00: Grundlagen der BWL (WSTL21 D)"
-            ],
             "13.12.2021": [
+                "09:00-12:15: Grundlagen der BWL (WSTL21 D)",
                 "14:30-17:00: Grundlagen der Logistik (WSTL21 A)"
             ],
             "14.12.2021": [
@@ -31516,33 +31603,31 @@
                 "09:15-13:30: Beschaffungslogistik (WSTL21 D)"
             ],
             "17.11.2021": [
+                "09:00-12:15: Grundlagen der BWL (WSTL21 D)",
                 "13:30-17:00: Wirtschaftsmathematik (WSTL21 D)"
             ],
             "17.12.2021": [
-                "14:30-17:45: Grundlagen der BWL (WSTL21 D)"
+                "09:00-12:15: Grundlagen der BWL (WSTL21 D)"
             ],
             "18.11.2021": [
                 "14:00-17:15: Marketing (WSTL21 D)"
             ],
             "19.11.2021": [
-                "09:00-11:30: LKW-Technik und -Konzepte (WSTL21 D)",
-                "13:45-17:00: Grundlagen der BWL (WSTL21 D)"
+                "09:00-11:30: LKW-Technik und -Konzepte (WSTL21 D)"
             ],
             "20.12.2021": [
-                "10:00-12:30: Grundlagen der Logistik (WSTL21 D)"
-            ],
-            "21.12.2021": [
-                "14:30-17:45: Grundlagen der BWL (WSTL21 D)"
+                "10:00-12:30: Grundlagen der Logistik (WSTL21 D)",
+                "13:15-16:30: Grundlagen der BWL (WSTL21 D)"
             ],
             "22.11.2021": [
                 "08:30-12:45: Grundlagen, B\u00fcrgerliches Recht I (WSTL21 D)",
                 "13:45-17:45: Einf\u00fchrung in die VWL (WSTL21 D)"
             ],
             "23.11.2021": [
-                "08:30-12:00: Spediteur-Sammelgutverkehr (WSTL21 D)",
-                "13:45-17:00: Grundlagen der BWL (WSTL21 D)"
+                "08:30-12:00: Spediteur-Sammelgutverkehr (WSTL21 D)"
             ],
             "24.11.2021": [
+                "09:00-12:15: Grundlagen der BWL (WSTL21 D)",
                 "13:30-17:00: Wirtschaftsmathematik (WSTL21 D)"
             ],
             "25.11.2021": [
@@ -31556,11 +31641,11 @@
                 "13:30-16:00: Bahnverkehr I (WSTL21 D)"
             ],
             "28.10.2021": [
+                "09:00-12:15: Grundlagen der BWL (WSTL21 D)",
                 "14:00-17:15: Marketing (WSTL21 D)"
             ],
             "29.10.2021": [
-                "09:30-12:00: Einf\u00fchrung in das wissenschaftliche Arbeiten (WSTL21 D)",
-                "13:45-17:00: Grundlagen der BWL (WSTL21 D)"
+                "09:30-12:00: Einf\u00fchrung in das wissenschaftliche Arbeiten (WSTL21 D)"
             ],
             "29.11.2021": [
                 "09:15-13:30: Beschaffungslogistik (WSTL21 D)",
@@ -31578,16 +31663,14 @@
                 "09:00-11:45: Grundlagen, B\u00fcrgerliches Recht I (WSTL21 C)",
                 "14:00-17:00: Technik der Finanzbuchf\u00fchrung I (WSTL21 C)"
             ],
-            "03.01.2022": [
-                "09:00-12:15: Grundlagen der BWL (WSTL21 C)"
-            ],
             "03.11.2021": [
+                "09:00-12:15: Grundlagen der BWL (WSTL21 C)",
                 "14:00-16:00: WKL \"Funktionen u. Systeme der Logistik\" 4. Hj. (WSTL19 A)",
                 "14:00-16:00: WKL \"Funktionen u. Systeme der Logistik\" 4. Hj. (WSTL19 B)",
                 "14:00-16:00: WKL \"Funktionen u. Systeme der Logistik\" 4. Hj. (WSTL19 C)",
                 "14:00-16:00: WKL \"Funktionen u. Systeme der Logistik\" 4. Hj. (WSTL19 D)"
             ],
-            "04.01.2022": [
+            "03.12.2021": [
                 "09:00-12:15: Grundlagen der BWL (WSTL21 C)"
             ],
             "04.11.2021": [
@@ -31595,17 +31678,18 @@
                 "14:00-17:00: Technik der Finanzbuchf\u00fchrung I (WSTL21 C)"
             ],
             "05.11.2021": [
-                "08:30-12:15: Bahnverkehr I (WSTL21 C)",
-                "13:45-17:00: Grundlagen der BWL (WSTL21 C)"
+                "08:30-12:15: Bahnverkehr I (WSTL21 C)"
             ],
             "06.12.2021": [
-                "08:00-08:00: Binnenschifffahrt Ib (WSTL21 C)"
+                "08:00-08:00: Binnenschifffahrt Ib (WSTL21 C)",
+                "13:00-16:15: Grundlagen der BWL (WSTL21 C)"
             ],
             "07.12.2021": [
                 "13:30-16:45: Beschaffungslogistik (WSTL21 C)"
             ],
             "08.11.2021": [
-                "09:30-12:00: Einf\u00fchrung in das wissenschaftliche Arbeiten (WSTL21 C)"
+                "09:30-12:00: Einf\u00fchrung in das wissenschaftliche Arbeiten (WSTL21 C)",
+                "12:45-16:00: Grundlagen der BWL (WSTL21 C)"
             ],
             "08.12.2021": [
                 "08:30-12:00: Wirtschaftsmathematik (WSTL21 C)"
@@ -31617,6 +31701,9 @@
             "10.11.2021": [
                 "09:00-12:15: Grundlagen der Logistik (WSTL21 C)",
                 "13:00-16:00: Technik der Finanzbuchf\u00fchrung I (WSTL21 C)"
+            ],
+            "10.12.2021": [
+                "09:00-12:15: Grundlagen der BWL (WSTL21 C)"
             ],
             "11.11.2021": [
                 "09:00-11:45: Grundlagen, B\u00fcrgerliches Recht I (WSTL21 C)",
@@ -31645,7 +31732,7 @@
             ],
             "16.12.2021": [
                 "09:00-11:45: Grundlagen, B\u00fcrgerliches Recht I (WSTL21 C)",
-                "14:30-17:45: Grundlagen der BWL (WSTL21 C)"
+                "12:30-15:45: Grundlagen der BWL (WSTL21 C)"
             ],
             "17.11.2021": [
                 "08:30-12:00: Wirtschaftsmathematik (WSTL21 C)",
@@ -31660,14 +31747,13 @@
                 "13:00-15:30: LKW-Technik und -Konzepte (WSTL21 C)"
             ],
             "20.12.2021": [
-                "14:30-17:45: Grundlagen der BWL (WSTL21 C)"
+                "09:00-12:15: Grundlagen der BWL (WSTL21 C)"
             ],
             "21.12.2021": [
                 "09:15-13:30: Beschaffungslogistik (WSTL21 C)"
             ],
             "22.11.2021": [
-                "08:15-12:30: Einf\u00fchrung in die VWL (WSTL21 C)",
-                "13:45-17:00: Grundlagen der BWL (WSTL21 C)"
+                "08:15-12:30: Einf\u00fchrung in die VWL (WSTL21 C)"
             ],
             "22.12.2021": [
                 "08:15-12:30: Einf\u00fchrung in die VWL (WSTL21 C)"
@@ -31696,11 +31782,10 @@
                 "14:00-17:15: Marketing (WSTL21 C)"
             ],
             "28.10.2021": [
-                "09:00-11:45: Grundlagen, B\u00fcrgerliches Recht I (WSTL21 C)",
-                "13:45-17:00: Grundlagen der BWL (WSTL21 C)"
+                "09:00-11:45: Grundlagen, B\u00fcrgerliches Recht I / Online (WSTL21 C)"
             ],
             "29.10.2021": [
-                "09:00-12:15: Wiederholung m\u00fcndliche Bachelorpr\u00fcfung (WSTL18 B)",
+                "08:30-11:45: Grundlagen der BWL (WSTL21 C)",
                 "12:30-15:45: Einf\u00fchrung in das wissenschaftliche Arbeiten (WSTL21 C)"
             ],
             "29.11.2021": [
@@ -32255,8 +32340,8 @@
             ],
             "29.10.2021": [
                 "08:00-09:30: Medizinprodukteentwicklung (TEL19 MED)",
-                "09:45-12:15: Mathematische Anwendungen (TEL19 EU)",
-                "09:45-12:15: Mathematische Anwendungen (TEL19 MED)",
+                "09:45-11:15: Mathematische Anwendungen (TEL19 EU)",
+                "09:45-11:15: Mathematische Anwendungen (TEL19 MED)",
                 "13:30-15:00: Anatomie und Physiologie (TEL20 MED)"
             ],
             "29.11.2021": [
@@ -32269,20 +32354,8 @@
             ]
         },
         "Raum 236B (WWI-Labor)": {
-            "03.11.2021": [
-                "13:45-17:00: Grundlagen der IT (WWI21 DSB)"
-            ],
-            "10.11.2021": [
-                "13:45-17:00: Grundlagen der IT (WWI21 DSB)"
-            ],
-            "17.11.2021": [
-                "13:45-17:00: Grundlagen der IT (WWI21 DSB)"
-            ],
-            "24.11.2021": [
-                "13:45-17:00: Grundlagen der IT (WWI21 DSB)"
-            ],
-            "27.10.2021": [
-                "13:45-17:00: Grundlagen der IT (WWI21 DSB)"
+            "02.12.2021": [
+                "13:30-16:45: Grundlagen der IT (WWI21 DSB)"
             ]
         },
         "Raum 237B": {
@@ -32376,7 +32449,8 @@
             "16.11.2021": [
                 "08:15-11:30: Thermodynamik I (TCT 20)",
                 "11:45-13:15: Mathematik III (TCT 20)",
-                "14:00-16:30: Einf\u00fchrung in die Pharmazie (TCT 20)"
+                "14:00-16:30: Einf\u00fchrung in die Pharmazie (TCT 20)",
+                "17:00-19:30: Biochemie (TCT 20)"
             ],
             "17.11.2021": [
                 "12:45-20:00: Qualit\u00e4tsmanagement (WF) (TCT 19)",
@@ -32387,12 +32461,14 @@
             ],
             "22.11.2021": [
                 "09:00-12:15: Konstruktion (TCT 20)",
-                "12:30-13:15: Konstruktionsentwurf (TCT 20)"
+                "12:30-13:15: Konstruktionsentwurf (TCT 20)",
+                "14:00-16:30: Einf\u00fchrung in die Pharmazie (TCT 20)"
             ],
             "23.11.2021": [
                 "08:15-11:30: Thermodynamik I (TCT 20)",
                 "11:45-13:15: Mathematik III (TCT 20)",
-                "14:00-16:30: Einf\u00fchrung in die Pharmazie (TCT 20)"
+                "14:00-16:30: Einf\u00fchrung in die Pharmazie (TCT 20)",
+                "17:00-19:30: Biochemie (TCT 20)"
             ],
             "24.11.2021": [
                 "12:45-20:00: Qualit\u00e4tsmanagement (WF) (TCT 19)",
@@ -32870,7 +32946,7 @@
                 "13:00-16:15: Mathematik III (TMB20 KVEM)"
             ],
             "09.11.2021": [
-                "13:00-17:15: Fluidmechanik (TMB20 KVEM)"
+                "11:00-15:15: Fluidmechanik (TMB20 KVEM)"
             ],
             "10.11.2021": [
                 "09:00-13:15: Technische Mechanik + Festigkeitslehre 3 (TMB20 KVEM)"
@@ -33232,9 +33308,7 @@
                 "12:30-14:00: Tutorium Mathematik (TINF21 CS2)"
             ],
             "09.12.2021": [
-                "08:45-10:15: Mathematik I (TINF21 CS1)",
-                "11:00-12:00: Klausur: Datenbanken I (TINF20 IT1)",
-                "13:00-14:00: Klausur: Datenbanken I (TINF20 IT2)"
+                "08:45-10:15: Mathematik I (TINF21 CS1)"
             ],
             "11.11.2021": [
                 "08:45-10:15: Mathematik I (TINF21 CS1)"
@@ -33732,7 +33806,8 @@
         },
         "Raum 278C": {
             "01.12.2021": [
-                "08:30-12:30: Grundlagen des Managements (WME20 MPG)"
+                "08:30-12:30: Grundlagen des Managements (WME20 MPG)",
+                "14:00-15:30: Mobile Development (WME20 MPG)"
             ],
             "02.11.2021": [
                 "09:30-12:00: Einf\u00fchrung in Anwendungsmodellierung (WME20 MPG)",
@@ -33749,7 +33824,8 @@
                 "09:00-11:30: Mobile Commerce (WME20 MPG)"
             ],
             "05.11.2021": [
-                "09:00-11:30: Mobile Commerce (WME20 MPG)"
+                "09:00-11:30: Mobile Commerce (WME20 MPG)",
+                "13:00-16:30: Mobile Development (WME20 MPG)"
             ],
             "06.12.2021": [
                 "08:00-12:15: Rechtliche Grundlagen (WME20 MPG)",
@@ -33783,7 +33859,8 @@
                 "08:00-12:15: Rechtliche Grundlagen (WME20 MPG)"
             ],
             "12.11.2021": [
-                "09:00-11:30: Mobile Commerce (WME20 MPG)"
+                "09:00-11:30: Mobile Commerce (WME20 MPG)",
+                "14:00-17:30: Mobile Development (WME20 MPG)"
             ],
             "13.12.2021": [
                 "08:00-12:15: Rechtliche Grundlagen (WME20 MPG)",
@@ -33803,7 +33880,8 @@
                 "13:00-16:15: Einf\u00fchrung in Datenbanken (WME20 MPG)"
             ],
             "19.11.2021": [
-                "09:00-11:30: Mobile Commerce (WME20 MPG)"
+                "09:00-11:30: Mobile Commerce (WME20 MPG)",
+                "13:00-16:30: Mobile Development (WME20 MPG)"
             ],
             "20.12.2021": [
                 "08:00-12:15: Rechtliche Grundlagen (WME20 MPG)"
@@ -33816,6 +33894,9 @@
             ],
             "23.11.2021": [
                 "09:00-13:00: Pr\u00e4sentation Projektarbeit 2 (WME19 MPG)"
+            ],
+            "24.11.2021": [
+                "13:00-17:00: Mobile Development (WME20 MPG)"
             ],
             "25.11.2021": [
                 "13:15-15:45: Vertiefung wissenschaftliches Arbeiten (WME20 MPG)"
@@ -33834,6 +33915,9 @@
             ],
             "29.11.2021": [
                 "13:00-16:15: Medienprojekt Systeme Teil 1 (WME20 MPG)"
+            ],
+            "30.11.2021": [
+                "13:00-16:15: Einf\u00fchrung in Datenbanken (WME20 MPG)"
             ]
         },
         "Raum 280C (L)": {
@@ -34048,7 +34132,7 @@
             "16.11.2021": [
                 "08:00-10:30: HGB Konzern (WRSW19 AC1)",
                 "10:45-13:15: Integrationsseminar (WRSW19 AC1)",
-                "15:45-18:15: Pr\u00e4sentationskompetenz I (Gruppe II) (WRSW21 AC1)"
+                "14:45-17:15: Pr\u00e4sentationskompetenz I (Gruppe II) (WRSW21 AC1)"
             ],
             "17.11.2021": [
                 "08:00-10:30: Unternehmensorganisation (WRSW19 AC1)",
@@ -34140,8 +34224,7 @@
             ],
             "10.11.2021": [
                 "08:00-11:15: Handelsrecht (WRSW20 AC1)",
-                "12:00-15:15: Handelsrecht (WRSW20 AC1)",
-                "15:30-18:45: Pr\u00e4sentationskompetenz (Gruppe I) (WRSW21 AC1)"
+                "12:00-15:15: Handelsrecht (WRSW20 AC1)"
             ],
             "10.12.2021": [
                 "08:00-11:15: Finanzierung (WRSW20 AC1)"
@@ -34246,7 +34329,7 @@
                 "13:30-16:00: Pr\u00e4sentationskompetenz I (Gruppe II) (WRSW21 AC1)"
             ],
             "11.11.2021": [
-                "08:00-14:00: Pr\u00e4sentationskompetenz I (Gruppe I) (WRSW21 AC1)"
+                "09:00-15:00: Pr\u00e4sentationskompetenz I (Gruppe I) (WRSW21 AC1)"
             ],
             "12.11.2021": [
                 "08:00-10:30: Umsatzsteuer (WRSW21 AC1)",
@@ -34259,8 +34342,8 @@
             ],
             "16.11.2021": [
                 "09:00-12:15: Wirtschaftsmathematik (WRSW21 AC1)",
-                "13:00-15:30: ABWL-Marketing (WRSW21 AC1)",
-                "15:45-19:00: Pr\u00e4sentationskompetenz I (Gruppe I) (WRSW21 AC1)"
+                "13:00-14:30: ABWL-Marketing (WRSW21 AC1)",
+                "14:45-18:00: Pr\u00e4sentationskompetenz I (Gruppe I) (WRSW21 AC1)"
             ],
             "17.11.2021": [
                 "09:30-12:45: ABWL (WRSW21 AC1)",
@@ -34508,7 +34591,8 @@
                 "13:00-15:30: IK (WMKE19 A)"
             ],
             "10.11.2021": [
-                "09:00-12:15: SM (WMKE19 A)"
+                "09:00-12:15: SM (WMKE19 A)",
+                "14:30-17:45: Pr\u00e4sentationskompetenz I (Gruppe I) (WRSW21 AC1)"
             ],
             "10.12.2021": [
                 "08:00-17:15: Int-Pr\u00e4 (WMKE19 A)"
@@ -34679,6 +34763,9 @@
             "05.11.2021": [
                 "14:00-17:15: Handels- & Gesellschaftsrecht (WOW20 B)"
             ],
+            "06.11.2021": [
+                "09:00-15:00: Energiehandel - nur Versorger ! (WOW20 B)"
+            ],
             "06.12.2021": [
                 "09:00-12:45: Bilanzierung (WOW20 B)"
             ],
@@ -34712,6 +34799,9 @@
             ],
             "11.11.2021": [
                 "08:30-16:00: Wissenschaftstheorie (WOW20 B)"
+            ],
+            "11.12.2021": [
+                "09:00-16:30: Bilanzierung (WOW20 B)"
             ],
             "12.01.2022": [
                 "09:30-12:45: Betriebliche Standortwahl - nur WiF\u00f6 ! (WOW20 B)"
@@ -35438,8 +35528,7 @@
                 "11:30-13:00: Elektronik 2 (TEL20 MED)"
             ],
             "27.10.2021": [
-                "08:00-08:45: Klausureinsicht (TEL19 AT2)",
-                "11:30-13:00: Elektronik 4 (TEL19 AT3)"
+                "08:00-08:45: Klausureinsicht (TEL19 AT2)"
             ],
             "28.10.2021": [
                 "12:00-15:00: Regelungstechnik 1 (TEL19 AT3)",
@@ -35552,7 +35641,8 @@
         },
         "Raum Carl-Benz-H\u00f6rsaal": {
             "02.11.2021": [
-                "09:00-11:00: Gesch\u00e4ftsprozesse und deren Umsetzung (WWI19 SEA)"
+                "09:00-11:00: Gesch\u00e4ftsprozesse und deren Umsetzung (WWI19 SEA)",
+                "13:00-18:00: Betriebliches Management (TMB19 PT)"
             ],
             "03.11.2021": [
                 "12:00-13:00: Ada-Klausur (WSTL19 C)"
@@ -35607,7 +35697,8 @@
             ],
             "20.12.2021": [
                 "10:00-12:00: Grundlagen der Betriebswirtschaftslehre (W3WI_201) (WIMBIT21 A)",
-                "10:00-12:00: Grundlagen der Betriebswirtschaftslehre (W3WI_201) (WIMBIT21 B)"
+                "10:00-12:00: Grundlagen der Betriebswirtschaftslehre (W3WI_201) (WIMBIT21 B)",
+                "13:00-14:30: Klausur: Lineare Algebra (TINF21 AI1)"
             ],
             "21.12.2021": [
                 "12:30-14:30: Finanz (WMKE19 A)"
@@ -35692,7 +35783,9 @@
                 "08:00-09:30: Klausur GET3 (TEL20 MED)"
             ],
             "09.12.2021": [
-                "09:00-11:00: Technische Mechanik + Festigkeitslehre III Klausur (TMB20 KVEM)"
+                "09:00-11:00: Technische Mechanik + Festigkeitslehre III Klausur (TMB20 KVEM)",
+                "12:00-13:00: Klausur: Datenbanken  (TINF20 IT1)",
+                "12:00-13:00: Klausur: Datenbanken  (TINF20 IT2)"
             ],
             "10.11.2021": [
                 "10:00-11:00: VWL (WWI20 SCA)"
@@ -35721,7 +35814,8 @@
                 "08:30-15:00: CAS Klausuren W&T (CAS Masterkurse)"
             ],
             "20.12.2021": [
-                "09:00-11:00: Grundlagen Management (BWL/Recht) (WME20 MMK)"
+                "09:00-11:00: Grundlagen Management (BWL/Recht) (WME20 MMK)",
+                "15:00-16:30: Klausur: Lineare Algebra (TINF21 AI2)"
             ],
             "21.12.2021": [
                 "10:00-12:00: Grundlagen der BWL (WWI21 AMA)"
@@ -35784,7 +35878,8 @@
                 "10:00-11:30: Vertrags- und Schuldrecht (WWI21 AMA)"
             ],
             "20.12.2021": [
-                "09:00-10:00: Mathematik (WRSW21 AC1)"
+                "09:00-10:00: Mathematik (WRSW21 AC1)",
+                "11:00-13:30: Webentwicklung (WME21 MPG)"
             ],
             "21.12.2021": [
                 "09:00-11:00: Wirtschaftspolitik (WGW19 A)"
@@ -35895,5 +35990,5 @@
             ]
         }
     },
-    "last_updated": "2021-10-27T04:11:21Z"
+    "last_updated": "2021-10-27T15:32:58Z"
 }
