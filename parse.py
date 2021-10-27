@@ -22,16 +22,20 @@ class ICalParser():
         self.website_folder = "docs"  # Folder name where to save the json file
         self.ical_url = "http://vorlesungsplan.dhbw-mannheim.de/ical.php"
         self.last_updated = datetime.now(
-            timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+            timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ") # Now
         self.start_date = date.today()
         self.end_date = date.today() + relativedelta(months=+3)
         # Contains download links in the form of "<course>, <ical-link>"
         self.links_file = "links.txt"
-        self.output_file = "rooms"    # The output file name (csv and json)
+        self.output_file = "rooms.json"    # The output file name
 
         # Data
         self.icals = []
-        self.events_by_date = {}
+        self.events_by_date = {
+            (date.today() + relativedelta(days=+i)).strftime("%d.%m.%Y"): {}
+            for i in range(100)
+            if (date.today() + relativedelta(days=+i)) < self.end_date
+        }
         self.events_by_room = {}
         self.rooms = set()
 
@@ -55,7 +59,7 @@ class ICalParser():
                 start=self.start_date, end=self.end_date)
         except Exception as e:
             # Skip invalid ical or empty files
-            self.log.exception(e)
+            print(e)
             print(f'\tFile {course_id}.ical couldn\'t be retrieved')
             return
         # Process each event
@@ -101,7 +105,7 @@ class ICalParser():
         '''Exports all data as json.'''
         # Export also as json file
         filepath = os.path.join(
-            sys.path[0], self.website_folder, self.output_file + '.json')
+            sys.path[0], self.website_folder, self.output_file)
         with open(filepath, 'w', encoding="utf8") as jsonfile:
             export_csv_data = {
                 "last_updated": self.last_updated,
