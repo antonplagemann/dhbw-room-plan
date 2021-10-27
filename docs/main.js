@@ -37,7 +37,7 @@ new Vue({
       return new Date(
         this.minDate.getFullYear(),
         this.minDate.getMonth() + 3,
-        this.minDate.getDate()
+        this.minDate.getDate() - 1
       );
     },
     /**
@@ -54,23 +54,45 @@ new Vue({
     },
     /**
      * Calculates all events that happen in the selected room on the selected date
+     * OR all free rooms on a selected date
      * @returns An array of events
      */
     events() {
-      if (!this.room) {
-        return ["Kein Raum ausgewählt"];
+      if (!this.json) {
+        return ["Termine werden geladen..."];
       }
+      // Return all free rooms on selected date
+      if (!this.validRoom) {
+        const usedRooms = Object.keys(this.json.events_by_date[this.dateString])
+        const freeRooms = Object.keys(this.json.events_by_room).filter(r => !usedRooms.includes(r))
+        return freeRooms;
+      }
+      // Return all events on selected date and room
       try {
-        return this.json.events_by_date[this.dateString][this.room];
+        const events = this.json.events_by_date[this.dateString][this.room];
+        return events || ["Keine Termine eingetragen"];
       } catch (error) {
-        return ["Keine Termine eingetragen"];
+        return ["Fehler:", error];
       }
+    },
+    /**
+     * Checks if the currently entered room is valid
+     * @returns True if the current room is a valid room
+     */
+    validRoom() {
+      if (!this.json) {
+        return false;
+      }
+      return Object.keys(this.json.events_by_room).includes(this.room)
     },
     /**
      * Calculates the title for the results message box
      * @returns A title string
      */
     messageTitle() {
+      if (!this.validRoom) {
+        return "Freie Räume am " + this.dateString;
+      }
       return "Raumtermine für den " + this.dateString;
     },
     /**
