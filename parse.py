@@ -67,10 +67,13 @@ class ICalParser():
             if not event.location:
                 # Skip events without location
                 continue
-            # Create event string
-            event_start = event.start.strftime("%H:%M")
-            event_end = event.end.strftime("%H:%M")
-            events_string = f"{event_start}-{event_end}: {event.summary} ({course_name})"
+            # Create event object
+            event_obj = {
+                "title": event.summary,
+                "course": course_name,
+                "start": event.start.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "end": event.end.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+            }
             # Get german date string (dd.mm.yyyy)
             date_string = event.start.date().strftime("%d.%m.%Y")
             # Read and write data
@@ -79,15 +82,15 @@ class ICalParser():
                 d_date = self.events_by_date.get(date_string, {})
                 d_room = d_date.get(event.location, [])
                 # Save changes (self.events_by_date)
-                d_room.append(events_string)
-                d_date[event.location] = sorted(d_room)
+                d_room.append(event_obj)
+                d_date[event.location] = sorted(d_room, key=lambda e: e["start"])
                 self.events_by_date[date_string] = d_date
                 # Get existing data (self.events_by_room)
                 r_room = self.events_by_room.get(event.location, {})
                 r_date = r_room.get(date_string, [])
                 # Save changes (self.events_by_room)
-                r_date.append(events_string)
-                r_room[date_string] = sorted(r_date)
+                r_date.append(event_obj)
+                r_room[date_string] = sorted(r_date, key=lambda e: e["start"])
                 self.events_by_room[event.location] = r_room
         # Processing finished
         print(f'\tFile {course_id}.ical sucessfully processed')
