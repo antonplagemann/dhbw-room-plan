@@ -6,8 +6,13 @@
 
 Dieses Repository enthält den Quellcode und die Ressourcen für den Raumplan unter <https://rooms.plagemann.it>.
 
-## Facts
+## Features
 
 - Basiert kontinuierlich auf allen aktuell verfügbaren Kurskalendern der DHBW Mannheim.
+- Beinhaltet alle Räume am Standort Coblitzallee (Eppelheim & Käfertal können auf Anfrage hinzugefügt werden).
 - Wird täglich um 06:00 Uhr Morgens aktualisiert.
 - Zeigt die Raumbelegung der nächsten 3 Monate.
+- Zeigt an, wann ein Raum belegt ist (Kalenderansicht nach Raumwahl).
+- Ansicht der heute nicht (mehr) belegten Räume (Startansicht).
+- Ansicht von freien Räumen nach Uhrzeit und Datum.
+- Anzeige der aktuellen oder zukünftigen Termine eines Raumes.
