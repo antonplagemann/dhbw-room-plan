@@ -20,40 +20,32 @@ new Vue({
         );
       });
   },
-  data: {
+  data() {
+    const minDate = new Date(new Date().setDate(new Date().getDate() - 1));
+    const maxDate = new Date(
+      minDate.getFullYear(),
+      minDate.getMonth() + 3,
+      minDate.getDate()
+    );
+    const dateString = new Date().toLocaleDateString("de-DE", {
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    });
+    return {
     room: "", // Selected room
     json: null, // JSON object with all data
     lastUpdated: "", // Update time of the JSON file
     // Dates
-    minDate: new Date(new Date().setDate(new Date().getDate() - 1)), // Minimum date to select (today)
+    minDate, // Minimum date to select (today)
+    maxDate, // Maximum date so select (today + 3 Months)
     date: new Date(), // Selected date
-    time: new Date().setSeconds(0, 0), // Current time
+    dateString: dateString,
+    time: new Date(new Date().setSeconds(0, 0)), // Current time
     manualTime: false,
+  }
   },
   computed: {
-    /**
-     * Calculates "today + 3 months" as date object
-     * @returns The maximum date that can be selected
-     */
-    maxDate() {
-      return new Date(
-        this.minDate.getFullYear(),
-        this.minDate.getMonth() + 3,
-        this.minDate.getDate() - 1
-      );
-    },
-    /**
-     * Calculates a german date string (dd.mm.yyyy) from the selected date
-     * @returns The selected date as string
-     */
-    dateString() {
-      var dateObject = this.date || new Date();
-      return dateObject.toLocaleDateString("de-DE", {
-        year: "numeric",
-        month: "2-digit",
-        day: "2-digit",
-      });
-    },
     /**
      * Calculates all events that happen in the selected room on the selected date
      * OR all free rooms on a selected date
@@ -167,17 +159,24 @@ new Vue({
     },
   },
   methods: {
-    checkTime(date) {
+    changedDate(date) {
+      // Update date string
+      this.dateString = date.toLocaleDateString("de-DE", {
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+      });
+      // Check if new date is current date
       const isCurrentDate =
         new Date().setHours(0, 0, 0, 0) ===
         new Date(date.valueOf()).setHours(0, 0, 0, 0);
-      console.log(this.manualTime, isCurrentDate);
+      // Do not update time if set to manual
       if (this.manualTime) return;
+      // If date set to today, set time to current time
       else if (isCurrentDate) {
-        // Date equals today's date, set time to current time
-        this.time = new Date().setSeconds(0, 0);
+        this.time = new Date(new Date().setSeconds(0, 0));
+      // If date is not equal to today, set time to 00:00
       } else {
-        // Date is not equal to today, set time to 00:00
         this.time.setHours(0, 0, 0, 0);
       }
     },
