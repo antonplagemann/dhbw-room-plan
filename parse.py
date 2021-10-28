@@ -28,6 +28,7 @@ class ICalParser():
         # Contains download links in the form of "<course>, <ical-link>"
         self.links_file = "links.txt"
         self.output_file = "rooms.json"    # The output file name
+        self.is_branch_office = re.compile("[KE][pP]?-Raum").search
 
         # Data
         self.icals = []
@@ -64,8 +65,8 @@ class ICalParser():
             return
         # Process each event
         for event in events:
-            if not event.location:
-                # Skip events without location
+            if not event.location or self.is_branch_office(event.location):
+                # Skip events without location or not at Coblitzallee
                 continue
             # Create event object
             event_obj = {
