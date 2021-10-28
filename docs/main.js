@@ -70,7 +70,25 @@ new Vue({
       // Return all events on selected date and room
       try {
         const events = this.json.events_by_date[this.dateString][this.room];
-        return events || ["Keine Termine eingetragen"];
+        if (!events) {return ["Keine Termine eingetragen"];}
+        const eventsStr = events.map(event => {
+          const start = new Date(event.start).toLocaleTimeString(
+            "de-DE",
+            {
+              hour: "2-digit",
+              minute: "2-digit",
+            }
+          );
+          const end = new Date(event.end).toLocaleTimeString(
+            "de-DE",
+            {
+              hour: "2-digit",
+              minute: "2-digit",
+            }
+          );
+          return `${start}-${end} ${event.title} (${event.course})`
+        });
+        return eventsStr;
       } catch (error) {
         return ["Fehler:", error];
       }
