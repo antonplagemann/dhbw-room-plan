@@ -27,7 +27,7 @@ new Vue({
     // Dates
     minDate: new Date(new Date().setDate(new Date().getDate() - 1)), // Minimum date to select (today)
     date: new Date(), // Selected date
-    time: new Date(), // Current time
+    time: new Date().setSeconds(0, 0), // Current time
     manualTime: false,
   },
   computed: {
@@ -175,7 +175,7 @@ new Vue({
       if (this.manualTime) return;
       else if (isCurrentDate) {
         // Date equals today's date, set time to current time
-        this.time = new Date();
+        this.time = new Date().setSeconds(0, 0);
       } else {
         // Date is not equal to today, set time to 00:00
         this.time.setHours(0, 0, 0, 0);
