@@ -68,10 +68,9 @@ new Vue({
           )
             return room;
         });
-        const freeRooms = Object.keys(this.json.events_by_room).filter(
+        return Object.keys(this.json.events_by_room).filter(
           (r) => !usedRooms.includes(r)
         );
-        return freeRooms;
       }
       // Return all events on selected date and room
       try {
