@@ -25,8 +25,10 @@ new Vue({
     json: null, // JSON object with all data
     lastUpdated: "", // Update time of the JSON file
     // Dates
+    minDate: new Date(new Date().setDate(new Date().getDate() - 1)), // Minimum date to select (today)
     date: new Date(), // Selected date
-    minDate: new Date(), // Minimum date to select (today)
+    time: new Date(), // Current time
+    manualTime: false,
   },
   computed: {
     /**
@@ -61,17 +63,32 @@ new Vue({
       if (!this.json) {
         return ["Termine werden geladen..."];
       }
-      // Return all free rooms on selected date
+      // Return all free rooms on selected date and time
       if (!this.validRoom) {
-        const usedRooms = Object.keys(this.json.events_by_date[this.dateString])
-        const freeRooms = Object.keys(this.json.events_by_room).filter(r => !usedRooms.includes(r))
+        // Calculate used rooms based on time
+        const usedRooms = Object.keys(
+          this.json.events_by_date[this.dateString]
+        ).filter((room) => {
+          if (
+            this.json.events_by_room[room][this.dateString].every(
+              (event) => new Date(event.end) > this.time
+            )
+          )
+            return room;
+        });
+        const freeRooms = Object.keys(this.json.events_by_room).filter(
+          (r) => !usedRooms.includes(r)
+        );
         return freeRooms.reverse();
       }
       // Return all events on selected date and room
       try {
-        const events = this.json.events_by_date[this.dateString][this.room];
-        if (!events) {return ["Keine Termine eingetragen"];}
-        const eventsStr = events.map(event => {
+        const events =
+          this.json.events_by_date[this.dateString][this.room];
+        if (!events) {
+          return ["Keine Termine eingetragen"];
+        }
+        const eventsStr = events.map((event) => {
           const start = new Date(event.start).toLocaleTimeString(
             "de-DE",
             {
@@ -79,14 +96,11 @@ new Vue({
               minute: "2-digit",
             }
           );
-          const end = new Date(event.end).toLocaleTimeString(
-            "de-DE",
-            {
-              hour: "2-digit",
-              minute: "2-digit",
-            }
-          );
-          return `${start}-${end} ${event.title} (${event.course})`
+          const end = new Date(event.end).toLocaleTimeString("de-DE", {
+            hour: "2-digit",
+            minute: "2-digit",
+          });
+          return `${start}-${end} ${event.title} (${event.course})`;
         });
         return eventsStr;
       } catch (error) {
@@ -101,13 +115,20 @@ new Vue({
       if (!this.json) {
         return false;
       }
-      return Object.keys(this.json.events_by_room).includes(this.room)
+      return Object.keys(this.json.events_by_room).includes(this.room);
     },
     /**
      * Calculates the title for the results message box
      * @returns A title string
      */
     messageTitle() {
+      const timeStr = new Date(this.time).toLocaleTimeString("de-DE", {
+        hour: "2-digit",
+        minute: "2-digit",
+      });
+      if (!this.validRoom && timeStr !== "00:00") {
+        return `Freie Räume am ${this.dateString} ab ${timeStr}`;
+      }
       if (!this.validRoom) {
         return "Freie Räume am " + this.dateString;
       }
@@ -143,6 +164,22 @@ new Vue({
         var parts = date.split(".");
         return new Date(parts[2], parts[1] - 1, parts[0]);
       });
+    },
+  },
+  methods: {
+    checkTime(date) {
+      const isCurrentDate =
+        new Date().setHours(0, 0, 0, 0) ===
+        new Date(date.valueOf()).setHours(0, 0, 0, 0);
+      console.log(this.manualTime, isCurrentDate);
+      if (this.manualTime) return;
+      else if (isCurrentDate) {
+        // Date equals today's date, set time to current time
+        this.time = new Date();
+      } else {
+        // Date is not equal to today, set time to 00:00
+        this.time.setHours(0, 0, 0, 0);
+      }
     },
   },
 });

@@ -106,10 +106,33 @@
               indicators="bars"
               icon="calendar-today"
               locale="de-DE"
+              @input="checkTime($event)"
               editable
               append-to-body
             >
             </b-datepicker>
+            <b-checkbox
+              class="has-text-white"
+              v-model="manualTime"
+              style="margin-left: 20px"
+            >
+              Manuelle Zeiteingabe
+            </b-checkbox>
+          </b-field>
+          <b-field
+            v-if="manualTime"
+            label="Zeit wählen"
+            custom-class="has-text-white"
+            style="margin-bottom: 1cm"
+          >
+            <b-clockpicker
+              rounded
+              v-model="time"
+              placeholder="Bitte Zeit auswählen..."
+              icon="clock"
+              hour-format="24"
+            >
+            </b-clockpicker>
           </b-field>
           <!--Results display-->
           <b-message
@@ -127,10 +150,12 @@
               {{event}}
             </b-message>
             <b-taglist attached style="margin-top: 25px !important">
-              <b-tag type="is-dark"><a
-                href="https://github.com/antonplagemann/dhbw-room-plan"
-                >Zuletzt aktualisiert:</a
-              ></b-tag>
+              <b-tag type="is-dark"
+                ><a
+                  href="https://github.com/antonplagemann/dhbw-room-plan"
+                  >Zuletzt aktualisiert:</a
+                ></b-tag
+              >
               <b-tag type="is-primary">{{lastUpdated}}</b-tag>
             </b-taglist>
           </b-message>
