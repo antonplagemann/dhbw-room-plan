@@ -22,6 +22,10 @@ new Vue({
         this.calculateMessageTitle();
       });
   },
+  /**
+   * Initializes the main data object
+   * @returns The main data as object
+   */
   data() {
     const minDate = new Date(
       new Date().setDate(new Date().getDate() - 1)
@@ -41,18 +45,20 @@ new Vue({
       room: "", // Selected valid room
       roomSelector: "", // Direct input of the room selector
       datePickerRoomEvents: [], // List of dates for the datepicker view
-      results: ["Daten werden geladen..."],
+      results: ["Daten werden geladen..."], // All results to display (array of strings)
       lastUpdated: "", // Update time of the JSON file
-      // Dates
-      minDate, // Minimum date to select (today)
-      maxDate, // Maximum date so select (today + 3 Months)
-      date: new Date(), // Selected date
-      dateString,
-      messageTitle: "Initialisierung",
-      time: new Date(new Date().setSeconds(0, 0)), // Current time
-      manualTime: false,
+      minDate, // Minimum date to select in calendar view (today)
+      maxDate, // Maximum date so select calendar view (today + 3 Months)
+      date: new Date(), // Currently selected date
+      dateString, // Currently selected date as dd.mm.yyyy
+      messageTitle: "Initialisierung", // Title of the results box
+      time: new Date(new Date().setSeconds(0, 0)), // Currently selected time
+      manualTime: false, // Value of the 'manual time' checkbox
     };
   },
+  /**
+   * Continuesly computed properties
+   */
   computed: {
     /**
      * Filters all room for the room search input field depending on the user input
@@ -73,6 +79,10 @@ new Vue({
     },
   },
   methods: {
+    /**
+     * Triggered on selected or cleared room.
+     * @param {String} room
+     */
     onRoomChanged(room) {
       this.room = room || "";
       // Update message title
@@ -82,39 +92,51 @@ new Vue({
       // Update event list
       this.calculateEvents();
     },
-    onDateChanged(date) {
+    /**
+     * Triggered on a selected date.
+     */
+    onDateChanged() {
       // Update date string
-      this.updateDateString(date);
+      this.calculateDateString();
       // Check and update time
-      this.updateTime(date);
+      this.updateTime();
       // Update message title
       this.calculateMessageTitle();
       // Update event list
       this.calculateEvents();
     },
-    onTimeChanged(date) {
+    /**
+     * Triggered on a selected time.
+     */
+    onTimeChanged() {
       // Update message title
       this.calculateMessageTitle();
       // Update event list
       this.calculateEvents();
     },
-    updateDateString(date) {
+    /**
+     * Calculates a dd.mm.yyyy date string.
+     */
+    calculateDateString() {
       // Update date string
-      this.dateString = date.toLocaleDateString("de-DE", {
+      this.dateString = this.date.toLocaleDateString("de-DE", {
         year: "numeric",
         month: "2-digit",
         day: "2-digit",
       });
     },
-    updateTime(date) {
+    /**
+     * Updates the time value based on current date
+     */
+    updateTime() {
+      // Do not update time if set to manual
+      if (this.manualTime) return;
       // Check if new date is current date
       const isCurrentDate =
         new Date().setHours(0, 0, 0, 0) ===
-        new Date(date.valueOf()).setHours(0, 0, 0, 0);
-      // Do not update time if set to manual
-      if (this.manualTime) return;
+        new Date(this.date.valueOf()).setHours(0, 0, 0, 0);
       // If date set to today, set time to current time
-      else if (isCurrentDate) {
+      if (isCurrentDate) {
         this.time = new Date(new Date().setSeconds(0, 0));
         // If date is not equal to today, set time to 00:00
       } else {
@@ -137,6 +159,9 @@ new Vue({
         this.calculateEventsInRoom();
       }
     },
+    /**
+     * Calculates all free rooms on the selected date.
+     */
     calculateFreeRooms() {
       // Calculate used rooms based on time
       const usedRooms = Object.keys(
@@ -154,6 +179,9 @@ new Vue({
         (room) => !usedRooms.includes(room)
       );
     },
+    /**
+     * Calculates all events in a selected room on a selected date.
+     */
     calculateEventsInRoom() {
       try {
         const events =

@@ -107,7 +107,7 @@
               indicators="bars"
               icon="calendar-today"
               locale="de-DE"
-              @input="onDateChanged($event)"
+              @input="onDateChanged()"
               append-to-body
             >
             </b-datepicker>
@@ -131,7 +131,7 @@
               placeholder="Bitte Zeit auswählen..."
               icon="clock"
               hour-format="24"
-              @input="onTimeChanged($event)"
+              @input="onTimeChanged()"
             >
             </b-clockpicker>
           </b-field>
