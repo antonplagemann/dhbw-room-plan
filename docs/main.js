@@ -54,7 +54,7 @@ new Vue({
       messageTitle: "Initialisierung", // Title of the results box
       time: new Date(new Date().setSeconds(0, 0)), // Currently selected time
       manualTime: false, // Value of the 'manual time' checkbox
-      isDarkMode: true, // Switch to light mode
+      isBrightMode: false, // Switch for light mode
     };
   },
   /**
@@ -78,13 +78,27 @@ new Vue({
         );
       });
     },
+    displayModeButtonText() {
+      if (this.isBrightMode) return "Dunklen Modus aktivieren";
+      return "Hellen Modus aktivieren";
+    },
   },
   methods: {
     changeDisplayMode() {
-      this.isDarkMode = !this.isDarkMode;
-      if (this.isDarkMode)
-      document.getElementsByTagName("body")[0].setAttribute("style", 'background-image: url("background_dark.jpg");')
-      else document.getElementsByTagName("body")[0].setAttribute("style", 'background-image: url("background_light.jpg");')
+      if (!this.isBrightMode)
+        document
+          .getElementsByTagName("body")[0]
+          .setAttribute(
+            "style",
+            'background-image: url("background_dark.jpg");'
+          );
+      else
+        document
+          .getElementsByTagName("body")[0]
+          .setAttribute(
+            "style",
+            'background-image: url("background_light.jpg");'
+          );
     },
     /**
      * Triggered on selected or cleared room.

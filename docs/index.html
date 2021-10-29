@@ -75,13 +75,23 @@
             <img
               src="dhbw_light.png"
               alt="DHBW-Mannheim"
-              v-if="isDarkMode"
+              v-if="!isBrightMode"
             />
             <img
               src="dhbw_dark.png"
               alt="DHBW-Mannheim"
-              v-if="!isDarkMode"
+              v-if="isBrightMode"
             />
+          </b-navbar-item>
+        </template>
+        <template #end>
+          <b-navbar-item tag="div">
+            <b-field>
+              <b-checkbox-button type="is-black" v-model="isBrightMode" @input="changeDisplayMode()">
+                <b-icon icon="theme-light-dark"></b-icon>
+                <span>{{displayModeButtonText}}</span>
+              </b-checkbox-button>
+            </b-field>
           </b-navbar-item>
         </template>
       </b-navbar>
@@ -99,7 +109,7 @@
               <!--Room picker-->
               <b-field
                 label="Raum auswählen"
-                v-bind:custom-class="{ 'has-text-white': isDarkMode }"
+                v-bind:custom-class="{ 'has-text-white': !isBrightMode }"
                 style="margin-bottom: 1cm"
               >
                 <b-autocomplete
@@ -117,7 +127,7 @@
               <!--Date picker-->
               <b-field
                 label="Tag auswählen"
-                v-bind:custom-class="{ 'has-text-white': isDarkMode }"
+                v-bind:custom-class="{ 'has-text-white': !isBrightMode }"
                 style="margin-bottom: 1cm"
               >
                 <b-datepicker
@@ -135,7 +145,7 @@
                 >
                 </b-datepicker>
                 <b-checkbox
-                  v-bind:class="{ 'has-text-white': isDarkMode }"
+                  v-bind:class="{ 'has-text-white': !isBrightMode }"
                   v-model="manualTime"
                   style="margin-left: 20px"
                 >
@@ -145,7 +155,7 @@
               <b-field
                 v-if="manualTime"
                 label="Zeit wählen"
-                v-bind:custom-class="{ 'has-text-white': isDarkMode }"
+                v-bind:custom-class="{ 'has-text-white': !isBrightMode }"
                 style="margin-bottom: 1cm"
               >
                 <b-clockpicker
@@ -182,7 +192,7 @@
                   >
                   <b-tag
                     type="is-primary"
-                    @dblclick.native="changeDisplayMode()"
+                    @dblclick.native="isBrightMode = !isBrightMode; changeDisplayMode();"
                     >{{lastUpdated}}</b-tag
                   >
                 </b-taglist>
