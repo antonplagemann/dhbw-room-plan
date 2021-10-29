@@ -19,6 +19,7 @@ new Vue({
           }
         );
         this.calculateEvents();
+        this.calculateMessageTitle();
       });
   },
   data() {
@@ -39,45 +40,20 @@ new Vue({
       json: null, // JSON object with all data
       room: "", // Selected valid room
       roomSelector: "", // Direct input of the room selector
+      datePickerRoomEvents: [], // List of dates for the datepicker view
       results: ["Daten werden geladen..."],
       lastUpdated: "", // Update time of the JSON file
       // Dates
       minDate, // Minimum date to select (today)
       maxDate, // Maximum date so select (today + 3 Months)
       date: new Date(), // Selected date
-      dateString: dateString,
+      dateString,
+      messageTitle: "Initialisierung",
       time: new Date(new Date().setSeconds(0, 0)), // Current time
       manualTime: false,
     };
   },
   computed: {
-    /**
-     * Checks if the currently entered room is valid
-     * @returns True if the current room is a valid room
-     */
-    validRoom() {
-      if (!this.json) {
-        return false;
-      }
-      return Object.keys(this.json.events_by_room).includes(this.room);
-    },
-    /**
-     * Calculates the title for the results message box
-     * @returns A title string
-     */
-    messageTitle() {
-      const timeStr = new Date(this.time).toLocaleTimeString("de-DE", {
-        hour: "2-digit",
-        minute: "2-digit",
-      });
-      if (!this.validRoom && timeStr !== "00:00") {
-        return `Freie Räume am ${this.dateString} ab ${timeStr}`;
-      }
-      if (!this.validRoom) {
-        return "Freie Räume am " + this.dateString;
-      }
-      return "Raumtermine für den " + this.dateString;
-    },
     /**
      * Filters all room for the room search input field depending on the user input
      * @returns An array of rooms
@@ -95,24 +71,14 @@ new Vue({
         );
       });
     },
-    /**
-     * Returns a date list of all events that happen in a specific room
-     * @returns A list of dates
-     */
-    eventListByRoom() {
-      if (!this.json || !(this.room in this.json.events_by_room)) {
-        return [];
-      }
-      var eventsList = this.json.events_by_room[this.room];
-      return Object.keys(eventsList).map((date) => {
-        var parts = date.split(".");
-        return new Date(parts[2], parts[1] - 1, parts[0]);
-      });
-    },
   },
   methods: {
     onRoomChanged(room) {
       this.room = room || "";
+      // Update message title
+      this.calculateMessageTitle();
+      // Update datepicker view
+      this.calculateRoomEventDates();
       // Update event list
       this.calculateEvents();
     },
@@ -121,11 +87,14 @@ new Vue({
       this.updateDateString(date);
       // Check and update time
       this.updateTime(date);
+      // Update message title
+      this.calculateMessageTitle();
       // Update event list
       this.calculateEvents();
     },
     onTimeChanged(date) {
-      console.log("Time changed: ", date);
+      // Update message title
+      this.calculateMessageTitle();
       // Update event list
       this.calculateEvents();
     },
@@ -160,7 +129,7 @@ new Vue({
     calculateEvents() {
       if (!this.json) {
         this.results = ["Fehler: Termine konnten nicht geladen werden."];
-      } else if (!this.validRoom) {
+      } else if (!this.room) {
         // Return all free rooms on selected date and time
         this.calculateFreeRooms();
       } else {
@@ -210,6 +179,38 @@ new Vue({
         }
       } catch (error) {
         this.results = ["Fehler:", error];
+      }
+    },
+    /**
+     * Calculates a date list of all events that happen in a specific room
+     */
+    calculateRoomEventDates() {
+      if (!this.room) {
+        this.datePickerRoomEvents = [];
+      } else {
+        var eventsList = this.json.events_by_room[this.room];
+        this.datePickerRoomEvents = Object.keys(eventsList).map(
+          (date) => {
+            var parts = date.split(".");
+            return new Date(parts[2], parts[1] - 1, parts[0]);
+          }
+        );
+      }
+    },
+    /**
+     * Calculates the title for the results message box
+     */
+    calculateMessageTitle() {
+      if (this.room)
+        this.messageTitle = "Raumtermine für den " + this.dateString;
+      else {
+        const timeStr = new Date(this.time).toLocaleTimeString("de-DE", {
+          hour: "2-digit",
+          minute: "2-digit",
+        });
+        if (timeStr !== "00:00")
+          this.messageTitle = `Freie Räume am ${this.dateString} ab ${timeStr}`;
+        else this.messageTitle = "Freie Räume am " + this.dateString;
       }
     },
   },
