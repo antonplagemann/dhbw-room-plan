@@ -18,10 +18,13 @@ new Vue({
             minute: "2-digit",
           }
         );
+        this.calculateEvents();
       });
   },
   data() {
-    const minDate = new Date(new Date().setDate(new Date().getDate() - 1));
+    const minDate = new Date(
+      new Date().setDate(new Date().getDate() - 1)
+    );
     const maxDate = new Date(
       minDate.getFullYear(),
       minDate.getMonth() + 3,
@@ -33,71 +36,21 @@ new Vue({
       day: "2-digit",
     });
     return {
-    room: "", // Selected room
-    json: null, // JSON object with all data
-    lastUpdated: "", // Update time of the JSON file
-    // Dates
-    minDate, // Minimum date to select (today)
-    maxDate, // Maximum date so select (today + 3 Months)
-    date: new Date(), // Selected date
-    dateString: dateString,
-    time: new Date(new Date().setSeconds(0, 0)), // Current time
-    manualTime: false,
-  }
+      json: null, // JSON object with all data
+      room: "", // Selected valid room
+      roomSelector: "", // Direct input of the room selector
+      results: ["Daten werden geladen..."],
+      lastUpdated: "", // Update time of the JSON file
+      // Dates
+      minDate, // Minimum date to select (today)
+      maxDate, // Maximum date so select (today + 3 Months)
+      date: new Date(), // Selected date
+      dateString: dateString,
+      time: new Date(new Date().setSeconds(0, 0)), // Current time
+      manualTime: false,
+    };
   },
   computed: {
-    /**
-     * Calculates all events that happen in the selected room on the selected date
-     * OR all free rooms on a selected date
-     * @returns An array of events
-     */
-    events() {
-      if (!this.json) {
-        return ["Termine werden geladen..."];
-      }
-      // Return all free rooms on selected date and time
-      if (!this.validRoom) {
-        // Calculate used rooms based on time
-        const usedRooms = Object.keys(
-          this.json.events_by_date[this.dateString]
-        ).filter((room) => {
-          if (
-            this.json.events_by_room[room][this.dateString].every(
-              (event) => new Date(event.end) > this.time
-            )
-          )
-            return room;
-        });
-        return Object.keys(this.json.events_by_room).filter(
-          (r) => !usedRooms.includes(r)
-        );
-      }
-      // Return all events on selected date and room
-      try {
-        const events =
-          this.json.events_by_date[this.dateString][this.room];
-        if (!events) {
-          return ["Keine Termine eingetragen"];
-        }
-        const eventsStr = events.map((event) => {
-          const start = new Date(event.start).toLocaleTimeString(
-            "de-DE",
-            {
-              hour: "2-digit",
-              minute: "2-digit",
-            }
-          );
-          const end = new Date(event.end).toLocaleTimeString("de-DE", {
-            hour: "2-digit",
-            minute: "2-digit",
-          });
-          return `${start}-${end} ${event.title} (${event.course})`;
-        });
-        return eventsStr;
-      } catch (error) {
-        return ["Fehler:", error];
-      }
-    },
     /**
      * Checks if the currently entered room is valid
      * @returns True if the current room is a valid room
@@ -138,7 +91,7 @@ new Vue({
           option
             .toString()
             .toLowerCase()
-            .indexOf(this.room.toLowerCase()) >= 0
+            .indexOf(this.roomSelector.toLowerCase()) >= 0
         );
       });
     },
@@ -158,13 +111,33 @@ new Vue({
     },
   },
   methods: {
-    changedDate(date) {
+    onRoomChanged(room) {
+      this.room = room || "";
+      // Update event list
+      this.calculateEvents();
+    },
+    onDateChanged(date) {
+      // Update date string
+      this.updateDateString(date);
+      // Check and update time
+      this.updateTime(date);
+      // Update event list
+      this.calculateEvents();
+    },
+    onTimeChanged(date) {
+      console.log("Time changed: ", date);
+      // Update event list
+      this.calculateEvents();
+    },
+    updateDateString(date) {
       // Update date string
       this.dateString = date.toLocaleDateString("de-DE", {
         year: "numeric",
         month: "2-digit",
         day: "2-digit",
       });
+    },
+    updateTime(date) {
       // Check if new date is current date
       const isCurrentDate =
         new Date().setHours(0, 0, 0, 0) ===
@@ -174,9 +147,69 @@ new Vue({
       // If date set to today, set time to current time
       else if (isCurrentDate) {
         this.time = new Date(new Date().setSeconds(0, 0));
-      // If date is not equal to today, set time to 00:00
+        // If date is not equal to today, set time to 00:00
       } else {
         this.time.setHours(0, 0, 0, 0);
+      }
+    },
+    /**
+     * Calculates all events that happen in the selected room on the selected date
+     * OR all free rooms on a selected date
+     * @returns An array of events
+     */
+    calculateEvents() {
+      if (!this.json) {
+        this.results = ["Fehler: Termine konnten nicht geladen werden."];
+      } else if (!this.validRoom) {
+        // Return all free rooms on selected date and time
+        this.calculateFreeRooms();
+      } else {
+        // Return all events on selected date and room
+        this.calculateEventsInRoom();
+      }
+    },
+    calculateFreeRooms() {
+      // Calculate used rooms based on time
+      const usedRooms = Object.keys(
+        this.json.events_by_date[this.dateString]
+      ).filter((room) => {
+        if (
+          this.json.events_by_room[room][this.dateString].every(
+            (event) => new Date(event.end) > this.time
+          )
+        )
+          return room;
+      });
+      // Calculate free rooms
+      this.results = Object.keys(this.json.events_by_room).filter(
+        (room) => !usedRooms.includes(room)
+      );
+    },
+    calculateEventsInRoom() {
+      try {
+        const events =
+          this.json.events_by_date[this.dateString][this.room];
+        if (!events) {
+          this.results = ["Keine Termine eingetragen"];
+        } else {
+          const eventsStr = events.map((event) => {
+            const start = new Date(event.start).toLocaleTimeString(
+              "de-DE",
+              {
+                hour: "2-digit",
+                minute: "2-digit",
+              }
+            );
+            const end = new Date(event.end).toLocaleTimeString("de-DE", {
+              hour: "2-digit",
+              minute: "2-digit",
+            });
+            return `${start}-${end} ${event.title} (${event.course})`;
+          });
+          this.results = eventsStr;
+        }
+      } catch (error) {
+        this.results = ["Fehler:", error];
       }
     },
   },

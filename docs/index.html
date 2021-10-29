@@ -81,11 +81,12 @@
           >
             <b-autocomplete
               rounded
-              v-model="room"
+              v-model="roomSelector"
               :data="filteredRoomArray"
               placeholder="z.B. Raum 048B"
               icon="magnify"
               clearable
+              @select="onRoomChanged($event)"
             >
               <template #empty>Keine Ergebnisse gefunden</template>
             </b-autocomplete>
@@ -106,7 +107,7 @@
               indicators="bars"
               icon="calendar-today"
               locale="de-DE"
-              @input="changedDate($event)"
+              @input="onDateChanged($event)"
               append-to-body
             >
             </b-datepicker>
@@ -130,6 +131,7 @@
               placeholder="Bitte Zeit auswählen..."
               icon="clock"
               hour-format="24"
+              @input="onTimeChanged($event)"
             >
             </b-clockpicker>
           </b-field>
@@ -143,10 +145,10 @@
           >
             <b-message
               type="is-primary"
-              v-for="event in events"
+              v-for="item in results"
               id="eventsId"
             >
-              {{event}}
+              {{item}}
             </b-message>
             <b-taglist attached style="margin-top: 25px !important">
               <b-tag type="is-dark"
