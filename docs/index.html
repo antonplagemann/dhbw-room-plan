@@ -16,7 +16,11 @@
       href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css"
     />
     <title>Raumplan DHBW Mannheim</title>
-    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+    <link
+      rel="shortcut icon"
+      type="image/vnd.microsoft.icon"
+      href="favicon.ico"
+    />
     <style>
       /*Set background image*/
       body,
@@ -81,101 +85,112 @@
           </b-navbar-item>
         </template>
       </b-navbar>
-      <b-modal active has-modal-card can-cancel="false">
-        <div class="modal-card" style="padding: 1cm">
-          <!--Room picker-->
-          <b-field
-            label="Raum auswählen"
-            v-bind:custom-class="{ 'has-text-white': isDarkMode }"
-            style="margin-bottom: 1cm"
-          >
-            <b-autocomplete
-              rounded
-              v-model="roomSelector"
-              :data="filteredRoomArray"
-              placeholder="z.B. Raum 048B"
-              icon="magnify"
-              clearable
-              @select="onRoomChanged($event)"
+      <section class="hero is-fullheight">
+        <div class="hero-body" style="padding-top: 0px">
+          <div class="columns container is-fluid is-centered">
+            <div
+              class="column is-6"
+              style="
+                display: flex;
+                flex-direction: column;
+                max-height: calc(100vh - 70px);
+              "
             >
-              <template #empty>Keine Ergebnisse gefunden</template>
-            </b-autocomplete>
-          </b-field>
-          <!--Date picker-->
-          <b-field
-            label="Tag auswählen"
-            v-bind:custom-class="{ 'has-text-white': isDarkMode }"
-            style="margin-bottom: 1cm"
-          >
-            <b-datepicker
-              :mobile-native="false"
-              v-model="date"
-              placeholder="Bitte ein Datum eingeben oder auswählen..."
-              :min-date="minDate"
-              :max-date="maxDate"
-              :events="datePickerRoomEvents"
-              indicators="bars"
-              icon="calendar-today"
-              locale="de-DE"
-              @input="onDateChanged()"
-              append-to-body
-            >
-            </b-datepicker>
-            <b-checkbox
-              v-bind:class="{ 'has-text-white': isDarkMode }"
-              v-model="manualTime"
-              style="margin-left: 20px"
-            >
-              Manuelle Zeiteingabe
-            </b-checkbox>
-          </b-field>
-          <b-field
-            v-if="manualTime"
-            label="Zeit wählen"
-            v-bind:custom-class="{ 'has-text-white': isDarkMode }"
-            style="margin-bottom: 1cm"
-          >
-            <b-clockpicker
-              rounded
-              v-model="time"
-              placeholder="Bitte Zeit auswählen..."
-              icon="clock"
-              hour-format="24"
-              @input="onTimeChanged()"
-            >
-            </b-clockpicker>
-          </b-field>
-          <!--Results display-->
-          <b-message
-            :closable="false"
-            :title="messageTitle"
-            has-icon
-            type="is-primary"
-            style="margin-bottom: 1cm; overflow-y: auto"
-          >
-            <b-message
-              type="is-primary"
-              v-for="item in results"
-              id="eventsId"
-            >
-              {{item}}
-            </b-message>
-            <b-taglist attached style="margin-top: 25px !important">
-              <b-tag type="is-dark"
-                ><a
-                  href="https://github.com/antonplagemann/dhbw-room-plan"
-                  >Zuletzt aktualisiert:</a
-                ></b-tag
+              <!--Room picker-->
+              <b-field
+                label="Raum auswählen"
+                v-bind:custom-class="{ 'has-text-white': isDarkMode }"
+                style="margin-bottom: 1cm"
               >
-              <b-tag
+                <b-autocomplete
+                  rounded
+                  v-model="roomSelector"
+                  :data="filteredRoomArray"
+                  placeholder="z.B. Raum 048B"
+                  icon="magnify"
+                  clearable
+                  @select="onRoomChanged($event)"
+                >
+                  <template #empty>Keine Ergebnisse gefunden</template>
+                </b-autocomplete>
+              </b-field>
+              <!--Date picker-->
+              <b-field
+                label="Tag auswählen"
+                v-bind:custom-class="{ 'has-text-white': isDarkMode }"
+                style="margin-bottom: 1cm"
+              >
+                <b-datepicker
+                  :mobile-native="false"
+                  v-model="date"
+                  placeholder="Bitte ein Datum eingeben oder auswählen..."
+                  :min-date="minDate"
+                  :max-date="maxDate"
+                  :events="datePickerRoomEvents"
+                  indicators="bars"
+                  icon="calendar-today"
+                  locale="de-DE"
+                  @input="onDateChanged()"
+                  append-to-body
+                >
+                </b-datepicker>
+                <b-checkbox
+                  v-bind:class="{ 'has-text-white': isDarkMode }"
+                  v-model="manualTime"
+                  style="margin-left: 20px"
+                >
+                  Manuelle Zeiteingabe
+                </b-checkbox>
+              </b-field>
+              <b-field
+                v-if="manualTime"
+                label="Zeit wählen"
+                v-bind:custom-class="{ 'has-text-white': isDarkMode }"
+                style="margin-bottom: 1cm"
+              >
+                <b-clockpicker
+                  rounded
+                  v-model="time"
+                  placeholder="Bitte Zeit auswählen..."
+                  icon="clock"
+                  hour-format="24"
+                  @input="onTimeChanged()"
+                >
+                </b-clockpicker>
+              </b-field>
+              <!--Results display-->
+              <b-message
+                :closable="false"
+                :title="messageTitle"
+                has-icon
                 type="is-primary"
-                @dblclick.native="changeDisplayMode()"
-                >{{lastUpdated}}</b-tag
+                style="margin-bottom: 1cm; overflow-y: auto"
               >
-            </b-taglist>
-          </b-message>
+                <b-message
+                  type="is-primary"
+                  v-for="item in results"
+                  id="eventsId"
+                >
+                  {{item}}
+                </b-message>
+                <b-taglist attached style="margin-top: 25px !important">
+                  <b-tag type="is-dark"
+                    ><a
+                      href="https://github.com/antonplagemann/dhbw-room-plan"
+                      >Zuletzt aktualisiert:</a
+                    ></b-tag
+                  >
+                  <b-tag
+                    type="is-primary"
+                    @dblclick.native="changeDisplayMode()"
+                    >{{lastUpdated}}</b-tag
+                  >
+                </b-taglist>
+              </b-message>
+            </div>
+          </div>
         </div>
-      </b-modal>
+      </section>
     </div>
 
     <script src="https://unpkg.com/vue@2.6.14/dist/vue.min.js"></script>
