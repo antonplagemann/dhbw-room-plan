@@ -87,7 +87,11 @@
         <template #end>
           <b-navbar-item tag="div">
             <b-field>
-              <b-checkbox-button type="is-black" v-model="isBrightMode" @input="changeDisplayMode()">
+              <b-checkbox-button
+                type="is-black"
+                v-model="isBrightMode"
+                @input="changeDisplayMode()"
+              >
                 <b-icon icon="theme-light-dark"></b-icon>
                 <span>{{displayModeButtonText}}</span>
               </b-checkbox-button>
@@ -140,6 +144,7 @@
                   indicators="bars"
                   icon="calendar-today"
                   locale="de-DE"
+                  first-day-of-week="1"
                   @input="onDateChanged()"
                   append-to-body
                 >
