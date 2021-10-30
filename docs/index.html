@@ -69,16 +69,15 @@
         margin-bottom: 10px !important;
       }
       /*Make navbar transparent*/
-      nav.navbar.is-fixed-top {
+      nav.navbar.is-dark {
         background: transparent;
       }
     </style>
   </head>
 
-  <body style="padding-top: 2.8rem;">
+  <body>
     <div id="app">
       <b-navbar
-        :fixed-top="true"
         :transparent="true"
         type="is-dark"
         :mobile-burger="false"
@@ -121,7 +120,7 @@
               style="
                 display: flex;
                 flex-direction: column;
-                max-height: calc(100vh - 70px);
+                max-height: calc(100vh - 80px);
                 min-height: 450px;
               "
             >
