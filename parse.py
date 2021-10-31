@@ -23,13 +23,15 @@ class ICalParser():
         self.ical_url = "http://vorlesungsplan.dhbw-mannheim.de/ical.php"
         self.last_updated = datetime.now(
             timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ") # Now
-        self.start_date = date.today()
-        self.end_date = date.today() + relativedelta(months=+3)
+        self.start_date = date.today() # Manual: date(2021, 10, 1)
+        self.end_date = date.today() + relativedelta(months=+3) # Manual: date(2021, 12, 31)
         # Contains download links in the form of "<course>, <ical-link>"
         self.links_file = "links.txt"
-        self.output_file = "rooms.json"    # The output file name
+        # The output file name
+        self.output_file_json = "rooms.json"
+        self.output_file_csv = "roomplan.csv"
+        self.output_file_csv_raw = "events_raw.csv" 
         self.is_branch_office = re.compile("[KE][pP]?-Raum").search
-
         # Data
         self.icals = []
         self.events_by_date = {
@@ -84,7 +86,8 @@ class ICalParser():
                 d_room = d_date.get(event.location, [])
                 # Save changes (self.events_by_date)
                 d_room.append(event_obj)
-                d_date[event.location] = sorted(d_room, key=lambda e: e["start"])
+                d_date[event.location] = sorted(
+                    d_room, key=lambda event: event["start"])
                 self.events_by_date[date_string] = d_date
                 # Get existing data (self.events_by_room)
                 r_room = self.events_by_room.get(event.location, {})
@@ -107,9 +110,9 @@ class ICalParser():
 
     def export(self) -> None:
         '''Exports all data as json.'''
-        # Export also as json file
+        # Export as json file
         filepath = os.path.join(
-            sys.path[0], self.website_folder, self.output_file)
+            sys.path[0], self.website_folder, self.output_file_json)
         with open(filepath, 'w', encoding="utf8") as jsonfile:
             export_csv_data = {
                 "last_updated": self.last_updated,
@@ -117,6 +120,73 @@ class ICalParser():
                 "events_by_room": self.events_by_room
             }
             json.dump(export_csv_data, jsonfile, indent=4, sort_keys=True)
+
+    def export_csv(self) -> None:
+        '''Exports all data as csv.'''
+        # Export room plan as csv
+        csv_data = []
+        # Contruct titlerow
+        titlerow = ["Datum"] + self.rooms
+        csv_data.append(titlerow)
+        # Sort events_by_date ascending (needs to convert 'str -> datetime -> str' for sorting)
+        self.events_by_date_obj = [datetime.strptime(
+            date_str, "%d.%m.%Y") for date_str in self.events_by_date.keys()]
+        self.events_by_date_str = [date_obj.strftime(
+            "%d.%m.%Y") for date_obj in sorted(self.events_by_date_obj)]
+        # Go though each date and build csv row
+        for date in self.events_by_date_str:
+            row = [date]
+            for room in self.rooms:
+                events = self.events_by_date[date].get(room, [])
+                events_strings =[
+                    datetime.strptime(event["start"], "%Y-%m-%dT%H:%M:%SZ").strftime("%H:%M") +
+                    "-" + datetime.strptime(event["end"], "%Y-%m-%dT%H:%M:%SZ").strftime("%H:%M") +
+                    " " + event["title"] + " (" + event["course"] + ")"
+                    for event in events
+                ]
+                events_string = " & ".join(events_strings)
+                row.append(events_string)
+            csv_data.append(row)
+        # Write to file
+        filepath = os.path.join(sys.path[0], self.output_file_csv)
+        with open(filepath, 'w', newline='') as csvfile:
+            writer = csv.writer(csvfile, delimiter=';')
+            writer.writerows(csv_data)
+
+    def export_raw_csv(self) -> None:
+        # Export raw schedules as csv for data mining
+        events = []
+        csv_data = []
+        # Contruct titlerow
+        titlerow = ["Start", "Ende", "Raum", "Kurs", "Beschreibung"]
+        csv_data.append(titlerow)
+        # Go though each event and build csv row
+        for room_dict in self.events_by_date.values():
+            for room, room_events in room_dict.items():
+                for event in room_events:
+                    start = event["start"]
+                    end = event["end"]
+                    description = event["title"]
+                    course = event["course"]
+                    events.append([start, end, room, course, description])
+        # Sort rows by start date
+        events = sorted(events, key=lambda event: event[0])
+        # Change date format to german
+        for start, end, room, course, description in events:
+            csv_data.append(
+                [
+                    datetime.strptime(start, "%Y-%m-%dT%H:%M:%SZ").strftime("%d.%m.%Y %H:%M:%S"),
+                    datetime.strptime(end, "%Y-%m-%dT%H:%M:%SZ").strftime("%d.%m.%Y %H:%M:%S"),
+                    room,
+                    course,
+                    description
+                ]
+            )
+        # Write to file
+        filepath = os.path.join(sys.path[0], self.output_file_csv_raw)
+        with open(filepath, 'w', newline='') as csvfile:
+            writer = csv.writer(csvfile, delimiter=';')
+            writer.writerows(csv_data)
 
 
 # Start
@@ -126,6 +196,8 @@ parser = ICalParser()
 parser.download_ical_list()
 parser.parse()
 parser.export()
+#parser.export_raw_csv()
+#parser.export_csv()
 
 # Finished
 print("Finished")
