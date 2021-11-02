@@ -1,7 +1,82 @@
 {
     "events_by_date": {
         "01.01.2022": {},
-        "01.11.2021": {},
+        "01.02.2022": {
+            "Raum 051B": [
+                {
+                    "course": "TMB19 AM1",
+                    "end": "2022-02-01T13:30:00Z",
+                    "start": "2022-02-01T11:30:00Z",
+                    "title": "Getriebelehre"
+                }
+            ],
+            "Raum 104A": [
+                {
+                    "course": "TMB19 AM1",
+                    "end": "2022-02-01T18:00:00Z",
+                    "start": "2022-02-01T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                },
+                {
+                    "course": "TMB19 AM2",
+                    "end": "2022-02-01T18:00:00Z",
+                    "start": "2022-02-01T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                },
+                {
+                    "course": "TMB19 BV",
+                    "end": "2022-02-01T18:00:00Z",
+                    "start": "2022-02-01T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                },
+                {
+                    "course": "TMB19 PM",
+                    "end": "2022-02-01T18:00:00Z",
+                    "start": "2022-02-01T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                },
+                {
+                    "course": "TMB19 KT",
+                    "end": "2022-02-01T18:00:00Z",
+                    "start": "2022-02-01T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                },
+                {
+                    "course": "TMB19 PT",
+                    "end": "2022-02-01T18:00:00Z",
+                    "start": "2022-02-01T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                }
+            ],
+            "Raum 105A": [
+                {
+                    "course": "TMB19 KVEM",
+                    "end": "2022-02-01T11:00:00Z",
+                    "start": "2022-02-01T08:00:00Z",
+                    "title": "Numerische Str\u00f6mungsmechanik (CFD)"
+                },
+                {
+                    "course": "TMB19 BV",
+                    "end": "2022-02-01T11:00:00Z",
+                    "start": "2022-02-01T08:00:00Z",
+                    "title": "Numerische Str\u00f6mungsmechanik (CFD)"
+                }
+            ],
+            "Raum 240B": [
+                {
+                    "course": "WWI20 SEB",
+                    "end": "2022-02-01T12:15:00Z",
+                    "start": "2022-02-01T08:00:00Z",
+                    "title": "Advanced IT"
+                },
+                {
+                    "course": "WWI20 SEB",
+                    "end": "2022-02-01T16:15:00Z",
+                    "start": "2022-02-01T13:00:00Z",
+                    "title": "Statistik"
+                }
+            ]
+        },
         "01.12.2021": {
             "CAD-Raum 05A": [
                 {
@@ -97,13 +172,13 @@
             ],
             "Raum 022A": [
                 {
-                    "course": "TMB19 HVT",
+                    "course": "TMB19 KVEM",
                     "end": "2021-12-01T11:30:00Z",
                     "start": "2021-12-01T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
                 },
                 {
-                    "course": "TMB19 KVEM",
+                    "course": "TMB19 HVT",
                     "end": "2021-12-01T11:30:00Z",
                     "start": "2021-12-01T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
@@ -445,13 +520,13 @@
             ],
             "Raum 135B": [
                 {
-                    "course": "TMB19 HVT",
+                    "course": "TMB19 KVEM",
                     "end": "2021-12-01T11:30:00Z",
                     "start": "2021-12-01T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
                 },
                 {
-                    "course": "TMB19 KVEM",
+                    "course": "TMB19 HVT",
                     "end": "2021-12-01T11:30:00Z",
                     "start": "2021-12-01T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
@@ -3758,13 +3833,13 @@
             ],
             "Raum 135B": [
                 {
-                    "course": "TMB19 HVT",
+                    "course": "TMB19 KVEM",
                     "end": "2021-11-03T11:30:00Z",
                     "start": "2021-11-03T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
                 },
                 {
-                    "course": "TMB19 KVEM",
+                    "course": "TMB19 HVT",
                     "end": "2021-11-03T11:30:00Z",
                     "start": "2021-11-03T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
@@ -4122,25 +4197,25 @@
                     "title": "Grundlagen der BWL"
                 },
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-11-03T15:00:00Z",
-                    "start": "2021-11-03T13:00:00Z",
-                    "title": "WKL \"Funktionen u. Systeme der Logistik\" 4. Hj."
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-11-03T15:00:00Z",
                     "start": "2021-11-03T13:00:00Z",
                     "title": "WKL \"Funktionen u. Systeme der Logistik\" 4. Hj."
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-11-03T15:00:00Z",
                     "start": "2021-11-03T13:00:00Z",
                     "title": "WKL \"Funktionen u. Systeme der Logistik\" 4. Hj."
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-11-03T15:00:00Z",
+                    "start": "2021-11-03T13:00:00Z",
+                    "title": "WKL \"Funktionen u. Systeme der Logistik\" 4. Hj."
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-11-03T15:00:00Z",
                     "start": "2021-11-03T13:00:00Z",
                     "title": "WKL \"Funktionen u. Systeme der Logistik\" 4. Hj."
@@ -4510,13 +4585,13 @@
                     "title": "TEL19: T2000-Praxispr\u00fcfungen (Infoveranstaltung)"
                 },
                 {
-                    "course": "TEL19 EE",
+                    "course": "TEL19 EO",
                     "end": "2021-11-03T08:00:00Z",
                     "start": "2021-11-03T07:00:00Z",
                     "title": "TEL19: T2000-Praxispr\u00fcfungen (Infoveranstaltung)"
                 },
                 {
-                    "course": "TEL19 EO",
+                    "course": "TEL19 EE",
                     "end": "2021-11-03T08:00:00Z",
                     "start": "2021-11-03T07:00:00Z",
                     "title": "TEL19: T2000-Praxispr\u00fcfungen (Infoveranstaltung)"
@@ -4862,13 +4937,13 @@
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2021-12-03T11:00:00Z",
                     "start": "2021-12-03T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PT",
                     "end": "2021-12-03T11:00:00Z",
                     "start": "2021-12-03T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -8078,13 +8153,13 @@
             ],
             "Raum Heinrich-Vetter-H\u00f6rsaal": [
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2021-11-05T15:15:00Z",
                     "start": "2021-11-05T12:45:00Z",
                     "title": "Wiederholungsklausur Makro\u00f6konomik"
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2021-11-05T15:15:00Z",
                     "start": "2021-11-05T12:45:00Z",
                     "title": "Wiederholungsklausur Makro\u00f6konomik"
@@ -8716,25 +8791,25 @@
             ],
             "Raum 201D": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-12-06T16:00:00Z",
-                    "start": "2021-12-06T07:00:00Z",
-                    "title": "Konferenzwoche Integrationsseminar"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-12-06T16:00:00Z",
                     "start": "2021-12-06T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-12-06T16:00:00Z",
                     "start": "2021-12-06T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-12-06T16:00:00Z",
+                    "start": "2021-12-06T07:00:00Z",
+                    "title": "Konferenzwoche Integrationsseminar"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-12-06T16:00:00Z",
                     "start": "2021-12-06T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
@@ -9720,25 +9795,25 @@
             ],
             "Raum 201D": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-12-07T16:00:00Z",
-                    "start": "2021-12-07T07:00:00Z",
-                    "title": "Konferenzwoche Integrationsseminar"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-12-07T16:00:00Z",
                     "start": "2021-12-07T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-12-07T16:00:00Z",
                     "start": "2021-12-07T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-12-07T16:00:00Z",
+                    "start": "2021-12-07T07:00:00Z",
+                    "title": "Konferenzwoche Integrationsseminar"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-12-07T16:00:00Z",
                     "start": "2021-12-07T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
@@ -10116,13 +10191,13 @@
             ],
             "Raum Heinrich-Vetter-H\u00f6rsaal": [
                 {
-                    "course": "TMB20 HVT",
+                    "course": "TMB20 G",
                     "end": "2021-12-07T14:00:00Z",
                     "start": "2021-12-07T12:00:00Z",
                     "title": "Klausur \"Technische Mechanik / Festigkeitslehre III\""
                 },
                 {
-                    "course": "TMB20 G",
+                    "course": "TMB20 HVT",
                     "end": "2021-12-07T14:00:00Z",
                     "start": "2021-12-07T12:00:00Z",
                     "title": "Klausur \"Technische Mechanik / Festigkeitslehre III\""
@@ -10839,25 +10914,25 @@
             ],
             "Raum 201D": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-11-08T12:30:00Z",
-                    "start": "2021-11-08T07:45:00Z",
-                    "title": "Ersatz-Block-Unterricht AdA"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-11-08T12:30:00Z",
                     "start": "2021-11-08T07:45:00Z",
                     "title": "Ersatz-Block-Unterricht AdA"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-11-08T12:30:00Z",
                     "start": "2021-11-08T07:45:00Z",
                     "title": "Ersatz-Block-Unterricht AdA"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-11-08T12:30:00Z",
+                    "start": "2021-11-08T07:45:00Z",
+                    "title": "Ersatz-Block-Unterricht AdA"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-11-08T12:30:00Z",
                     "start": "2021-11-08T07:45:00Z",
                     "title": "Ersatz-Block-Unterricht AdA"
@@ -11521,13 +11596,13 @@
             ],
             "Raum 067C": [
                 {
-                    "course": "TMB19 HVT",
+                    "course": "TMB19 KVEM",
                     "end": "2021-12-08T09:00:00Z",
                     "start": "2021-12-08T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme Klausur"
                 },
                 {
-                    "course": "TMB19 KVEM",
+                    "course": "TMB19 HVT",
                     "end": "2021-12-08T09:00:00Z",
                     "start": "2021-12-08T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme Klausur"
@@ -11803,25 +11878,25 @@
             ],
             "Raum 201D": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-12-08T16:00:00Z",
-                    "start": "2021-12-08T07:00:00Z",
-                    "title": "Konferenzwoche Integrationsseminar"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-12-08T16:00:00Z",
                     "start": "2021-12-08T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-12-08T16:00:00Z",
                     "start": "2021-12-08T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-12-08T16:00:00Z",
+                    "start": "2021-12-08T07:00:00Z",
+                    "title": "Konferenzwoche Integrationsseminar"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-12-08T16:00:00Z",
                     "start": "2021-12-08T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
@@ -13922,25 +13997,25 @@
             ],
             "Raum 201D": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-12-09T16:00:00Z",
-                    "start": "2021-12-09T07:00:00Z",
-                    "title": "Konferenzwoche Integrationsseminar"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-12-09T16:00:00Z",
                     "start": "2021-12-09T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-12-09T16:00:00Z",
                     "start": "2021-12-09T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-12-09T16:00:00Z",
+                    "start": "2021-12-09T07:00:00Z",
+                    "title": "Konferenzwoche Integrationsseminar"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-12-09T16:00:00Z",
                     "start": "2021-12-09T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
@@ -14442,25 +14517,25 @@
             ],
             "Raum 201D": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2022-01-10T12:30:00Z",
-                    "start": "2022-01-10T08:00:00Z",
-                    "title": "Ersatz-Block-Unterricht AdA"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2022-01-10T12:30:00Z",
                     "start": "2022-01-10T08:00:00Z",
                     "title": "Ersatz-Block-Unterricht AdA"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2022-01-10T12:30:00Z",
                     "start": "2022-01-10T08:00:00Z",
                     "title": "Ersatz-Block-Unterricht AdA"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2022-01-10T12:30:00Z",
+                    "start": "2022-01-10T08:00:00Z",
+                    "title": "Ersatz-Block-Unterricht AdA"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2022-01-10T12:30:00Z",
                     "start": "2022-01-10T08:00:00Z",
                     "title": "Ersatz-Block-Unterricht AdA"
@@ -14518,13 +14593,13 @@
                     "title": "Klausur BWL I"
                 },
                 {
-                    "course": "WSTL21 D",
+                    "course": "WSTL21 C",
                     "end": "2022-01-10T10:00:00Z",
                     "start": "2022-01-10T08:00:00Z",
                     "title": "Klausur BWL I"
                 },
                 {
-                    "course": "WSTL21 C",
+                    "course": "WSTL21 D",
                     "end": "2022-01-10T10:00:00Z",
                     "start": "2022-01-10T08:00:00Z",
                     "title": "Klausur BWL I"
@@ -15046,13 +15121,13 @@
             ],
             "Raum 135B": [
                 {
-                    "course": "TMB19 HVT",
+                    "course": "TMB19 KVEM",
                     "end": "2021-11-10T11:30:00Z",
                     "start": "2021-11-10T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
                 },
                 {
-                    "course": "TMB19 KVEM",
+                    "course": "TMB19 HVT",
                     "end": "2021-11-10T11:30:00Z",
                     "start": "2021-11-10T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
@@ -16044,25 +16119,25 @@
             ],
             "Raum 201D": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-12-10T16:00:00Z",
-                    "start": "2021-12-10T07:00:00Z",
-                    "title": "Konferenzwoche Integrationsseminar"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-12-10T16:00:00Z",
                     "start": "2021-12-10T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-12-10T16:00:00Z",
                     "start": "2021-12-10T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-12-10T16:00:00Z",
+                    "start": "2021-12-10T07:00:00Z",
+                    "title": "Konferenzwoche Integrationsseminar"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-12-10T16:00:00Z",
                     "start": "2021-12-10T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
@@ -16450,13 +16525,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-01-11T18:00:00Z",
                     "start": "2022-01-11T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PT",
                     "end": "2022-01-11T18:00:00Z",
                     "start": "2022-01-11T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -17952,13 +18027,13 @@
                     "title": "Klausur Mathematik"
                 },
                 {
-                    "course": "WSTL21 D",
+                    "course": "WSTL21 C",
                     "end": "2022-01-12T09:00:00Z",
                     "start": "2022-01-12T08:00:00Z",
                     "title": "Klausur Mathematik"
                 },
                 {
-                    "course": "WSTL21 C",
+                    "course": "WSTL21 D",
                     "end": "2022-01-12T09:00:00Z",
                     "start": "2022-01-12T08:00:00Z",
                     "title": "Klausur Mathematik"
@@ -18214,13 +18289,13 @@
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2021-11-12T11:00:00Z",
                     "start": "2021-11-12T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PT",
                     "end": "2021-11-12T11:00:00Z",
                     "start": "2021-11-12T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -18618,13 +18693,13 @@
                     "title": "Technik der Finanzbuchf\u00fchrung I"
                 },
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2021-11-12T15:00:00Z",
                     "start": "2021-11-12T13:00:00Z",
                     "title": "WKL \"VBL Luftfracht\" 4. Hj."
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2021-11-12T15:00:00Z",
                     "start": "2021-11-12T13:00:00Z",
                     "title": "WKL \"VBL Luftfracht\" 4. Hj."
@@ -19135,13 +19210,13 @@
         "13.11.2021": {
             "Raum 004D": [
                 {
-                    "course": "TMT19 AM1",
+                    "course": "TMT19 AM2",
                     "end": "2021-11-13T15:00:00Z",
                     "start": "2021-11-13T07:00:00Z",
                     "title": "Maschinen und Anlagensicherheit"
                 },
                 {
-                    "course": "TMT19 AM2",
+                    "course": "TMT19 AM1",
                     "end": "2021-11-13T15:00:00Z",
                     "start": "2021-11-13T07:00:00Z",
                     "title": "Maschinen und Anlagensicherheit"
@@ -19867,13 +19942,13 @@
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-01-14T11:00:00Z",
                     "start": "2022-01-14T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PT",
                     "end": "2022-01-14T11:00:00Z",
                     "start": "2022-01-14T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -19969,13 +20044,13 @@
                     "title": "Klausur VBL I"
                 },
                 {
-                    "course": "WSTL21 D",
+                    "course": "WSTL21 C",
                     "end": "2022-01-14T10:00:00Z",
                     "start": "2022-01-14T08:00:00Z",
                     "title": "Klausur VBL I"
                 },
                 {
-                    "course": "WSTL21 C",
+                    "course": "WSTL21 D",
                     "end": "2022-01-14T10:00:00Z",
                     "start": "2022-01-14T08:00:00Z",
                     "title": "Klausur VBL I"
@@ -20626,13 +20701,13 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "WIMBIT21 B",
+                    "course": "WIMBIT21 A",
                     "end": "2021-12-14T11:00:00Z",
                     "start": "2021-12-14T09:00:00Z",
                     "title": "Programmierung I (W3WI_108)"
                 },
                 {
-                    "course": "WIMBIT21 A",
+                    "course": "WIMBIT21 B",
                     "end": "2021-12-14T11:00:00Z",
                     "start": "2021-12-14T09:00:00Z",
                     "title": "Programmierung I (W3WI_108)"
@@ -20817,13 +20892,13 @@
                     "title": "Konstruktionsentwurf III"
                 },
                 {
-                    "course": "TMB20 HVT",
+                    "course": "TMB20 G",
                     "end": "2021-11-15T12:00:00Z",
                     "start": "2021-11-15T11:00:00Z",
                     "title": "Konstruktionsentwurf III"
                 },
                 {
-                    "course": "TMB20 G",
+                    "course": "TMB20 HVT",
                     "end": "2021-11-15T12:00:00Z",
                     "start": "2021-11-15T11:00:00Z",
                     "title": "Konstruktionsentwurf III"
@@ -24502,13 +24577,13 @@
             ],
             "Raum 022A": [
                 {
-                    "course": "TMB19 HVT",
+                    "course": "TMB19 KVEM",
                     "end": "2021-11-17T11:30:00Z",
                     "start": "2021-11-17T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
                 },
                 {
-                    "course": "TMB19 KVEM",
+                    "course": "TMB19 HVT",
                     "end": "2021-11-17T11:30:00Z",
                     "start": "2021-11-17T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
@@ -24888,13 +24963,13 @@
             ],
             "Raum 135B": [
                 {
-                    "course": "TMB19 HVT",
+                    "course": "TMB19 KVEM",
                     "end": "2021-11-17T11:30:00Z",
                     "start": "2021-11-17T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
                 },
                 {
-                    "course": "TMB19 KVEM",
+                    "course": "TMB19 HVT",
                     "end": "2021-11-17T11:30:00Z",
                     "start": "2021-11-17T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
@@ -26124,13 +26199,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-01-18T18:00:00Z",
                     "start": "2022-01-18T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PT",
                     "end": "2022-01-18T18:00:00Z",
                     "start": "2022-01-18T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -27820,13 +27895,13 @@
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2021-11-19T11:00:00Z",
                     "start": "2021-11-19T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PT",
                     "end": "2021-11-19T11:00:00Z",
                     "start": "2021-11-19T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -28174,25 +28249,25 @@
             ],
             "Raum 208.1D (Gruppenarbeitsraum)": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-11-19T16:00:00Z",
-                    "start": "2021-11-19T07:00:00Z",
-                    "title": "Integrationsseminar WSTL19 / Coachingtag 2"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-11-19T16:00:00Z",
                     "start": "2021-11-19T07:00:00Z",
                     "title": "Integrationsseminar WSTL19 / Coachingtag 2"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-11-19T16:00:00Z",
                     "start": "2021-11-19T07:00:00Z",
                     "title": "Integrationsseminar WSTL19 / Coachingtag 2"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-11-19T16:00:00Z",
+                    "start": "2021-11-19T07:00:00Z",
+                    "title": "Integrationsseminar WSTL19 / Coachingtag 2"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-11-19T16:00:00Z",
                     "start": "2021-11-19T07:00:00Z",
                     "title": "Integrationsseminar WSTL19 / Coachingtag 2"
@@ -28840,25 +28915,25 @@
             ],
             "Raum 202D": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-12-20T16:00:00Z",
-                    "start": "2021-12-20T08:00:00Z",
-                    "title": "PA II-Pr\u00e4sentationen"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-12-20T16:00:00Z",
                     "start": "2021-12-20T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-12-20T16:00:00Z",
                     "start": "2021-12-20T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-12-20T16:00:00Z",
+                    "start": "2021-12-20T08:00:00Z",
+                    "title": "PA II-Pr\u00e4sentationen"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-12-20T16:00:00Z",
                     "start": "2021-12-20T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
@@ -29024,13 +29099,13 @@
             ],
             "Raum Carl-Benz-H\u00f6rsaal": [
                 {
-                    "course": "WIMBIT21 B",
+                    "course": "WIMBIT21 A",
                     "end": "2021-12-20T11:00:00Z",
                     "start": "2021-12-20T09:00:00Z",
                     "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
                 },
                 {
-                    "course": "WIMBIT21 A",
+                    "course": "WIMBIT21 B",
                     "end": "2021-12-20T11:00:00Z",
                     "start": "2021-12-20T09:00:00Z",
                     "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
@@ -29114,13 +29189,13 @@
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-01-21T11:00:00Z",
                     "start": "2022-01-21T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PT",
                     "end": "2022-01-21T11:00:00Z",
                     "start": "2022-01-21T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -29315,25 +29390,25 @@
             ],
             "Raum 202D": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-12-21T16:00:00Z",
-                    "start": "2021-12-21T08:00:00Z",
-                    "title": "PA II-Pr\u00e4sentationen"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-12-21T16:00:00Z",
                     "start": "2021-12-21T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-12-21T16:00:00Z",
                     "start": "2021-12-21T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-12-21T16:00:00Z",
+                    "start": "2021-12-21T08:00:00Z",
+                    "title": "PA II-Pr\u00e4sentationen"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-12-21T16:00:00Z",
                     "start": "2021-12-21T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
@@ -30862,25 +30937,25 @@
             ],
             "Raum 202D": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-12-22T16:00:00Z",
-                    "start": "2021-12-22T08:00:00Z",
-                    "title": "PA II-Pr\u00e4sentationen"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-12-22T16:00:00Z",
                     "start": "2021-12-22T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-12-22T16:00:00Z",
                     "start": "2021-12-22T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-12-22T16:00:00Z",
+                    "start": "2021-12-22T08:00:00Z",
+                    "title": "PA II-Pr\u00e4sentationen"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-12-22T16:00:00Z",
                     "start": "2021-12-22T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
@@ -31040,13 +31115,13 @@
                     "title": "Finanzierung und Rechnungswesen (W3WI_203)"
                 },
                 {
-                    "course": "WIMBIT21 B",
+                    "course": "WIMBIT21 A",
                     "end": "2021-12-22T14:00:00Z",
                     "start": "2021-12-22T13:00:00Z",
                     "title": "Mathematik I (W3WI_601)"
                 },
                 {
-                    "course": "WIMBIT21 A",
+                    "course": "WIMBIT21 B",
                     "end": "2021-12-22T14:00:00Z",
                     "start": "2021-12-22T13:00:00Z",
                     "title": "Mathematik I (W3WI_601)"
@@ -32309,25 +32384,25 @@
             ],
             "Raum 202D": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-12-23T11:00:00Z",
-                    "start": "2021-12-23T08:00:00Z",
-                    "title": "PA II-Pr\u00e4sentationen"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-12-23T11:00:00Z",
                     "start": "2021-12-23T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-12-23T11:00:00Z",
                     "start": "2021-12-23T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-12-23T11:00:00Z",
+                    "start": "2021-12-23T08:00:00Z",
+                    "title": "PA II-Pr\u00e4sentationen"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-12-23T11:00:00Z",
                     "start": "2021-12-23T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
@@ -32573,13 +32648,13 @@
             ],
             "Raum 022A": [
                 {
-                    "course": "TMB19 HVT",
+                    "course": "TMB19 KVEM",
                     "end": "2021-11-24T11:30:00Z",
                     "start": "2021-11-24T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
                 },
                 {
-                    "course": "TMB19 KVEM",
+                    "course": "TMB19 HVT",
                     "end": "2021-11-24T11:30:00Z",
                     "start": "2021-11-24T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
@@ -32947,13 +33022,13 @@
             ],
             "Raum 135B": [
                 {
-                    "course": "TMB19 HVT",
+                    "course": "TMB19 KVEM",
                     "end": "2021-11-24T11:30:00Z",
                     "start": "2021-11-24T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
                 },
                 {
-                    "course": "TMB19 KVEM",
+                    "course": "TMB19 HVT",
                     "end": "2021-11-24T11:30:00Z",
                     "start": "2021-11-24T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
@@ -33614,13 +33689,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-01-25T18:00:00Z",
                     "start": "2022-01-25T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PT",
                     "end": "2022-01-25T18:00:00Z",
                     "start": "2022-01-25T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -35187,13 +35262,13 @@
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2021-11-26T11:00:00Z",
                     "start": "2021-11-26T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PT",
                     "end": "2021-11-26T11:00:00Z",
                     "start": "2021-11-26T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -35942,13 +36017,13 @@
             ],
             "Raum 004D": [
                 {
-                    "course": "TMT19 AM1",
+                    "course": "TMT19 AM2",
                     "end": "2021-11-27T15:00:00Z",
                     "start": "2021-11-27T07:00:00Z",
                     "title": "Maschinen und Anlagensicherheit"
                 },
                 {
-                    "course": "TMT19 AM2",
+                    "course": "TMT19 AM1",
                     "end": "2021-11-27T15:00:00Z",
                     "start": "2021-11-27T07:00:00Z",
                     "title": "Maschinen und Anlagensicherheit"
@@ -39994,13 +40069,13 @@
             ],
             "13.11.2021": [
                 {
-                    "course": "TMT19 AM1",
+                    "course": "TMT19 AM2",
                     "end": "2021-11-13T15:00:00Z",
                     "start": "2021-11-13T07:00:00Z",
                     "title": "Maschinen und Anlagensicherheit"
                 },
                 {
-                    "course": "TMT19 AM2",
+                    "course": "TMT19 AM1",
                     "end": "2021-11-13T15:00:00Z",
                     "start": "2021-11-13T07:00:00Z",
                     "title": "Maschinen und Anlagensicherheit"
@@ -40110,13 +40185,13 @@
             ],
             "27.11.2021": [
                 {
-                    "course": "TMT19 AM1",
+                    "course": "TMT19 AM2",
                     "end": "2021-11-27T15:00:00Z",
                     "start": "2021-11-27T07:00:00Z",
                     "title": "Maschinen und Anlagensicherheit"
                 },
                 {
-                    "course": "TMT19 AM2",
+                    "course": "TMT19 AM1",
                     "end": "2021-11-27T15:00:00Z",
                     "start": "2021-11-27T07:00:00Z",
                     "title": "Maschinen und Anlagensicherheit"
@@ -42784,13 +42859,13 @@
         "Raum 022A": {
             "01.12.2021": [
                 {
-                    "course": "TMB19 HVT",
+                    "course": "TMB19 KVEM",
                     "end": "2021-12-01T11:30:00Z",
                     "start": "2021-12-01T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
                 },
                 {
-                    "course": "TMB19 KVEM",
+                    "course": "TMB19 HVT",
                     "end": "2021-12-01T11:30:00Z",
                     "start": "2021-12-01T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
@@ -43046,13 +43121,13 @@
             ],
             "17.11.2021": [
                 {
-                    "course": "TMB19 HVT",
+                    "course": "TMB19 KVEM",
                     "end": "2021-11-17T11:30:00Z",
                     "start": "2021-11-17T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
                 },
                 {
-                    "course": "TMB19 KVEM",
+                    "course": "TMB19 HVT",
                     "end": "2021-11-17T11:30:00Z",
                     "start": "2021-11-17T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
@@ -43154,13 +43229,13 @@
             ],
             "24.11.2021": [
                 {
-                    "course": "TMB19 HVT",
+                    "course": "TMB19 KVEM",
                     "end": "2021-11-24T11:30:00Z",
                     "start": "2021-11-24T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
                 },
                 {
-                    "course": "TMB19 KVEM",
+                    "course": "TMB19 HVT",
                     "end": "2021-11-24T11:30:00Z",
                     "start": "2021-11-24T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
@@ -43646,13 +43721,13 @@
                     "title": "Konstruktionsentwurf III"
                 },
                 {
-                    "course": "TMB20 HVT",
+                    "course": "TMB20 G",
                     "end": "2021-11-15T12:00:00Z",
                     "start": "2021-11-15T11:00:00Z",
                     "title": "Konstruktionsentwurf III"
                 },
                 {
-                    "course": "TMB20 G",
+                    "course": "TMB20 HVT",
                     "end": "2021-11-15T12:00:00Z",
                     "start": "2021-11-15T11:00:00Z",
                     "title": "Konstruktionsentwurf III"
@@ -44758,6 +44833,14 @@
             ]
         },
         "Raum 051B": {
+            "01.02.2022": [
+                {
+                    "course": "TMB19 AM1",
+                    "end": "2022-02-01T13:30:00Z",
+                    "start": "2022-02-01T11:30:00Z",
+                    "title": "Getriebelehre"
+                }
+            ],
             "01.12.2021": [
                 {
                     "course": "TINF19 CS1",
@@ -45938,13 +46021,13 @@
             ],
             "08.12.2021": [
                 {
-                    "course": "TMB19 HVT",
+                    "course": "TMB19 KVEM",
                     "end": "2021-12-08T09:00:00Z",
                     "start": "2021-12-08T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme Klausur"
                 },
                 {
-                    "course": "TMB19 KVEM",
+                    "course": "TMB19 HVT",
                     "end": "2021-12-08T09:00:00Z",
                     "start": "2021-12-08T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme Klausur"
@@ -47660,6 +47743,44 @@
             ]
         },
         "Raum 104A": {
+            "01.02.2022": [
+                {
+                    "course": "TMB19 AM1",
+                    "end": "2022-02-01T18:00:00Z",
+                    "start": "2022-02-01T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                },
+                {
+                    "course": "TMB19 AM2",
+                    "end": "2022-02-01T18:00:00Z",
+                    "start": "2022-02-01T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                },
+                {
+                    "course": "TMB19 BV",
+                    "end": "2022-02-01T18:00:00Z",
+                    "start": "2022-02-01T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                },
+                {
+                    "course": "TMB19 PM",
+                    "end": "2022-02-01T18:00:00Z",
+                    "start": "2022-02-01T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                },
+                {
+                    "course": "TMB19 KT",
+                    "end": "2022-02-01T18:00:00Z",
+                    "start": "2022-02-01T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                },
+                {
+                    "course": "TMB19 PT",
+                    "end": "2022-02-01T18:00:00Z",
+                    "start": "2022-02-01T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                }
+            ],
             "01.12.2021": [
                 {
                     "course": "WWI21 EG/EH",
@@ -47824,13 +47945,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-01-11T18:00:00Z",
                     "start": "2022-01-11T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PT",
                     "end": "2022-01-11T18:00:00Z",
                     "start": "2022-01-11T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -47950,13 +48071,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-01-18T18:00:00Z",
                     "start": "2022-01-18T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PT",
                     "end": "2022-01-18T18:00:00Z",
                     "start": "2022-01-18T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -48082,13 +48203,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-01-25T18:00:00Z",
                     "start": "2022-01-25T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PT",
                     "end": "2022-01-25T18:00:00Z",
                     "start": "2022-01-25T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -48404,6 +48525,20 @@
             ]
         },
         "Raum 105A": {
+            "01.02.2022": [
+                {
+                    "course": "TMB19 KVEM",
+                    "end": "2022-02-01T11:00:00Z",
+                    "start": "2022-02-01T08:00:00Z",
+                    "title": "Numerische Str\u00f6mungsmechanik (CFD)"
+                },
+                {
+                    "course": "TMB19 BV",
+                    "end": "2022-02-01T11:00:00Z",
+                    "start": "2022-02-01T08:00:00Z",
+                    "title": "Numerische Str\u00f6mungsmechanik (CFD)"
+                }
+            ],
             "01.12.2021": [
                 {
                     "course": "TMB20 C",
@@ -48528,13 +48663,13 @@
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2021-12-03T11:00:00Z",
                     "start": "2021-12-03T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PT",
                     "end": "2021-12-03T11:00:00Z",
                     "start": "2021-12-03T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -48856,13 +48991,13 @@
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2021-11-12T11:00:00Z",
                     "start": "2021-11-12T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PT",
                     "end": "2021-11-12T11:00:00Z",
                     "start": "2021-11-12T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -48932,13 +49067,13 @@
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-01-14T11:00:00Z",
                     "start": "2022-01-14T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PT",
                     "end": "2022-01-14T11:00:00Z",
                     "start": "2022-01-14T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -49132,13 +49267,13 @@
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2021-11-19T11:00:00Z",
                     "start": "2021-11-19T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PT",
                     "end": "2021-11-19T11:00:00Z",
                     "start": "2021-11-19T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -49190,13 +49325,13 @@
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-01-21T11:00:00Z",
                     "start": "2022-01-21T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PT",
                     "end": "2022-01-21T11:00:00Z",
                     "start": "2022-01-21T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -49360,13 +49495,13 @@
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2021-11-26T11:00:00Z",
                     "start": "2021-11-26T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PT",
                     "end": "2021-11-26T11:00:00Z",
                     "start": "2021-11-26T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -54150,13 +54285,13 @@
         "Raum 135B": {
             "01.12.2021": [
                 {
-                    "course": "TMB19 HVT",
+                    "course": "TMB19 KVEM",
                     "end": "2021-12-01T11:30:00Z",
                     "start": "2021-12-01T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
                 },
                 {
-                    "course": "TMB19 KVEM",
+                    "course": "TMB19 HVT",
                     "end": "2021-12-01T11:30:00Z",
                     "start": "2021-12-01T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
@@ -54196,13 +54331,13 @@
             ],
             "03.11.2021": [
                 {
-                    "course": "TMB19 HVT",
+                    "course": "TMB19 KVEM",
                     "end": "2021-11-03T11:30:00Z",
                     "start": "2021-11-03T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
                 },
                 {
-                    "course": "TMB19 KVEM",
+                    "course": "TMB19 HVT",
                     "end": "2021-11-03T11:30:00Z",
                     "start": "2021-11-03T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
@@ -54336,13 +54471,13 @@
             ],
             "10.11.2021": [
                 {
-                    "course": "TMB19 HVT",
+                    "course": "TMB19 KVEM",
                     "end": "2021-11-10T11:30:00Z",
                     "start": "2021-11-10T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
                 },
                 {
-                    "course": "TMB19 KVEM",
+                    "course": "TMB19 HVT",
                     "end": "2021-11-10T11:30:00Z",
                     "start": "2021-11-10T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
@@ -54456,13 +54591,13 @@
             ],
             "17.11.2021": [
                 {
-                    "course": "TMB19 HVT",
+                    "course": "TMB19 KVEM",
                     "end": "2021-11-17T11:30:00Z",
                     "start": "2021-11-17T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
                 },
                 {
-                    "course": "TMB19 KVEM",
+                    "course": "TMB19 HVT",
                     "end": "2021-11-17T11:30:00Z",
                     "start": "2021-11-17T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
@@ -54548,13 +54683,13 @@
             ],
             "24.11.2021": [
                 {
-                    "course": "TMB19 HVT",
+                    "course": "TMB19 KVEM",
                     "end": "2021-11-24T11:30:00Z",
                     "start": "2021-11-24T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
                 },
                 {
-                    "course": "TMB19 KVEM",
+                    "course": "TMB19 HVT",
                     "end": "2021-11-24T11:30:00Z",
                     "start": "2021-11-24T07:30:00Z",
                     "title": "Nachhaltige Energiesysteme"
@@ -60442,25 +60577,25 @@
             ],
             "06.12.2021": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-12-06T16:00:00Z",
-                    "start": "2021-12-06T07:00:00Z",
-                    "title": "Konferenzwoche Integrationsseminar"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-12-06T16:00:00Z",
                     "start": "2021-12-06T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-12-06T16:00:00Z",
                     "start": "2021-12-06T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-12-06T16:00:00Z",
+                    "start": "2021-12-06T07:00:00Z",
+                    "title": "Konferenzwoche Integrationsseminar"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-12-06T16:00:00Z",
                     "start": "2021-12-06T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
@@ -60468,25 +60603,25 @@
             ],
             "07.12.2021": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-12-07T16:00:00Z",
-                    "start": "2021-12-07T07:00:00Z",
-                    "title": "Konferenzwoche Integrationsseminar"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-12-07T16:00:00Z",
                     "start": "2021-12-07T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-12-07T16:00:00Z",
                     "start": "2021-12-07T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-12-07T16:00:00Z",
+                    "start": "2021-12-07T07:00:00Z",
+                    "title": "Konferenzwoche Integrationsseminar"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-12-07T16:00:00Z",
                     "start": "2021-12-07T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
@@ -60494,25 +60629,25 @@
             ],
             "08.11.2021": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-11-08T12:30:00Z",
-                    "start": "2021-11-08T07:45:00Z",
-                    "title": "Ersatz-Block-Unterricht AdA"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-11-08T12:30:00Z",
                     "start": "2021-11-08T07:45:00Z",
                     "title": "Ersatz-Block-Unterricht AdA"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-11-08T12:30:00Z",
                     "start": "2021-11-08T07:45:00Z",
                     "title": "Ersatz-Block-Unterricht AdA"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-11-08T12:30:00Z",
+                    "start": "2021-11-08T07:45:00Z",
+                    "title": "Ersatz-Block-Unterricht AdA"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-11-08T12:30:00Z",
                     "start": "2021-11-08T07:45:00Z",
                     "title": "Ersatz-Block-Unterricht AdA"
@@ -60520,25 +60655,25 @@
             ],
             "08.12.2021": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-12-08T16:00:00Z",
-                    "start": "2021-12-08T07:00:00Z",
-                    "title": "Konferenzwoche Integrationsseminar"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-12-08T16:00:00Z",
                     "start": "2021-12-08T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-12-08T16:00:00Z",
                     "start": "2021-12-08T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-12-08T16:00:00Z",
+                    "start": "2021-12-08T07:00:00Z",
+                    "title": "Konferenzwoche Integrationsseminar"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-12-08T16:00:00Z",
                     "start": "2021-12-08T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
@@ -60554,25 +60689,25 @@
             ],
             "09.12.2021": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-12-09T16:00:00Z",
-                    "start": "2021-12-09T07:00:00Z",
-                    "title": "Konferenzwoche Integrationsseminar"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-12-09T16:00:00Z",
                     "start": "2021-12-09T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-12-09T16:00:00Z",
                     "start": "2021-12-09T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-12-09T16:00:00Z",
+                    "start": "2021-12-09T07:00:00Z",
+                    "title": "Konferenzwoche Integrationsseminar"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-12-09T16:00:00Z",
                     "start": "2021-12-09T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
@@ -60580,25 +60715,25 @@
             ],
             "10.01.2022": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2022-01-10T12:30:00Z",
-                    "start": "2022-01-10T08:00:00Z",
-                    "title": "Ersatz-Block-Unterricht AdA"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2022-01-10T12:30:00Z",
                     "start": "2022-01-10T08:00:00Z",
                     "title": "Ersatz-Block-Unterricht AdA"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2022-01-10T12:30:00Z",
                     "start": "2022-01-10T08:00:00Z",
                     "title": "Ersatz-Block-Unterricht AdA"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2022-01-10T12:30:00Z",
+                    "start": "2022-01-10T08:00:00Z",
+                    "title": "Ersatz-Block-Unterricht AdA"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2022-01-10T12:30:00Z",
                     "start": "2022-01-10T08:00:00Z",
                     "title": "Ersatz-Block-Unterricht AdA"
@@ -60606,25 +60741,25 @@
             ],
             "10.12.2021": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-12-10T16:00:00Z",
-                    "start": "2021-12-10T07:00:00Z",
-                    "title": "Konferenzwoche Integrationsseminar"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-12-10T16:00:00Z",
                     "start": "2021-12-10T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-12-10T16:00:00Z",
                     "start": "2021-12-10T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-12-10T16:00:00Z",
+                    "start": "2021-12-10T07:00:00Z",
+                    "title": "Konferenzwoche Integrationsseminar"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-12-10T16:00:00Z",
                     "start": "2021-12-10T07:00:00Z",
                     "title": "Konferenzwoche Integrationsseminar"
@@ -60994,25 +61129,25 @@
             ],
             "20.12.2021": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-12-20T16:00:00Z",
-                    "start": "2021-12-20T08:00:00Z",
-                    "title": "PA II-Pr\u00e4sentationen"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-12-20T16:00:00Z",
                     "start": "2021-12-20T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-12-20T16:00:00Z",
                     "start": "2021-12-20T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-12-20T16:00:00Z",
+                    "start": "2021-12-20T08:00:00Z",
+                    "title": "PA II-Pr\u00e4sentationen"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-12-20T16:00:00Z",
                     "start": "2021-12-20T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
@@ -61020,25 +61155,25 @@
             ],
             "21.12.2021": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-12-21T16:00:00Z",
-                    "start": "2021-12-21T08:00:00Z",
-                    "title": "PA II-Pr\u00e4sentationen"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-12-21T16:00:00Z",
                     "start": "2021-12-21T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-12-21T16:00:00Z",
                     "start": "2021-12-21T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-12-21T16:00:00Z",
+                    "start": "2021-12-21T08:00:00Z",
+                    "title": "PA II-Pr\u00e4sentationen"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-12-21T16:00:00Z",
                     "start": "2021-12-21T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
@@ -61060,25 +61195,25 @@
             ],
             "22.12.2021": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-12-22T16:00:00Z",
-                    "start": "2021-12-22T08:00:00Z",
-                    "title": "PA II-Pr\u00e4sentationen"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-12-22T16:00:00Z",
                     "start": "2021-12-22T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-12-22T16:00:00Z",
                     "start": "2021-12-22T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-12-22T16:00:00Z",
+                    "start": "2021-12-22T08:00:00Z",
+                    "title": "PA II-Pr\u00e4sentationen"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-12-22T16:00:00Z",
                     "start": "2021-12-22T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
@@ -61100,25 +61235,25 @@
             ],
             "23.12.2021": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-12-23T11:00:00Z",
-                    "start": "2021-12-23T08:00:00Z",
-                    "title": "PA II-Pr\u00e4sentationen"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-12-23T11:00:00Z",
                     "start": "2021-12-23T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-12-23T11:00:00Z",
                     "start": "2021-12-23T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-12-23T11:00:00Z",
+                    "start": "2021-12-23T08:00:00Z",
+                    "title": "PA II-Pr\u00e4sentationen"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-12-23T11:00:00Z",
                     "start": "2021-12-23T08:00:00Z",
                     "title": "PA II-Pr\u00e4sentationen"
@@ -62440,25 +62575,25 @@
             ],
             "19.11.2021": [
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-11-19T16:00:00Z",
-                    "start": "2021-11-19T07:00:00Z",
-                    "title": "Integrationsseminar WSTL19 / Coachingtag 2"
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-11-19T16:00:00Z",
                     "start": "2021-11-19T07:00:00Z",
                     "title": "Integrationsseminar WSTL19 / Coachingtag 2"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-11-19T16:00:00Z",
                     "start": "2021-11-19T07:00:00Z",
                     "title": "Integrationsseminar WSTL19 / Coachingtag 2"
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-11-19T16:00:00Z",
+                    "start": "2021-11-19T07:00:00Z",
+                    "title": "Integrationsseminar WSTL19 / Coachingtag 2"
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-11-19T16:00:00Z",
                     "start": "2021-11-19T07:00:00Z",
                     "title": "Integrationsseminar WSTL19 / Coachingtag 2"
@@ -64160,25 +64295,25 @@
                     "title": "Grundlagen der BWL"
                 },
                 {
-                    "course": "WSTL19 B",
-                    "end": "2021-11-03T15:00:00Z",
-                    "start": "2021-11-03T13:00:00Z",
-                    "title": "WKL \"Funktionen u. Systeme der Logistik\" 4. Hj."
-                },
-                {
                     "course": "WSTL19 A",
                     "end": "2021-11-03T15:00:00Z",
                     "start": "2021-11-03T13:00:00Z",
                     "title": "WKL \"Funktionen u. Systeme der Logistik\" 4. Hj."
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2021-11-03T15:00:00Z",
                     "start": "2021-11-03T13:00:00Z",
                     "title": "WKL \"Funktionen u. Systeme der Logistik\" 4. Hj."
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2021-11-03T15:00:00Z",
+                    "start": "2021-11-03T13:00:00Z",
+                    "title": "WKL \"Funktionen u. Systeme der Logistik\" 4. Hj."
+                },
+                {
+                    "course": "WSTL19 D",
                     "end": "2021-11-03T15:00:00Z",
                     "start": "2021-11-03T13:00:00Z",
                     "title": "WKL \"Funktionen u. Systeme der Logistik\" 4. Hj."
@@ -64746,13 +64881,13 @@
                     "title": "Technik der Finanzbuchf\u00fchrung I"
                 },
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2021-11-12T15:00:00Z",
                     "start": "2021-11-12T13:00:00Z",
                     "title": "WKL \"VBL Luftfracht\" 4. Hj."
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2021-11-12T15:00:00Z",
                     "start": "2021-11-12T13:00:00Z",
                     "title": "WKL \"VBL Luftfracht\" 4. Hj."
@@ -66898,6 +67033,20 @@
             ]
         },
         "Raum 240B": {
+            "01.02.2022": [
+                {
+                    "course": "WWI20 SEB",
+                    "end": "2022-02-01T12:15:00Z",
+                    "start": "2022-02-01T08:00:00Z",
+                    "title": "Advanced IT"
+                },
+                {
+                    "course": "WWI20 SEB",
+                    "end": "2022-02-01T16:15:00Z",
+                    "start": "2022-02-01T13:00:00Z",
+                    "title": "Statistik"
+                }
+            ],
             "01.12.2021": [
                 {
                     "course": "WWI20 SEB",
@@ -76028,13 +76177,13 @@
             ],
             "20.12.2021": [
                 {
-                    "course": "WIMBIT21 B",
+                    "course": "WIMBIT21 A",
                     "end": "2021-12-20T11:00:00Z",
                     "start": "2021-12-20T09:00:00Z",
                     "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
                 },
                 {
-                    "course": "WIMBIT21 A",
+                    "course": "WIMBIT21 B",
                     "end": "2021-12-20T11:00:00Z",
                     "start": "2021-12-20T09:00:00Z",
                     "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
@@ -76090,13 +76239,13 @@
         "Raum Heinrich-Vetter-H\u00f6rsaal": {
             "05.11.2021": [
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2021-11-05T15:15:00Z",
                     "start": "2021-11-05T12:45:00Z",
                     "title": "Wiederholungsklausur Makro\u00f6konomik"
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2021-11-05T15:15:00Z",
                     "start": "2021-11-05T12:45:00Z",
                     "title": "Wiederholungsklausur Makro\u00f6konomik"
@@ -76124,13 +76273,13 @@
             ],
             "07.12.2021": [
                 {
-                    "course": "TMB20 HVT",
+                    "course": "TMB20 G",
                     "end": "2021-12-07T14:00:00Z",
                     "start": "2021-12-07T12:00:00Z",
                     "title": "Klausur \"Technische Mechanik / Festigkeitslehre III\""
                 },
                 {
-                    "course": "TMB20 G",
+                    "course": "TMB20 HVT",
                     "end": "2021-12-07T14:00:00Z",
                     "start": "2021-12-07T12:00:00Z",
                     "title": "Klausur \"Technische Mechanik / Festigkeitslehre III\""
@@ -76496,13 +76645,13 @@
                     "title": "TEL19: T2000-Praxispr\u00fcfungen (Infoveranstaltung)"
                 },
                 {
-                    "course": "TEL19 EE",
+                    "course": "TEL19 EO",
                     "end": "2021-11-03T08:00:00Z",
                     "start": "2021-11-03T07:00:00Z",
                     "title": "TEL19: T2000-Praxispr\u00fcfungen (Infoveranstaltung)"
                 },
                 {
-                    "course": "TEL19 EO",
+                    "course": "TEL19 EE",
                     "end": "2021-11-03T08:00:00Z",
                     "start": "2021-11-03T07:00:00Z",
                     "title": "TEL19: T2000-Praxispr\u00fcfungen (Infoveranstaltung)"
@@ -76578,13 +76727,13 @@
             ],
             "14.12.2021": [
                 {
-                    "course": "WIMBIT21 B",
+                    "course": "WIMBIT21 A",
                     "end": "2021-12-14T11:00:00Z",
                     "start": "2021-12-14T09:00:00Z",
                     "title": "Programmierung I (W3WI_108)"
                 },
                 {
-                    "course": "WIMBIT21 A",
+                    "course": "WIMBIT21 B",
                     "end": "2021-12-14T11:00:00Z",
                     "start": "2021-12-14T09:00:00Z",
                     "title": "Programmierung I (W3WI_108)"
@@ -76648,13 +76797,13 @@
                     "title": "Finanzierung und Rechnungswesen (W3WI_203)"
                 },
                 {
-                    "course": "WIMBIT21 B",
+                    "course": "WIMBIT21 A",
                     "end": "2021-12-22T14:00:00Z",
                     "start": "2021-12-22T13:00:00Z",
                     "title": "Mathematik I (W3WI_601)"
                 },
                 {
-                    "course": "WIMBIT21 A",
+                    "course": "WIMBIT21 B",
                     "end": "2021-12-22T14:00:00Z",
                     "start": "2021-12-22T13:00:00Z",
                     "title": "Mathematik I (W3WI_601)"
@@ -76820,13 +76969,13 @@
                     "title": "Klausur BWL I"
                 },
                 {
-                    "course": "WSTL21 D",
+                    "course": "WSTL21 C",
                     "end": "2022-01-10T10:00:00Z",
                     "start": "2022-01-10T08:00:00Z",
                     "title": "Klausur BWL I"
                 },
                 {
-                    "course": "WSTL21 C",
+                    "course": "WSTL21 D",
                     "end": "2022-01-10T10:00:00Z",
                     "start": "2022-01-10T08:00:00Z",
                     "title": "Klausur BWL I"
@@ -76854,13 +77003,13 @@
                     "title": "Klausur Mathematik"
                 },
                 {
-                    "course": "WSTL21 D",
+                    "course": "WSTL21 C",
                     "end": "2022-01-12T09:00:00Z",
                     "start": "2022-01-12T08:00:00Z",
                     "title": "Klausur Mathematik"
                 },
                 {
-                    "course": "WSTL21 C",
+                    "course": "WSTL21 D",
                     "end": "2022-01-12T09:00:00Z",
                     "start": "2022-01-12T08:00:00Z",
                     "title": "Klausur Mathematik"
@@ -76880,13 +77029,13 @@
                     "title": "Klausur VBL I"
                 },
                 {
-                    "course": "WSTL21 D",
+                    "course": "WSTL21 C",
                     "end": "2022-01-14T10:00:00Z",
                     "start": "2022-01-14T08:00:00Z",
                     "title": "Klausur VBL I"
                 },
                 {
-                    "course": "WSTL21 C",
+                    "course": "WSTL21 D",
                     "end": "2022-01-14T10:00:00Z",
                     "start": "2022-01-14T08:00:00Z",
                     "title": "Klausur VBL I"
@@ -76962,5 +77111,5 @@
             ]
         }
     },
-    "last_updated": "2021-11-01T04:11:11Z"
+    "last_updated": "2021-11-02T04:11:14Z"
 }
