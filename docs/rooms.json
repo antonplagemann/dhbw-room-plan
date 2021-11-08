@@ -12,19 +12,13 @@
             ],
             "Raum 104A": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2022-02-01T18:00:00Z",
-                    "start": "2022-02-01T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2022-02-01T18:00:00Z",
                     "start": "2022-02-01T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2022-02-01T18:00:00Z",
                     "start": "2022-02-01T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -43,6 +37,12 @@
                 },
                 {
                     "course": "TMB19 PT",
+                    "end": "2022-02-01T18:00:00Z",
+                    "start": "2022-02-01T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2022-02-01T18:00:00Z",
                     "start": "2022-02-01T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -404,12 +404,6 @@
                     "end": "2021-12-01T09:30:00Z",
                     "start": "2021-12-01T08:00:00Z",
                     "title": "Klausur \"Fluidmechanik\""
-                },
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-12-01T11:00:00Z",
-                    "start": "2021-12-01T09:30:00Z",
-                    "title": "Mathematik I"
                 }
             ],
             "Raum 105D": [
@@ -569,12 +563,6 @@
                 }
             ],
             "Raum 136.1B": [
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-12-01T09:15:00Z",
-                    "start": "2021-12-01T07:45:00Z",
-                    "title": "Lineare Algebra"
-                },
                 {
                     "course": "TINF21 IT1",
                     "end": "2021-12-01T11:00:00Z",
@@ -1451,19 +1439,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2021-12-02T10:00:00Z",
-                    "start": "2021-12-02T07:00:00Z",
-                    "title": "Konstruktions- und Entwicklungstechnik"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2021-12-02T10:00:00Z",
                     "start": "2021-12-02T07:00:00Z",
                     "title": "Konstruktions- und Entwicklungstechnik"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-02T10:00:00Z",
                     "start": "2021-12-02T07:00:00Z",
                     "title": "Konstruktions- und Entwicklungstechnik"
@@ -1476,6 +1458,12 @@
                 },
                 {
                     "course": "TMB19 KT",
+                    "end": "2021-12-02T10:00:00Z",
+                    "start": "2021-12-02T07:00:00Z",
+                    "title": "Konstruktions- und Entwicklungstechnik"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2021-12-02T10:00:00Z",
                     "start": "2021-12-02T07:00:00Z",
                     "title": "Konstruktions- und Entwicklungstechnik"
@@ -1623,12 +1611,6 @@
                     "end": "2021-12-02T09:00:00Z",
                     "start": "2021-12-02T07:00:00Z",
                     "title": "Digitaltechnik"
-                },
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-12-02T11:00:00Z",
-                    "start": "2021-12-02T09:30:00Z",
-                    "title": "Lineare Algebra"
                 }
             ],
             "Raum 136B": [
@@ -2078,12 +2060,6 @@
                 }
             ],
             "Raum 269C": [
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-12-02T09:15:00Z",
-                    "start": "2021-12-02T07:45:00Z",
-                    "title": "Mathematik I"
-                },
                 {
                     "course": "TINF19 IT1",
                     "end": "2021-12-02T15:00:00Z",
@@ -2763,13 +2739,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-12-03T11:00:00Z",
                     "start": "2021-12-03T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-03T11:00:00Z",
                     "start": "2021-12-03T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -3529,13 +3505,13 @@
             ],
             "Raum folgt": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2022-02-04T09:00:00Z",
                     "start": "2022-02-04T07:30:00Z",
                     "title": "Klausur Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2022-02-04T09:00:00Z",
                     "start": "2022-02-04T07:30:00Z",
                     "title": "Klausur Handhabungstechnik und Automation"
@@ -3943,25 +3919,25 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2021-12-06T10:30:00Z",
-                    "start": "2021-12-06T07:00:00Z",
-                    "title": "Mechatronische Systeme"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2021-12-06T10:30:00Z",
                     "start": "2021-12-06T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-06T10:30:00Z",
                     "start": "2021-12-06T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
                     "course": "TMB19 PT",
+                    "end": "2021-12-06T10:30:00Z",
+                    "start": "2021-12-06T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2021-12-06T10:30:00Z",
                     "start": "2021-12-06T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -3979,13 +3955,13 @@
                     "title": "Regelungstechnik"
                 },
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-12-06T18:15:00Z",
                     "start": "2021-12-06T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-06T18:15:00Z",
                     "start": "2021-12-06T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -4689,13 +4665,13 @@
             ],
             "Raum Heinrich-Vetter-H\u00f6rsaal": [
                 {
-                    "course": "TMB20 A",
+                    "course": "TMB20 B",
                     "end": "2021-12-06T13:30:00Z",
                     "start": "2021-12-06T12:00:00Z",
                     "title": "TMB20A+B - Klausur Konstruktion III"
                 },
                 {
-                    "course": "TMB20 B",
+                    "course": "TMB20 A",
                     "end": "2021-12-06T13:30:00Z",
                     "start": "2021-12-06T12:00:00Z",
                     "title": "TMB20A+B - Klausur Konstruktion III"
@@ -4794,19 +4770,79 @@
                 }
             ]
         },
-        "07.11.2021": {
-            "Raum 035B": [
+        "07.02.2022": {
+            "Raum 104A": [
                 {
-                    "course": "TINF19 IT2",
-                    "end": "2021-11-07T11:30:00Z",
-                    "start": "2021-11-07T08:30:00Z",
-                    "title": "Einf\u00fchrung in die Robotik"
+                    "course": "TMB19 KT",
+                    "end": "2022-02-07T15:30:00Z",
+                    "start": "2022-02-07T12:00:00Z",
+                    "title": "Qualit\u00e4tsmanagement"
                 },
                 {
-                    "course": "TINF19 IT2",
-                    "end": "2021-11-07T16:00:00Z",
-                    "start": "2021-11-07T13:00:00Z",
-                    "title": "Einf\u00fchrung in die Robotik"
+                    "course": "TMB19 BV",
+                    "end": "2022-02-07T15:30:00Z",
+                    "start": "2022-02-07T12:00:00Z",
+                    "title": "Qualit\u00e4tsmanagement"
+                }
+            ],
+            "Raum 105A": [
+                {
+                    "course": "TMB19 AM2",
+                    "end": "2022-02-07T10:30:00Z",
+                    "start": "2022-02-07T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
+                    "course": "TMB19 AM1",
+                    "end": "2022-02-07T10:30:00Z",
+                    "start": "2022-02-07T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
+                    "course": "TMB19 PT",
+                    "end": "2022-02-07T10:30:00Z",
+                    "start": "2022-02-07T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
+                    "course": "TMB19 BV",
+                    "end": "2022-02-07T10:30:00Z",
+                    "start": "2022-02-07T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
+                    "course": "TMB19 AM2",
+                    "end": "2022-02-07T18:15:00Z",
+                    "start": "2022-02-07T16:00:00Z",
+                    "title": "Fahrzeugtechnik"
+                },
+                {
+                    "course": "TMB19 AM1",
+                    "end": "2022-02-07T18:15:00Z",
+                    "start": "2022-02-07T16:00:00Z",
+                    "title": "Fahrzeugtechnik"
+                },
+                {
+                    "course": "TMB19 PT",
+                    "end": "2022-02-07T18:15:00Z",
+                    "start": "2022-02-07T16:00:00Z",
+                    "title": "Fahrzeugtechnik"
+                }
+            ],
+            "Raum 135B": [
+                {
+                    "course": "TMB21 HVT",
+                    "end": "2022-02-07T11:00:00Z",
+                    "start": "2022-02-07T07:30:00Z",
+                    "title": "Konstruktionlehre und -Entwurf"
+                }
+            ],
+            "Raum 222A (L)": [
+                {
+                    "course": "TMB21 F",
+                    "end": "2022-02-07T15:00:00Z",
+                    "start": "2022-02-07T11:45:00Z",
+                    "title": "Labor Elektrotechnik (Gr. 1)"
                 }
             ]
         },
@@ -4975,13 +5011,13 @@
             ],
             "Raum 051B": [
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PM",
                     "end": "2021-12-07T10:00:00Z",
                     "start": "2021-12-07T08:00:00Z",
                     "title": "Simulationstechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 BV",
                     "end": "2021-12-07T10:00:00Z",
                     "start": "2021-12-07T08:00:00Z",
                     "title": "Simulationstechnik"
@@ -5055,13 +5091,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-12-07T11:15:00Z",
                     "start": "2021-12-07T08:00:00Z",
                     "title": "Simulationstechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-07T11:15:00Z",
                     "start": "2021-12-07T08:00:00Z",
                     "title": "Simulationstechnik"
@@ -5534,12 +5570,6 @@
                 }
             ],
             "Raum 269C": [
-                {
-                    "course": "TINF21 CS2",
-                    "end": "2021-12-07T11:00:00Z",
-                    "start": "2021-12-07T07:45:00Z",
-                    "title": "Mathematik I"
-                },
                 {
                     "course": "TINF21 CS2",
                     "end": "2021-12-07T13:00:00Z",
@@ -6054,13 +6084,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-08T18:15:00Z",
                     "start": "2021-11-08T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-08T18:15:00Z",
                     "start": "2021-11-08T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -7232,12 +7262,6 @@
                     "end": "2021-12-08T09:00:00Z",
                     "start": "2021-12-08T07:30:00Z",
                     "title": "Klausur \"Mathematik III\""
-                },
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-12-08T11:00:00Z",
-                    "start": "2021-12-08T09:30:00Z",
-                    "title": "Mathematik I"
                 }
             ],
             "Raum 105D": [
@@ -7341,12 +7365,6 @@
                 }
             ],
             "Raum 136.1B": [
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-12-08T09:15:00Z",
-                    "start": "2021-12-08T07:45:00Z",
-                    "title": "Lineare Algebra"
-                },
                 {
                     "course": "TINF21 IT1",
                     "end": "2021-12-08T11:00:00Z",
@@ -8057,13 +8075,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PM",
                     "end": "2021-11-09T11:00:00Z",
                     "start": "2021-11-09T08:15:00Z",
                     "title": "Simulationstechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 BV",
                     "end": "2021-11-09T11:00:00Z",
                     "start": "2021-11-09T08:15:00Z",
                     "title": "Simulationstechnik"
@@ -8723,19 +8741,13 @@
             ],
             "Raum 223A": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2021-11-09T11:15:00Z",
-                    "start": "2021-11-09T08:00:00Z",
-                    "title": "Numerical Methods for Engineers"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2021-11-09T11:15:00Z",
                     "start": "2021-11-09T08:00:00Z",
                     "title": "Numerical Methods for Engineers"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-09T11:15:00Z",
                     "start": "2021-11-09T08:00:00Z",
                     "title": "Numerical Methods for Engineers"
@@ -8748,6 +8760,12 @@
                 },
                 {
                     "course": "TMB19 KT",
+                    "end": "2021-11-09T11:15:00Z",
+                    "start": "2021-11-09T08:00:00Z",
+                    "title": "Numerical Methods for Engineers"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2021-11-09T11:15:00Z",
                     "start": "2021-11-09T08:00:00Z",
                     "title": "Numerical Methods for Engineers"
@@ -8836,12 +8854,6 @@
                 }
             ],
             "Raum 269C": [
-                {
-                    "course": "TINF21 CS2",
-                    "end": "2021-11-09T11:00:00Z",
-                    "start": "2021-11-09T07:45:00Z",
-                    "title": "Mathematik I"
-                },
                 {
                     "course": "TINF21 CS2",
                     "end": "2021-11-09T13:00:00Z",
@@ -9189,13 +9201,13 @@
             ],
             "Raum 022A": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-12-09T11:00:00Z",
                     "start": "2021-12-09T07:30:00Z",
                     "title": "Logistik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-09T11:00:00Z",
                     "start": "2021-12-09T07:30:00Z",
                     "title": "Logistik"
@@ -9415,12 +9427,6 @@
                     "end": "2021-12-09T09:00:00Z",
                     "start": "2021-12-09T07:00:00Z",
                     "title": "Digitaltechnik"
-                },
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-12-09T11:00:00Z",
-                    "start": "2021-12-09T09:30:00Z",
-                    "title": "Lineare Algebra"
                 }
             ],
             "Raum 136B": [
@@ -9753,14 +9759,6 @@
                     "title": "Einf\u00fchrung in die Wirtschaftsinformatik"
                 }
             ],
-            "Raum 269C": [
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-12-09T09:15:00Z",
-                    "start": "2021-12-09T07:45:00Z",
-                    "title": "Mathematik I"
-                }
-            ],
             "Raum 271C": [
                 {
                     "course": "WWI20 DSB",
@@ -9955,13 +9953,13 @@
                     "title": "Technische Mechanik + Festigkeitslehre III Klausur"
                 },
                 {
-                    "course": "TINF20 IT1",
+                    "course": "TINF20 IT2",
                     "end": "2021-12-09T12:00:00Z",
                     "start": "2021-12-09T11:00:00Z",
                     "title": "Klausur: Datenbanken "
                 },
                 {
-                    "course": "TINF20 IT2",
+                    "course": "TINF20 IT1",
                     "end": "2021-12-09T12:00:00Z",
                     "start": "2021-12-09T11:00:00Z",
                     "title": "Klausur: Datenbanken "
@@ -10059,19 +10057,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2022-01-10T10:30:00Z",
-                    "start": "2022-01-10T07:00:00Z",
-                    "title": "Mechatronische Systeme"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2022-01-10T10:30:00Z",
                     "start": "2022-01-10T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-10T10:30:00Z",
                     "start": "2022-01-10T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -10083,6 +10075,12 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
+                    "course": "TMB19 BV",
+                    "end": "2022-01-10T10:30:00Z",
+                    "start": "2022-01-10T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
                     "course": "TMB19 AM2",
                     "end": "2022-01-10T15:45:00Z",
                     "start": "2022-01-10T12:00:00Z",
@@ -10095,13 +10093,13 @@
                     "title": "Regelungstechnik"
                 },
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2022-01-10T18:15:00Z",
                     "start": "2022-01-10T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-10T18:15:00Z",
                     "start": "2022-01-10T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -10227,13 +10225,13 @@
                     "title": "Klausur BWL I"
                 },
                 {
-                    "course": "WSTL21 C",
+                    "course": "WSTL21 D",
                     "end": "2022-01-10T10:00:00Z",
                     "start": "2022-01-10T08:00:00Z",
                     "title": "Klausur BWL I"
                 },
                 {
-                    "course": "WSTL21 D",
+                    "course": "WSTL21 C",
                     "end": "2022-01-10T10:00:00Z",
                     "start": "2022-01-10T08:00:00Z",
                     "title": "Klausur BWL I"
@@ -10541,14 +10539,6 @@
                     "title": "Gesch\u00e4ftsprozesse und deren Umsetzung (W3WI_106)"
                 }
             ],
-            "Raum 105A": [
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-11-10T11:00:00Z",
-                    "start": "2021-11-10T09:30:00Z",
-                    "title": "Mathematik I"
-                }
-            ],
             "Raum 105D": [
                 {
                     "course": "WFD20 A",
@@ -10774,12 +10764,6 @@
                 }
             ],
             "Raum 136.1B": [
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-11-10T09:15:00Z",
-                    "start": "2021-11-10T07:45:00Z",
-                    "title": "Lineare Algebra"
-                },
                 {
                     "course": "TINF21 IT1",
                     "end": "2021-11-10T11:00:00Z",
@@ -12005,13 +11989,13 @@
                     "title": "Thermodynamik - Testat"
                 },
                 {
-                    "course": "TMB20 A",
+                    "course": "TMB20 B",
                     "end": "2021-12-10T11:00:00Z",
                     "start": "2021-12-10T09:00:00Z",
                     "title": "TMB20A+B - Klausur TM/FL III"
                 },
                 {
-                    "course": "TMB20 B",
+                    "course": "TMB20 A",
                     "end": "2021-12-10T11:00:00Z",
                     "start": "2021-12-10T09:00:00Z",
                     "title": "TMB20A+B - Klausur TM/FL III"
@@ -12121,19 +12105,13 @@
             ],
             "Raum 104A": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2022-01-11T18:00:00Z",
-                    "start": "2022-01-11T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2022-01-11T18:00:00Z",
                     "start": "2022-01-11T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-11T18:00:00Z",
                     "start": "2022-01-11T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -12152,6 +12130,12 @@
                 },
                 {
                     "course": "TMB19 PT",
+                    "end": "2022-01-11T18:00:00Z",
+                    "start": "2022-01-11T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2022-01-11T18:00:00Z",
                     "start": "2022-01-11T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -12761,12 +12745,6 @@
                     "end": "2021-11-11T09:00:00Z",
                     "start": "2021-11-11T07:00:00Z",
                     "title": "Digitaltechnik"
-                },
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-11-11T11:00:00Z",
-                    "start": "2021-11-11T09:30:00Z",
-                    "title": "Lineare Algebra"
                 }
             ],
             "Raum 136B": [
@@ -13257,14 +13235,6 @@
                     "title": "Einf\u00fchrung in die Programmierung"
                 }
             ],
-            "Raum 269C": [
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-11-11T09:15:00Z",
-                    "start": "2021-11-11T07:45:00Z",
-                    "title": "Mathematik I"
-                }
-            ],
             "Raum 273C": [
                 {
                     "course": "WWI21 DSA",
@@ -13717,13 +13687,13 @@
                     "title": "Klausur Mathematik"
                 },
                 {
-                    "course": "WSTL21 C",
+                    "course": "WSTL21 D",
                     "end": "2022-01-12T09:00:00Z",
                     "start": "2022-01-12T08:00:00Z",
                     "title": "Klausur Mathematik"
                 },
                 {
-                    "course": "WSTL21 D",
+                    "course": "WSTL21 C",
                     "end": "2022-01-12T09:00:00Z",
                     "start": "2022-01-12T08:00:00Z",
                     "title": "Klausur Mathematik"
@@ -13961,13 +13931,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-12T11:00:00Z",
                     "start": "2021-11-12T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-12T11:00:00Z",
                     "start": "2021-11-12T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -15088,19 +15058,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2021-12-13T10:30:00Z",
-                    "start": "2021-12-13T07:00:00Z",
-                    "title": "Mechatronische Systeme"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2021-12-13T10:30:00Z",
                     "start": "2021-12-13T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-13T10:30:00Z",
                     "start": "2021-12-13T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -15112,13 +15076,19 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 BV",
+                    "end": "2021-12-13T10:30:00Z",
+                    "start": "2021-12-13T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
+                    "course": "TMB19 AM2",
                     "end": "2021-12-13T18:15:00Z",
                     "start": "2021-12-13T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-13T18:15:00Z",
                     "start": "2021-12-13T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -15668,13 +15638,13 @@
             ],
             "Raum 104A": [
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 KT",
                     "end": "2022-01-14T15:30:00Z",
                     "start": "2022-01-14T12:00:00Z",
                     "title": "Qualit\u00e4tsmanagement"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 BV",
                     "end": "2022-01-14T15:30:00Z",
                     "start": "2022-01-14T12:00:00Z",
                     "title": "Qualit\u00e4tsmanagement"
@@ -15682,13 +15652,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2022-01-14T11:00:00Z",
                     "start": "2022-01-14T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-14T11:00:00Z",
                     "start": "2022-01-14T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -15826,13 +15796,13 @@
                     "title": "Klausur VBL I"
                 },
                 {
-                    "course": "WSTL21 C",
+                    "course": "WSTL21 D",
                     "end": "2022-01-14T10:00:00Z",
                     "start": "2022-01-14T08:00:00Z",
                     "title": "Klausur VBL I"
                 },
                 {
-                    "course": "WSTL21 D",
+                    "course": "WSTL21 C",
                     "end": "2022-01-14T10:00:00Z",
                     "start": "2022-01-14T08:00:00Z",
                     "title": "Klausur VBL I"
@@ -16338,12 +16308,6 @@
                 }
             ],
             "Raum 269C": [
-                {
-                    "course": "TINF21 CS2",
-                    "end": "2021-12-14T11:00:00Z",
-                    "start": "2021-12-14T07:45:00Z",
-                    "title": "Mathematik I"
-                },
                 {
                     "course": "TINF21 CS2",
                     "end": "2021-12-14T13:00:00Z",
@@ -16910,13 +16874,13 @@
                     "title": "Regelungstechnik"
                 },
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-15T18:15:00Z",
                     "start": "2021-11-15T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-15T18:15:00Z",
                     "start": "2021-11-15T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -18077,12 +18041,6 @@
             "Raum 136.1B": [
                 {
                     "course": "TINF21 IT1",
-                    "end": "2021-12-15T09:15:00Z",
-                    "start": "2021-12-15T07:45:00Z",
-                    "title": "Lineare Algebra"
-                },
-                {
-                    "course": "TINF21 IT1",
                     "end": "2021-12-15T11:00:00Z",
                     "start": "2021-12-15T09:30:00Z",
                     "title": "Tutorium Mathematik"
@@ -18394,13 +18352,13 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2021-12-15T10:00:00Z",
                     "start": "2021-12-15T09:00:00Z",
                     "title": "Mathematik II (W3WI_602)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2021-12-15T10:00:00Z",
                     "start": "2021-12-15T09:00:00Z",
                     "title": "Mathematik II (W3WI_602)"
@@ -19384,12 +19342,6 @@
             "Raum 269C": [
                 {
                     "course": "TINF21 CS2",
-                    "end": "2021-11-16T11:00:00Z",
-                    "start": "2021-11-16T07:45:00Z",
-                    "title": "Mathematik I"
-                },
-                {
-                    "course": "TINF21 CS2",
                     "end": "2021-11-16T13:00:00Z",
                     "start": "2021-11-16T11:30:00Z",
                     "title": "Tutorium Mathematik"
@@ -19651,19 +19603,13 @@
         "16.12.2021": {
             "CAD-Raum 04A": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2021-12-16T08:45:00Z",
-                    "start": "2021-12-16T08:00:00Z",
-                    "title": "Konstruktions- und Entwicklungstechnik"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2021-12-16T08:45:00Z",
                     "start": "2021-12-16T08:00:00Z",
                     "title": "Konstruktions- und Entwicklungstechnik"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-16T08:45:00Z",
                     "start": "2021-12-16T08:00:00Z",
                     "title": "Konstruktions- und Entwicklungstechnik"
@@ -19676,6 +19622,12 @@
                 },
                 {
                     "course": "TMB19 KT",
+                    "end": "2021-12-16T08:45:00Z",
+                    "start": "2021-12-16T08:00:00Z",
+                    "title": "Konstruktions- und Entwicklungstechnik"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2021-12-16T08:45:00Z",
                     "start": "2021-12-16T08:00:00Z",
                     "title": "Konstruktions- und Entwicklungstechnik"
@@ -19857,12 +19809,6 @@
                     "end": "2021-12-16T09:00:00Z",
                     "start": "2021-12-16T07:00:00Z",
                     "title": "Digitaltechnik"
-                },
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-12-16T11:00:00Z",
-                    "start": "2021-12-16T09:30:00Z",
-                    "title": "Lineare Algebra"
                 },
                 {
                     "course": "TEL19 AT2",
@@ -20077,14 +20023,6 @@
                     "title": "Unternehmenssimulation"
                 }
             ],
-            "Raum 269C": [
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-12-16T09:15:00Z",
-                    "start": "2021-12-16T07:45:00Z",
-                    "title": "Mathematik I"
-                }
-            ],
             "Raum 271C": [
                 {
                     "course": "WWI20 DSB",
@@ -20213,13 +20151,13 @@
             ],
             "Raum folgt": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-12-16T09:00:00Z",
                     "start": "2021-12-16T07:30:00Z",
                     "title": "Klausur Produktionsplanung"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-16T09:00:00Z",
                     "start": "2021-12-16T07:30:00Z",
                     "title": "Klausur Produktionsplanung"
@@ -20257,13 +20195,13 @@
             ],
             "Raum 104A": [
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 KT",
                     "end": "2022-01-17T15:30:00Z",
                     "start": "2022-01-17T12:00:00Z",
                     "title": "Qualit\u00e4tsmanagement"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 BV",
                     "end": "2022-01-17T15:30:00Z",
                     "start": "2022-01-17T12:00:00Z",
                     "title": "Qualit\u00e4tsmanagement"
@@ -20271,19 +20209,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2022-01-17T10:30:00Z",
-                    "start": "2022-01-17T07:00:00Z",
-                    "title": "Mechatronische Systeme"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2022-01-17T10:30:00Z",
                     "start": "2022-01-17T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-17T10:30:00Z",
                     "start": "2022-01-17T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -20295,13 +20227,19 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 BV",
+                    "end": "2022-01-17T10:30:00Z",
+                    "start": "2022-01-17T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
+                    "course": "TMB19 AM2",
                     "end": "2022-01-17T18:15:00Z",
                     "start": "2022-01-17T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-17T18:15:00Z",
                     "start": "2022-01-17T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -20695,14 +20633,6 @@
                     "title": "Gesch\u00e4ftsprozesse und deren Umsetzung (W3WI_106)"
                 }
             ],
-            "Raum 105A": [
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-11-17T11:00:00Z",
-                    "start": "2021-11-17T09:30:00Z",
-                    "title": "Mathematik I"
-                }
-            ],
             "Raum 106A": [
                 {
                     "course": "TMB20 C",
@@ -20920,12 +20850,6 @@
                 }
             ],
             "Raum 136.1B": [
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-11-17T09:15:00Z",
-                    "start": "2021-11-17T07:45:00Z",
-                    "title": "Lineare Algebra"
-                },
                 {
                     "course": "TINF21 IT1",
                     "end": "2021-11-17T11:00:00Z",
@@ -22183,19 +22107,13 @@
             ],
             "Raum 104A": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2022-01-18T18:00:00Z",
-                    "start": "2022-01-18T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2022-01-18T18:00:00Z",
                     "start": "2022-01-18T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-18T18:00:00Z",
                     "start": "2022-01-18T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -22214,6 +22132,12 @@
                 },
                 {
                     "course": "TMB19 PT",
+                    "end": "2022-01-18T18:00:00Z",
+                    "start": "2022-01-18T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2022-01-18T18:00:00Z",
                     "start": "2022-01-18T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -22403,13 +22327,13 @@
             ],
             "Raum 022A": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-18T11:00:00Z",
                     "start": "2021-11-18T07:30:00Z",
                     "title": "Logistik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-18T11:00:00Z",
                     "start": "2021-11-18T07:30:00Z",
                     "title": "Logistik"
@@ -22621,19 +22545,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2021-11-18T10:00:00Z",
-                    "start": "2021-11-18T07:00:00Z",
-                    "title": "Konstruktions- und Entwicklungstechnik"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2021-11-18T10:00:00Z",
                     "start": "2021-11-18T07:00:00Z",
                     "title": "Konstruktions- und Entwicklungstechnik"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-18T10:00:00Z",
                     "start": "2021-11-18T07:00:00Z",
                     "title": "Konstruktions- und Entwicklungstechnik"
@@ -22646,6 +22564,12 @@
                 },
                 {
                     "course": "TMB19 KT",
+                    "end": "2021-11-18T10:00:00Z",
+                    "start": "2021-11-18T07:00:00Z",
+                    "title": "Konstruktions- und Entwicklungstechnik"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2021-11-18T10:00:00Z",
                     "start": "2021-11-18T07:00:00Z",
                     "title": "Konstruktions- und Entwicklungstechnik"
@@ -22855,12 +22779,6 @@
                     "end": "2021-11-18T09:00:00Z",
                     "start": "2021-11-18T07:00:00Z",
                     "title": "Digitaltechnik"
-                },
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-11-18T11:00:00Z",
-                    "start": "2021-11-18T09:30:00Z",
-                    "title": "Lineare Algebra"
                 }
             ],
             "Raum 136B": [
@@ -23362,12 +23280,6 @@
                 }
             ],
             "Raum 269C": [
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-11-18T09:15:00Z",
-                    "start": "2021-11-18T07:45:00Z",
-                    "title": "Mathematik I"
-                },
                 {
                     "course": "TINF19 IT1",
                     "end": "2021-11-18T15:00:00Z",
@@ -24013,13 +23925,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-19T11:00:00Z",
                     "start": "2021-11-19T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-19T11:00:00Z",
                     "start": "2021-11-19T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -25089,13 +25001,13 @@
                     "title": "Qualit\u00e4tsmanagement"
                 },
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-12-20T18:15:00Z",
                     "start": "2021-12-20T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-20T18:15:00Z",
                     "start": "2021-12-20T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -25429,13 +25341,13 @@
                     "title": "Webentwicklung"
                 },
                 {
-                    "course": "TINF19 AI1",
+                    "course": "TINF19 AI2",
                     "end": "2021-12-20T15:30:00Z",
                     "start": "2021-12-20T13:30:00Z",
                     "title": "Klausur: Datenbanken II"
                 },
                 {
-                    "course": "TINF19 AI2",
+                    "course": "TINF19 AI1",
                     "end": "2021-12-20T15:30:00Z",
                     "start": "2021-12-20T13:30:00Z",
                     "title": "Klausur: Datenbanken II"
@@ -25467,13 +25379,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2022-01-21T11:00:00Z",
                     "start": "2022-01-21T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-21T11:00:00Z",
                     "start": "2022-01-21T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -25992,13 +25904,13 @@
                     "title": "Wirtschaftspolitik"
                 },
                 {
-                    "course": "TINF20 AI2",
+                    "course": "TINF20 AI1",
                     "end": "2021-12-21T12:30:00Z",
                     "start": "2021-12-21T11:00:00Z",
                     "title": "Klausur: Angewandte Mathematik"
                 },
                 {
-                    "course": "TINF20 AI1",
+                    "course": "TINF20 AI2",
                     "end": "2021-12-21T12:30:00Z",
                     "start": "2021-12-21T11:00:00Z",
                     "title": "Klausur: Angewandte Mathematik"
@@ -26273,6 +26185,14 @@
                     "title": "IT-Sicherheit"
                 }
             ],
+            "Raum 101D": [
+                {
+                    "course": "WIB21 A",
+                    "end": "2021-11-22T11:00:00Z",
+                    "start": "2021-11-22T07:30:00Z",
+                    "title": "Foundations of Communication, Pradier-Staab"
+                }
+            ],
             "Raum 102D": [
                 {
                     "course": "WIB21 A",
@@ -26325,13 +26245,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-22T18:15:00Z",
                     "start": "2021-11-22T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-22T18:15:00Z",
                     "start": "2021-11-22T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -27613,13 +27533,13 @@
                     "title": "Werkstofftechnik und Konstruktionslehre"
                 },
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2021-12-22T12:00:00Z",
                     "start": "2021-12-22T11:00:00Z",
                     "title": "Finanzierung und Rechnungswesen (W3WI_203)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2021-12-22T12:00:00Z",
                     "start": "2021-12-22T11:00:00Z",
                     "title": "Finanzierung und Rechnungswesen (W3WI_203)"
@@ -27800,19 +27720,13 @@
             ],
             "Raum 051B": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2021-11-23T11:15:00Z",
-                    "start": "2021-11-23T08:00:00Z",
-                    "title": "Simulationstechnik"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2021-11-23T11:15:00Z",
                     "start": "2021-11-23T08:00:00Z",
                     "title": "Simulationstechnik"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-23T11:15:00Z",
                     "start": "2021-11-23T08:00:00Z",
                     "title": "Simulationstechnik"
@@ -27825,6 +27739,12 @@
                 },
                 {
                     "course": "TMB19 KT",
+                    "end": "2021-11-23T11:15:00Z",
+                    "start": "2021-11-23T08:00:00Z",
+                    "title": "Simulationstechnik"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2021-11-23T11:15:00Z",
                     "start": "2021-11-23T08:00:00Z",
                     "title": "Simulationstechnik"
@@ -27938,13 +27858,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-23T11:15:00Z",
                     "start": "2021-11-23T08:00:00Z",
                     "title": "Simulationstechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-23T11:15:00Z",
                     "start": "2021-11-23T08:00:00Z",
                     "title": "Simulationstechnik"
@@ -28623,12 +28543,6 @@
             "Raum 269C": [
                 {
                     "course": "TINF21 CS2",
-                    "end": "2021-11-23T11:00:00Z",
-                    "start": "2021-11-23T07:45:00Z",
-                    "title": "Mathematik I"
-                },
-                {
-                    "course": "TINF21 CS2",
                     "end": "2021-11-23T13:00:00Z",
                     "start": "2021-11-23T11:30:00Z",
                     "title": "Tutorium Mathematik"
@@ -28912,13 +28826,13 @@
             ],
             "Raum 036B": [
                 {
-                    "course": "TEL19 AT1",
+                    "course": "TEL19 AT2",
                     "end": "2021-12-23T09:00:00Z",
                     "start": "2021-12-23T07:00:00Z",
                     "title": "Elektronik 4 und GET3 Labor"
                 },
                 {
-                    "course": "TEL19 AT2",
+                    "course": "TEL19 AT1",
                     "end": "2021-12-23T09:00:00Z",
                     "start": "2021-12-23T07:00:00Z",
                     "title": "Elektronik 4 und GET3 Labor"
@@ -29102,19 +29016,13 @@
         "24.01.2022": {
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2022-01-24T10:30:00Z",
-                    "start": "2022-01-24T07:00:00Z",
-                    "title": "Mechatronische Systeme"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2022-01-24T10:30:00Z",
                     "start": "2022-01-24T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-24T10:30:00Z",
                     "start": "2022-01-24T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -29126,6 +29034,12 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
+                    "course": "TMB19 BV",
+                    "end": "2022-01-24T10:30:00Z",
+                    "start": "2022-01-24T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
                     "course": "TMB19 AM2",
                     "end": "2022-01-24T15:45:00Z",
                     "start": "2022-01-24T12:00:00Z",
@@ -29138,13 +29052,13 @@
                     "title": "Regelungstechnik"
                 },
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2022-01-24T18:15:00Z",
                     "start": "2022-01-24T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-24T18:15:00Z",
                     "start": "2022-01-24T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -29508,12 +29422,6 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TINF21 CS1",
-                    "end": "2021-11-24T11:00:00Z",
-                    "start": "2021-11-24T09:30:00Z",
-                    "title": "Mathematik I"
-                },
-                {
                     "course": "TCT 19",
                     "end": "2021-11-24T13:30:00Z",
                     "start": "2021-11-24T12:00:00Z",
@@ -29725,12 +29633,6 @@
                 }
             ],
             "Raum 136.1B": [
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-11-24T09:15:00Z",
-                    "start": "2021-11-24T07:45:00Z",
-                    "title": "Lineare Algebra"
-                },
                 {
                     "course": "TINF21 IT1",
                     "end": "2021-11-24T11:00:00Z",
@@ -30339,19 +30241,13 @@
         "25.01.2022": {
             "Raum 104A": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2022-01-25T18:00:00Z",
-                    "start": "2022-01-25T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2022-01-25T18:00:00Z",
                     "start": "2022-01-25T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-25T18:00:00Z",
                     "start": "2022-01-25T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -30370,6 +30266,12 @@
                 },
                 {
                     "course": "TMB19 PT",
+                    "end": "2022-01-25T18:00:00Z",
+                    "start": "2022-01-25T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2022-01-25T18:00:00Z",
                     "start": "2022-01-25T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -30547,13 +30449,13 @@
             ],
             "Raum 022A": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-25T11:00:00Z",
                     "start": "2021-11-25T07:30:00Z",
                     "title": "Logistik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-25T11:00:00Z",
                     "start": "2021-11-25T07:30:00Z",
                     "title": "Logistik"
@@ -30925,12 +30827,6 @@
                     "end": "2021-11-25T09:00:00Z",
                     "start": "2021-11-25T07:00:00Z",
                     "title": "Digitaltechnik"
-                },
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-11-25T11:00:00Z",
-                    "start": "2021-11-25T09:30:00Z",
-                    "title": "Lineare Algebra"
                 }
             ],
             "Raum 136B": [
@@ -31398,12 +31294,6 @@
                 }
             ],
             "Raum 269C": [
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-11-25T09:15:00Z",
-                    "start": "2021-11-25T07:45:00Z",
-                    "title": "Mathematik I"
-                },
                 {
                     "course": "TINF19 IT1",
                     "end": "2021-11-25T15:00:00Z",
@@ -32000,13 +31890,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-26T11:00:00Z",
                     "start": "2021-11-26T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-26T11:00:00Z",
                     "start": "2021-11-26T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -33223,13 +33113,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-29T18:15:00Z",
                     "start": "2021-11-29T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-29T18:15:00Z",
                     "start": "2021-11-29T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -35002,12 +34892,6 @@
             "Raum 269C": [
                 {
                     "course": "TINF21 CS2",
-                    "end": "2021-11-30T11:00:00Z",
-                    "start": "2021-11-30T07:45:00Z",
-                    "title": "Mathematik I"
-                },
-                {
-                    "course": "TINF21 CS2",
                     "end": "2021-11-30T13:00:00Z",
                     "start": "2021-11-30T11:30:00Z",
                     "title": "Tutorium Mathematik"
@@ -35254,13 +35138,13 @@
             ],
             "Raum 104A": [
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 KT",
                     "end": "2022-01-31T15:30:00Z",
                     "start": "2022-01-31T12:00:00Z",
                     "title": "Qualit\u00e4tsmanagement"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 BV",
                     "end": "2022-01-31T15:30:00Z",
                     "start": "2022-01-31T12:00:00Z",
                     "title": "Qualit\u00e4tsmanagement"
@@ -35268,19 +35152,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2022-01-31T10:30:00Z",
-                    "start": "2022-01-31T07:00:00Z",
-                    "title": "Mechatronische Systeme"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2022-01-31T10:30:00Z",
                     "start": "2022-01-31T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-31T10:30:00Z",
                     "start": "2022-01-31T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -35292,13 +35170,19 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 BV",
+                    "end": "2022-01-31T10:30:00Z",
+                    "start": "2022-01-31T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
+                    "course": "TMB19 AM2",
                     "end": "2022-01-31T18:15:00Z",
                     "start": "2022-01-31T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-31T18:15:00Z",
                     "start": "2022-01-31T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -35369,19 +35253,13 @@
             ],
             "16.12.2021": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2021-12-16T08:45:00Z",
-                    "start": "2021-12-16T08:00:00Z",
-                    "title": "Konstruktions- und Entwicklungstechnik"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2021-12-16T08:45:00Z",
                     "start": "2021-12-16T08:00:00Z",
                     "title": "Konstruktions- und Entwicklungstechnik"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-16T08:45:00Z",
                     "start": "2021-12-16T08:00:00Z",
                     "title": "Konstruktions- und Entwicklungstechnik"
@@ -35394,6 +35272,12 @@
                 },
                 {
                     "course": "TMB19 KT",
+                    "end": "2021-12-16T08:45:00Z",
+                    "start": "2021-12-16T08:00:00Z",
+                    "title": "Konstruktions- und Entwicklungstechnik"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2021-12-16T08:45:00Z",
                     "start": "2021-12-16T08:00:00Z",
                     "title": "Konstruktions- und Entwicklungstechnik"
@@ -39417,13 +39301,13 @@
             ],
             "09.12.2021": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-12-09T11:00:00Z",
                     "start": "2021-12-09T07:30:00Z",
                     "title": "Logistik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-09T11:00:00Z",
                     "start": "2021-12-09T07:30:00Z",
                     "title": "Logistik"
@@ -39547,13 +39431,13 @@
             ],
             "18.11.2021": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-18T11:00:00Z",
                     "start": "2021-11-18T07:30:00Z",
                     "title": "Logistik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-18T11:00:00Z",
                     "start": "2021-11-18T07:30:00Z",
                     "title": "Logistik"
@@ -39655,13 +39539,13 @@
             ],
             "25.11.2021": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-25T11:00:00Z",
                     "start": "2021-11-25T07:30:00Z",
                     "title": "Logistik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-25T11:00:00Z",
                     "start": "2021-11-25T07:30:00Z",
                     "title": "Logistik"
@@ -39831,20 +39715,6 @@
                     "end": "2021-12-03T11:30:00Z",
                     "start": "2021-12-03T08:15:00Z",
                     "title": "IT-Sicherheit"
-                }
-            ],
-            "07.11.2021": [
-                {
-                    "course": "TINF19 IT2",
-                    "end": "2021-11-07T11:30:00Z",
-                    "start": "2021-11-07T08:30:00Z",
-                    "title": "Einf\u00fchrung in die Robotik"
-                },
-                {
-                    "course": "TINF19 IT2",
-                    "end": "2021-11-07T16:00:00Z",
-                    "start": "2021-11-07T13:00:00Z",
-                    "title": "Einf\u00fchrung in die Robotik"
                 }
             ],
             "07.12.2021": [
@@ -40267,13 +40137,13 @@
             ],
             "23.12.2021": [
                 {
-                    "course": "TEL19 AT1",
+                    "course": "TEL19 AT2",
                     "end": "2021-12-23T09:00:00Z",
                     "start": "2021-12-23T07:00:00Z",
                     "title": "Elektronik 4 und GET3 Labor"
                 },
                 {
-                    "course": "TEL19 AT2",
+                    "course": "TEL19 AT1",
                     "end": "2021-12-23T09:00:00Z",
                     "start": "2021-12-23T07:00:00Z",
                     "title": "Elektronik 4 und GET3 Labor"
@@ -41193,13 +41063,13 @@
             ],
             "07.12.2021": [
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PM",
                     "end": "2021-12-07T10:00:00Z",
                     "start": "2021-12-07T08:00:00Z",
                     "title": "Simulationstechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 BV",
                     "end": "2021-12-07T10:00:00Z",
                     "start": "2021-12-07T08:00:00Z",
                     "title": "Simulationstechnik"
@@ -41283,19 +41153,13 @@
             ],
             "23.11.2021": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2021-11-23T11:15:00Z",
-                    "start": "2021-11-23T08:00:00Z",
-                    "title": "Simulationstechnik"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2021-11-23T11:15:00Z",
                     "start": "2021-11-23T08:00:00Z",
                     "title": "Simulationstechnik"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-23T11:15:00Z",
                     "start": "2021-11-23T08:00:00Z",
                     "title": "Simulationstechnik"
@@ -41308,6 +41172,12 @@
                 },
                 {
                     "course": "TMB19 KT",
+                    "end": "2021-11-23T11:15:00Z",
+                    "start": "2021-11-23T08:00:00Z",
+                    "title": "Simulationstechnik"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2021-11-23T11:15:00Z",
                     "start": "2021-11-23T08:00:00Z",
                     "title": "Simulationstechnik"
@@ -43631,6 +43501,14 @@
                     "title": "Selbststudium Integrationsseminar"
                 }
             ],
+            "22.11.2021": [
+                {
+                    "course": "WIB21 A",
+                    "end": "2021-11-22T11:00:00Z",
+                    "start": "2021-11-22T07:30:00Z",
+                    "title": "Foundations of Communication, Pradier-Staab"
+                }
+            ],
             "25.11.2021": [
                 {
                     "course": "WIB19 A",
@@ -44005,19 +43883,13 @@
         "Raum 104A": {
             "01.02.2022": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2022-02-01T18:00:00Z",
-                    "start": "2022-02-01T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2022-02-01T18:00:00Z",
                     "start": "2022-02-01T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2022-02-01T18:00:00Z",
                     "start": "2022-02-01T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -44036,6 +43908,12 @@
                 },
                 {
                     "course": "TMB19 PT",
+                    "end": "2022-02-01T18:00:00Z",
+                    "start": "2022-02-01T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2022-02-01T18:00:00Z",
                     "start": "2022-02-01T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -44097,6 +43975,20 @@
                     "end": "2021-12-06T17:45:00Z",
                     "start": "2021-12-06T14:30:00Z",
                     "title": "Marketing - \u00dcbung"
+                }
+            ],
+            "07.02.2022": [
+                {
+                    "course": "TMB19 KT",
+                    "end": "2022-02-07T15:30:00Z",
+                    "start": "2022-02-07T12:00:00Z",
+                    "title": "Qualit\u00e4tsmanagement"
+                },
+                {
+                    "course": "TMB19 BV",
+                    "end": "2022-02-07T15:30:00Z",
+                    "start": "2022-02-07T12:00:00Z",
+                    "title": "Qualit\u00e4tsmanagement"
                 }
             ],
             "07.12.2021": [
@@ -44173,19 +44065,13 @@
             ],
             "11.01.2022": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2022-01-11T18:00:00Z",
-                    "start": "2022-01-11T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2022-01-11T18:00:00Z",
                     "start": "2022-01-11T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-11T18:00:00Z",
                     "start": "2022-01-11T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -44204,6 +44090,12 @@
                 },
                 {
                     "course": "TMB19 PT",
+                    "end": "2022-01-11T18:00:00Z",
+                    "start": "2022-01-11T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2022-01-11T18:00:00Z",
                     "start": "2022-01-11T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -44241,13 +44133,13 @@
             ],
             "14.01.2022": [
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 KT",
                     "end": "2022-01-14T15:30:00Z",
                     "start": "2022-01-14T12:00:00Z",
                     "title": "Qualit\u00e4tsmanagement"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 BV",
                     "end": "2022-01-14T15:30:00Z",
                     "start": "2022-01-14T12:00:00Z",
                     "title": "Qualit\u00e4tsmanagement"
@@ -44277,13 +44169,13 @@
             ],
             "17.01.2022": [
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 KT",
                     "end": "2022-01-17T15:30:00Z",
                     "start": "2022-01-17T12:00:00Z",
                     "title": "Qualit\u00e4tsmanagement"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 BV",
                     "end": "2022-01-17T15:30:00Z",
                     "start": "2022-01-17T12:00:00Z",
                     "title": "Qualit\u00e4tsmanagement"
@@ -44299,19 +44191,13 @@
             ],
             "18.01.2022": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2022-01-18T18:00:00Z",
-                    "start": "2022-01-18T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2022-01-18T18:00:00Z",
                     "start": "2022-01-18T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-18T18:00:00Z",
                     "start": "2022-01-18T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -44330,6 +44216,12 @@
                 },
                 {
                     "course": "TMB19 PT",
+                    "end": "2022-01-18T18:00:00Z",
+                    "start": "2022-01-18T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2022-01-18T18:00:00Z",
                     "start": "2022-01-18T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -44431,19 +44323,13 @@
             ],
             "25.01.2022": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2022-01-25T18:00:00Z",
-                    "start": "2022-01-25T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2022-01-25T18:00:00Z",
                     "start": "2022-01-25T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-25T18:00:00Z",
                     "start": "2022-01-25T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -44462,6 +44348,12 @@
                 },
                 {
                     "course": "TMB19 PT",
+                    "end": "2022-01-25T18:00:00Z",
+                    "start": "2022-01-25T13:45:00Z",
+                    "title": "Luftfahrttechnik"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2022-01-25T18:00:00Z",
                     "start": "2022-01-25T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -44523,13 +44415,13 @@
             ],
             "31.01.2022": [
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 KT",
                     "end": "2022-01-31T15:30:00Z",
                     "start": "2022-01-31T12:00:00Z",
                     "title": "Qualit\u00e4tsmanagement"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 BV",
                     "end": "2022-01-31T15:30:00Z",
                     "start": "2022-01-31T12:00:00Z",
                     "title": "Qualit\u00e4tsmanagement"
@@ -44767,21 +44659,9 @@
                     "end": "2021-12-01T09:30:00Z",
                     "start": "2021-12-01T08:00:00Z",
                     "title": "Klausur \"Fluidmechanik\""
-                },
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-12-01T11:00:00Z",
-                    "start": "2021-12-01T09:30:00Z",
-                    "title": "Mathematik I"
                 }
             ],
             "02.12.2021": [
-                {
-                    "course": "TMB19 AM1",
-                    "end": "2021-12-02T10:00:00Z",
-                    "start": "2021-12-02T07:00:00Z",
-                    "title": "Konstruktions- und Entwicklungstechnik"
-                },
                 {
                     "course": "TMB19 AM2",
                     "end": "2021-12-02T10:00:00Z",
@@ -44789,7 +44669,7 @@
                     "title": "Konstruktions- und Entwicklungstechnik"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-02T10:00:00Z",
                     "start": "2021-12-02T07:00:00Z",
                     "title": "Konstruktions- und Entwicklungstechnik"
@@ -44802,6 +44682,12 @@
                 },
                 {
                     "course": "TMB19 KT",
+                    "end": "2021-12-02T10:00:00Z",
+                    "start": "2021-12-02T07:00:00Z",
+                    "title": "Konstruktions- und Entwicklungstechnik"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2021-12-02T10:00:00Z",
                     "start": "2021-12-02T07:00:00Z",
                     "title": "Konstruktions- und Entwicklungstechnik"
@@ -44853,13 +44739,13 @@
             ],
             "03.12.2021": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-12-03T11:00:00Z",
                     "start": "2021-12-03T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-03T11:00:00Z",
                     "start": "2021-12-03T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -44899,25 +44785,25 @@
             ],
             "06.12.2021": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2021-12-06T10:30:00Z",
-                    "start": "2021-12-06T07:00:00Z",
-                    "title": "Mechatronische Systeme"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2021-12-06T10:30:00Z",
                     "start": "2021-12-06T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-06T10:30:00Z",
                     "start": "2021-12-06T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
                     "course": "TMB19 PT",
+                    "end": "2021-12-06T10:30:00Z",
+                    "start": "2021-12-06T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2021-12-06T10:30:00Z",
                     "start": "2021-12-06T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -44935,13 +44821,13 @@
                     "title": "Regelungstechnik"
                 },
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-12-06T18:15:00Z",
                     "start": "2021-12-06T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-06T18:15:00Z",
                     "start": "2021-12-06T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -44953,15 +44839,59 @@
                     "title": "Fahrzeugtechnik"
                 }
             ],
-            "07.12.2021": [
+            "07.02.2022": [
+                {
+                    "course": "TMB19 AM2",
+                    "end": "2022-02-07T10:30:00Z",
+                    "start": "2022-02-07T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
                 {
                     "course": "TMB19 AM1",
+                    "end": "2022-02-07T10:30:00Z",
+                    "start": "2022-02-07T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
+                    "course": "TMB19 PT",
+                    "end": "2022-02-07T10:30:00Z",
+                    "start": "2022-02-07T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
+                    "course": "TMB19 BV",
+                    "end": "2022-02-07T10:30:00Z",
+                    "start": "2022-02-07T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
+                    "course": "TMB19 AM2",
+                    "end": "2022-02-07T18:15:00Z",
+                    "start": "2022-02-07T16:00:00Z",
+                    "title": "Fahrzeugtechnik"
+                },
+                {
+                    "course": "TMB19 AM1",
+                    "end": "2022-02-07T18:15:00Z",
+                    "start": "2022-02-07T16:00:00Z",
+                    "title": "Fahrzeugtechnik"
+                },
+                {
+                    "course": "TMB19 PT",
+                    "end": "2022-02-07T18:15:00Z",
+                    "start": "2022-02-07T16:00:00Z",
+                    "title": "Fahrzeugtechnik"
+                }
+            ],
+            "07.12.2021": [
+                {
+                    "course": "TMB19 AM2",
                     "end": "2021-12-07T11:15:00Z",
                     "start": "2021-12-07T08:00:00Z",
                     "title": "Simulationstechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-07T11:15:00Z",
                     "start": "2021-12-07T08:00:00Z",
                     "title": "Simulationstechnik"
@@ -44987,13 +44917,13 @@
             ],
             "08.11.2021": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-08T18:15:00Z",
                     "start": "2021-11-08T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-08T18:15:00Z",
                     "start": "2021-11-08T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -45011,23 +44941,17 @@
                     "end": "2021-12-08T09:00:00Z",
                     "start": "2021-12-08T07:30:00Z",
                     "title": "Klausur \"Mathematik III\""
-                },
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-12-08T11:00:00Z",
-                    "start": "2021-12-08T09:30:00Z",
-                    "title": "Mathematik I"
                 }
             ],
             "09.11.2021": [
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PM",
                     "end": "2021-11-09T11:00:00Z",
                     "start": "2021-11-09T08:15:00Z",
                     "title": "Simulationstechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 BV",
                     "end": "2021-11-09T11:00:00Z",
                     "start": "2021-11-09T08:15:00Z",
                     "title": "Simulationstechnik"
@@ -45055,25 +44979,25 @@
             ],
             "10.01.2022": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2022-01-10T10:30:00Z",
-                    "start": "2022-01-10T07:00:00Z",
-                    "title": "Mechatronische Systeme"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2022-01-10T10:30:00Z",
                     "start": "2022-01-10T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-10T10:30:00Z",
                     "start": "2022-01-10T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
                     "course": "TMB19 PT",
+                    "end": "2022-01-10T10:30:00Z",
+                    "start": "2022-01-10T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2022-01-10T10:30:00Z",
                     "start": "2022-01-10T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -45091,13 +45015,13 @@
                     "title": "Regelungstechnik"
                 },
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2022-01-10T18:15:00Z",
                     "start": "2022-01-10T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-10T18:15:00Z",
                     "start": "2022-01-10T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -45107,14 +45031,6 @@
                     "end": "2022-01-10T18:15:00Z",
                     "start": "2022-01-10T16:00:00Z",
                     "title": "Fahrzeugtechnik"
-                }
-            ],
-            "10.11.2021": [
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-11-10T11:00:00Z",
-                    "start": "2021-11-10T09:30:00Z",
-                    "title": "Mathematik I"
                 }
             ],
             "10.12.2021": [
@@ -45149,13 +45065,13 @@
             ],
             "12.11.2021": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-12T11:00:00Z",
                     "start": "2021-11-12T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-12T11:00:00Z",
                     "start": "2021-11-12T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -45187,19 +45103,13 @@
             ],
             "13.12.2021": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2021-12-13T10:30:00Z",
-                    "start": "2021-12-13T07:00:00Z",
-                    "title": "Mechatronische Systeme"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2021-12-13T10:30:00Z",
                     "start": "2021-12-13T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-13T10:30:00Z",
                     "start": "2021-12-13T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -45211,13 +45121,19 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 BV",
+                    "end": "2021-12-13T10:30:00Z",
+                    "start": "2021-12-13T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
+                    "course": "TMB19 AM2",
                     "end": "2021-12-13T18:15:00Z",
                     "start": "2021-12-13T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-13T18:15:00Z",
                     "start": "2021-12-13T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -45231,13 +45147,13 @@
             ],
             "14.01.2022": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2022-01-14T11:00:00Z",
                     "start": "2022-01-14T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-14T11:00:00Z",
                     "start": "2022-01-14T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -45289,13 +45205,13 @@
                     "title": "Regelungstechnik"
                 },
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-15T18:15:00Z",
                     "start": "2021-11-15T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-15T18:15:00Z",
                     "start": "2021-11-15T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -45325,13 +45241,19 @@
             ],
             "17.01.2022": [
                 {
+                    "course": "TMB19 AM2",
+                    "end": "2022-01-17T10:30:00Z",
+                    "start": "2022-01-17T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
                     "course": "TMB19 AM1",
                     "end": "2022-01-17T10:30:00Z",
                     "start": "2022-01-17T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 PT",
                     "end": "2022-01-17T10:30:00Z",
                     "start": "2022-01-17T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -45343,10 +45265,10 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 PT",
-                    "end": "2022-01-17T10:30:00Z",
-                    "start": "2022-01-17T07:00:00Z",
-                    "title": "Mechatronische Systeme"
+                    "course": "TMB19 AM2",
+                    "end": "2022-01-17T18:15:00Z",
+                    "start": "2022-01-17T16:00:00Z",
+                    "title": "Fahrzeugtechnik"
                 },
                 {
                     "course": "TMB19 AM1",
@@ -45355,24 +45277,10 @@
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
-                    "end": "2022-01-17T18:15:00Z",
-                    "start": "2022-01-17T16:00:00Z",
-                    "title": "Fahrzeugtechnik"
-                },
-                {
                     "course": "TMB19 PT",
                     "end": "2022-01-17T18:15:00Z",
                     "start": "2022-01-17T16:00:00Z",
                     "title": "Fahrzeugtechnik"
-                }
-            ],
-            "17.11.2021": [
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-11-17T11:00:00Z",
-                    "start": "2021-11-17T09:30:00Z",
-                    "title": "Mathematik I"
                 }
             ],
             "17.12.2021": [
@@ -45411,19 +45319,13 @@
             ],
             "18.11.2021": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2021-11-18T10:00:00Z",
-                    "start": "2021-11-18T07:00:00Z",
-                    "title": "Konstruktions- und Entwicklungstechnik"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2021-11-18T10:00:00Z",
                     "start": "2021-11-18T07:00:00Z",
                     "title": "Konstruktions- und Entwicklungstechnik"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-18T10:00:00Z",
                     "start": "2021-11-18T07:00:00Z",
                     "title": "Konstruktions- und Entwicklungstechnik"
@@ -45439,17 +45341,23 @@
                     "end": "2021-11-18T10:00:00Z",
                     "start": "2021-11-18T07:00:00Z",
                     "title": "Konstruktions- und Entwicklungstechnik"
+                },
+                {
+                    "course": "TMB19 BV",
+                    "end": "2021-11-18T10:00:00Z",
+                    "start": "2021-11-18T07:00:00Z",
+                    "title": "Konstruktions- und Entwicklungstechnik"
                 }
             ],
             "19.11.2021": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-19T11:00:00Z",
                     "start": "2021-11-19T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-19T11:00:00Z",
                     "start": "2021-11-19T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -45493,13 +45401,13 @@
                     "title": "Qualit\u00e4tsmanagement"
                 },
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-12-20T18:15:00Z",
                     "start": "2021-12-20T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-20T18:15:00Z",
                     "start": "2021-12-20T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -45513,13 +45421,13 @@
             ],
             "21.01.2022": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2022-01-21T11:00:00Z",
                     "start": "2022-01-21T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-21T11:00:00Z",
                     "start": "2022-01-21T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -45545,13 +45453,13 @@
             ],
             "22.11.2021": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-22T18:15:00Z",
                     "start": "2021-11-22T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-22T18:15:00Z",
                     "start": "2021-11-22T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -45565,13 +45473,13 @@
             ],
             "23.11.2021": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-23T11:15:00Z",
                     "start": "2021-11-23T08:00:00Z",
                     "title": "Simulationstechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-23T11:15:00Z",
                     "start": "2021-11-23T08:00:00Z",
                     "title": "Simulationstechnik"
@@ -45591,19 +45499,13 @@
             ],
             "24.01.2022": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2022-01-24T10:30:00Z",
-                    "start": "2022-01-24T07:00:00Z",
-                    "title": "Mechatronische Systeme"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2022-01-24T10:30:00Z",
                     "start": "2022-01-24T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-24T10:30:00Z",
                     "start": "2022-01-24T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -45615,6 +45517,12 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
+                    "course": "TMB19 BV",
+                    "end": "2022-01-24T10:30:00Z",
+                    "start": "2022-01-24T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
                     "course": "TMB19 AM2",
                     "end": "2022-01-24T15:45:00Z",
                     "start": "2022-01-24T12:00:00Z",
@@ -45627,13 +45535,13 @@
                     "title": "Regelungstechnik"
                 },
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2022-01-24T18:15:00Z",
                     "start": "2022-01-24T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-24T18:15:00Z",
                     "start": "2022-01-24T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -45646,12 +45554,6 @@
                 }
             ],
             "24.11.2021": [
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-11-24T11:00:00Z",
-                    "start": "2021-11-24T09:30:00Z",
-                    "title": "Mathematik I"
-                },
                 {
                     "course": "TCT 19",
                     "end": "2021-11-24T13:30:00Z",
@@ -45695,13 +45597,13 @@
             ],
             "26.11.2021": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-26T11:00:00Z",
                     "start": "2021-11-26T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-26T11:00:00Z",
                     "start": "2021-11-26T07:45:00Z",
                     "title": "Handhabungstechnik und Automation"
@@ -45747,13 +45649,13 @@
             ],
             "29.11.2021": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-11-29T18:15:00Z",
                     "start": "2021-11-29T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-29T18:15:00Z",
                     "start": "2021-11-29T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -45781,19 +45683,13 @@
             ],
             "31.01.2022": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2022-01-31T10:30:00Z",
-                    "start": "2022-01-31T07:00:00Z",
-                    "title": "Mechatronische Systeme"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2022-01-31T10:30:00Z",
                     "start": "2022-01-31T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-31T10:30:00Z",
                     "start": "2022-01-31T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -45805,13 +45701,19 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 BV",
+                    "end": "2022-01-31T10:30:00Z",
+                    "start": "2022-01-31T07:00:00Z",
+                    "title": "Mechatronische Systeme"
+                },
+                {
+                    "course": "TMB19 AM2",
                     "end": "2022-01-31T18:15:00Z",
                     "start": "2022-01-31T16:00:00Z",
                     "title": "Fahrzeugtechnik"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2022-01-31T18:15:00Z",
                     "start": "2022-01-31T16:00:00Z",
                     "title": "Fahrzeugtechnik"
@@ -50023,6 +49925,14 @@
                     "title": "Fertigungstechnik - Spanen -"
                 }
             ],
+            "07.02.2022": [
+                {
+                    "course": "TMB21 HVT",
+                    "end": "2022-02-07T11:00:00Z",
+                    "start": "2022-02-07T07:30:00Z",
+                    "title": "Konstruktionlehre und -Entwurf"
+                }
+            ],
             "07.12.2021": [
                 {
                     "course": "TMB21 HVT",
@@ -50568,12 +50478,6 @@
             "01.12.2021": [
                 {
                     "course": "TINF21 IT1",
-                    "end": "2021-12-01T09:15:00Z",
-                    "start": "2021-12-01T07:45:00Z",
-                    "title": "Lineare Algebra"
-                },
-                {
-                    "course": "TINF21 IT1",
                     "end": "2021-12-01T11:00:00Z",
                     "start": "2021-12-01T09:30:00Z",
                     "title": "Tutorium Mathematik"
@@ -50585,12 +50489,6 @@
                     "end": "2021-12-02T09:00:00Z",
                     "start": "2021-12-02T07:00:00Z",
                     "title": "Digitaltechnik"
-                },
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-12-02T11:00:00Z",
-                    "start": "2021-12-02T09:30:00Z",
-                    "title": "Lineare Algebra"
                 }
             ],
             "03.12.2021": [
@@ -50610,12 +50508,6 @@
                 }
             ],
             "08.12.2021": [
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-12-08T09:15:00Z",
-                    "start": "2021-12-08T07:45:00Z",
-                    "title": "Lineare Algebra"
-                },
                 {
                     "course": "TINF21 IT1",
                     "end": "2021-12-08T11:00:00Z",
@@ -50643,21 +50535,9 @@
                     "end": "2021-12-09T09:00:00Z",
                     "start": "2021-12-09T07:00:00Z",
                     "title": "Digitaltechnik"
-                },
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-12-09T11:00:00Z",
-                    "start": "2021-12-09T09:30:00Z",
-                    "title": "Lineare Algebra"
                 }
             ],
             "10.11.2021": [
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-11-10T09:15:00Z",
-                    "start": "2021-11-10T07:45:00Z",
-                    "title": "Lineare Algebra"
-                },
                 {
                     "course": "TINF21 IT1",
                     "end": "2021-11-10T11:00:00Z",
@@ -50685,12 +50565,6 @@
                     "end": "2021-11-11T09:00:00Z",
                     "start": "2021-11-11T07:00:00Z",
                     "title": "Digitaltechnik"
-                },
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-11-11T11:00:00Z",
-                    "start": "2021-11-11T09:30:00Z",
-                    "title": "Lineare Algebra"
                 }
             ],
             "12.11.2021": [
@@ -50712,12 +50586,6 @@
             "15.12.2021": [
                 {
                     "course": "TINF21 IT1",
-                    "end": "2021-12-15T09:15:00Z",
-                    "start": "2021-12-15T07:45:00Z",
-                    "title": "Lineare Algebra"
-                },
-                {
-                    "course": "TINF21 IT1",
                     "end": "2021-12-15T11:00:00Z",
                     "start": "2021-12-15T09:30:00Z",
                     "title": "Tutorium Mathematik"
@@ -50731,12 +50599,6 @@
                     "title": "Digitaltechnik"
                 },
                 {
-                    "course": "TINF21 IT1",
-                    "end": "2021-12-16T11:00:00Z",
-                    "start": "2021-12-16T09:30:00Z",
-                    "title": "Lineare Algebra"
-                },
-                {
                     "course": "TEL19 AT2",
                     "end": "2021-12-16T14:00:00Z",
                     "start": "2021-12-16T12:00:00Z",
@@ -50744,12 +50606,6 @@
                 }
             ],
             "17.11.2021": [
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-11-17T09:15:00Z",
-                    "start": "2021-11-17T07:45:00Z",
-                    "title": "Lineare Algebra"
-                },
                 {
                     "course": "TINF21 IT1",
                     "end": "2021-11-17T11:00:00Z",
@@ -50769,12 +50625,6 @@
                     "end": "2021-11-18T09:00:00Z",
                     "start": "2021-11-18T07:00:00Z",
                     "title": "Digitaltechnik"
-                },
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-11-18T11:00:00Z",
-                    "start": "2021-11-18T09:30:00Z",
-                    "title": "Lineare Algebra"
                 }
             ],
             "19.11.2021": [
@@ -50802,12 +50652,6 @@
             "24.11.2021": [
                 {
                     "course": "TINF21 IT1",
-                    "end": "2021-11-24T09:15:00Z",
-                    "start": "2021-11-24T07:45:00Z",
-                    "title": "Lineare Algebra"
-                },
-                {
-                    "course": "TINF21 IT1",
                     "end": "2021-11-24T11:00:00Z",
                     "start": "2021-11-24T09:30:00Z",
                     "title": "Tutorium Mathematik"
@@ -50819,12 +50663,6 @@
                     "end": "2021-11-25T09:00:00Z",
                     "start": "2021-11-25T07:00:00Z",
                     "title": "Digitaltechnik"
-                },
-                {
-                    "course": "TINF21 IT1",
-                    "end": "2021-11-25T11:00:00Z",
-                    "start": "2021-11-25T09:30:00Z",
-                    "title": "Lineare Algebra"
                 }
             ],
             "26.11.2021": [
@@ -60265,6 +60103,14 @@
                     "title": "Labor Elektrotechnik (Gr. 1)"
                 }
             ],
+            "07.02.2022": [
+                {
+                    "course": "TMB21 F",
+                    "end": "2022-02-07T15:00:00Z",
+                    "start": "2022-02-07T11:45:00Z",
+                    "title": "Labor Elektrotechnik (Gr. 1)"
+                }
+            ],
             "20.01.2022": [
                 {
                     "course": "TMB21 HVT",
@@ -60325,19 +60171,13 @@
             ],
             "09.11.2021": [
                 {
-                    "course": "TMB19 AM1",
-                    "end": "2021-11-09T11:15:00Z",
-                    "start": "2021-11-09T08:00:00Z",
-                    "title": "Numerical Methods for Engineers"
-                },
-                {
                     "course": "TMB19 AM2",
                     "end": "2021-11-09T11:15:00Z",
                     "start": "2021-11-09T08:00:00Z",
                     "title": "Numerical Methods for Engineers"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 AM1",
                     "end": "2021-11-09T11:15:00Z",
                     "start": "2021-11-09T08:00:00Z",
                     "title": "Numerical Methods for Engineers"
@@ -60350,6 +60190,12 @@
                 },
                 {
                     "course": "TMB19 KT",
+                    "end": "2021-11-09T11:15:00Z",
+                    "start": "2021-11-09T08:00:00Z",
+                    "title": "Numerical Methods for Engineers"
+                },
+                {
+                    "course": "TMB19 BV",
                     "end": "2021-11-09T11:15:00Z",
                     "start": "2021-11-09T08:00:00Z",
                     "title": "Numerical Methods for Engineers"
@@ -63287,12 +63133,6 @@
         "Raum 269C": {
             "02.12.2021": [
                 {
-                    "course": "TINF21 CS1",
-                    "end": "2021-12-02T09:15:00Z",
-                    "start": "2021-12-02T07:45:00Z",
-                    "title": "Mathematik I"
-                },
-                {
                     "course": "TINF19 IT1",
                     "end": "2021-12-02T15:00:00Z",
                     "start": "2021-12-02T12:00:00Z",
@@ -63314,12 +63154,6 @@
                 }
             ],
             "07.12.2021": [
-                {
-                    "course": "TINF21 CS2",
-                    "end": "2021-12-07T11:00:00Z",
-                    "start": "2021-12-07T07:45:00Z",
-                    "title": "Mathematik I"
-                },
                 {
                     "course": "TINF21 CS2",
                     "end": "2021-12-07T13:00:00Z",
@@ -63344,40 +63178,12 @@
             "09.11.2021": [
                 {
                     "course": "TINF21 CS2",
-                    "end": "2021-11-09T11:00:00Z",
-                    "start": "2021-11-09T07:45:00Z",
-                    "title": "Mathematik I"
-                },
-                {
-                    "course": "TINF21 CS2",
                     "end": "2021-11-09T13:00:00Z",
                     "start": "2021-11-09T11:30:00Z",
                     "title": "Tutorium Mathematik"
                 }
             ],
-            "09.12.2021": [
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-12-09T09:15:00Z",
-                    "start": "2021-12-09T07:45:00Z",
-                    "title": "Mathematik I"
-                }
-            ],
-            "11.11.2021": [
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-11-11T09:15:00Z",
-                    "start": "2021-11-11T07:45:00Z",
-                    "title": "Mathematik I"
-                }
-            ],
             "14.12.2021": [
-                {
-                    "course": "TINF21 CS2",
-                    "end": "2021-12-14T11:00:00Z",
-                    "start": "2021-12-14T07:45:00Z",
-                    "title": "Mathematik I"
-                },
                 {
                     "course": "TINF21 CS2",
                     "end": "2021-12-14T13:00:00Z",
@@ -63410,32 +63216,12 @@
             "16.11.2021": [
                 {
                     "course": "TINF21 CS2",
-                    "end": "2021-11-16T11:00:00Z",
-                    "start": "2021-11-16T07:45:00Z",
-                    "title": "Mathematik I"
-                },
-                {
-                    "course": "TINF21 CS2",
                     "end": "2021-11-16T13:00:00Z",
                     "start": "2021-11-16T11:30:00Z",
                     "title": "Tutorium Mathematik"
                 }
             ],
-            "16.12.2021": [
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-12-16T09:15:00Z",
-                    "start": "2021-12-16T07:45:00Z",
-                    "title": "Mathematik I"
-                }
-            ],
             "18.11.2021": [
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-11-18T09:15:00Z",
-                    "start": "2021-11-18T07:45:00Z",
-                    "title": "Mathematik I"
-                },
                 {
                     "course": "TINF19 IT1",
                     "end": "2021-11-18T15:00:00Z",
@@ -63476,12 +63262,6 @@
             "23.11.2021": [
                 {
                     "course": "TINF21 CS2",
-                    "end": "2021-11-23T11:00:00Z",
-                    "start": "2021-11-23T07:45:00Z",
-                    "title": "Mathematik I"
-                },
-                {
-                    "course": "TINF21 CS2",
                     "end": "2021-11-23T13:00:00Z",
                     "start": "2021-11-23T11:30:00Z",
                     "title": "Tutorium Mathematik"
@@ -63496,12 +63276,6 @@
                 }
             ],
             "25.11.2021": [
-                {
-                    "course": "TINF21 CS1",
-                    "end": "2021-11-25T09:15:00Z",
-                    "start": "2021-11-25T07:45:00Z",
-                    "title": "Mathematik I"
-                },
                 {
                     "course": "TINF19 IT1",
                     "end": "2021-11-25T15:00:00Z",
@@ -63524,12 +63298,6 @@
                 }
             ],
             "30.11.2021": [
-                {
-                    "course": "TINF21 CS2",
-                    "end": "2021-11-30T11:00:00Z",
-                    "start": "2021-11-30T07:45:00Z",
-                    "title": "Mathematik I"
-                },
                 {
                     "course": "TINF21 CS2",
                     "end": "2021-11-30T13:00:00Z",
@@ -69825,13 +69593,13 @@
         "Raum Heinrich-Vetter-H\u00f6rsaal": {
             "06.12.2021": [
                 {
-                    "course": "TMB20 A",
+                    "course": "TMB20 B",
                     "end": "2021-12-06T13:30:00Z",
                     "start": "2021-12-06T12:00:00Z",
                     "title": "TMB20A+B - Klausur Konstruktion III"
                 },
                 {
-                    "course": "TMB20 B",
+                    "course": "TMB20 A",
                     "end": "2021-12-06T13:30:00Z",
                     "start": "2021-12-06T12:00:00Z",
                     "title": "TMB20A+B - Klausur Konstruktion III"
@@ -69893,13 +69661,13 @@
                     "title": "Thermodynamik - Testat"
                 },
                 {
-                    "course": "TMB20 A",
+                    "course": "TMB20 B",
                     "end": "2021-12-10T11:00:00Z",
                     "start": "2021-12-10T09:00:00Z",
                     "title": "TMB20A+B - Klausur TM/FL III"
                 },
                 {
-                    "course": "TMB20 B",
+                    "course": "TMB20 A",
                     "end": "2021-12-10T11:00:00Z",
                     "start": "2021-12-10T09:00:00Z",
                     "title": "TMB20A+B - Klausur TM/FL III"
@@ -70061,13 +69829,13 @@
                     "title": "Technische Mechanik + Festigkeitslehre III Klausur"
                 },
                 {
-                    "course": "TINF20 IT1",
+                    "course": "TINF20 IT2",
                     "end": "2021-12-09T12:00:00Z",
                     "start": "2021-12-09T11:00:00Z",
                     "title": "Klausur: Datenbanken "
                 },
                 {
-                    "course": "TINF20 IT2",
+                    "course": "TINF20 IT1",
                     "end": "2021-12-09T12:00:00Z",
                     "start": "2021-12-09T11:00:00Z",
                     "title": "Klausur: Datenbanken "
@@ -70343,13 +70111,13 @@
             ],
             "15.12.2021": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2021-12-15T10:00:00Z",
                     "start": "2021-12-15T09:00:00Z",
                     "title": "Mathematik II (W3WI_602)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2021-12-15T10:00:00Z",
                     "start": "2021-12-15T09:00:00Z",
                     "title": "Mathematik II (W3WI_602)"
@@ -70421,13 +70189,13 @@
                     "title": "Webentwicklung"
                 },
                 {
-                    "course": "TINF19 AI1",
+                    "course": "TINF19 AI2",
                     "end": "2021-12-20T15:30:00Z",
                     "start": "2021-12-20T13:30:00Z",
                     "title": "Klausur: Datenbanken II"
                 },
                 {
-                    "course": "TINF19 AI2",
+                    "course": "TINF19 AI1",
                     "end": "2021-12-20T15:30:00Z",
                     "start": "2021-12-20T13:30:00Z",
                     "title": "Klausur: Datenbanken II"
@@ -70441,13 +70209,13 @@
                     "title": "Wirtschaftspolitik"
                 },
                 {
-                    "course": "TINF20 AI2",
+                    "course": "TINF20 AI1",
                     "end": "2021-12-21T12:30:00Z",
                     "start": "2021-12-21T11:00:00Z",
                     "title": "Klausur: Angewandte Mathematik"
                 },
                 {
-                    "course": "TINF20 AI1",
+                    "course": "TINF20 AI2",
                     "end": "2021-12-21T12:30:00Z",
                     "start": "2021-12-21T11:00:00Z",
                     "title": "Klausur: Angewandte Mathematik"
@@ -70473,13 +70241,13 @@
                     "title": "Werkstofftechnik und Konstruktionslehre"
                 },
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2021-12-22T12:00:00Z",
                     "start": "2021-12-22T11:00:00Z",
                     "title": "Finanzierung und Rechnungswesen (W3WI_203)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2021-12-22T12:00:00Z",
                     "start": "2021-12-22T11:00:00Z",
                     "title": "Finanzierung und Rechnungswesen (W3WI_203)"
@@ -70617,13 +70385,13 @@
         "Raum folgt": {
             "04.02.2022": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2022-02-04T09:00:00Z",
                     "start": "2022-02-04T07:30:00Z",
                     "title": "Klausur Handhabungstechnik und Automation"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2022-02-04T09:00:00Z",
                     "start": "2022-02-04T07:30:00Z",
                     "title": "Klausur Handhabungstechnik und Automation"
@@ -70671,13 +70439,13 @@
                     "title": "Klausur BWL I"
                 },
                 {
-                    "course": "WSTL21 C",
+                    "course": "WSTL21 D",
                     "end": "2022-01-10T10:00:00Z",
                     "start": "2022-01-10T08:00:00Z",
                     "title": "Klausur BWL I"
                 },
                 {
-                    "course": "WSTL21 D",
+                    "course": "WSTL21 C",
                     "end": "2022-01-10T10:00:00Z",
                     "start": "2022-01-10T08:00:00Z",
                     "title": "Klausur BWL I"
@@ -70705,13 +70473,13 @@
                     "title": "Klausur Mathematik"
                 },
                 {
-                    "course": "WSTL21 C",
+                    "course": "WSTL21 D",
                     "end": "2022-01-12T09:00:00Z",
                     "start": "2022-01-12T08:00:00Z",
                     "title": "Klausur Mathematik"
                 },
                 {
-                    "course": "WSTL21 D",
+                    "course": "WSTL21 C",
                     "end": "2022-01-12T09:00:00Z",
                     "start": "2022-01-12T08:00:00Z",
                     "title": "Klausur Mathematik"
@@ -70731,13 +70499,13 @@
                     "title": "Klausur VBL I"
                 },
                 {
-                    "course": "WSTL21 C",
+                    "course": "WSTL21 D",
                     "end": "2022-01-14T10:00:00Z",
                     "start": "2022-01-14T08:00:00Z",
                     "title": "Klausur VBL I"
                 },
                 {
-                    "course": "WSTL21 D",
+                    "course": "WSTL21 C",
                     "end": "2022-01-14T10:00:00Z",
                     "start": "2022-01-14T08:00:00Z",
                     "title": "Klausur VBL I"
@@ -70753,13 +70521,13 @@
             ],
             "16.12.2021": [
                 {
-                    "course": "TMB19 AM1",
+                    "course": "TMB19 AM2",
                     "end": "2021-12-16T09:00:00Z",
                     "start": "2021-12-16T07:30:00Z",
                     "title": "Klausur Produktionsplanung"
                 },
                 {
-                    "course": "TMB19 AM2",
+                    "course": "TMB19 AM1",
                     "end": "2021-12-16T09:00:00Z",
                     "start": "2021-12-16T07:30:00Z",
                     "title": "Klausur Produktionsplanung"
@@ -70813,5 +70581,5 @@
             ]
         }
     },
-    "last_updated": "2021-11-07T04:10:44Z"
+    "last_updated": "2021-11-08T04:11:15Z"
 }
