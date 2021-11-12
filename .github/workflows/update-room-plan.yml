@@ -2,7 +2,7 @@ name: update-room-plan
 
 on:
   schedule:
-    - cron: "0 4 * * *" # runs at 06:00 german time (MESZ) everyday
+    - cron: "0 5 * * 1-5" # runs at 05:00 UTC every day (no weekends)
   workflow_dispatch:
 
 jobs:
