@@ -5,8 +5,10 @@ import os
 import re
 import sys
 import threading
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timezone, timedelta
 
+import matplotlib.pyplot as plt
+import pandas
 import requests
 from dateutil.relativedelta import relativedelta
 from icalevents import icalevents
@@ -188,6 +190,45 @@ class ICalParser():
             writer = csv.writer(csvfile, delimiter=';')
             writer.writerows(csv_data)
 
+    def export_lunch_schedule(self):
+        # Export lunch time schedule
+        today = datetime.today().strftime("%d.%m.%Y")
+        events = {}
+
+        # Go though each event and count courses
+        for room_events in self.events_by_date[today].values():
+            for event in room_events:
+                end = datetime.strptime(event["end"], "%Y-%m-%dT%H:%M:%SZ")
+                if end.hour >= 11 and end.hour < 14:
+                    for time in [end, end + timedelta(minutes=15)]:
+                        time_str = time.strftime("%H:%M")
+                        if events.get(time_str, None):
+                            events[time_str] += 1
+                        else:
+                            events[time_str] = 1
+        
+        # Build sorted events list
+        events = sorted(list(events.items()), key=lambda e: e[0])
+        values = [v for _, v in events]
+        
+        # Create plot
+        frame = pandas.DataFrame(events, columns=["Uhrzeit", "Anzahl Kurse in Mittagspause"]).set_index("Uhrzeit")
+        # Style plot
+        plt.style.use('seaborn')
+        plot = frame.plot(kind="bar", rot=0)
+        plot.set_ylabel("Anzahl Kurse", fontsize=16, fontweight='bold')
+        plot.set_xlabel("Uhrzeit", fontsize=16, fontweight='bold')
+        plot.yaxis.grid(True, which='major', linestyle='-', linewidth=2)
+        plot.xaxis.grid(False)
+        plot.legend(fontsize="medium")
+        plot.set_ylim(top=max(values) + 4)
+        plot.tick_params(axis='both', which='major', labelsize=13)
+        # Add bar values
+        for i, v in enumerate(values):
+            plot.text(i, v + 1, str(v), color='tab:blue', fontweight='bold', ha='center')
+        # Export plot
+        filepath = os.path.join(sys.path[0], self.website_folder, "mensa_occupancy.png")
+        plot.get_figure().savefig(filepath, bbox_inches='tight', dpi=200)
 
 # Start
 print("Parser started")
@@ -196,8 +237,7 @@ parser = ICalParser()
 parser.download_ical_list()
 parser.parse()
 parser.export()
-#parser.export_raw_csv()
-#parser.export_csv()
+parser.export_lunch_schedule()
 
 # Finished
 print("Finished")
