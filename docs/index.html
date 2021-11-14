@@ -119,6 +119,28 @@
           </b-navbar-item>
         </template>
       </b-navbar>
+      <b-modal
+        :active.sync="modalActive"
+        :width="640"
+        scroll="clip"
+        style="padding-left: 20px; padding-right: 20px"
+      >
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="mensa_occupancy.png" alt="Image" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus nec iaculis mauris.
+              <br />
+              <small>{{lastUpdated}}</small>
+            </div>
+          </div>
+        </div>
+      </b-modal>
       <section class="hero is-fullheight">
         <div class="hero-body" style="padding: 0px 0px 48px 0px">
           <div class="columns container is-fluid is-centered">
@@ -228,7 +250,6 @@
         </div>
       </section>
     </div>
-
     <script src="https://unpkg.com/vue@2.6.14/dist/vue.min.js"></script>
     <script src="https://unpkg.com/buefy/dist/buefy.min.js"></script>
     <script src="./main.js"></script>
