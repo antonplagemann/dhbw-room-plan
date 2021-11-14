@@ -72,17 +72,22 @@
       nav.navbar.is-dark {
         background: transparent;
       }
+      /*Make navbar menu transparent*/
+      .navbar-menu {
+        margin-left: 7px;
+        background-color: transparent;
+        padding-bottom: 1rem;
+      }
+      /* No hover background for navbar items*/
+      a.navbar-item:hover {
+        background-color: unset;
+      }
     </style>
   </head>
 
   <body>
     <div id="app">
-      <b-navbar
-        :transparent="true"
-        type="is-dark"
-        :mobile-burger="false"
-        centered
-      >
+      <b-navbar :transparent="true" type="is-dark">
         <template #brand>
           <b-navbar-item tag="router-link" :to="{ path: '/' }">
             <img
@@ -97,18 +102,20 @@
             />
           </b-navbar-item>
         </template>
-        <template #end>
-          <b-navbar-item tag="div">
-            <b-field>
-              <b-checkbox-button
-                type="is-black"
-                v-model="isBrightMode"
-                @input="changeDisplayMode()"
-              >
-                <b-icon icon="theme-light-dark"></b-icon>
-                <span>{{displayModeButtonText}}</span>
-              </b-checkbox-button>
-            </b-field>
+        <template #start>
+          <b-navbar-item
+            href="#"
+            v-bind:class="{ 'has-text-black': isBrightMode, 'has-text-white': !isBrightMode }"
+            @click="modalActive = true"
+          >
+            Mensaauslastung anzeigen
+          </b-navbar-item>
+          <b-navbar-item
+            href="#"
+            v-bind:class="{ 'has-text-black': isBrightMode, 'has-text-white': !isBrightMode }"
+            @click="changeDisplayMode()"
+          >
+            {{displayModeButtonText}}
           </b-navbar-item>
         </template>
       </b-navbar>
@@ -193,7 +200,7 @@
                 :title="messageTitle"
                 has-icon
                 type="is-primary"
-                style="overflow-y: auto; min-height: 200px;"
+                style="overflow-y: auto; min-height: 200px"
               >
                 <b-message
                   type="is-primary"

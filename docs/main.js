@@ -55,6 +55,7 @@ new Vue({
       time: new Date(new Date().setSeconds(0, 0)), // Currently selected time
       manualTime: false, // Value of the 'manual time' checkbox
       isBrightMode: false, // Switch for light mode
+      modalActive: false, // If mensa occupancy modal is open
     };
   },
   /**
@@ -85,6 +86,7 @@ new Vue({
   },
   methods: {
     changeDisplayMode() {
+      this.isBrightMode = !this.isBrightMode;
       if (!this.isBrightMode)
         document
           .getElementsByTagName("body")[0]
