@@ -18,20 +18,14 @@
       <template #start>
         <b-navbar-item
           href="#"
-          v-bind:class="{
-            'has-text-black': isBrightMode,
-            'has-text-white': !isBrightMode,
-          }"
+          v-bind:class="{'has-text-black': isBrightMode, 'has-text-white': !isBrightMode}"
           @click="modalActive = true"
         >
           Mensaauslastung anzeigen
         </b-navbar-item>
         <b-navbar-item
           href="#"
-          v-bind:class="{
-            'has-text-black': isBrightMode,
-            'has-text-white': !isBrightMode,
-          }"
+          v-bind:class="{'has-text-black': isBrightMode,'has-text-white': !isBrightMode}"
           @click="changeDisplayMode()"
         >
           {{ displayModeButtonText }}
@@ -106,7 +100,7 @@
                 indicators="bars"
                 icon="calendar-today"
                 locale="de-DE"
-                first-day-of-week="1"
+                :first-day-of-week="1"
                 @input="onDateChanged()"
                 append-to-body
               >
