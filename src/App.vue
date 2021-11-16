@@ -45,17 +45,27 @@
         </b-navbar-item>
       </template>
     </b-navbar>
+    <!--Mensa occupancy modal-->
     <b-modal
       :active.sync="modalActive"
       :width="640"
       scroll="clip"
       style="padding-left: 20px; padding-right: 20px"
     >
-      <div class="card">
+      <div
+        class="card" 
+        :class="isBrightMode ? '' : 'has-text-primary-light has-background-dark'"
+      >
         <div class="card-image">
           <figure class="image is-4by3">
             <img
-              src="./assets/mensa_occupancy.png"
+              v-if="!isBrightMode"
+              src="./assets/mensa_dark.png"
+              alt="Image"
+            >
+            <img
+              v-else
+              src="./assets/mensa_light.png"
               alt="Image"
             >
           </figure>
@@ -91,11 +101,13 @@
             <b-field
               label="Raum auswählen"
               :custom-class="isBrightMode ? '' : 'has-text-white'"
+              :type="isBrightMode ? '' : 'is-dark'"
               style="margin-bottom: 1cm"
             >
               <b-autocomplete
                 v-model="roomSelector"
                 rounded
+                :custom-class="isBrightMode ? '' : 'has-text-white has-background-dark'"
                 :data="filteredRoomArray"
                 placeholder="z.B. Raum 048B"
                 icon="magnify"
@@ -111,10 +123,12 @@
             <b-field
               label="Tag auswählen"
               :custom-class="isBrightMode ? '' : 'has-text-white'"
+              :type="isBrightMode ? '' : 'is-dark'"
               style="margin-bottom: 1cm"
             >
               <b-datepicker
                 v-model="date"
+                :custom-class="isBrightMode ? '' : 'has-text-white has-background-dark is-dark'"
                 :mobile-native="false"
                 placeholder="Bitte ein Datum eingeben oder auswählen..."
                 :min-date="minDate"
@@ -143,6 +157,7 @@
             >
               <b-clockpicker
                 v-model="time"
+                :custom-class="isBrightMode ? '' : 'has-text-white is-dark has-background-dark'"
                 rounded
                 placeholder="Bitte Zeit auswählen..."
                 icon="clock"
@@ -155,14 +170,14 @@
               :closable="false"
               :title="messageTitle"
               has-icon
-              type="is-primary"
+              :type="isBrightMode ? 'is-primary' : 'is-primary has-background-dark'"
               style="overflow-y: auto; min-height: 200px"
             >
               <b-message
                 v-for="item in results"
                 id="eventsId"
                 :key="item"
-                type="is-primary"
+                :type="isBrightMode ? '' : 'has-background-dark'"
               >
                 {{ item }}
               </b-message>
@@ -448,6 +463,44 @@ export default {
 </script>
 
 <style>
+.dropdown-content {
+  background-color: #363636 !important;
+  color: #fff !important;
+}
+.dropdown-item {
+  color: #fff !important;
+}
+a.dropdown-item:hover {
+  background-color: #485fc7 !important;
+}
+.datepicker-cell.is-selectable {
+  color: #fff !important;
+}
+.datepicker-cell.is-unselectable {
+  color: #818181 !important;
+}
+.pagination-next, .pagination-previous {
+  border-color: #6f6f6f !important
+}
+select, option {
+  background-color: #363636 !important;
+  color: #fff !important;
+  border-color: #6f6f6f !important
+}
+.textarea {
+    color: #fff !important;
+}
+.card {
+  background-color: #363636 !important;
+  color: #fff !important;
+}
+.b-clockpicker-body .b-clockpicker-face {
+  background-color: #4a4a4a !important;
+}
+.message.is-primary .message-body {
+  color: #fff !important;
+}
+
 /* Light mode */
 .light-bg {
   background-image: url('./assets/background_light.jpg');
@@ -485,7 +538,7 @@ html {
 /*Disable scrolling on hero*/
 .hero.is-fullheight {
   min-height: calc(100vh - 52px) !important;
-  display: block;
+  display: block !important; /*Fix content on top*/
 }
 
 /*Disable unwanted scrolling*/
@@ -514,6 +567,7 @@ nav.navbar.is-dark {
 .navbar-menu {
   margin-left: 7px;
   background-color: transparent !important;
+  text-align: center;
 }
 
 /* No hover background for navbar items*/
