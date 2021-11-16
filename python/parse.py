@@ -280,7 +280,7 @@ class ICalParser():
         ax.yaxis.grid(True, which='major', linestyle='-',
                       linewidth=kwargs["grid_linewidth"])
         ax.xaxis.grid(False)
-        legend = ax.legend(fontsize="large", frameon=True, framealpha=1)
+        legend = ax.legend(fontsize="large", frameon=True, facecolor=kwargs["grid_bg"], framealpha=1)
         legend.get_frame().set_linewidth(0.0)
         ax.set_ylim(top=max(y_series) + 4)
         # Set x tick labels
