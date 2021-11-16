@@ -241,16 +241,16 @@ class ICalParser():
         # Build sorted events list
         events_list = sorted(list(events.items()), key=lambda e: e[0])
         # Export light chart
-        options = {
-            "theme": "seaborn",
-            "figure_bg": "white",
-            "grid_bg": "#EAEAF2",
-            "grid_linewidth": 2,
-            "bar_color": "#4C72B0",
-            "text_color": "tab:blue",
-            "filename": "mensa_light.png",
-        }
-        self.__exportFigure(events_list, **options)
+        # options = {
+        #     "theme": "seaborn",
+        #     "figure_bg": "white",
+        #     "grid_bg": "#EAEAF2",
+        #     "grid_linewidth": 2,
+        #     "bar_color": "#4C72B0",
+        #     "text_color": "tab:blue",
+        #     "filename": "mensa_light.png",
+        # }
+        # self.__exportFigure(events_list, **options)
         # Export dark chart
         options = {
             "theme": "dark_background",
@@ -280,7 +280,8 @@ class ICalParser():
         ax.yaxis.grid(True, which='major', linestyle='-',
                       linewidth=kwargs["grid_linewidth"])
         ax.xaxis.grid(False)
-        legend = ax.legend(fontsize="large", frameon=True, facecolor=kwargs["grid_bg"], framealpha=1)
+        legend = ax.legend(fontsize="large", frameon=True,
+                           facecolor=kwargs["grid_bg"], framealpha=1)
         legend.get_frame().set_linewidth(0.0)
         ax.set_ylim(top=max(y_series) + 4)
         # Set x tick labels
