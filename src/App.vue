@@ -1,8 +1,12 @@
 <template>
-  <div id="app">
+  <div
+    id="app"
+    :class="isBrightMode ? 'light-bg' : 'dark-bg'"
+  >
     <b-navbar
       :transparent="true"
       type="is-dark"
+      tag="a"
     >
       <template #brand>
         <b-navbar-item>
@@ -12,7 +16,7 @@
             alt="DHBW-Mannheim"
           >
           <img
-            v-if="isBrightMode"
+            v-else
             src="./assets/dhbw_dark.png"
             alt="DHBW-Mannheim"
           >
@@ -188,7 +192,6 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import json from './assets/rooms.json'
 
 export default {
@@ -276,21 +279,6 @@ export default {
   methods: {
     changeDisplayMode() {
       this.isBrightMode = !this.isBrightMode
-      if (!this.isBrightMode) {
-        document
-          .getElementsByTagName('body')[0]
-          .setAttribute(
-            'style',
-            'background-image: url("./assets/background_dark.jpg");'
-          )
-      } else {
-        document
-          .getElementsByTagName('body')[0]
-          .setAttribute(
-            'style',
-            'background-image: url("./assets/background_light.jpg");'
-          )
-      }
     },
     /**
      * Triggered on selected or cleared room.
@@ -458,22 +446,28 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+/* Light mode */
+.light-bg {
+  background-image: url('./assets/background_light.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-/*Set background image*/
-body,
-html {
-  height: 100%;
-  width: 100%;
+
+/* Dark mode */
+.dark-bg {
   background-image: url('./assets/background_dark.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/*Set no scrolling*/
+body,
+html {
+  height: 100%;
+  width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
   /* Hide scrollbar for IE, Edge and Firefox */
@@ -488,12 +482,8 @@ html {
 
 /*Disable scrolling on hero*/
 .hero.is-fullheight {
-  min-height: calc(100vh - 50px);
-}
-
-/*Disable transparent modal background*/
-.modal-background {
-  position: unset;
+  min-height: calc(100vh - 52px) !important;
+  display: block;
 }
 
 /*Disable unwanted scrolling*/
@@ -511,18 +501,21 @@ html {
 #eventsId {
   margin-bottom: 10px !important;
 }
+
 /*Make navbar transparent*/
 nav.navbar.is-dark {
   background: transparent;
+  /*margin-bottom: 10px;*/
 }
+
 /*Make navbar menu transparent*/
 .navbar-menu {
   margin-left: 7px;
-  background-color: transparent;
-  padding-bottom: 1rem;
+  background-color: transparent !important;
 }
+
 /* No hover background for navbar items*/
 a.navbar-item:hover {
-  background-color: unset;
+  background-color: unset !important;
 }
 </style>
