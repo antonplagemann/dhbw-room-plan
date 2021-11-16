@@ -22,16 +22,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: execute python script # run sj-gobierno.py to get the latest data
+      - name: execute python script # run parse.py to get the latest data
         run: python parse.py
 
-      - name: commit files
+      - name: build vue app # Rebuild the website
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git commit -m "Update room plan resources" -a
-
+              npm ci
+              npm run build
+              cd docs
+              ln -s index.html 404.html
+              echo 'rooms.plagemann.it' > CNAME
+              git config --local user.email "action@github.com"
+              git config --local user.name "GitHub Action"
+              git add -A
+              git commit -m "Update room plan resources" -a
+        shell: bash
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
