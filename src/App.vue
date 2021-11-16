@@ -3,52 +3,37 @@
     <b-navbar :transparent="true" type="is-dark">
       <template #brand>
         <b-navbar-item>
-          <img
-            src="./assets/dhbw_light.png"
-            alt="DHBW-Mannheim"
-            v-if="!isBrightMode"
-          />
-          <img
-            src="./assets/dhbw_dark.png"
-            alt="DHBW-Mannheim"
-            v-if="isBrightMode"
-          />
+          <img v-if="!isBrightMode" src="./assets/dhbw_light.png" alt="DHBW-Mannheim">
+          <img v-if="isBrightMode" src="./assets/dhbw_dark.png" alt="DHBW-Mannheim">
         </b-navbar-item>
       </template>
       <template #start>
-        <b-navbar-item
-          href="#"
-          v-bind:class="{'has-text-black': isBrightMode, 'has-text-white': !isBrightMode}"
-          @click="modalActive = true"
-        >
+        <b-navbar-item href="#" :class="{
+              'has-text-black': isBrightMode,
+              'has-text-white': !isBrightMode,
+            }" @click="modalActive = true">
           Mensaauslastung anzeigen
         </b-navbar-item>
-        <b-navbar-item
-          href="#"
-          v-bind:class="{'has-text-black': isBrightMode,'has-text-white': !isBrightMode}"
-          @click="changeDisplayMode()"
-        >
+        <b-navbar-item href="#" :class="{
+              'has-text-black': isBrightMode,
+              'has-text-white': !isBrightMode,
+            }" @click="changeDisplayMode()">
           {{ displayModeButtonText }}
         </b-navbar-item>
       </template>
     </b-navbar>
-    <b-modal
-      :active.sync="modalActive"
-      :width="640"
-      scroll="clip"
-      style="padding-left: 20px; padding-right: 20px"
-    >
+    <b-modal :active.sync="modalActive" :width="640" scroll="clip" style="padding-left: 20px; padding-right: 20px">
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="./assets/mensa_occupancy.png" alt="Image" />
+            <img src="./assets/mensa_occupancy.png" alt="Image">
           </figure>
         </div>
         <div class="card-content">
           <div class="content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
             nec iaculis mauris.
-            <br />
+            <br>
             <small>{{ lastUpdated }}</small>
           </div>
         </div>
@@ -57,108 +42,47 @@
     <section class="hero is-fullheight">
       <div class="hero-body" style="padding: 0px 0px 48px 0px">
         <div class="columns container is-fluid is-centered">
-          <div
-            class="column is-6"
-            style="
+          <div class="column is-6" style="
               display: flex;
               flex-direction: column;
               max-height: calc(100vh - 80px);
               min-height: 450px;
-            "
-          >
+            ">
             <!--Room picker-->
-            <b-field
-              label="Raum auswählen"
-              v-bind:custom-class="{ 'has-text-white': !isBrightMode }"
-              style="margin-bottom: 1cm"
-            >
-              <b-autocomplete
-                rounded
-                v-model="roomSelector"
-                :data="filteredRoomArray"
-                placeholder="z.B. Raum 048B"
-                icon="magnify"
-                clearable
-                @select="onRoomChanged($event)"
-              >
-                <template #empty>Keine Ergebnisse gefunden</template>
+            <b-field label="Raum auswählen" :custom-class="{ 'has-text-white': !isBrightMode }" style="margin-bottom: 1cm">
+              <b-autocomplete v-model="roomSelector" rounded :data="filteredRoomArray" placeholder="z.B. Raum 048B" icon="magnify" clearable @select="onRoomChanged($event)">
+                <template #empty>
+                  Keine Ergebnisse gefunden
+                </template>
               </b-autocomplete>
             </b-field>
             <!--Date picker-->
-            <b-field
-              label="Tag auswählen"
-              v-bind:custom-class="{ 'has-text-white': !isBrightMode }"
-              style="margin-bottom: 1cm"
-            >
-              <b-datepicker
-                :mobile-native="false"
-                v-model="date"
-                placeholder="Bitte ein Datum eingeben oder auswählen..."
-                :min-date="minDate"
-                :max-date="maxDate"
-                :events="datePickerRoomEvents"
-                indicators="bars"
-                icon="calendar-today"
-                locale="de-DE"
-                :first-day-of-week="1"
-                @input="onDateChanged()"
-                append-to-body
-              >
-              </b-datepicker>
-              <b-checkbox
-                v-bind:class="{ 'has-text-white': !isBrightMode }"
-                v-model="manualTime"
-                style="margin-left: 20px"
-              >
+            <b-field label="Tag auswählen" :custom-class="{ 'has-text-white': !isBrightMode }" style="margin-bottom: 1cm">
+              <b-datepicker v-model="date" :mobile-native="false" placeholder="Bitte ein Datum eingeben oder auswählen..." :min-date="minDate" :max-date="maxDate" :events="datePickerRoomEvents" indicators="bars" icon="calendar-today" locale="de-DE" :first-day-of-week="1" append-to-body @input="onDateChanged()" />
+              <b-checkbox v-model="manualTime" :class="{ 'has-text-white': !isBrightMode }" style="margin-left: 20px">
                 Manuelle Zeiteingabe
               </b-checkbox>
             </b-field>
-            <b-field
-              v-if="manualTime"
-              label="Zeit wählen"
-              v-bind:custom-class="{ 'has-text-white': !isBrightMode }"
-              style="margin-bottom: 1cm"
-            >
-              <b-clockpicker
-                rounded
-                v-model="time"
-                placeholder="Bitte Zeit auswählen..."
-                icon="clock"
-                hour-format="24"
-                @input="onTimeChanged()"
-              >
-              </b-clockpicker>
+            <b-field v-if="manualTime" label="Zeit wählen" :custom-class="{ 'has-text-white': !isBrightMode }" style="margin-bottom: 1cm">
+              <b-clockpicker v-model="time" rounded placeholder="Bitte Zeit auswählen..." icon="clock" hour-format="24" @input="onTimeChanged()" />
             </b-field>
             <!--Results display-->
-            <b-message
-              :closable="false"
-              :title="messageTitle"
-              has-icon
-              type="is-primary"
-              style="overflow-y: auto; min-height: 200px"
-            >
-              <b-message
-                type="is-primary"
-                v-for="item in results"
-                id="eventsId"
-                v-bind:key="item"
-              >
+            <b-message :closable="false" :title="messageTitle" has-icon type="is-primary" style="overflow-y: auto; min-height: 200px">
+              <b-message v-for="item in results" id="eventsId" :key="item" type="is-primary">
                 {{ item }}
               </b-message>
               <b-taglist attached style="margin-top: 25px !important">
-                <b-tag type="is-dark"
-                  ><a href="https://github.com/antonplagemann/dhbw-room-plan"
-                    >Zuletzt aktualisiert:</a
-                  ></b-tag
-                >
-                <b-tag
-                  type="is-primary"
-                  @dblclick.native="
-                    isBrightMode = !isBrightMode;
-                    changeDisplayMode();
-                  "
-                  >{{ lastUpdated }}</b-tag
-                >
+                <b-tag type="is-dark">
+                  <a href="https://github.com/antonplagemann/dhbw-room-plan">
+                    Zuletzt aktualisiert:
+                  </a>
+                </b-tag>
+                <b-tag type="is-primary" @dblclick.native="
+                      isBrightMode = !isBrightMode
+                      changeDisplayMode()
+                    ">
+                  {{ lastUpdated }}
+                </b-tag>
               </b-taglist>
             </b-message>
           </div>
@@ -176,23 +100,6 @@ export default {
   name: 'App',
   components: {
     // HelloWorld
-  },
-  /**
-   * Main function (called at loading time)
-   */
-  mounted () {
-    this.lastUpdated = new Date(this.json.last_updated).toLocaleDateString(
-      'de-DE',
-      {
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit',
-        hour: '2-digit',
-        minute: '2-digit'
-      }
-    )
-    this.calculateEvents()
-    this.calculateMessageTitle()
   },
   /**
    * Initializes the main data object
@@ -253,6 +160,23 @@ export default {
       if (this.isBrightMode) return 'Dunklen Modus aktivieren'
       return 'Hellen Modus aktivieren'
     }
+  },
+  /**
+   * Main function (called at loading time)
+   */
+  mounted () {
+    this.lastUpdated = new Date(this.json.last_updated).toLocaleDateString(
+      'de-DE',
+      {
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit'
+      }
+    )
+    this.calculateEvents()
+    this.calculateMessageTitle()
   },
   methods: {
     changeDisplayMode () {
@@ -410,7 +334,11 @@ export default {
         var eventsList = this.json.events_by_room[this.room]
         this.datePickerRoomEvents = Object.keys(eventsList).map((date) => {
           var parts = date.split('.')
-          return new Date(Number(parts[2]), Number(parts[1]) - 1, Number(parts[0]))
+          return new Date(
+            Number(parts[2]),
+            Number(parts[1]) - 1,
+            Number(parts[0])
+          )
         })
       }
     },
@@ -448,7 +376,7 @@ body,
 html {
   height: 100%;
   width: 100%;
-  background-image: url("./assets/background_dark.jpg");
+  background-image: url('./assets/background_dark.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
