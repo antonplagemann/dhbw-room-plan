@@ -2,7 +2,7 @@
 
 ![Continuos update](https://github.com/antonplagemann/dhbw-room-plan/actions/workflows/update-room-plan.yml/badge.svg)
 ![Update frequency](https://img.shields.io/badge/Update%20frequency-daily-informational)
-![Last updated](https://img.shields.io/badge/dynamic/json?color=blueviolet&label=Last%20update&query=%24.last_updated&url=https%3A%2F%2Fraw.githubusercontent.com%2Fantonplagemann%2Fdhbw-room-plan%2Fmain%2Fdocs%2Frooms.json)
+![Last updated](https://img.shields.io/badge/dynamic/json?color=blueviolet&label=Last%20update&query=%24.last_updated&url=https%3A%2F%2Fraw.githubusercontent.com%2Fantonplagemann%2Fdhbw-room-plan%2Fmain%2Fsrc%2Fassets%2Frooms.json)
 
 Dieses Repository enthält den Quellcode und die Ressourcen für den Raumplan unter <https://rooms.plagemann.it>.
 
