@@ -1,7 +1,7 @@
 <template>
   <div
     id="app"
-    :class="isBrightMode ? 'light-bg' : 'dark-bg'"
+    class="dark-bg"
   >
     <b-navbar
       :transparent="true"
@@ -11,13 +11,7 @@
       <template #brand>
         <b-navbar-item>
           <img
-            v-if="!isBrightMode"
             src="./assets/dhbw_light.png"
-            alt="DHBW-Mannheim"
-          >
-          <img
-            v-else
-            src="./assets/dhbw_dark.png"
             alt="DHBW-Mannheim"
           >
         </b-navbar-item>
@@ -25,23 +19,10 @@
       <template #start>
         <b-navbar-item
           href="#"
-          :class="{
-            'has-text-black': isBrightMode,
-            'has-text-white': !isBrightMode,
-          }"
+          class="has-text-white"
           @click="modalActive = true"
         >
           Mensaauslastung anzeigen
-        </b-navbar-item>
-        <b-navbar-item
-          href="#"
-          :class="{
-            'has-text-black': isBrightMode,
-            'has-text-white': !isBrightMode,
-          }"
-          @click="changeDisplayMode()"
-        >
-          {{ displayModeButtonText }}
         </b-navbar-item>
       </template>
     </b-navbar>
@@ -53,19 +34,12 @@
       style="padding-left: 20px; padding-right: 20px"
     >
       <div
-        class="card" 
-        :class="isBrightMode ? '' : 'has-text-primary-light has-background-dark'"
+        class="card has-text-primary-light has-background-dark"
       >
         <div class="card-image">
           <figure class="image is-4by3">
             <img
-              v-if="!isBrightMode"
               src="./assets/mensa_dark.png"
-              alt="Image"
-            >
-            <img
-              v-else
-              src="./assets/mensa_light.png"
               alt="Image"
             >
           </figure>
@@ -100,14 +74,14 @@
             <!--Room picker-->
             <b-field
               label="Raum auswählen"
-              :custom-class="isBrightMode ? '' : 'has-text-white'"
-              :type="isBrightMode ? '' : 'is-dark'"
+              custom-class="has-text-white"
+              type="is-dark"
               style="margin-bottom: 1cm"
             >
               <b-autocomplete
                 v-model="roomSelector"
                 rounded
-                :custom-class="isBrightMode ? '' : 'has-text-white has-background-dark'"
+                custom-class="has-text-white has-background-dark"
                 :data="filteredRoomArray"
                 placeholder="z.B. Raum 048B"
                 icon="magnify"
@@ -122,13 +96,13 @@
             <!--Date picker-->
             <b-field
               label="Tag auswählen"
-              :custom-class="isBrightMode ? '' : 'has-text-white'"
-              :type="isBrightMode ? '' : 'is-dark'"
+              custom-class="has-text-white"
+              type="is-dark"
               style="margin-bottom: 1cm"
             >
               <b-datepicker
                 v-model="date"
-                :custom-class="isBrightMode ? '' : 'has-text-white has-background-dark is-dark'"
+                custom-class="has-text-white has-background-dark is-dark"
                 :mobile-native="false"
                 placeholder="Bitte ein Datum eingeben oder auswählen..."
                 :min-date="minDate"
@@ -143,7 +117,7 @@
               />
               <b-checkbox
                 v-model="manualTime"
-                :class="{ 'has-text-white': !isBrightMode }"
+                class="has-text-white"
                 style="margin-left: 20px"
               >
                 Manuelle Zeiteingabe
@@ -152,12 +126,12 @@
             <b-field
               v-if="manualTime"
               label="Zeit wählen"
-              :custom-class="isBrightMode ? '' : 'has-text-white'"
+              custom-class="has-text-white"
               style="margin-bottom: 1cm"
             >
               <b-clockpicker
                 v-model="time"
-                :custom-class="isBrightMode ? '' : 'has-text-white is-dark has-background-dark'"
+                custom-class="has-text-white is-dark has-background-dark"
                 rounded
                 placeholder="Bitte Zeit auswählen..."
                 icon="clock"
@@ -170,14 +144,14 @@
               :closable="false"
               :title="messageTitle"
               has-icon
-              :type="isBrightMode ? 'is-primary' : 'is-primary has-background-dark'"
+              type="is-primary has-background-dark"
               style="overflow-y: auto; min-height: 200px"
             >
               <b-message
                 v-for="item in results"
                 id="eventsId"
                 :key="item"
-                :type="isBrightMode ? '' : 'has-background-dark'"
+                type="has-background-dark"
               >
                 {{ item }}
               </b-message>
@@ -185,17 +159,13 @@
                 attached
                 style="margin-top: 25px !important"
               >
-                <b-tag type="is-dark">
+                <b-tag type="is-primary">
                   <a href="https://github.com/antonplagemann/dhbw-room-plan">
                     Zuletzt aktualisiert:
                   </a>
                 </b-tag>
                 <b-tag
-                  type="is-primary"
-                  @dblclick.native="
-                    isBrightMode = !isBrightMode
-                    changeDisplayMode()
-                  "
+                  type="is-info is-dark"
                 >
                   {{ lastUpdated }}
                 </b-tag>
@@ -246,7 +216,6 @@ export default {
       messageTitle: 'Initialisierung', // Title of the results box
       time: new Date(new Date().setSeconds(0, 0)), // Currently selected time
       manualTime: false, // Value of the 'manual time' checkbox
-      isBrightMode: false, // Switch for light mode
       modalActive: false // If mensa occupancy modal is open
     }
   },
@@ -270,10 +239,6 @@ export default {
             .indexOf(this.roomSelector.toLowerCase()) >= 0
         )
       })
-    },
-    displayModeButtonText() {
-      if (this.isBrightMode) return 'Dunklen Modus aktivieren'
-      return 'Hellen Modus aktivieren'
     }
   },
   /**
@@ -294,9 +259,6 @@ export default {
     this.calculateMessageTitle()
   },
   methods: {
-    changeDisplayMode() {
-      this.isBrightMode = !this.isBrightMode
-    },
     /**
      * Triggered on selected or cleared room.
      * @param {String} room
