@@ -241,16 +241,16 @@ class ICalParser():
         # Build sorted events list
         events_list = sorted(list(events.items()), key=lambda e: e[0])
         # Export light chart
-        # options = {
-        #     "theme": "seaborn",
-        #     "figure_bg": "white",
-        #     "grid_bg": "#EAEAF2",
-        #     "grid_linewidth": 2,
-        #     "bar_color": "#4C72B0",
-        #     "text_color": "tab:blue",
-        #     "filename": "mensa_light.png",
-        # }
-        # self.__exportFigure(events_list, **options)
+        options = {
+            "theme": "seaborn",
+            "figure_bg": "white",
+            "grid_bg": "#EAEAF2",
+            "grid_linewidth": 2,
+            "bar_color": "#4C72B0",
+            "text_color": "tab:blue",
+            "filename": "mensa_light.png",
+        }
+        self.__exportFigure(events_list, **options)
         # Export dark chart
         options = {
             "theme": "dark_background",
@@ -275,6 +275,7 @@ class ICalParser():
         figure = ax.get_figure()
         figure.set_facecolor(kwargs["figure_bg"])
         ax.set_facecolor(kwargs["grid_bg"])
+        ax.get_figure().set_facecolor(kwargs["grid_bg"])
         ax.set_ylabel("Anzahl Kurse", fontsize=16, fontweight='bold')
         ax.set_xlabel("Uhrzeit", fontsize=16, fontweight='bold')
         ax.yaxis.grid(True, which='major', linestyle='-',
