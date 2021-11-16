@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "vue-cli-service serve --host localhost",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "fix": "vue-cli-service lint --fix"
+    "fix": "vue-cli-service lint --fix",
+    "start": "vue-cli-service serve --host localhost"
   },
   "dependencies": {
     "buefy": "^0.9.13",
@@ -45,5 +45,10 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": "none"
+  }
 }

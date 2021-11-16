@@ -1,32 +1,59 @@
 <template>
   <div id="app">
-    <b-navbar :transparent="true" type="is-dark">
+    <b-navbar
+      :transparent="true"
+      type="is-dark"
+    >
       <template #brand>
         <b-navbar-item>
-          <img v-if="!isBrightMode" src="./assets/dhbw_light.png" alt="DHBW-Mannheim">
-          <img v-if="isBrightMode" src="./assets/dhbw_dark.png" alt="DHBW-Mannheim">
+          <img
+            v-if="!isBrightMode"
+            src="./assets/dhbw_light.png"
+            alt="DHBW-Mannheim"
+          >
+          <img
+            v-if="isBrightMode"
+            src="./assets/dhbw_dark.png"
+            alt="DHBW-Mannheim"
+          >
         </b-navbar-item>
       </template>
       <template #start>
-        <b-navbar-item href="#" :class="{
-              'has-text-black': isBrightMode,
-              'has-text-white': !isBrightMode,
-            }" @click="modalActive = true">
+        <b-navbar-item
+          href="#"
+          :class="{
+            'has-text-black': isBrightMode,
+            'has-text-white': !isBrightMode,
+          }"
+          @click="modalActive = true"
+        >
           Mensaauslastung anzeigen
         </b-navbar-item>
-        <b-navbar-item href="#" :class="{
-              'has-text-black': isBrightMode,
-              'has-text-white': !isBrightMode,
-            }" @click="changeDisplayMode()">
+        <b-navbar-item
+          href="#"
+          :class="{
+            'has-text-black': isBrightMode,
+            'has-text-white': !isBrightMode,
+          }"
+          @click="changeDisplayMode()"
+        >
           {{ displayModeButtonText }}
         </b-navbar-item>
       </template>
     </b-navbar>
-    <b-modal :active.sync="modalActive" :width="640" scroll="clip" style="padding-left: 20px; padding-right: 20px">
+    <b-modal
+      :active.sync="modalActive"
+      :width="640"
+      scroll="clip"
+      style="padding-left: 20px; padding-right: 20px"
+    >
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="./assets/mensa_occupancy.png" alt="Image">
+            <img
+              src="./assets/mensa_occupancy.png"
+              alt="Image"
+            >
           </figure>
         </div>
         <div class="card-content">
@@ -40,47 +67,115 @@
       </div>
     </b-modal>
     <section class="hero is-fullheight">
-      <div class="hero-body" style="padding: 0px 0px 48px 0px">
+      <div
+        class="hero-body"
+        style="padding: 0px 0px 48px 0px"
+      >
         <div class="columns container is-fluid is-centered">
-          <div class="column is-6" style="
+          <div
+            class="column is-6"
+            style="
               display: flex;
               flex-direction: column;
               max-height: calc(100vh - 80px);
               min-height: 450px;
-            ">
+            "
+          >
             <!--Room picker-->
-            <b-field label="Raum auswählen" :custom-class="{ 'has-text-white': !isBrightMode }" style="margin-bottom: 1cm">
-              <b-autocomplete v-model="roomSelector" rounded :data="filteredRoomArray" placeholder="z.B. Raum 048B" icon="magnify" clearable @select="onRoomChanged($event)">
+            <b-field
+              label="Raum auswählen"
+              :custom-class="{ 'has-text-white': !isBrightMode }"
+              style="margin-bottom: 1cm"
+            >
+              <b-autocomplete
+                v-model="roomSelector"
+                rounded
+                :data="filteredRoomArray"
+                placeholder="z.B. Raum 048B"
+                icon="magnify"
+                clearable
+                @select="onRoomChanged($event)"
+              >
                 <template #empty>
                   Keine Ergebnisse gefunden
                 </template>
               </b-autocomplete>
             </b-field>
             <!--Date picker-->
-            <b-field label="Tag auswählen" :custom-class="{ 'has-text-white': !isBrightMode }" style="margin-bottom: 1cm">
-              <b-datepicker v-model="date" :mobile-native="false" placeholder="Bitte ein Datum eingeben oder auswählen..." :min-date="minDate" :max-date="maxDate" :events="datePickerRoomEvents" indicators="bars" icon="calendar-today" locale="de-DE" :first-day-of-week="1" append-to-body @input="onDateChanged()" />
-              <b-checkbox v-model="manualTime" :class="{ 'has-text-white': !isBrightMode }" style="margin-left: 20px">
+            <b-field
+              label="Tag auswählen"
+              :custom-class="{ 'has-text-white': !isBrightMode }"
+              style="margin-bottom: 1cm"
+            >
+              <b-datepicker
+                v-model="date"
+                :mobile-native="false"
+                placeholder="Bitte ein Datum eingeben oder auswählen..."
+                :min-date="minDate"
+                :max-date="maxDate"
+                :events="datePickerRoomEvents"
+                indicators="bars"
+                icon="calendar-today"
+                locale="de-DE"
+                :first-day-of-week="1"
+                append-to-body
+                @input="onDateChanged()"
+              />
+              <b-checkbox
+                v-model="manualTime"
+                :class="{ 'has-text-white': !isBrightMode }"
+                style="margin-left: 20px"
+              >
                 Manuelle Zeiteingabe
               </b-checkbox>
             </b-field>
-            <b-field v-if="manualTime" label="Zeit wählen" :custom-class="{ 'has-text-white': !isBrightMode }" style="margin-bottom: 1cm">
-              <b-clockpicker v-model="time" rounded placeholder="Bitte Zeit auswählen..." icon="clock" hour-format="24" @input="onTimeChanged()" />
+            <b-field
+              v-if="manualTime"
+              label="Zeit wählen"
+              :custom-class="{ 'has-text-white': !isBrightMode }"
+              style="margin-bottom: 1cm"
+            >
+              <b-clockpicker
+                v-model="time"
+                rounded
+                placeholder="Bitte Zeit auswählen..."
+                icon="clock"
+                hour-format="24"
+                @input="onTimeChanged()"
+              />
             </b-field>
             <!--Results display-->
-            <b-message :closable="false" :title="messageTitle" has-icon type="is-primary" style="overflow-y: auto; min-height: 200px">
-              <b-message v-for="item in results" id="eventsId" :key="item" type="is-primary">
+            <b-message
+              :closable="false"
+              :title="messageTitle"
+              has-icon
+              type="is-primary"
+              style="overflow-y: auto; min-height: 200px"
+            >
+              <b-message
+                v-for="item in results"
+                id="eventsId"
+                :key="item"
+                type="is-primary"
+              >
                 {{ item }}
               </b-message>
-              <b-taglist attached style="margin-top: 25px !important">
+              <b-taglist
+                attached
+                style="margin-top: 25px !important"
+              >
                 <b-tag type="is-dark">
                   <a href="https://github.com/antonplagemann/dhbw-room-plan">
                     Zuletzt aktualisiert:
                   </a>
                 </b-tag>
-                <b-tag type="is-primary" @dblclick.native="
-                      isBrightMode = !isBrightMode
-                      changeDisplayMode()
-                    ">
+                <b-tag
+                  type="is-primary"
+                  @dblclick.native="
+                    isBrightMode = !isBrightMode
+                    changeDisplayMode()
+                  "
+                >
                   {{ lastUpdated }}
                 </b-tag>
               </b-taglist>
@@ -105,7 +200,7 @@ export default {
    * Initializes the main data object
    * @returns The main data as object
    */
-  data () {
+  data() {
     const minDate = new Date(new Date().setDate(new Date().getDate() - 1))
     const maxDate = new Date(
       minDate.getFullYear(),
@@ -143,7 +238,7 @@ export default {
      * Filters all room for the room search input field depending on the user input
      * @returns An array of rooms
      */
-    filteredRoomArray () {
+    filteredRoomArray() {
       if (!this.json) {
         return []
       }
@@ -156,7 +251,7 @@ export default {
         )
       })
     },
-    displayModeButtonText () {
+    displayModeButtonText() {
       if (this.isBrightMode) return 'Dunklen Modus aktivieren'
       return 'Hellen Modus aktivieren'
     }
@@ -164,7 +259,7 @@ export default {
   /**
    * Main function (called at loading time)
    */
-  mounted () {
+  mounted() {
     this.lastUpdated = new Date(this.json.last_updated).toLocaleDateString(
       'de-DE',
       {
@@ -179,7 +274,7 @@ export default {
     this.calculateMessageTitle()
   },
   methods: {
-    changeDisplayMode () {
+    changeDisplayMode() {
       this.isBrightMode = !this.isBrightMode
       if (!this.isBrightMode) {
         document
@@ -201,7 +296,7 @@ export default {
      * Triggered on selected or cleared room.
      * @param {String} room
      */
-    onRoomChanged (room) {
+    onRoomChanged(room) {
       this.room = room || ''
       // Update message title
       this.calculateMessageTitle()
@@ -213,7 +308,7 @@ export default {
     /**
      * Triggered on a selected date.
      */
-    onDateChanged () {
+    onDateChanged() {
       // Update date string
       this.calculateDateString()
       // Check and update time
@@ -226,7 +321,7 @@ export default {
     /**
      * Triggered on a selected time.
      */
-    onTimeChanged () {
+    onTimeChanged() {
       // Update message title
       this.calculateMessageTitle()
       // Update event list
@@ -235,7 +330,7 @@ export default {
     /**
      * Calculates a dd.mm.yyyy date string.
      */
-    calculateDateString () {
+    calculateDateString() {
       // Update date string
       this.dateString = this.date.toLocaleDateString('de-DE', {
         year: 'numeric',
@@ -246,7 +341,7 @@ export default {
     /**
      * Updates the time value based on current date
      */
-    updateTime () {
+    updateTime() {
       // Do not update time if set to manual
       if (this.manualTime) return
       // Check if new date is current date
@@ -266,7 +361,7 @@ export default {
      * OR all free rooms on a selected date
      * @returns An array of events
      */
-    calculateEvents () {
+    calculateEvents() {
       if (!this.json) {
         this.results = ['Fehler: Termine konnten nicht geladen werden.']
       } else if (!this.room) {
@@ -280,7 +375,7 @@ export default {
     /**
      * Calculates all free rooms on the selected date.
      */
-    calculateFreeRooms () {
+    calculateFreeRooms() {
       // Calculate used rooms based on time
       const usedRooms = Object.keys(
         this.json.events_by_date[this.dateString]
@@ -301,7 +396,7 @@ export default {
     /**
      * Calculates all events in a selected room on a selected date.
      */
-    calculateEventsInRoom () {
+    calculateEventsInRoom() {
       try {
         const events = this.json.events_by_date[this.dateString][this.room]
         if (!events) {
@@ -327,7 +422,7 @@ export default {
     /**
      * Calculates a date list of all events that happen in a specific room
      */
-    calculateRoomEventDates () {
+    calculateRoomEventDates() {
       if (!this.room) {
         this.datePickerRoomEvents = []
       } else {
@@ -345,7 +440,7 @@ export default {
     /**
      * Calculates the title for the results message box
      */
-    calculateMessageTitle () {
+    calculateMessageTitle() {
       if (this.room) {
         this.messageTitle = 'Raumtermine für den ' + this.dateString
       } else {
