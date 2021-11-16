@@ -19,11 +19,14 @@ jobs:
 
       - name: install python packages
         run: |
+          cd python
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: execute python script # run parse.py to get the latest data
-        run: python parse.py
+        run: |
+          cd python
+          python parse.py
 
       - name: build vue app # Rebuild the website
         run: |
@@ -37,6 +40,7 @@ jobs:
               git add -A
               git commit -m "Update room plan resources" -a
         shell: bash
+
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
