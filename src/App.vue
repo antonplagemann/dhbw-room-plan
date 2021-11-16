@@ -463,18 +463,10 @@ select, option {
   color: #fff !important;
 }
 
-/* Light mode */
-.light-bg {
-  background-image: url('./assets/background_light.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 /* Dark mode */
 .dark-bg {
-  background-image: url('./assets/background_dark.jpg');
+  
+  background-color: rgb(61, 73, 108);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -485,6 +477,7 @@ body,
 html {
   height: 100%;
   width: 100%;
+  background-color: rgb(61, 73, 108);
   overflow-y: auto;
   overflow-x: hidden;
   /* Hide scrollbar for IE, Edge and Firefox */
