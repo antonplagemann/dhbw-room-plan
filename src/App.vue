@@ -62,10 +62,12 @@
         </div>
         <div class="card-content">
           <div class="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            nec iaculis mauris.
-            <br>
-            <small>{{ lastUpdated }}</small>
+            Dieses Diagramm zeigt die theoretische Mensaauslastung am {{ lastUpdated.split(",")[0] }}.<br>
+            Für Details zur Berechnung siehe
+            <a href="https://github.com/antonplagemann/dhbw-room-plan">GitHub</a>.<br>
+            <small>
+              Diagramm erstellt am {{ lastUpdated }} <br> 
+            </small>
           </div>
         </div>
       </div>
