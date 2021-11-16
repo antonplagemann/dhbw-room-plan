@@ -84,7 +84,7 @@
             <!--Room picker-->
             <b-field
               label="Raum auswählen"
-              :custom-class="{ 'has-text-white': !isBrightMode }"
+              :custom-class="isBrightMode ? '' : 'has-text-white'"
               style="margin-bottom: 1cm"
             >
               <b-autocomplete
@@ -104,7 +104,7 @@
             <!--Date picker-->
             <b-field
               label="Tag auswählen"
-              :custom-class="{ 'has-text-white': !isBrightMode }"
+              :custom-class="isBrightMode ? '' : 'has-text-white'"
               style="margin-bottom: 1cm"
             >
               <b-datepicker
@@ -132,7 +132,7 @@
             <b-field
               v-if="manualTime"
               label="Zeit wählen"
-              :custom-class="{ 'has-text-white': !isBrightMode }"
+              :custom-class="isBrightMode ? '' : 'has-text-white'"
               style="margin-bottom: 1cm"
             >
               <b-clockpicker
@@ -461,7 +461,6 @@ export default {
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
