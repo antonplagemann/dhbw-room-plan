@@ -9,6 +9,7 @@
     "start": "vue-cli-service serve --host localhost"
   },
   "dependencies": {
+    "@mdi/font": "^6.5.95",
     "buefy": "^0.9.13",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
