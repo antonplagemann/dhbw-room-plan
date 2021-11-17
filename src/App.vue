@@ -62,7 +62,7 @@
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/antonplagemann/dhbw-room-plan"
+              href="https://github.com/antonplagemann/dhbw-room-plan#mensa-auslastung"
             >Readme auf GitHub</a>.<br>
             <small>
               Diagramm erstellt am {{ lastUpdated }} <br> 

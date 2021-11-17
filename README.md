@@ -25,4 +25,4 @@ Das Diagramm für die Mensa-Auslastung wird mit den folgenden Annahmen berechnet
 - Bei jedem Kurs wird geprüft, ob es ein Vorlesungsende zwischen 11 und 14 Uhr gibt.
 - Falls ja, wird diese Uhrzeit auf 15-Minuten Schritte reduziert und gespeichert.
 - Unter der Annahme das ein Mensaaufenthalt bis zu 45 Minuten dauern kann, werden zwei weitere Belegungszeiten für diesen Kurs hinzugefügt (+15 bzw. +30 Minuten).
-- Das Diagramm wird anschließend als die Summe der Kurse über die jeweilige Uhrzeit und die Anzahl der Kurse zu dieser Uhrzeit erstellt.
+- Das Diagramm wird anschließend mit den Uhrzeiten (x-Achse) und der Anzahl der Kurse zu diesen Uhrzeiten (y-Achse) erstellt.
