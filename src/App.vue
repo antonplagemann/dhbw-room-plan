@@ -16,13 +16,16 @@
           >
         </b-navbar-item>
       </template>
-      <template #start>
-        <b-navbar-item
-          href="#"
-          class="has-text-white"
-          @click="modalActive = true"
-        >
-          Mensaauslastung anzeigen
+      <template #end>
+        <b-navbar-item tag="div">
+          <div class="buttons">
+            <a
+              class="button is-primary"
+              @click="modalActive = true"
+            >
+              Mensaauslastung anzeigen
+            </a>
+          </div>
         </b-navbar-item>
       </template>
     </b-navbar>
@@ -461,6 +464,12 @@ select, option {
 }
 .message.is-primary .message-body {
   color: #fff !important;
+}
+
+/*Center Buttons */
+.buttons {
+  text-align: center;
+  display: block !important;
 }
 
 /* Dark mode */
