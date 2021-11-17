@@ -429,6 +429,9 @@ export default {
 </script>
 
 <style>
+::placeholder {
+  color: #707070 !important;
+}
 .dropdown-content {
   background-color: #363636 !important;
   color: #fff !important;
