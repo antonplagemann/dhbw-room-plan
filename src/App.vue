@@ -20,6 +20,7 @@
         <b-navbar-item tag="div">
           <div class="buttons">
             <a
+              id="mensa-button"
               class="button is-primary"
               @click="modalActive = true"
             >
@@ -49,10 +50,20 @@
         </div>
         <div class="card-content">
           <div class="content">
-            Das Diagramm zeigt die potenzielle Anzahl an Kursen in der Mensa am {{ lastUpdated.split(",")[0] }}.<br>
+            Das Diagramm zeigt die Anzahl an Kursen in der Mensa bezogen auf die Zeit am {{ lastUpdated.split(",")[0] }}.<br>
             Mensa-Öffungszeiten: Mo-Fr von 11:30-14:00<br>
+            
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.stw-ma.de/Essen+_+Trinken/Speisepl%C3%A4ne/Mensaria+Metropol.html"
+            >Zur Speisekarte</a><br>
             Für Details zur Berechnung siehe
-            <a href="https://github.com/antonplagemann/dhbw-room-plan">Readme auf GitHub</a>.<br>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/antonplagemann/dhbw-room-plan"
+            >Readme auf GitHub</a>.<br>
             <small>
               Diagramm erstellt am {{ lastUpdated }} <br> 
             </small>
@@ -84,7 +95,7 @@
               :delay="1000"
             >
               <template v-slot:content>
-                <span>Neu: Tagesaktueller Mensa-Auslastungsplan ⟶</span>
+                <span>Neu: Aktuelle Mensa-Auslastung ⟶</span>
               </template>
               <b-field
                 label="Raum auswählen"
@@ -274,13 +285,22 @@ export default {
     )
     this.calculateEvents()
     this.calculateMessageTitle()
+    // Disable tooltip when hovering mensa menu button
+    document.getElementById("mensa-button").addEventListener("mouseenter", this.disableTooltip)
+    // Disable tooltip when hovering burger menu button
+    document.getElementsByClassName("navbar-burger")[0].addEventListener("mouseenter", this.disableTooltip)
     // Diable tooltip after 5 seconds
-    setTimeout(() => {
-      this.tooltipVisible = false
-      this.tooltipActive = false
-    }, 5000)
+    setTimeout(this.disableTooltip, 5000)
   },
   methods: {
+    /**
+     * Disables the new features tooltip
+     * Sets visible attribute first to keep fade out animation
+     */
+    disableTooltip() {
+      this.tooltipVisible = false
+      this.tooltipActive = false
+    },
     /**
      * Triggered on selected or cleared room.
      * @param {String} room
@@ -448,7 +468,7 @@ export default {
 
 <style>
 ::placeholder {
-  color: #707070 !important;
+  color: #8d8d8d !important;
 }
 .dropdown-content {
   background-color: #363636 !important;
@@ -486,6 +506,9 @@ select, option {
 }
 .message.is-primary .message-body {
   color: #fff !important;
+}
+a:hover {
+  color: #bc57d5 !important;
 }
 
 /*Center Buttons */
