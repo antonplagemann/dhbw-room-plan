@@ -76,27 +76,38 @@
             "
           >
             <!--Room picker-->
-            <b-field
-              label="Raum auswählen"
-              custom-class="has-text-white"
-              type="is-dark"
-              style="margin-bottom: 1cm"
+            <b-tooltip
+              position="is-top"
+              :active="tooltipActive"
+              :always="tooltipVisible"
+              animated
+              :delay="1000"
             >
-              <b-autocomplete
-                v-model="roomSelector"
-                rounded
-                custom-class="has-text-white has-background-dark"
-                :data="filteredRoomArray"
-                placeholder="z.B. Raum 048B"
-                icon="magnify"
-                clearable
-                @select="onRoomChanged($event)"
+              <template v-slot:content>
+                <span>Jetzt neu: Tagesaktueller Mensa-Auslastungsplan! ⟶</span>
+              </template>
+              <b-field
+                label="Raum auswählen"
+                custom-class="has-text-white"
+                type="is-dark"
+                style="margin-bottom: 1cm"
               >
-                <template #empty>
-                  Keine Ergebnisse gefunden
-                </template>
-              </b-autocomplete>
-            </b-field>
+                <b-autocomplete
+                  v-model="roomSelector"
+                  rounded
+                  custom-class="has-text-white has-background-dark"
+                  :data="filteredRoomArray"
+                  placeholder="z.B. Raum 048B"
+                  icon="magnify"
+                  clearable
+                  @select="onRoomChanged($event)"
+                >
+                  <template #empty>
+                    Keine Ergebnisse gefunden
+                  </template>
+                </b-autocomplete>
+              </b-field>
+            </b-tooltip>
             <!--Date picker-->
             <b-field
               label="Tag auswählen"
@@ -220,7 +231,9 @@ export default {
       messageTitle: 'Initialisierung', // Title of the results box
       time: new Date(new Date().setSeconds(0, 0)), // Currently selected time
       manualTime: false, // Value of the 'manual time' checkbox
-      modalActive: false // If mensa occupancy modal is open
+      modalActive: false, // If mensa occupancy modal is open
+      tooltipActive: true,  // If the new features tooltip is active
+      tooltipVisible: true  // If the new features tooltip is visible
     }
   },
   /**
@@ -261,6 +274,11 @@ export default {
     )
     this.calculateEvents()
     this.calculateMessageTitle()
+    // Diable tooltip after 5 seconds
+    setTimeout(() => {
+      this.tooltipVisible = false
+      this.tooltipActive = false
+    }, 5000)
   },
   methods: {
     /**
