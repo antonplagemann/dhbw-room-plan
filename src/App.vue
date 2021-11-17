@@ -84,7 +84,7 @@
               :delay="1000"
             >
               <template v-slot:content>
-                <span>Jetzt neu: Tagesaktueller Mensa-Auslastungsplan! ⟶</span>
+                <span>Neu: Tagesaktueller Mensa-Auslastungsplan ⟶</span>
               </template>
               <b-field
                 label="Raum auswählen"
