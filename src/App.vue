@@ -49,9 +49,10 @@
         </div>
         <div class="card-content">
           <div class="content">
-            Dieses Diagramm zeigt die theoretische Mensaauslastung am {{ lastUpdated.split(",")[0] }}.<br>
+            Das Diagramm zeigt die potenzielle Anzahl an Kursen in der Mensa am {{ lastUpdated.split(",")[0] }}.<br>
+            Mensa-Öffungszeiten: Mo-Fr von 11:30-14:00<br>
             Für Details zur Berechnung siehe
-            <a href="https://github.com/antonplagemann/dhbw-room-plan">GitHub</a>.<br>
+            <a href="https://github.com/antonplagemann/dhbw-room-plan">Readme auf GitHub</a>.<br>
             <small>
               Diagramm erstellt am {{ lastUpdated }} <br> 
             </small>
