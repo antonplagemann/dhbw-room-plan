@@ -13,6 +13,7 @@ import pandas
 import requests
 from dateutil.relativedelta import relativedelta
 from icalevents import icalevents
+from chart import ChartGenerator
 
 
 class ICalParser():
@@ -22,7 +23,7 @@ class ICalParser():
         # Constants
         self.thread_lock = threading.Lock()
         self.download_folder = "ical"  # Folder name where to download all ical files
-        self.website_folder = "../src/assets"  # Folder name where to save all files
+        self.website_folder = os.path.join("..", "src", "assets")  # Folder name where to save all files
         self.ical_url = "http://vorlesungsplan.dhbw-mannheim.de/ical.php"
         self.last_updated = datetime.now(
             timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")  # Now
@@ -193,111 +194,10 @@ class ICalParser():
             writer = csv.writer(csvfile, delimiter=';')
             writer.writerows(csv_data)
 
-    def __roundTime(self, dt: datetime = None, dateDelta: timedelta = timedelta(minutes=15)) -> datetime:
-        """Round a datetime object to a multiple of a timedelta
-        dt : datetime.datetime object, default now.
-        dateDelta : timedelta object, we round to a multiple of this, default 1 minute.
-        Author: Thierry Husson 2012 - Use it as you want but don't blame me.
-                Stijn Nevens 2014 - Changed to use only datetime objects as variables
-        """
-        roundTo = dateDelta.total_seconds()
-
-        if dt == None:
-            dt = datetime.datetime.now()
-        seconds = (dt - dt.min).seconds
-        # // is a floor division, not a comment on following line:
-        rounding = (seconds+roundTo/2) // roundTo * roundTo
-        return dt + timedelta(0, rounding-seconds, -dt.microsecond)
-
-    def __zerofill(self, dates: Dict[datetime, int], delta: timedelta = timedelta(minutes=15)):
-        '''Fills a sorted date: value dict with zeros if there are gaps in the specified delta.'''
-        min_date, max_date = min(dates.keys()), max(dates.keys())
-        curr_date = min_date
-        while curr_date < max_date:
-            if not dates.get(curr_date, None):
-                dates[curr_date] = 0
-            curr_date += delta
-        return dates
-
-    def export_mensa_chart(self):
-        # Export lunch time schedule
-        today = datetime.today().strftime("%d.%m.%Y")
-        events = {}
-        # Go though each event and count courses
-        for room_events in self.events_by_date[today].values():
-            for event in room_events:
-                end = self.__roundTime(datetime.strptime(
-                    event["end"], "%Y-%m-%dT%H:%M:%SZ"))
-                if end.time() >= time(11) and end.time() < time(14):
-                    for date in [end, end + timedelta(minutes=15), end + timedelta(minutes=30)]:
-                        if end.hour >= 14:
-                            continue
-                        if events.get(date, None):
-                            events[date] += 1
-                        else:
-                            events[date] = 1
-        # Zerofill events dict
-        events = self.__zerofill(events)
-        # Build sorted events list
-        events_list = sorted(list(events.items()), key=lambda e: e[0])
-        # Export light chart
-        options = {
-            "theme": "seaborn",
-            "figure_bg": "white",
-            "grid_bg": "#EAEAF2",
-            "grid_linewidth": 2,
-            "bar_color": "#4C72B0",
-            "text_color": "tab:blue",
-            "filename": "mensa_light.png",
-        }
-        self.__exportFigure(events_list, **options)
-        # Export dark chart
-        options = {
-            "theme": "dark_background",
-            "figure_bg": "#282828",
-            "grid_bg": "#282828",
-            "grid_linewidth": 0.5,
-            "bar_color": "#7957d5",
-            "text_color": "#E39031",
-            "filename": "mensa_dark.png",
-        }
-        self.__exportFigure(events_list, **options)
-
-    def __exportFigure(self, events: List, **kwargs):
-        y_series = [v for _, v in events]
-        x_series = [k for k, _ in events]
-        # Create plot
-        frame = pandas.DataFrame(events, columns=[
-                                 "Uhrzeit", "Anzahl Kurse in Mittagspause"]).set_index("Uhrzeit")
-        # Style plot
-        plt.style.use(kwargs["theme"])
-        ax = frame.plot(kind="bar", rot=0, color=kwargs["bar_color"])
-        figure = ax.get_figure()
-        figure.set_facecolor(kwargs["figure_bg"])
-        ax.set_facecolor(kwargs["grid_bg"])
-        ax.get_figure().set_facecolor(kwargs["grid_bg"])
-        ax.set_ylabel("Anzahl Kurse", fontsize=16, fontweight='bold')
-        ax.set_xlabel("Uhrzeit", fontsize=16, fontweight='bold')
-        ax.yaxis.grid(True, which='major', linestyle='-',
-                      linewidth=kwargs["grid_linewidth"])
-        ax.xaxis.grid(False)
-        legend = ax.legend(fontsize="large", frameon=True,
-                           facecolor=kwargs["grid_bg"], framealpha=1)
-        legend.get_frame().set_linewidth(0.0)
-        ax.set_ylim(top=max(y_series) + 4)
-        # Set x tick labels
-        ax.tick_params(axis='both', which='major', labelsize=10)
-        ax.set_xticklabels([date.strftime("%H:%M") for date in x_series])
-        # Add bar values
-        props = dict(facecolor=kwargs["grid_bg"], alpha=1, edgecolor='none')
-        for i, v in enumerate(y_series):
-            ax.text(i, v + 1, str(v), color=kwargs["text_color"],
-                    fontweight='bold', ha='center', fontsize=12, alpha=1, bbox=props)
-        # Export plot
-        filepath = os.path.join(
-            sys.path[0], self.website_folder, kwargs["filename"])
-        figure.savefig(filepath, bbox_inches='tight', dpi=200,
-                       facecolor=figure.get_facecolor(), edgecolor='none')
+    def export_mensa_charts(self):
+        target_path = os.path.join(self.website_folder, "mensa-charts")
+        chart = ChartGenerator(self.events_by_date, target_path)
+        chart.generate()
 
 
 # Start
@@ -307,7 +207,7 @@ parser = ICalParser()
 parser.download_ical_list()
 parser.parse()
 parser.export_json()
-parser.export_mensa_chart()
+parser.export_mensa_charts()
 
 # Finished
 print("Finished")

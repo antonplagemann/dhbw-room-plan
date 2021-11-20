@@ -36,36 +36,57 @@
       :width="640"
       scroll="clip"
       style="padding-left: 20px; padding-right: 20px"
+      :has-modal-card="mensaChart.error"
     >
       <div
         class="card has-text-primary-light has-background-dark"
       >
-        <div class="card-image">
+        <div
+          v-if="!mensaChart.error"
+          class="card-image"
+        >
           <figure class="image is-4by3">
             <img
-              src="./assets/mensa_dark.png"
+              :src="mensaChart.path"
               alt="Image"
             >
           </figure>
         </div>
+        <div
+          v-else
+          class="card-content"
+        >
+          <div
+            v-if="date.getDay()%6 === 0"
+            class="content"
+          >
+            Am Wochenende hat die Mensa geschlossen, bitte einen anderen Tag auswählen.
+          </div>
+          <div
+            v-else
+            class="content"
+          >
+            Das Diagramm für diesen Tag wurde nicht gefunden.<br>
+            Die Mensa-Auslastungsdaten werden nur für die nächsten 2 Wochen berechnet.
+            Bitte einen Tag zwischen dem {{ chartCalcBegin }} und dem {{ chartCalcEnd }} auswählen.
+          </div>
+        </div>
         <div class="card-content">
           <div class="content">
-            Das Diagramm zeigt die Anzahl an Kursen in der Mensa bezogen auf die Zeit am {{ lastUpdated.split(",")[0] }}.<br>
             Mensa-Öffungszeiten: Mo-Fr von 11:30-14:00<br>
-            
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.stw-ma.de/Essen+_+Trinken/Speisepl%C3%A4ne/Mensaria+Metropol.html"
+              :href="`https://www.stw-ma.de/Essen+_+Trinken/Speisepl%C3%A4ne/Mensaria+Metropol.html?day=${dateStringReverse}`"
             >Zur Speisekarte</a><br>
-            Für Details zur Berechnung siehe
+            Für Details zur Berechnung der Diagramme siehe
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://github.com/antonplagemann/dhbw-room-plan#mensa-auslastung"
             >Readme auf GitHub</a>.<br>
             <small>
-              Diagramm erstellt am {{ lastUpdated }} <br> 
+              Diagramme erstellt am {{ lastUpdated }} <br> 
             </small>
           </div>
         </div>
@@ -217,6 +238,12 @@ export default {
    * @returns The main data as object
    */
   data() {
+    // Register a method to add days
+    Date.prototype.addDays = function(days) {
+      var date = new Date(this.valueOf());
+      date.setDate(date.getDate() + days);
+      return date;
+    }
     const minDate = new Date(new Date().setDate(new Date().getDate() - 1))
     const maxDate = new Date(
       minDate.getFullYear(),
@@ -228,23 +255,39 @@ export default {
       month: '2-digit',
       day: '2-digit'
     })
+    const dateStringReverse = new Date().getFullYear() + '-'
+        + ('0' + (new Date().getMonth()+1)).slice(-2) + '-'
+        + ('0' + new Date().getDate()).slice(-2)
+    const lastUpdated = new Date(json.last_updated).toLocaleDateString(
+      'de-DE',
+      {
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit'
+      }
+    )
     return {
       json: json, // JSON object with all data
       room: '', // Selected valid room
       roomSelector: '', // Direct input of the room selector
       datePickerRoomEvents: [], // List of dates for the datepicker view
       results: ['Daten werden geladen...'], // All results to display (array of strings)
-      lastUpdated: '', // Update time of the JSON file
+      lastUpdated, // Update time of the JSON file as string
       minDate, // Minimum date to select in calendar view (today)
       maxDate, // Maximum date so select calendar view (today + 3 Months)
       date: new Date(), // Currently selected date
       dateString, // Currently selected date as dd.mm.yyyy
+      dateStringReverse, // Currently selected date as yyyy-mm-dd
       messageTitle: 'Initialisierung', // Title of the results box
       time: new Date(new Date().setSeconds(0, 0)), // Currently selected time
       manualTime: false, // Value of the 'manual time' checkbox
       modalActive: false, // If mensa occupancy modal is open
       tooltipActive: true,  // If the new features tooltip is active
-      tooltipVisible: true  // If the new features tooltip is visible
+      tooltipVisible: true,  // If the new features tooltip is visible
+      chartCalcBegin: new Date(json.last_updated).toLocaleDateString('de-DE', { year: 'numeric', month: '2-digit', day: '2-digit' }),
+      chartCalcEnd: new Date(json.last_updated).addDays(14).toLocaleDateString('de-DE', { year: 'numeric', month: '2-digit', day: '2-digit' }),
     }
   },
   /**
@@ -267,22 +310,25 @@ export default {
             .indexOf(this.roomSelector.toLowerCase()) >= 0
         )
       })
+    },
+    /**
+     * Fetches the mensa occupancy chart based on the seleted date
+     * @returns The mensa chart path and/or an error boolean
+     */
+    mensaChart() {
+      try {
+        // eslint-disable-next-line no-undef
+        const img = require(`./assets/mensa-charts/mensa_occ_${this.dateStringReverse}.png`)
+        return {path: img, error: false}
+      } catch (error) {
+        return {error: true}
+      }
     }
   },
   /**
    * Main function (called at loading time)
    */
   mounted() {
-    this.lastUpdated = new Date(this.json.last_updated).toLocaleDateString(
-      'de-DE',
-      {
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit',
-        hour: '2-digit',
-        minute: '2-digit'
-      }
-    )
     this.calculateEvents()
     this.calculateMessageTitle()
     // Disable tooltip when hovering mensa menu button
@@ -346,6 +392,9 @@ export default {
         month: '2-digit',
         day: '2-digit'
       })
+      this.dateStringReverse = this.date.getFullYear() + '-'
+        + ('0' + (this.date.getMonth()+1)).slice(-2) + '-'
+        + ('0' + this.date.getDate()).slice(-2)
     },
     /**
      * Updates the time value based on current date
