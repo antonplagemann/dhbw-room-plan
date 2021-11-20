@@ -87,13 +87,23 @@ class ChartGenerator:
     
     def __calculate_chart_data(self):
         mensa_occ = {}
+        # Calculate charts for the next week
+        current = datetime.today()
+        end = current + timedelta(days=14)
         # Go though each event and count courses
-        for event_date in self.events_by_date:
+        while current <= end:
+            # Skip weekends (mensa closed)
+            if current.weekday() > 4:
+                current += timedelta(days=1)
+                continue
+            event_date = current.strftime("%d.%m.%Y")
             time_values_list = self.__calculate_mensa_occ(event_date)
 
             # Skip days with 0 courses
             if any([v for _, v in time_values_list]):
                 mensa_occ[event_date] = time_values_list
+
+            current += timedelta(days=1)
 
         # Strip dates and put course counts together indexed by time
         hour_values = {hour[0][0]: [count for _, count in hour]
@@ -183,7 +193,7 @@ class ChartGenerator:
 
 # Testing code
 # filepath = os.path.join(sys.path[0], "..", "src", "assets", "rooms.json")
-# target_path = os.path.join(sys.path[0], "mensa_charts")
+# target_path = os.path.join(sys.path[0], "..", "src", "assets", "mensa_charts")
 # with open(filepath) as f:
 #     data = json.load(f)
 # chart = ChartGenerator(data["events_by_date"], target_path)
