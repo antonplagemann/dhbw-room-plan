@@ -318,7 +318,7 @@ export default {
     mensaChart() {
       try {
         // eslint-disable-next-line no-undef
-        const img = require(`./assets/mensa-charts/mensa_occ_${this.dateStringReverse}.png`)
+        const img = require(`./assets/mensa_charts/mensa_occ_${this.dateStringReverse}.png`)
         return {path: img, error: false}
       } catch (error) {
         return {error: true}

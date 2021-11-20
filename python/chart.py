@@ -1,4 +1,3 @@
-
 import os
 import sys
 import json
@@ -26,8 +25,8 @@ class ChartGenerator:
             "grid_linewidth": 0.5,
             "bar_color": "#7957d5",
             "text_color": "#E39031",
-            "3-Monate-Durchschnitt": "#7957d5",
-            "3-Monate-Maximum": "#787878",
+            "2-Wochen-Durchschnitt": "#7957d5",
+            "2-Wochen-Maximum": "#787878",
             "filename": "mensa_dark.png",
         }
     
@@ -114,7 +113,7 @@ class ChartGenerator:
 
         # Save results
         self.mensa_occ = mensa_occ
-        self.line_values = [('3-Monate-Durchschnitt', hour_mean), ('3-Monate-Maximum', hour_max)]
+        self.line_values = [('2-Wochen-Durchschnitt', hour_mean), ('2-Wochen-Maximum', hour_max)]
 
     
     def __create_figure(self, date_str):

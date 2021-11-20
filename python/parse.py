@@ -195,7 +195,7 @@ class ICalParser():
             writer.writerows(csv_data)
 
     def export_mensa_charts(self):
-        target_path = os.path.join(self.website_folder, "mensa-charts")
+        target_path = os.path.join(self.website_folder, "mensa_charts")
         chart = ChartGenerator(self.events_by_date, target_path)
         chart.generate()
 
