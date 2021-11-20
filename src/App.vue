@@ -66,8 +66,9 @@
             v-else
             class="content"
           >
-            Die Mensa-Auslastungsdaten werden nur für die nächsten 2 Wochen berechnet.<br>
-            Bitte einen Tag zwischen dem {{ todayString }} und dem {{ todayIn2WeeksString }} auswählen.
+            Das Diagramm für diesen Tag wurde nicht gefunden.<br>
+            Die Mensa-Auslastungsdaten werden nur für die nächsten 2 Wochen berechnet.
+            Bitte einen Tag zwischen dem {{ chartCalcBegin }} und dem {{ chartCalcEnd }} auswählen.
           </div>
         </div>
         <div class="card-content">
@@ -257,13 +258,23 @@ export default {
     const dateStringReverse = new Date().getFullYear() + '-'
         + ('0' + (new Date().getMonth()+1)).slice(-2) + '-'
         + ('0' + new Date().getDate()).slice(-2)
+    const lastUpdated = new Date(json.last_updated).toLocaleDateString(
+      'de-DE',
+      {
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit'
+      }
+    )
     return {
       json: json, // JSON object with all data
       room: '', // Selected valid room
       roomSelector: '', // Direct input of the room selector
       datePickerRoomEvents: [], // List of dates for the datepicker view
       results: ['Daten werden geladen...'], // All results to display (array of strings)
-      lastUpdated: '', // Update time of the JSON file
+      lastUpdated, // Update time of the JSON file as string
       minDate, // Minimum date to select in calendar view (today)
       maxDate, // Maximum date so select calendar view (today + 3 Months)
       date: new Date(), // Currently selected date
@@ -275,8 +286,8 @@ export default {
       modalActive: false, // If mensa occupancy modal is open
       tooltipActive: true,  // If the new features tooltip is active
       tooltipVisible: true,  // If the new features tooltip is visible
-      todayString: new Date().toLocaleDateString('de-DE', { year: 'numeric', month: '2-digit', day: '2-digit' }),
-      todayIn2WeeksString: new Date().addDays(14).toLocaleDateString('de-DE', { year: 'numeric', month: '2-digit', day: '2-digit' }),
+      chartCalcBegin: new Date(json.last_updated).toLocaleDateString('de-DE', { year: 'numeric', month: '2-digit', day: '2-digit' }),
+      chartCalcEnd: new Date(json.last_updated).addDays(14).toLocaleDateString('de-DE', { year: 'numeric', month: '2-digit', day: '2-digit' }),
     }
   },
   /**
@@ -318,16 +329,6 @@ export default {
    * Main function (called at loading time)
    */
   mounted() {
-    this.lastUpdated = new Date(this.json.last_updated).toLocaleDateString(
-      'de-DE',
-      {
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit',
-        hour: '2-digit',
-        minute: '2-digit'
-      }
-    )
     this.calculateEvents()
     this.calculateMessageTitle()
     // Disable tooltip when hovering mensa menu button
