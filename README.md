@@ -16,13 +16,16 @@ Dieses Repository enthält den Quellcode und die Ressourcen für den Raumplan un
 - Ansicht der heute nicht (mehr) belegten Räume (Startansicht).
 - Ansicht von freien Räumen nach Uhrzeit und Datum.
 - Anzeige der aktuellen oder zukünftigen Termine eines Raumes.
-- Zeigt die Auslastung der Mensaria Metropol des aktuellen Tages nach Uhrzeit an.
+- Zeigt die Auslastung der Mensaria Metropol des gewählten Tages nach Uhrzeit an.
 
 ## Mensa Auslastung
 
-Das Diagramm für die Mensa-Auslastung wird mit den folgenden Annahmen berechnet:
+Die Diagramme für die Mensa-Auslastung werden mit den folgenden Annahmen berechnet:
 
 - Bei jedem Kurs wird geprüft, ob es ein Vorlesungsende zwischen 11 und 14 Uhr gibt.
 - Falls ja, wird diese Uhrzeit auf 15-Minuten Schritte reduziert und gespeichert.
 - Unter der Annahme das ein Mensaaufenthalt bis zu 45 Minuten dauern kann, werden zwei weitere Belegungszeiten für diesen Kurs hinzugefügt (+15 bzw. +30 Minuten).
 - Das Diagramm wird anschließend mit den Uhrzeiten (x-Achse) und der Anzahl der Kurse zu diesen Uhrzeiten (y-Achse) erstellt.
+- Der Tag mit der maximalen Auslastung (3-Monate-Maximum) ist zusätzlich als graue Linie gezeichnet.
+- Die durchschnittliche Auslastung (3-Monate-Durchschnitt) wird mit einer lila-farbigen Linie dargestellt.
+- Die Diagramme werden für die nächsten 2 Wochen berechnet (exkl. Wochenende).
