@@ -16,7 +16,7 @@ matplotlib.use('Agg')
 class ChartGenerator:
     def __init__(self, events_by_date, target_path) -> None:
         self.events_by_date = events_by_date
-        self.target_path = target_path
+        self.target_path = os.path.join(sys.path[0], target_path)
         self.mensa_occ = {}
         self.line_values = []
         self.options = {

@@ -23,7 +23,7 @@ class ICalParser():
         # Constants
         self.thread_lock = threading.Lock()
         self.download_folder = "ical"  # Folder name where to download all ical files
-        self.website_folder = "../src/assets"  # Folder name where to save all files
+        self.website_folder = os.path.join("..", "src", "assets")  # Folder name where to save all files
         self.ical_url = "http://vorlesungsplan.dhbw-mannheim.de/ical.php"
         self.last_updated = datetime.now(
             timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")  # Now
@@ -195,7 +195,8 @@ class ICalParser():
             writer.writerows(csv_data)
 
     def export_mensa_charts(self):
-        chart = ChartGenerator(self.events_by_date, self.website_folder + "/mensa-charts")
+        target_path = os.path.join(self.website_folder, "mensa-charts")
+        chart = ChartGenerator(self.events_by_date, target_path)
         chart.generate()
 
 
