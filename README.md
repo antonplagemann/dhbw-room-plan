@@ -26,6 +26,6 @@ Die Diagramme für die Mensa-Auslastung werden mit den folgenden Annahmen berech
 - Falls ja, wird diese Uhrzeit auf 15-Minuten Schritte reduziert und gespeichert.
 - Unter der Annahme das ein Mensaaufenthalt bis zu 45 Minuten dauern kann, werden zwei weitere Belegungszeiten für diesen Kurs hinzugefügt (+15 bzw. +30 Minuten).
 - Das Diagramm wird anschließend mit den Uhrzeiten (x-Achse) und der Anzahl der Kurse zu diesen Uhrzeiten (y-Achse) erstellt.
-- Der Tag mit der maximalen Auslastung (3-Monate-Maximum) ist zusätzlich als graue Linie gezeichnet.
-- Die durchschnittliche Auslastung (3-Monate-Durchschnitt) wird mit einer lila-farbigen Linie dargestellt.
-- Die Diagramme werden für die nächsten 2 Wochen berechnet (exkl. Wochenende).
+- Die maximale Auslastung pro Uhrzeit (2-Wochen-Maximum) ist zusätzlich als graue Linie gezeichnet.
+- Die durchschnittliche Auslastung (2-Wochen-Durchschnitt) wird mit einer lila-farbigen Linie dargestellt.
+- Diagramme werden täglich für die nächsten 2 Wochen berechnet (exkl. Wochenende).

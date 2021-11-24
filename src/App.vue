@@ -284,7 +284,7 @@ export default {
       time: new Date(new Date().setSeconds(0, 0)), // Currently selected time
       manualTime: false, // Value of the 'manual time' checkbox
       modalActive: false, // If mensa occupancy modal is open
-      tooltipActive: true,  // If the new features tooltip is active
+      tooltipActive: false,  // If the new features tooltip is active
       tooltipVisible: true,  // If the new features tooltip is visible
       chartCalcBegin: new Date(json.last_updated).toLocaleDateString('de-DE', { year: 'numeric', month: '2-digit', day: '2-digit' }),
       chartCalcEnd: new Date(json.last_updated).addDays(14).toLocaleDateString('de-DE', { year: 'numeric', month: '2-digit', day: '2-digit' }),
