@@ -86,6 +86,12 @@
                 },
                 {
                     "course": "WWI21 AMA",
+                    "end": "2022-03-01T15:30:00Z",
+                    "start": "2022-03-01T11:30:00Z",
+                    "title": "Betriebliche Informationsversorgung"
+                },
+                {
+                    "course": "WWI21 AMA",
                     "end": "2022-03-01T18:00:00Z",
                     "start": "2022-03-01T15:30:00Z",
                     "title": "Finanzbuchhaltung"
@@ -131,7 +137,7 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-03-01T18:00:00Z",
                     "start": "2022-03-01T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -143,13 +149,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PM",
                     "end": "2022-03-01T18:00:00Z",
                     "start": "2022-03-01T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-03-01T18:00:00Z",
                     "start": "2022-03-01T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -463,13 +469,13 @@
             ],
             "Raum 209A": [
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-03-01T12:00:00Z",
                     "start": "2022-03-01T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 PM",
                     "end": "2022-03-01T12:00:00Z",
                     "start": "2022-03-01T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
@@ -550,6 +556,12 @@
                 }
             ],
             "Raum 276C": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-01T12:00:00Z",
+                    "start": "2022-03-01T07:00:00Z",
+                    "title": "Einf\u00fchrung in die Verwaltungswirtschaft Hr. Gerhards"
+                },
                 {
                     "course": "WWI21 EG/EH",
                     "end": "2022-03-01T16:30:00Z",
@@ -715,7 +727,7 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-04-01T14:00:00Z",
                     "start": "2022-04-01T12:30:00Z",
                     "title": "Luftfahrttechnik"
@@ -727,13 +739,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PM",
                     "end": "2022-04-01T14:00:00Z",
                     "start": "2022-04-01T12:30:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-04-01T14:00:00Z",
                     "start": "2022-04-01T12:30:00Z",
                     "title": "Luftfahrttechnik"
@@ -745,14 +757,6 @@
                     "end": "2022-04-01T10:30:00Z",
                     "start": "2022-04-01T06:30:00Z",
                     "title": "WF8: Derivate Produkte"
-                }
-            ],
-            "Raum 138B": [
-                {
-                    "course": "WME19 MPG",
-                    "end": "2022-04-01T10:00:00Z",
-                    "start": "2022-04-01T07:00:00Z",
-                    "title": "User Experience"
                 }
             ],
             "Raum 180C": [
@@ -807,6 +811,20 @@
                     "end": "2022-04-01T10:15:00Z",
                     "start": "2022-04-01T06:00:00Z",
                     "title": "KI BWL I"
+                }
+            ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-01T08:30:00Z",
+                    "start": "2022-04-01T06:00:00Z",
+                    "title": "ReWe IVa"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-01T11:15:00Z",
+                    "start": "2022-04-01T08:45:00Z",
+                    "title": "GrESt"
                 }
             ]
         },
@@ -1036,14 +1054,6 @@
                     "end": "2022-03-02T12:15:00Z",
                     "start": "2022-03-02T09:00:00Z",
                     "title": "B: Einf\u00fchrung in die VWL"
-                }
-            ],
-            "Raum 117A": [
-                {
-                    "course": "TMB21 C",
-                    "end": "2022-03-02T10:30:00Z",
-                    "start": "2022-03-02T08:00:00Z",
-                    "title": "Tutorium Mathematik"
                 }
             ],
             "Raum 118A": [
@@ -1335,6 +1345,18 @@
                 }
             ],
             "Raum 276C": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-02T11:30:00Z",
+                    "start": "2022-03-02T07:00:00Z",
+                    "title": "Einf\u00fchrung in die Verwaltungswirtschaft Hr. Gerhards"
+                },
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-02T15:30:00Z",
+                    "start": "2022-03-02T12:15:00Z",
+                    "title": "Technik der Finanzbuchf\u00fchrung Hr. Bauh\u00f6fer"
+                },
                 {
                     "course": "WWI21 EG/EH",
                     "end": "2022-03-02T20:00:00Z",
@@ -2086,6 +2108,14 @@
                     "start": "2022-03-03T15:00:00Z",
                     "title": "Recht"
                 }
+            ],
+            "Raum 336B": [
+                {
+                    "course": "TINF19 CS1",
+                    "end": "2022-03-03T15:15:00Z",
+                    "start": "2022-03-03T12:30:00Z",
+                    "title": "K\u00fcnstliche Intelligenz"
+                }
             ]
         },
         "03.04.2022": {},
@@ -2212,6 +2242,20 @@
                     "end": "2022-05-03T09:00:00Z",
                     "start": "2022-05-03T07:00:00Z",
                     "title": "Theoretische Informatik"
+                }
+            ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-05-03T09:45:00Z",
+                    "start": "2022-05-03T07:00:00Z",
+                    "title": "Kolloq. mdl. Pr\u00fcfung"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-05-03T14:30:00Z",
+                    "start": "2022-05-03T12:00:00Z",
+                    "title": "ReWeIVb: U-Zusammenschl\u00fcsse"
                 }
             ],
             "Raum 316D": [
@@ -2994,6 +3038,20 @@
                     "title": "Seminar Ausschreibungsmanagement"
                 }
             ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-05-04T08:30:00Z",
+                    "start": "2022-05-04T06:00:00Z",
+                    "title": "Rep. KapG"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-05-04T11:15:00Z",
+                    "start": "2022-05-04T08:45:00Z",
+                    "title": "Steuerplanung"
+                }
+            ],
             "Raum 316D": [
                 {
                     "course": "WRSW20 ST1",
@@ -3059,6 +3117,12 @@
                     "end": "2022-04-05T09:45:00Z",
                     "start": "2022-04-05T07:30:00Z",
                     "title": "Kosten- und Leistungsrechnung"
+                },
+                {
+                    "course": "WWI21 AMA",
+                    "end": "2022-04-05T14:30:00Z",
+                    "start": "2022-04-05T10:30:00Z",
+                    "title": "Betriebliche Informationsversorgung"
                 },
                 {
                     "course": "WWI21 AMA",
@@ -3215,12 +3279,40 @@
                     "title": "Statistik Fr. Faber"
                 }
             ],
+            "Raum 273C": [
+                {
+                    "course": "WWI20 SCA",
+                    "end": "2022-04-05T14:30:00Z",
+                    "start": "2022-04-05T11:15:00Z",
+                    "title": "Produktions- und Servicemanagement"
+                }
+            ],
             "Raum 276C": [
                 {
                     "course": "WWI21 EG/EH",
                     "end": "2022-04-05T15:30:00Z",
                     "start": "2022-04-05T13:00:00Z",
                     "title": "VL Fortgeschrittene Programmierung Hr. Linder"
+                }
+            ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-05T08:30:00Z",
+                    "start": "2022-04-05T06:00:00Z",
+                    "title": "VWL"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-05T12:00:00Z",
+                    "start": "2022-04-05T08:45:00Z",
+                    "title": "Kolloq. mdl. Pr\u00fcfung"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-05T14:30:00Z",
+                    "start": "2022-04-05T12:00:00Z",
+                    "title": "ReWeIVb: U-Zusammenschl\u00fcsse"
                 }
             ],
             "Raum 316D": [
@@ -3305,14 +3397,6 @@
                     "title": "ESt II"
                 }
             ],
-            "Raum 113D": [
-                {
-                    "course": "WIMBIT20 A",
-                    "end": "2022-05-05T16:00:00Z",
-                    "start": "2022-05-05T12:00:00Z",
-                    "title": "VWL (W3WI_505)"
-                }
-            ],
             "Raum 115D": [
                 {
                     "course": "WIMBIT21 A",
@@ -3363,6 +3447,14 @@
                     "end": "2022-05-05T15:00:00Z",
                     "start": "2022-05-05T07:00:00Z",
                     "title": "Seminar Ausschreibungsmanagement"
+                }
+            ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-05-05T11:15:00Z",
+                    "start": "2022-05-05T08:45:00Z",
+                    "title": "InsolvenzR"
                 }
             ]
         },
@@ -3480,12 +3572,28 @@
                     "title": "Operations Research Prof. Lanninger"
                 }
             ],
+            "Raum 276C": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-04-06T15:15:00Z",
+                    "start": "2022-04-06T11:15:00Z",
+                    "title": "Technik der Finanzbuchf\u00fchrung Hr. Bauh\u00f6fer"
+                }
+            ],
             "Raum 278C": [
                 {
                     "course": "WME21 MPG",
                     "end": "2022-04-06T16:30:00Z",
                     "start": "2022-04-06T13:30:00Z",
                     "title": "Printtechnologien"
+                }
+            ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-06T08:30:00Z",
+                    "start": "2022-04-06T06:00:00Z",
+                    "title": "Komplexe Themen Ust"
                 }
             ],
             "Raum 316D": [
@@ -3616,6 +3724,20 @@
                     "title": "Datenbanken I u. II"
                 }
             ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-05-06T08:30:00Z",
+                    "start": "2022-05-06T06:00:00Z",
+                    "title": "ReWe IVa"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-05-06T11:15:00Z",
+                    "start": "2022-05-06T08:45:00Z",
+                    "title": "Rep. ReWe IIIa"
+                }
+            ],
             "Raum 316D": [
                 {
                     "course": "WRSW20 ST1",
@@ -3740,13 +3862,13 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PT",
                     "end": "2022-03-07T10:30:00Z",
                     "start": "2022-03-07T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 BV",
                     "end": "2022-03-07T10:30:00Z",
                     "start": "2022-03-07T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -4174,12 +4296,6 @@
                     "end": "2022-04-07T10:45:00Z",
                     "start": "2022-04-07T07:30:00Z",
                     "title": "Finanzierung und Rechnungswesen (W3WI_203)"
-                },
-                {
-                    "course": "WIMBIT20 A",
-                    "end": "2022-04-07T16:00:00Z",
-                    "start": "2022-04-07T12:00:00Z",
-                    "title": "VWL (W3WI_505)"
                 }
             ],
             "Raum 116A": [
@@ -4250,12 +4366,34 @@
                     "title": "FS 2 Fortgeschrittene Systementwicklung Verteilung vert. Systeme Hr. Grimm"
                 }
             ],
+            "Raum 276C": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-04-07T16:00:00Z",
+                    "start": "2022-04-07T12:00:00Z",
+                    "title": "Pr\u00e4sentations-und Kommunikationskompetenz Fr. St\u00f6bener"
+                }
+            ],
             "Raum 301D": [
                 {
                     "course": "CAS Masterkurse",
                     "end": "2022-04-09T15:00:00Z",
                     "start": "2022-04-07T07:00:00Z",
                     "title": "CAS W3M20018"
+                }
+            ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-07T08:30:00Z",
+                    "start": "2022-04-07T06:00:00Z",
+                    "title": "UmwStG"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-07T11:15:00Z",
+                    "start": "2022-04-07T08:45:00Z",
+                    "title": "InsolvenzR"
                 }
             ],
             "Raum 316D": [
@@ -4274,662 +4412,6 @@
             ]
         },
         "07.05.2022": {},
-        "08.02.2022": {
-            "Raum 010A": [
-                {
-                    "course": "TMB21 F",
-                    "end": "2022-02-08T11:15:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Fertigungstechnik (Spanen + Gie\u00dfen)"
-                },
-                {
-                    "course": "TMB21 F",
-                    "end": "2022-02-08T17:15:00Z",
-                    "start": "2022-02-08T14:00:00Z",
-                    "title": "Konstruktionslehre"
-                }
-            ],
-            "Raum 036B": [
-                {
-                    "course": "WWI20 DSA",
-                    "end": "2022-02-08T09:30:00Z",
-                    "start": "2022-02-08T07:30:00Z",
-                    "title": "Klausur: Mikro/Makro\u00f6konomik "
-                },
-                {
-                    "course": "WWI20 SEB",
-                    "end": "2022-02-08T12:30:00Z",
-                    "start": "2022-02-08T10:30:00Z",
-                    "title": "Klausur: Advanced IT"
-                }
-            ],
-            "Raum 049B": [
-                {
-                    "course": "TEL21 C",
-                    "end": "2022-02-08T10:00:00Z",
-                    "start": "2022-02-08T07:45:00Z",
-                    "title": "Digitaltechnik 1"
-                },
-                {
-                    "course": "TEL21 C",
-                    "end": "2022-02-08T15:45:00Z",
-                    "start": "2022-02-08T12:30:00Z",
-                    "title": "Grundlagen Elektrotechnik 1"
-                }
-            ],
-            "Raum 051B": [
-                {
-                    "course": "TMB19 AM1",
-                    "end": "2022-02-08T13:30:00Z",
-                    "start": "2022-02-08T11:30:00Z",
-                    "title": "Getriebelehre"
-                }
-            ],
-            "Raum 065C": [
-                {
-                    "course": "TEL21 D",
-                    "end": "2022-02-08T12:00:00Z",
-                    "start": "2022-02-08T08:45:00Z",
-                    "title": "Mathematik 1"
-                },
-                {
-                    "course": "TEL21 D",
-                    "end": "2022-02-08T14:15:00Z",
-                    "start": "2022-02-08T12:45:00Z",
-                    "title": "Messtechnik 1a"
-                },
-                {
-                    "course": "TEL21 D",
-                    "end": "2022-02-08T17:45:00Z",
-                    "start": "2022-02-08T14:30:00Z",
-                    "title": "Grundlagen Informatik 1"
-                }
-            ],
-            "Raum 067C": [
-                {
-                    "course": "WWI19 DSA",
-                    "end": "2022-02-08T10:15:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Klausur: Advanced Applied Machine Learning"
-                }
-            ],
-            "Raum 068C": [
-                {
-                    "course": "WWI21 AMC",
-                    "end": "2022-02-08T10:15:00Z",
-                    "start": "2022-02-08T07:30:00Z",
-                    "title": "\u00d6konomische und technische Aspekte der betr. Informationsversorgung"
-                },
-                {
-                    "course": "WWI21 AMC",
-                    "end": "2022-02-08T14:30:00Z",
-                    "start": "2022-02-08T11:30:00Z",
-                    "title": "Marketing"
-                },
-                {
-                    "course": "WWI21 AMC",
-                    "end": "2022-02-08T18:15:00Z",
-                    "start": "2022-02-08T15:00:00Z",
-                    "title": "Einf\u00fchrung in die BWL"
-                }
-            ],
-            "Raum 103D": [
-                {
-                    "course": "WIW20 A",
-                    "end": "2022-02-08T11:00:00Z",
-                    "start": "2022-02-08T07:00:00Z",
-                    "title": "Immobilienbesteuerung und -versicherung"
-                }
-            ],
-            "Raum 105A": [
-                {
-                    "course": "TMB19 KVEM",
-                    "end": "2022-02-08T11:00:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Numerische Str\u00f6mungsmechanik (CFD)"
-                },
-                {
-                    "course": "TMB19 BV",
-                    "end": "2022-02-08T11:00:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Numerische Str\u00f6mungsmechanik (CFD)"
-                },
-                {
-                    "course": "TMB19 AM1",
-                    "end": "2022-02-08T18:00:00Z",
-                    "start": "2022-02-08T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                },
-                {
-                    "course": "TMB19 AM2",
-                    "end": "2022-02-08T18:00:00Z",
-                    "start": "2022-02-08T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                },
-                {
-                    "course": "TMB19 PM",
-                    "end": "2022-02-08T18:00:00Z",
-                    "start": "2022-02-08T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                },
-                {
-                    "course": "TMB19 BV",
-                    "end": "2022-02-08T18:00:00Z",
-                    "start": "2022-02-08T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                },
-                {
-                    "course": "TMB19 KT",
-                    "end": "2022-02-08T18:00:00Z",
-                    "start": "2022-02-08T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                },
-                {
-                    "course": "TMB19 PT",
-                    "end": "2022-02-08T18:00:00Z",
-                    "start": "2022-02-08T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                }
-            ],
-            "Raum 105D": [
-                {
-                    "course": "WFD21 A",
-                    "end": "2022-02-08T11:15:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "B: Pr\u00e4sentations- und Kommunikationskompetenz"
-                }
-            ],
-            "Raum 106A": [
-                {
-                    "course": "TMB21 G",
-                    "end": "2022-02-08T10:30:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Mathematik + Tutorium Mathematik"
-                },
-                {
-                    "course": "TMB21 G",
-                    "end": "2022-02-08T14:00:00Z",
-                    "start": "2022-02-08T11:30:00Z",
-                    "title": "!!! f\u00e4llt aus !!! Fertigungstechnik (Umformen)"
-                }
-            ],
-            "Raum 107A": [
-                {
-                    "course": "TMB19 BV",
-                    "end": "2022-02-08T13:30:00Z",
-                    "start": "2022-02-08T11:30:00Z",
-                    "title": "Product Design Project"
-                }
-            ],
-            "Raum 108A": [
-                {
-                    "course": "TEL18 AAT",
-                    "end": "2022-02-08T09:30:00Z",
-                    "start": "2022-02-08T08:30:00Z",
-                    "title": "STA Besprechung"
-                }
-            ],
-            "Raum 110A": [
-                {
-                    "course": "WBK21 B",
-                    "end": "2022-02-08T16:00:00Z",
-                    "start": "2022-02-08T07:45:00Z",
-                    "title": "Pr\u00e4sentations- und Kommunikationskompetenz"
-                }
-            ],
-            "Raum 112D": [
-                {
-                    "course": "WRSW19 AC2",
-                    "end": "2022-02-08T12:15:00Z",
-                    "start": "2022-02-08T09:45:00Z",
-                    "title": "IFRS-Passiva"
-                }
-            ],
-            "Raum 113D": [
-                {
-                    "course": "WRSW20 AC2",
-                    "end": "2022-02-08T11:45:00Z",
-                    "start": "2022-02-08T08:30:00Z",
-                    "title": "strategisches Controlling"
-                },
-                {
-                    "course": "WRSW20 AC2",
-                    "end": "2022-02-08T15:30:00Z",
-                    "start": "2022-02-08T13:00:00Z",
-                    "title": "Erbrecht"
-                }
-            ],
-            "Raum 114D": [
-                {
-                    "course": "WIW20 B",
-                    "end": "2022-02-08T11:00:00Z",
-                    "start": "2022-02-08T07:00:00Z",
-                    "title": "Makro\u00f6konomik"
-                }
-            ],
-            "Raum 115D": [
-                {
-                    "course": "WRSW21 AC2",
-                    "end": "2022-02-08T11:00:00Z",
-                    "start": "2022-02-08T07:00:00Z",
-                    "title": "FiBu I"
-                },
-                {
-                    "course": "WRSW21 AC2",
-                    "end": "2022-02-08T15:15:00Z",
-                    "start": "2022-02-08T12:00:00Z",
-                    "title": "BGB I"
-                }
-            ],
-            "Raum 116A": [
-                {
-                    "course": "WFD21 A",
-                    "end": "2022-02-08T11:30:00Z",
-                    "start": "2022-02-08T07:30:00Z",
-                    "title": "A: Einf\u00fchrung in die VWL"
-                },
-                {
-                    "course": "WFD21 A",
-                    "end": "2022-02-08T15:15:00Z",
-                    "start": "2022-02-08T12:00:00Z",
-                    "title": "A: Pr\u00e4sentations- und Kommunikationskompetenz"
-                }
-            ],
-            "Raum 117A": [
-                {
-                    "course": "TMB21 C",
-                    "end": "2022-02-08T16:30:00Z",
-                    "start": "2022-02-08T13:15:00Z",
-                    "title": "Fertigungstechnik (Spanen + Gie\u00dfen)"
-                }
-            ],
-            "Raum 118A": [
-                {
-                    "course": "TEL19 EU",
-                    "end": "2022-02-08T12:15:00Z",
-                    "start": "2022-02-08T09:00:00Z",
-                    "title": "Regelungstechnik 2"
-                },
-                {
-                    "course": "TEL19 EU",
-                    "end": "2022-02-08T15:45:00Z",
-                    "start": "2022-02-08T13:15:00Z",
-                    "title": "Grundlagen Energietechnik"
-                }
-            ],
-            "Raum 120A": [
-                {
-                    "course": "TMB19 PT",
-                    "end": "2022-02-08T11:00:00Z",
-                    "start": "2022-02-08T07:15:00Z",
-                    "title": "Produktionsmaschinen"
-                },
-                {
-                    "course": "TMB19 HVT",
-                    "end": "2022-02-08T18:00:00Z",
-                    "start": "2022-02-08T12:00:00Z",
-                    "title": "Regelungstechik"
-                }
-            ],
-            "Raum 121A": [
-                {
-                    "course": "TCT 19",
-                    "end": "2022-02-08T18:00:00Z",
-                    "start": "2022-02-08T13:00:00Z",
-                    "title": "Galenik"
-                }
-            ],
-            "Raum 135B": [
-                {
-                    "course": "TMB21 HVT",
-                    "end": "2022-02-08T15:30:00Z",
-                    "start": "2022-02-08T12:30:00Z",
-                    "title": "Technische Mechanik "
-                }
-            ],
-            "Raum 136B": [
-                {
-                    "course": "WWI19 EG/EH",
-                    "end": "2022-02-08T11:30:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Integrationsseminar - Abschlusspr\u00e4sentationen"
-                },
-                {
-                    "course": "WWI19 EG/EH",
-                    "end": "2022-02-08T15:00:00Z",
-                    "start": "2022-02-08T12:30:00Z",
-                    "title": "Dokumentenmanagement - Gastvortrag"
-                }
-            ],
-            "Raum 137.1B": [
-                {
-                    "course": "WBK20 B",
-                    "end": "2022-02-08T11:30:00Z",
-                    "start": "2022-02-08T08:15:00Z",
-                    "title": "Internationale Finanzm\u00e4rkte"
-                },
-                {
-                    "course": "WBK20 B",
-                    "end": "2022-02-08T16:15:00Z",
-                    "start": "2022-02-08T12:15:00Z",
-                    "title": "Auslandsgesch\u00e4ft"
-                }
-            ],
-            "Raum 140B": [
-                {
-                    "course": "WBK20 A",
-                    "end": "2022-02-08T11:45:00Z",
-                    "start": "2022-02-08T08:30:00Z",
-                    "title": "Bankrechnungswesen"
-                },
-                {
-                    "course": "WBK20 A",
-                    "end": "2022-02-08T15:30:00Z",
-                    "start": "2022-02-08T12:15:00Z",
-                    "title": "Internationale Finanzm\u00e4rkte"
-                }
-            ],
-            "Raum 152B": [
-                {
-                    "course": "TMB21 A",
-                    "end": "2022-02-08T11:00:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Technische Mechanik"
-                }
-            ],
-            "Raum 153B": [
-                {
-                    "course": "TMB21 B",
-                    "end": "2022-02-08T11:30:00Z",
-                    "start": "2022-02-08T08:30:00Z",
-                    "title": "ONLINE Festigkeitslehre"
-                }
-            ],
-            "Raum 173C": [
-                {
-                    "course": "TEL21 B",
-                    "end": "2022-02-08T11:45:00Z",
-                    "start": "2022-02-08T09:30:00Z",
-                    "title": "Grundlagen Elektrotechnik 1"
-                },
-                {
-                    "course": "TEL21 B",
-                    "end": "2022-02-08T15:30:00Z",
-                    "start": "2022-02-08T12:15:00Z",
-                    "title": "Gesch\u00e4ftsprozesse"
-                }
-            ],
-            "Raum 175C": [
-                {
-                    "course": "TEL21 A",
-                    "end": "2022-02-08T11:30:00Z",
-                    "start": "2022-02-08T09:00:00Z",
-                    "title": "Lerngruppe A-Kurs (ABB)"
-                },
-                {
-                    "course": "TEL21 A",
-                    "end": "2022-02-08T14:45:00Z",
-                    "start": "2022-02-08T12:30:00Z",
-                    "title": "Digitaltechnik 1"
-                },
-                {
-                    "course": "TEL21 A",
-                    "end": "2022-02-08T15:45:00Z",
-                    "start": "2022-02-08T15:00:00Z",
-                    "title": "Physik - BSS"
-                },
-                {
-                    "course": "TEL21 A",
-                    "end": "2022-02-08T17:30:00Z",
-                    "start": "2022-02-08T16:00:00Z",
-                    "title": "Mathematik 1 - Tutorium"
-                }
-            ],
-            "Raum 180C": [
-                {
-                    "course": "WWI20 SCB",
-                    "end": "2022-02-08T09:20:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Datenbanken I"
-                }
-            ],
-            "Raum 185C": [
-                {
-                    "course": "TEL19 EE",
-                    "end": "2022-02-08T09:00:00Z",
-                    "start": "2022-02-08T07:00:00Z",
-                    "title": "Schutztechnik"
-                },
-                {
-                    "course": "TEL19 EU",
-                    "end": "2022-02-08T09:00:00Z",
-                    "start": "2022-02-08T07:00:00Z",
-                    "title": "Schutztechnik"
-                },
-                {
-                    "course": "TEL19 EE",
-                    "end": "2022-02-08T12:00:00Z",
-                    "start": "2022-02-08T09:30:00Z",
-                    "title": "Grundlagen Energietechnik"
-                },
-                {
-                    "course": "TEL19 EE",
-                    "end": "2022-02-08T16:00:00Z",
-                    "start": "2022-02-08T13:00:00Z",
-                    "title": "Embedded Systems"
-                }
-            ],
-            "Raum 201D": [
-                {
-                    "course": "WSTL19 A",
-                    "end": "2022-02-08T12:00:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Supply Chain Management I"
-                }
-            ],
-            "Raum 202D": [
-                {
-                    "course": "WSTL19 B",
-                    "end": "2022-02-08T11:30:00Z",
-                    "start": "2022-02-08T07:30:00Z",
-                    "title": "Projektkizze zur Bachelorarbeit I"
-                }
-            ],
-            "Raum 203D": [
-                {
-                    "course": "WSTL19 C",
-                    "end": "2022-02-08T11:30:00Z",
-                    "start": "2022-02-08T07:15:00Z",
-                    "title": "Transforming SCM & Logistics: exploratory creativity I"
-                },
-                {
-                    "course": "WSTL19 C",
-                    "end": "2022-02-08T15:45:00Z",
-                    "start": "2022-02-08T12:30:00Z",
-                    "title": "Anbindung an SAP-Systeme I"
-                }
-            ],
-            "Raum 204D": [
-                {
-                    "course": "WSTL19 D",
-                    "end": "2022-02-08T16:30:00Z",
-                    "start": "2022-02-08T12:30:00Z",
-                    "title": "Projektskizze zur Bachelorarbeit I"
-                }
-            ],
-            "Raum 214A": [
-                {
-                    "course": "WBK21 A",
-                    "end": "2022-02-08T16:00:00Z",
-                    "start": "2022-02-08T07:45:00Z",
-                    "title": "Pr\u00e4sentations- und Kommunikationskompetenz"
-                }
-            ],
-            "Raum 216D": [
-                {
-                    "course": "TEL21 E",
-                    "end": "2022-02-08T14:00:00Z",
-                    "start": "2022-02-08T08:45:00Z",
-                    "title": "Grundlagen Elektrotechnik 1"
-                },
-                {
-                    "course": "TEL21 E",
-                    "end": "2022-02-08T15:45:00Z",
-                    "start": "2022-02-08T14:15:00Z",
-                    "title": "Mathematik 1 - Tutorium"
-                },
-                {
-                    "course": "TEL21 E",
-                    "end": "2022-02-08T16:45:00Z",
-                    "start": "2022-02-08T16:00:00Z",
-                    "title": "Physik - BSS"
-                }
-            ],
-            "Raum 218D": [
-                {
-                    "course": "WBK20 B",
-                    "end": "2022-02-08T12:30:00Z",
-                    "start": "2022-02-08T12:00:00Z",
-                    "title": "Klausureinsicht - WBK 20"
-                }
-            ],
-            "Raum 223A": [
-                {
-                    "course": "TMB19 AM2",
-                    "end": "2022-02-08T10:45:00Z",
-                    "start": "2022-02-08T07:30:00Z",
-                    "title": "Kolbenmaschinen"
-                }
-            ],
-            "Raum 227A": [
-                {
-                    "course": "TEL19 AT1",
-                    "end": "2022-02-08T11:15:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Sensorik und Messwertverarbeitung"
-                }
-            ],
-            "Raum 239B": [
-                {
-                    "course": "TMB19 KVEM",
-                    "end": "2022-02-08T14:30:00Z",
-                    "start": "2022-02-08T11:30:00Z",
-                    "title": "Heizungstechnik 3"
-                },
-                {
-                    "course": "TMB19 KVEM",
-                    "end": "2022-02-08T18:30:00Z",
-                    "start": "2022-02-08T16:00:00Z",
-                    "title": "Klimatechnik 3"
-                }
-            ],
-            "Raum 255B": [
-                {
-                    "course": "TMB21 KVEM",
-                    "end": "2022-02-08T11:00:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Fertigungstechnik"
-                },
-                {
-                    "course": "TMB21 KVEM",
-                    "end": "2022-02-08T17:00:00Z",
-                    "start": "2022-02-08T13:30:00Z",
-                    "title": "Technische Mechanik"
-                }
-            ],
-            "Raum 268C": [
-                {
-                    "course": "WME19 MMK",
-                    "end": "2022-02-08T15:30:00Z",
-                    "start": "2022-02-08T08:30:00Z",
-                    "title": "Medienforschung"
-                }
-            ],
-            "Raum 278C": [
-                {
-                    "course": "WME21 MMK",
-                    "end": "2022-02-08T14:00:00Z",
-                    "start": "2022-02-08T10:00:00Z",
-                    "title": "Medienprojektplanung"
-                }
-            ],
-            "Raum 306D": [
-                {
-                    "course": "WMKE19 B",
-                    "end": "2022-02-08T11:15:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "SM"
-                }
-            ],
-            "Raum 311D": [
-                {
-                    "course": "WMKE21 B",
-                    "end": "2022-02-08T11:15:00Z",
-                    "start": "2022-02-08T07:00:00Z",
-                    "title": "Wiss"
-                }
-            ],
-            "Raum 313D": [
-                {
-                    "course": "WMKE20 B",
-                    "end": "2022-02-08T11:15:00Z",
-                    "start": "2022-02-08T07:00:00Z",
-                    "title": "VWL"
-                },
-                {
-                    "course": "WMKE20 B",
-                    "end": "2022-02-08T16:15:00Z",
-                    "start": "2022-02-08T12:00:00Z",
-                    "title": "Eng"
-                }
-            ],
-            "Raum 316D": [
-                {
-                    "course": "WRSW20 ST2",
-                    "end": "2022-02-08T09:30:00Z",
-                    "start": "2022-02-08T07:00:00Z",
-                    "title": "Handelsrecht (Streaming vom Raum D 316)"
-                },
-                {
-                    "course": "WRSW20 ST2",
-                    "end": "2022-02-08T12:15:00Z",
-                    "start": "2022-02-08T09:45:00Z",
-                    "title": "Bilanz 2"
-                },
-                {
-                    "course": "WRSW20 ST2",
-                    "end": "2022-02-08T15:30:00Z",
-                    "start": "2022-02-08T13:00:00Z",
-                    "title": "Betriebl. Steuerlehre I"
-                }
-            ],
-            "Raum 323A": [
-                {
-                    "course": "TEL18 AAT",
-                    "end": "2022-02-08T10:00:00Z",
-                    "start": "2022-02-08T09:00:00Z",
-                    "title": "STA Besprechung"
-                },
-                {
-                    "course": "TEL19 AT3",
-                    "end": "2022-02-08T15:00:00Z",
-                    "start": "2022-02-08T12:30:00Z",
-                    "title": "Mikrocomputertechnik 3"
-                },
-                {
-                    "course": "TEL19 EO",
-                    "end": "2022-02-08T15:00:00Z",
-                    "start": "2022-02-08T12:30:00Z",
-                    "title": "Mikrocomputertechnik 3"
-                },
-                {
-                    "course": "TEL19 EO",
-                    "end": "2022-02-08T17:15:00Z",
-                    "start": "2022-02-08T15:15:00Z",
-                    "title": "PCB-Design"
-                }
-            ]
-        },
         "08.03.2022": {
             "CAD-Raum 05A": [
                 {
@@ -4976,6 +4458,12 @@
                 }
             ],
             "Raum 066C": [
+                {
+                    "course": "WWI21 AMA",
+                    "end": "2022-03-08T11:30:00Z",
+                    "start": "2022-03-08T07:30:00Z",
+                    "title": "Betriebliche Informationsversorgung"
+                },
                 {
                     "course": "WWI21 AMA",
                     "end": "2022-03-08T18:00:00Z",
@@ -5045,7 +4533,7 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-03-08T18:00:00Z",
                     "start": "2022-03-08T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -5057,13 +4545,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PM",
                     "end": "2022-03-08T18:00:00Z",
                     "start": "2022-03-08T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-03-08T18:00:00Z",
                     "start": "2022-03-08T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -5275,13 +4763,13 @@
             ],
             "Raum 209A": [
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-03-08T11:15:00Z",
                     "start": "2022-03-08T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 PM",
                     "end": "2022-03-08T11:15:00Z",
                     "start": "2022-03-08T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
@@ -5320,12 +4808,18 @@
             "Raum 268C": [
                 {
                     "course": "WME19 MMK",
-                    "end": "2022-03-08T15:00:00Z",
-                    "start": "2022-03-08T08:00:00Z",
+                    "end": "2022-03-08T15:15:00Z",
+                    "start": "2022-03-08T08:30:00Z",
                     "title": "Medienforschung"
                 }
             ],
             "Raum 276C": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-08T12:00:00Z",
+                    "start": "2022-03-08T07:00:00Z",
+                    "title": "Einf\u00fchrung in die Verwaltungswirtschaft Hr. Gerhards"
+                },
                 {
                     "course": "WWI21 EG/EH",
                     "end": "2022-03-08T16:30:00Z",
@@ -5523,14 +5017,6 @@
                     "title": "WF8: Derivate Produkte"
                 }
             ],
-            "Raum 138B": [
-                {
-                    "course": "WME19 MPG",
-                    "end": "2022-04-08T10:00:00Z",
-                    "start": "2022-04-08T07:00:00Z",
-                    "title": "User Experience"
-                }
-            ],
             "Raum 240B": [
                 {
                     "course": "WWI20 AMA",
@@ -5553,12 +5039,28 @@
                     "title": "Wissenschaftstheorie und wissenschaftliche Methode der WI Hr. Mayer"
                 }
             ],
+            "Raum 276C": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-04-08T16:00:00Z",
+                    "start": "2022-04-08T12:00:00Z",
+                    "title": "Pr\u00e4sentations-und Kommunikationskompetenz Fr. St\u00f6bener"
+                }
+            ],
             "Raum 278C": [
                 {
                     "course": "WME21 MPG",
                     "end": "2022-04-08T10:30:00Z",
                     "start": "2022-04-08T06:30:00Z",
                     "title": "Webpublishing"
+                }
+            ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-08T08:30:00Z",
+                    "start": "2022-04-08T06:00:00Z",
+                    "title": "ReWe IVa"
                 }
             ],
             "Raum 316D": [
@@ -5582,6 +5084,7 @@
                 }
             ]
         },
+        "08.05.2022": {},
         "09.02.2022": {
             "CAD-Raum 04A": [
                 {
@@ -5808,12 +5311,6 @@
             "Raum 117A": [
                 {
                     "course": "TMB21 C",
-                    "end": "2022-02-09T10:30:00Z",
-                    "start": "2022-02-09T08:00:00Z",
-                    "title": "Tutorium Mathematik"
-                },
-                {
-                    "course": "TMB21 C",
                     "end": "2022-02-09T15:45:00Z",
                     "start": "2022-02-09T13:00:00Z",
                     "title": "Elektrotechnik"
@@ -5844,12 +5341,6 @@
                 }
             ],
             "Raum 135B": [
-                {
-                    "course": "TMB21 HVT",
-                    "end": "2022-02-09T13:30:00Z",
-                    "start": "2022-02-09T11:00:00Z",
-                    "title": "Mathematik Tutorium"
-                },
                 {
                     "course": "TMB21 HVT",
                     "end": "2022-02-09T17:00:00Z",
@@ -6046,8 +5537,8 @@
             "Raum 238B": [
                 {
                     "course": "TCT 21",
-                    "end": "2022-02-09T12:00:00Z",
-                    "start": "2022-02-09T09:30:00Z",
+                    "end": "2022-02-09T11:30:00Z",
+                    "start": "2022-02-09T09:00:00Z",
                     "title": "Mathematik I"
                 }
             ],
@@ -6062,8 +5553,8 @@
             "Raum 268C": [
                 {
                     "course": "WME19 MMK",
-                    "end": "2022-02-09T15:00:00Z",
-                    "start": "2022-02-09T08:00:00Z",
+                    "end": "2022-02-09T15:15:00Z",
+                    "start": "2022-02-09T08:30:00Z",
                     "title": "Medienforschung"
                 }
             ],
@@ -6462,8 +5953,8 @@
             "Raum 268C": [
                 {
                     "course": "WME19 MMK",
-                    "end": "2022-03-09T15:00:00Z",
-                    "start": "2022-03-09T08:00:00Z",
+                    "end": "2022-03-09T15:15:00Z",
+                    "start": "2022-03-09T08:30:00Z",
                     "title": "Medienforschung"
                 }
             ],
@@ -6473,6 +5964,20 @@
                     "end": "2022-03-09T15:45:00Z",
                     "start": "2022-03-09T12:30:00Z",
                     "title": "Operations Research Prof. Lanninger"
+                }
+            ],
+            "Raum 276C": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-09T12:00:00Z",
+                    "start": "2022-03-09T07:00:00Z",
+                    "title": "Einf\u00fchrung in die Verwaltungswirtschaft Hr. Gerhards"
+                },
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-09T15:30:00Z",
+                    "start": "2022-03-09T12:15:00Z",
+                    "title": "Technik der Finanzbuchf\u00fchrung Hr. Bauh\u00f6fer"
                 }
             ],
             "Raum 278C": [
@@ -7052,8 +6557,8 @@
             "Raum 268C": [
                 {
                     "course": "WME19 MMK",
-                    "end": "2022-02-10T11:00:00Z",
-                    "start": "2022-02-10T08:00:00Z",
+                    "end": "2022-02-10T12:00:00Z",
+                    "start": "2022-02-10T08:30:00Z",
                     "title": "Medienforschung"
                 },
                 {
@@ -7520,8 +7025,8 @@
             "Raum 268C": [
                 {
                     "course": "WME19 MMK",
-                    "end": "2022-03-10T11:00:00Z",
-                    "start": "2022-03-10T08:00:00Z",
+                    "end": "2022-03-10T12:00:00Z",
+                    "start": "2022-03-10T08:30:00Z",
                     "title": "Medienforschung"
                 },
                 {
@@ -7543,6 +7048,14 @@
                     "end": "2022-03-10T19:00:00Z",
                     "start": "2022-03-10T14:30:00Z",
                     "title": "FS 1 Fortgeschrittene Systementwicklung DB-Technik Hr. Grimm"
+                }
+            ],
+            "Raum 276C": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-10T14:30:00Z",
+                    "start": "2022-03-10T07:00:00Z",
+                    "title": "Einf\u00fchrung in die Gesundheitswirtschaft Hr. Bl\u00fcmm"
                 }
             ],
             "Raum 281C (L)": [
@@ -7609,6 +7122,14 @@
                     "end": "2022-03-10T16:15:00Z",
                     "start": "2022-03-10T13:00:00Z",
                     "title": "Betriebl. Steuerlehre I"
+                }
+            ],
+            "Raum 336B": [
+                {
+                    "course": "TINF19 CS1",
+                    "end": "2022-03-10T15:15:00Z",
+                    "start": "2022-03-10T12:30:00Z",
+                    "title": "K\u00fcnstliche Intelligenz"
                 }
             ]
         },
@@ -7841,12 +7362,6 @@
                 }
             ],
             "Raum 117A": [
-                {
-                    "course": "TMB21 C",
-                    "end": "2022-02-11T11:45:00Z",
-                    "start": "2022-02-11T08:30:00Z",
-                    "title": "Technische Mechanik"
-                },
                 {
                     "course": "TMB21 C",
                     "end": "2022-02-11T15:00:00Z",
@@ -8751,6 +8266,14 @@
                     "title": "Statistik Fr. Faber"
                 }
             ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-12T14:30:00Z",
+                    "start": "2022-04-12T12:00:00Z",
+                    "title": "ReWeIVb: U-Zusammenschl\u00fcsse"
+                }
+            ],
             "Raum 316D": [
                 {
                     "course": "WRSW20 ST1",
@@ -8871,6 +8394,20 @@
                     "title": "Printtechnologien"
                 }
             ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-13T08:30:00Z",
+                    "start": "2022-04-13T06:00:00Z",
+                    "title": "Komplexe Themen Ust"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-13T11:15:00Z",
+                    "start": "2022-04-13T08:45:00Z",
+                    "title": "Integrationsseminar"
+                }
+            ],
             "Raum 316D": [
                 {
                     "course": "WRSW20 ST1",
@@ -8961,13 +8498,13 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PT",
                     "end": "2022-02-14T10:30:00Z",
                     "start": "2022-02-14T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 BV",
                     "end": "2022-02-14T10:30:00Z",
                     "start": "2022-02-14T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -9025,14 +8562,6 @@
                     "end": "2022-02-14T16:00:00Z",
                     "start": "2022-02-14T13:30:00Z",
                     "title": "Spanisch - Le\u00f3n (A)"
-                }
-            ],
-            "Raum 108A": [
-                {
-                    "course": "TEL19 MED",
-                    "end": "2022-02-14T13:00:00Z",
-                    "start": "2022-02-14T09:45:00Z",
-                    "title": "Qualit\u00e4tssicherung"
                 }
             ],
             "Raum 112D": [
@@ -9483,13 +9012,13 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PT",
                     "end": "2022-03-14T10:30:00Z",
                     "start": "2022-03-14T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 BV",
                     "end": "2022-03-14T10:30:00Z",
                     "start": "2022-03-14T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -9717,13 +9246,13 @@
             ],
             "Raum folgt": [
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-03-14T11:00:00Z",
                     "start": "2022-03-14T08:00:00Z",
                     "title": "Klausur Wahlpflichtfach  /  067C, Altbau"
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-03-14T11:00:00Z",
                     "start": "2022-03-14T08:00:00Z",
                     "title": "Klausur Wahlpflichtfach  /  067C, Altbau"
@@ -9847,6 +9376,20 @@
                     "end": "2022-04-14T18:00:00Z",
                     "start": "2022-04-14T13:30:00Z",
                     "title": "FS 2 Fortgeschrittene Systementwicklung Verteilung vert. Systeme Hr. Grimm"
+                }
+            ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-14T08:30:00Z",
+                    "start": "2022-04-14T06:00:00Z",
+                    "title": "UmwStG"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-14T15:15:00Z",
+                    "start": "2022-04-14T12:00:00Z",
+                    "title": "GesR"
                 }
             ]
         },
@@ -10019,7 +9562,7 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-02-15T18:00:00Z",
                     "start": "2022-02-15T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -10031,13 +9574,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PM",
                     "end": "2022-02-15T18:00:00Z",
                     "start": "2022-02-15T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-02-15T18:00:00Z",
                     "start": "2022-02-15T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -10209,13 +9752,13 @@
                     "title": "Nach- und Wiederholungsklausuren Informatik"
                 },
                 {
-                    "course": "TINF20 AI2",
+                    "course": "TINF20 AI1",
                     "end": "2022-02-15T11:00:00Z",
                     "start": "2022-02-15T09:00:00Z",
                     "title": "Nach- und Wiederholungsklausuren Informatik"
                 },
                 {
-                    "course": "TINF20 AI1",
+                    "course": "TINF20 AI2",
                     "end": "2022-02-15T11:00:00Z",
                     "start": "2022-02-15T09:00:00Z",
                     "title": "Nach- und Wiederholungsklausuren Informatik"
@@ -10483,6 +10026,14 @@
                     "title": "Medienprojekt \"Strategie\""
                 }
             ],
+            "Raum 273C": [
+                {
+                    "course": "WWI20 SCA",
+                    "end": "2022-02-15T15:30:00Z",
+                    "start": "2022-02-15T12:15:00Z",
+                    "title": "Produktions- und Servicemanagement"
+                }
+            ],
             "Raum 276C": [
                 {
                     "course": "WWI21 EG/EH",
@@ -10632,17 +10183,15 @@
                 },
                 {
                     "course": "WWI21 AMA",
+                    "end": "2022-03-15T15:30:00Z",
+                    "start": "2022-03-15T11:30:00Z",
+                    "title": "Betriebliche Informationsversorgung"
+                },
+                {
+                    "course": "WWI21 AMA",
                     "end": "2022-03-15T18:00:00Z",
                     "start": "2022-03-15T15:30:00Z",
                     "title": "Finanzbuchhaltung"
-                }
-            ],
-            "Raum 103D": [
-                {
-                    "course": "WIW20 A",
-                    "end": "2022-03-15T11:00:00Z",
-                    "start": "2022-03-15T07:00:00Z",
-                    "title": "Makro\u00f6konomik"
                 }
             ],
             "Raum 105A": [
@@ -10671,7 +10220,7 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-03-15T18:00:00Z",
                     "start": "2022-03-15T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -10683,13 +10232,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PM",
                     "end": "2022-03-15T18:00:00Z",
                     "start": "2022-03-15T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-03-15T18:00:00Z",
                     "start": "2022-03-15T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -10811,13 +10360,13 @@
             ],
             "Raum 209A": [
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-03-15T11:15:00Z",
                     "start": "2022-03-15T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 PM",
                     "end": "2022-03-15T11:15:00Z",
                     "start": "2022-03-15T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
@@ -10867,6 +10416,14 @@
                     "end": "2022-03-15T14:00:00Z",
                     "start": "2022-03-15T08:00:00Z",
                     "title": "Medienprojekt \"Strategie\" ABSCHLUSSPR\u00c4SENTATION"
+                }
+            ],
+            "Raum 273C": [
+                {
+                    "course": "WWI20 SCA",
+                    "end": "2022-03-15T15:30:00Z",
+                    "start": "2022-03-15T12:15:00Z",
+                    "title": "Produktions- und Servicemanagement"
                 }
             ],
             "Raum 276C": [
@@ -11179,12 +10736,6 @@
             "Raum 117A": [
                 {
                     "course": "TMB21 C",
-                    "end": "2022-02-16T10:30:00Z",
-                    "start": "2022-02-16T08:00:00Z",
-                    "title": "Tutorium Mathematik"
-                },
-                {
-                    "course": "TMB21 C",
                     "end": "2022-02-16T15:45:00Z",
                     "start": "2022-02-16T13:00:00Z",
                     "title": "Elektrotechnik"
@@ -11220,12 +10771,6 @@
                     "end": "2022-02-16T10:30:00Z",
                     "start": "2022-02-16T08:00:00Z",
                     "title": "Informatik"
-                },
-                {
-                    "course": "TMB21 HVT",
-                    "end": "2022-02-16T13:30:00Z",
-                    "start": "2022-02-16T11:00:00Z",
-                    "title": "Mathematik Tutorium"
                 }
             ],
             "Raum 137.1B": [
@@ -11836,6 +11381,14 @@
                     "end": "2022-03-16T15:45:00Z",
                     "start": "2022-03-16T12:30:00Z",
                     "title": "Operations Research Prof. Lanninger"
+                }
+            ],
+            "Raum 276C": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-16T15:30:00Z",
+                    "start": "2022-03-16T12:15:00Z",
+                    "title": "Technik der Finanzbuchf\u00fchrung Hr. Bauh\u00f6fer"
                 }
             ],
             "Raum 306D": [
@@ -12817,6 +12370,14 @@
                     "title": "IK"
                 }
             ],
+            "Raum 336B": [
+                {
+                    "course": "TINF19 CS1",
+                    "end": "2022-03-17T15:15:00Z",
+                    "start": "2022-03-17T12:30:00Z",
+                    "title": "K\u00fcnstliche Intelligenz"
+                }
+            ],
             "Raum U22A": [
                 {
                     "course": "TMB19 AM2",
@@ -13292,6 +12853,12 @@
             ],
             "Raum 276C": [
                 {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-02-18T11:00:00Z",
+                    "start": "2022-02-18T08:00:00Z",
+                    "title": "Algorithmen und Datenstrukturen Hr. Schidler"
+                },
+                {
                     "course": "WWI20 AMB",
                     "end": "2022-02-18T15:45:00Z",
                     "start": "2022-02-18T12:15:00Z",
@@ -13394,6 +12961,12 @@
                     "end": "2022-03-18T11:00:00Z",
                     "start": "2022-03-18T07:00:00Z",
                     "title": "Vertiefung normierter Bewertungsverfahren"
+                },
+                {
+                    "course": "WIW20 A",
+                    "end": "2022-03-18T16:00:00Z",
+                    "start": "2022-03-18T12:00:00Z",
+                    "title": "Makro\u00f6konomik"
                 }
             ],
             "Raum 105A": [
@@ -13526,6 +13099,12 @@
             ],
             "Raum 276C": [
                 {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-18T12:00:00Z",
+                    "start": "2022-03-18T08:00:00Z",
+                    "title": "Algorithmen und Datenstrukturen Hr. Schidler"
+                },
+                {
                     "course": "WWI20 AMB",
                     "end": "2022-03-18T15:45:00Z",
                     "start": "2022-03-18T12:15:00Z",
@@ -13578,13 +13157,13 @@
             ],
             "Raum folgt": [
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-03-18T10:00:00Z",
                     "start": "2022-03-18T08:00:00Z",
                     "title": "Klausur Logistikmanagement (Kulturhaus K\u00e4fertal)"
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-03-18T10:00:00Z",
                     "start": "2022-03-18T08:00:00Z",
                     "title": "Klausur Logistikmanagement (Kulturhaus K\u00e4fertal)"
@@ -13687,6 +13266,14 @@
                     "title": "Programmierung II "
                 }
             ],
+            "Raum 273C": [
+                {
+                    "course": "WWI20 SCA",
+                    "end": "2022-04-19T13:45:00Z",
+                    "start": "2022-04-19T11:15:00Z",
+                    "title": "Produktions- und Servicemanagement"
+                }
+            ],
             "Raum 276C": [
                 {
                     "course": "WWI21 EG/EH",
@@ -13701,6 +13288,14 @@
                     "end": "2022-04-19T06:00:00Z",
                     "start": "2022-04-19T06:00:00Z",
                     "title": "Pr\u00e4sentations- und Kommunikationskompetenz"
+                }
+            ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-19T14:30:00Z",
+                    "start": "2022-04-19T12:00:00Z",
+                    "title": "ReWeIVb: U-Zusammenschl\u00fcsse"
                 }
             ],
             "Raum 316D": [
@@ -13813,6 +13408,20 @@
                     "title": "Pr\u00e4sentations- und Kommunikationskompetenz"
                 }
             ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-20T08:30:00Z",
+                    "start": "2022-04-20T06:00:00Z",
+                    "title": "Komplexe Themen Ust"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-20T11:15:00Z",
+                    "start": "2022-04-20T08:45:00Z",
+                    "title": "Integrationsseminar"
+                }
+            ],
             "Raum 316D": [
                 {
                     "course": "WRSW20 ST1",
@@ -13891,6 +13500,12 @@
                     "end": "2022-02-21T12:30:00Z",
                     "start": "2022-02-21T10:00:00Z",
                     "title": "Wissenchaftliches Arbeiten"
+                },
+                {
+                    "course": "WWI21 AMA",
+                    "end": "2022-02-21T16:00:00Z",
+                    "start": "2022-02-21T13:00:00Z",
+                    "title": "Betriebliche Informationsversorgung"
                 }
             ],
             "Raum 068C": [
@@ -13937,13 +13552,13 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PT",
                     "end": "2022-02-21T10:30:00Z",
                     "start": "2022-02-21T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 BV",
                     "end": "2022-02-21T10:30:00Z",
                     "start": "2022-02-21T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -14481,8 +14096,14 @@
                 {
                     "course": "WWI21 AMA",
                     "end": "2022-03-21T11:15:00Z",
-                    "start": "2022-03-21T08:30:00Z",
+                    "start": "2022-03-21T09:00:00Z",
                     "title": "Kosten- und Leistungsrechnung"
+                },
+                {
+                    "course": "WWI21 AMA",
+                    "end": "2022-03-21T15:00:00Z",
+                    "start": "2022-03-21T12:00:00Z",
+                    "title": "Betriebliche Informationsversorgung"
                 }
             ],
             "Raum 067C": [
@@ -14515,13 +14136,13 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PT",
                     "end": "2022-03-21T10:30:00Z",
                     "start": "2022-03-21T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 BV",
                     "end": "2022-03-21T10:30:00Z",
                     "start": "2022-03-21T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -14615,6 +14236,14 @@
                     "end": "2022-03-21T11:00:00Z",
                     "start": "2022-03-21T07:00:00Z",
                     "title": "WF7: Finanzplanung"
+                }
+            ],
+            "Raum 238B": [
+                {
+                    "course": "TCT 20",
+                    "end": "2022-03-21T10:00:00Z",
+                    "start": "2022-03-21T08:00:00Z",
+                    "title": "WIEDERHOLUNGSKLAUSUR Mathe III & Fluidmechanik "
                 }
             ],
             "Raum 240B": [
@@ -14777,14 +14406,6 @@
                     "title": "ESt II"
                 }
             ],
-            "Raum 113D": [
-                {
-                    "course": "WIMBIT20 A",
-                    "end": "2022-04-21T16:00:00Z",
-                    "start": "2022-04-21T12:00:00Z",
-                    "title": "VWL (W3WI_505)"
-                }
-            ],
             "Raum 115D": [
                 {
                     "course": "WIMBIT21 A",
@@ -14849,6 +14470,14 @@
                     "end": "2022-04-23T15:00:00Z",
                     "start": "2022-04-21T07:00:00Z",
                     "title": "CAS W3M20019"
+                }
+            ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-21T08:30:00Z",
+                    "start": "2022-04-21T06:00:00Z",
+                    "title": "UmwStG"
                 }
             ]
         },
@@ -15033,7 +14662,7 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-02-22T18:00:00Z",
                     "start": "2022-02-22T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -15045,13 +14674,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PM",
                     "end": "2022-02-22T18:00:00Z",
                     "start": "2022-02-22T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-02-22T18:00:00Z",
                     "start": "2022-02-22T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -15371,13 +15000,13 @@
             ],
             "Raum 209A": [
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-02-22T12:00:00Z",
                     "start": "2022-02-22T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 PM",
                     "end": "2022-02-22T12:00:00Z",
                     "start": "2022-02-22T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
@@ -15466,9 +15095,17 @@
             "Raum 268C": [
                 {
                     "course": "WME19 MMK",
-                    "end": "2022-02-22T15:00:00Z",
-                    "start": "2022-02-22T08:00:00Z",
+                    "end": "2022-02-22T15:15:00Z",
+                    "start": "2022-02-22T08:30:00Z",
                     "title": "Medienforschung"
+                }
+            ],
+            "Raum 273C": [
+                {
+                    "course": "WWI20 SCA",
+                    "end": "2022-02-22T15:30:00Z",
+                    "start": "2022-02-22T12:15:00Z",
+                    "title": "Produktions- und Servicemanagement"
                 }
             ],
             "Raum 276C": [
@@ -15629,7 +15266,7 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-03-22T18:00:00Z",
                     "start": "2022-03-22T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -15641,13 +15278,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PM",
                     "end": "2022-03-22T18:00:00Z",
                     "start": "2022-03-22T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-03-22T18:00:00Z",
                     "start": "2022-03-22T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -15685,13 +15322,13 @@
             ],
             "Raum 209A": [
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-03-22T11:15:00Z",
                     "start": "2022-03-22T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 PM",
                     "end": "2022-03-22T11:15:00Z",
                     "start": "2022-03-22T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
@@ -15733,6 +15370,14 @@
                     "end": "2022-03-22T11:30:00Z",
                     "start": "2022-03-22T07:30:00Z",
                     "title": "Programmierung II "
+                }
+            ],
+            "Raum 273C": [
+                {
+                    "course": "WWI20 SCA",
+                    "end": "2022-03-22T15:30:00Z",
+                    "start": "2022-03-22T12:15:00Z",
+                    "title": "Produktions- und Servicemanagement"
                 }
             ],
             "Raum 276C": [
@@ -15777,13 +15422,13 @@
             ],
             "Raum folgt": [
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-03-22T10:00:00Z",
                     "start": "2022-03-22T08:00:00Z",
                     "title": "Klausur Rahmenbedingungen des G\u00fcterverkehrs (Kulturhaus K\u00e4fertal)"
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-03-22T10:00:00Z",
                     "start": "2022-03-22T08:00:00Z",
                     "title": "Klausur Rahmenbedingungen des G\u00fcterverkehrs (Kulturhaus K\u00e4fertal)"
@@ -15913,6 +15558,14 @@
                     "end": "2022-04-22T15:00:00Z",
                     "start": "2022-04-22T11:00:00Z",
                     "title": "Corporate Communication"
+                }
+            ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-22T08:30:00Z",
+                    "start": "2022-04-22T06:00:00Z",
+                    "title": "ReWe IVa"
                 }
             ],
             "Raum 316D": [
@@ -16159,14 +15812,6 @@
                     "title": "A: Recht"
                 }
             ],
-            "Raum 117A": [
-                {
-                    "course": "TMB21 C",
-                    "end": "2022-02-23T10:30:00Z",
-                    "start": "2022-02-23T08:00:00Z",
-                    "title": "Tutorium Mathematik"
-                }
-            ],
             "Raum 118A": [
                 {
                     "course": "TEL19 EU",
@@ -16361,13 +16006,13 @@
             ],
             "Raum 209A": [
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-02-23T11:15:00Z",
                     "start": "2022-02-23T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 PM",
                     "end": "2022-02-23T11:15:00Z",
                     "start": "2022-02-23T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
@@ -16453,6 +16098,12 @@
                     "end": "2022-02-23T11:30:00Z",
                     "start": "2022-02-23T09:00:00Z",
                     "title": "Bilanzierung"
+                },
+                {
+                    "course": "WWI20 AMA",
+                    "end": "2022-02-23T14:30:00Z",
+                    "start": "2022-02-23T12:15:00Z",
+                    "title": "Operations Research"
                 }
             ],
             "Raum 243B": [
@@ -16480,8 +16131,8 @@
             "Raum 268C": [
                 {
                     "course": "WME19 MMK",
-                    "end": "2022-02-23T15:00:00Z",
-                    "start": "2022-02-23T08:00:00Z",
+                    "end": "2022-02-23T15:15:00Z",
+                    "start": "2022-02-23T08:30:00Z",
                     "title": "Medienforschung"
                 }
             ],
@@ -16499,6 +16150,12 @@
                     "end": "2022-02-23T11:00:00Z",
                     "start": "2022-02-23T07:00:00Z",
                     "title": "Kommunikations-Betriebssysteme Hr. Gilb"
+                },
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-02-23T15:30:00Z",
+                    "start": "2022-02-23T12:15:00Z",
+                    "title": "Technik der Finanzbuchf\u00fchrung Hr. Bauh\u00f6fer"
                 }
             ],
             "Raum 306D": [
@@ -16709,6 +16366,14 @@
                     "end": "2022-03-23T15:45:00Z",
                     "start": "2022-03-23T12:30:00Z",
                     "title": "Operations Research Prof. Lanninger"
+                }
+            ],
+            "Raum 276C": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-23T15:30:00Z",
+                    "start": "2022-03-23T12:15:00Z",
+                    "title": "Technik der Finanzbuchf\u00fchrung Hr. Bauh\u00f6fer"
                 }
             ],
             "Raum 278C": [
@@ -17156,8 +16821,8 @@
             "Raum 268C": [
                 {
                     "course": "WME19 MMK",
-                    "end": "2022-02-24T11:00:00Z",
-                    "start": "2022-02-24T08:00:00Z",
+                    "end": "2022-02-24T12:00:00Z",
+                    "start": "2022-02-24T08:30:00Z",
                     "title": "Medienforschung"
                 },
                 {
@@ -17182,6 +16847,12 @@
                 }
             ],
             "Raum 276C": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-02-24T12:00:00Z",
+                    "start": "2022-02-24T07:00:00Z",
+                    "title": "Einf\u00fchrung in die Verwaltungswirtschaft Hr. Gerhards"
+                },
                 {
                     "course": "WWI21 EG/EH",
                     "end": "2022-02-24T18:30:00Z",
@@ -17293,13 +16964,13 @@
                     "title": "WK-Klausur GET3 (AT1, AT2), Informatik 3 (AT3), Mathematik 3 (EE)"
                 },
                 {
-                    "course": "TEL20 AT2",
+                    "course": "TEL20 EE",
                     "end": "2022-03-24T09:30:00Z",
                     "start": "2022-03-24T08:00:00Z",
                     "title": "WK-Klausur GET3 (AT1, AT2), Informatik 3 (AT3), Mathematik 3 (EE)"
                 },
                 {
-                    "course": "TEL20 EE",
+                    "course": "TEL20 AT2",
                     "end": "2022-03-24T09:30:00Z",
                     "start": "2022-03-24T08:00:00Z",
                     "title": "WK-Klausur GET3 (AT1, AT2), Informatik 3 (AT3), Mathematik 3 (EE)"
@@ -17798,6 +17469,14 @@
                     "title": "Organisation und Projektmanagement"
                 }
             ],
+            "Raum 152B": [
+                {
+                    "course": "TMB21 A",
+                    "end": "2022-02-25T14:30:00Z",
+                    "start": "2022-02-25T12:00:00Z",
+                    "title": "Werkstoffe"
+                }
+            ],
             "Raum 173C": [
                 {
                     "course": "TEL21 B",
@@ -17916,6 +17595,14 @@
                     "end": "2022-02-25T14:00:00Z",
                     "start": "2022-02-25T08:00:00Z",
                     "title": "FS 1 Fortgeschrittene Systementwicklung DB-Technik Hr. Grimm"
+                }
+            ],
+            "Raum 276C": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-02-25T17:00:00Z",
+                    "start": "2022-02-25T14:00:00Z",
+                    "title": "Pr\u00e4sentations-und Kommunikationskompetenz Fr. St\u00f6bener"
                 }
             ],
             "Raum 278C": [
@@ -18230,6 +17917,14 @@
                     "title": "Faserverst\u00e4rkte Kunststoffe"
                 }
             ],
+            "Raum 238B": [
+                {
+                    "course": "TCT 20",
+                    "end": "2022-03-25T10:00:00Z",
+                    "start": "2022-03-25T08:00:00Z",
+                    "title": "WIEDERHOLUNGSKLAUSUR Biochemie & Fluidmechanik"
+                }
+            ],
             "Raum 240B": [
                 {
                     "course": "WWI20 AMA",
@@ -18280,13 +17975,13 @@
             ],
             "Raum folgt": [
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-03-25T10:00:00Z",
                     "start": "2022-03-25T08:00:00Z",
                     "title": "Klausur VWL Wirtschaftspolitik (Kulturhaus K\u00e4fertal)"
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-03-25T10:00:00Z",
                     "start": "2022-03-25T08:00:00Z",
                     "title": "Klausur VWL Wirtschaftspolitik (Kulturhaus K\u00e4fertal)"
@@ -18575,6 +18270,20 @@
                     "title": "Programmierung II "
                 }
             ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-26T09:45:00Z",
+                    "start": "2022-04-26T07:00:00Z",
+                    "title": "Kolloq. mdl. Pr\u00fcfung"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-26T14:30:00Z",
+                    "start": "2022-04-26T12:00:00Z",
+                    "title": "ReWeIVb: U-Zusammenschl\u00fcsse"
+                }
+            ],
             "Raum 316D": [
                 {
                     "course": "WRSW20 ST1",
@@ -18685,6 +18394,26 @@
                     "title": "Printtechnologien"
                 }
             ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-27T08:30:00Z",
+                    "start": "2022-04-27T06:00:00Z",
+                    "title": "VWL"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-27T11:15:00Z",
+                    "start": "2022-04-27T08:45:00Z",
+                    "title": "Integrationsseminar"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-27T15:15:00Z",
+                    "start": "2022-04-27T12:00:00Z",
+                    "title": "Steuerplanung"
+                }
+            ],
             "Raum 316D": [
                 {
                     "course": "WRSW20 ST1",
@@ -18783,13 +18512,13 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PT",
                     "end": "2022-02-28T10:30:00Z",
                     "start": "2022-02-28T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 BV",
                     "end": "2022-02-28T10:30:00Z",
                     "start": "2022-02-28T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -19087,6 +18816,12 @@
                     "end": "2022-02-28T10:45:00Z",
                     "start": "2022-02-28T07:30:00Z",
                     "title": "Kosten- und Leistungsrechnung"
+                },
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-02-28T17:00:00Z",
+                    "start": "2022-02-28T12:00:00Z",
+                    "title": "Einf\u00fchrung in die Verwaltungswirtschaft Hr. Gerhards"
                 }
             ],
             "Raum 278C": [
@@ -19255,13 +18990,13 @@
             ],
             "Raum 201D": [
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-03-28T15:30:00Z",
                     "start": "2022-03-28T06:00:00Z",
                     "title": "DGR - Schulung"
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-03-28T15:30:00Z",
                     "start": "2022-03-28T06:00:00Z",
                     "title": "DGR - Schulung"
@@ -19363,6 +19098,14 @@
                     "end": "2022-03-28T13:30:00Z",
                     "start": "2022-03-28T12:00:00Z",
                     "title": "WDH m\u00fcndl. Bachelorpr\u00fcfung WRSW18ST2"
+                }
+            ],
+            "Raum 336B": [
+                {
+                    "course": "TINF19 CS1",
+                    "end": "2022-03-28T14:15:00Z",
+                    "start": "2022-03-28T11:30:00Z",
+                    "title": "K\u00fcnstliche Intelligenz"
                 }
             ]
         },
@@ -19524,6 +19267,26 @@
                     "start": "2022-04-28T07:00:00Z",
                     "title": "CASW3M11010.1"
                 }
+            ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-28T08:30:00Z",
+                    "start": "2022-04-28T06:00:00Z",
+                    "title": "UmwStG"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-28T11:15:00Z",
+                    "start": "2022-04-28T08:45:00Z",
+                    "title": "InsolvenzR"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-28T15:15:00Z",
+                    "start": "2022-04-28T12:00:00Z",
+                    "title": "GesR"
+                }
             ]
         },
         "29.03.2022": {
@@ -19561,6 +19324,12 @@
                     "end": "2022-03-29T09:45:00Z",
                     "start": "2022-03-29T07:30:00Z",
                     "title": "Kosten- und Leistungsrechnung"
+                },
+                {
+                    "course": "WWI21 AMA",
+                    "end": "2022-03-29T14:15:00Z",
+                    "start": "2022-03-29T10:15:00Z",
+                    "title": "Betriebliche Informationsversorgung"
                 },
                 {
                     "course": "WWI21 AMA",
@@ -19641,13 +19410,13 @@
             ],
             "Raum 201D": [
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-03-29T15:30:00Z",
                     "start": "2022-03-29T06:00:00Z",
                     "title": "DGR - Schulung"
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-03-29T15:30:00Z",
                     "start": "2022-03-29T06:00:00Z",
                     "title": "DGR - Schulung"
@@ -19831,13 +19600,13 @@
                     "title": "WIEDERHOLUNGSKLAUSUR Simulationstechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 BV",
                     "end": "2022-04-29T13:30:00Z",
                     "start": "2022-04-29T12:00:00Z",
                     "title": "WIEDERHOLUNGSKLAUSUR Simulationstechnik"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PM",
                     "end": "2022-04-29T13:30:00Z",
                     "start": "2022-04-29T12:00:00Z",
                     "title": "WIEDERHOLUNGSKLAUSUR Simulationstechnik"
@@ -19855,6 +19624,20 @@
                     "end": "2022-04-29T14:15:00Z",
                     "start": "2022-04-29T07:15:00Z",
                     "title": "Medienprojekt Systeme 2"
+                }
+            ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-29T08:30:00Z",
+                    "start": "2022-04-29T06:00:00Z",
+                    "title": "ReWe IVa"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-29T12:00:00Z",
+                    "start": "2022-04-29T08:45:00Z",
+                    "title": "Rep. U.-F\u00fchrung"
                 }
             ],
             "Raum 316D": [
@@ -19969,13 +19752,13 @@
             ],
             "Raum 201D": [
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-03-30T15:30:00Z",
                     "start": "2022-03-30T06:00:00Z",
                     "title": "DGR - Schulung"
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-03-30T15:30:00Z",
                     "start": "2022-03-30T06:00:00Z",
                     "title": "DGR - Schulung"
@@ -20045,12 +19828,40 @@
                     "title": "Operations Research Prof. Lanninger"
                 }
             ],
+            "Raum 276C": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-30T15:15:00Z",
+                    "start": "2022-03-30T11:15:00Z",
+                    "title": "Technik der Finanzbuchf\u00fchrung Hr. Bauh\u00f6fer"
+                }
+            ],
             "Raum 278C": [
                 {
                     "course": "WME21 MPG",
                     "end": "2022-03-30T16:30:00Z",
                     "start": "2022-03-30T13:30:00Z",
                     "title": "Printtechnologien"
+                }
+            ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-03-30T08:30:00Z",
+                    "start": "2022-03-30T06:00:00Z",
+                    "title": "Komplexe Themen Ust"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-03-30T11:15:00Z",
+                    "start": "2022-03-30T08:45:00Z",
+                    "title": "Integrationsseminar"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-03-30T15:15:00Z",
+                    "start": "2022-03-30T12:00:00Z",
+                    "title": "Steuerplanung"
                 }
             ],
             "Raum 336B": [
@@ -20096,13 +19907,13 @@
             ],
             "Raum 022A": [
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-03-31T08:00:00Z",
                     "start": "2022-03-31T06:30:00Z",
                     "title": "Klausur Schwei\u00dftechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 PM",
                     "end": "2022-03-31T08:00:00Z",
                     "start": "2022-03-31T06:30:00Z",
                     "title": "Klausur Schwei\u00dftechnik"
@@ -20214,13 +20025,13 @@
             ],
             "Raum 201D": [
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-03-31T15:30:00Z",
                     "start": "2022-03-31T06:00:00Z",
                     "title": "DGR - Schulung"
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-03-31T15:30:00Z",
                     "start": "2022-03-31T06:00:00Z",
                     "title": "DGR - Schulung"
@@ -20290,6 +20101,34 @@
                     "end": "2022-03-31T10:15:00Z",
                     "start": "2022-03-31T07:00:00Z",
                     "title": "KI Finanz"
+                }
+            ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-03-31T08:30:00Z",
+                    "start": "2022-03-31T06:00:00Z",
+                    "title": "UmwStG"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-03-31T11:15:00Z",
+                    "start": "2022-03-31T08:45:00Z",
+                    "title": "Steuerplanung"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-03-31T14:30:00Z",
+                    "start": "2022-03-31T12:00:00Z",
+                    "title": "GrESt"
+                }
+            ],
+            "Raum 336B": [
+                {
+                    "course": "TINF19 CS1",
+                    "end": "2022-03-31T14:15:00Z",
+                    "start": "2022-03-31T11:30:00Z",
+                    "title": "K\u00fcnstliche Intelligenz"
                 }
             ]
         }
@@ -21092,20 +20931,6 @@
                     "title": "Elektrotechnik"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "TMB21 F",
-                    "end": "2022-02-08T11:15:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Fertigungstechnik (Spanen + Gie\u00dfen)"
-                },
-                {
-                    "course": "TMB21 F",
-                    "end": "2022-02-08T17:15:00Z",
-                    "start": "2022-02-08T14:00:00Z",
-                    "title": "Konstruktionslehre"
-                }
-            ],
             "09.02.2022": [
                 {
                     "course": "TMB19 PT",
@@ -21654,13 +21479,13 @@
             ],
             "31.03.2022": [
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-03-31T08:00:00Z",
                     "start": "2022-03-31T06:30:00Z",
                     "title": "Klausur Schwei\u00dftechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 PM",
                     "end": "2022-03-31T08:00:00Z",
                     "start": "2022-03-31T06:30:00Z",
                     "title": "Klausur Schwei\u00dftechnik"
@@ -21770,20 +21595,6 @@
                     "end": "2022-04-07T13:15:00Z",
                     "start": "2022-04-07T12:00:00Z",
                     "title": "Recht"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "WWI20 DSA",
-                    "end": "2022-02-08T09:30:00Z",
-                    "start": "2022-02-08T07:30:00Z",
-                    "title": "Klausur: Mikro/Makro\u00f6konomik "
-                },
-                {
-                    "course": "WWI20 SEB",
-                    "end": "2022-02-08T12:30:00Z",
-                    "start": "2022-02-08T10:30:00Z",
-                    "title": "Klausur: Advanced IT"
                 }
             ],
             "08.03.2022": [
@@ -22004,13 +21815,13 @@
                     "title": "WK-Klausur GET3 (AT1, AT2), Informatik 3 (AT3), Mathematik 3 (EE)"
                 },
                 {
-                    "course": "TEL20 AT2",
+                    "course": "TEL20 EE",
                     "end": "2022-03-24T09:30:00Z",
                     "start": "2022-03-24T08:00:00Z",
                     "title": "WK-Klausur GET3 (AT1, AT2), Informatik 3 (AT3), Mathematik 3 (EE)"
                 },
                 {
-                    "course": "TEL20 EE",
+                    "course": "TEL20 AT2",
                     "end": "2022-03-24T09:30:00Z",
                     "start": "2022-03-24T08:00:00Z",
                     "title": "WK-Klausur GET3 (AT1, AT2), Informatik 3 (AT3), Mathematik 3 (EE)"
@@ -22264,20 +22075,6 @@
                     "title": "Physik"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "TEL21 C",
-                    "end": "2022-02-08T10:00:00Z",
-                    "start": "2022-02-08T07:45:00Z",
-                    "title": "Digitaltechnik 1"
-                },
-                {
-                    "course": "TEL21 C",
-                    "end": "2022-02-08T15:45:00Z",
-                    "start": "2022-02-08T12:30:00Z",
-                    "title": "Grundlagen Elektrotechnik 1"
-                }
-            ],
             "11.02.2022": [
                 {
                     "course": "TEL21 C",
@@ -22370,14 +22167,6 @@
             ]
         },
         "Raum 051B": {
-            "08.02.2022": [
-                {
-                    "course": "TMB19 AM1",
-                    "end": "2022-02-08T13:30:00Z",
-                    "start": "2022-02-08T11:30:00Z",
-                    "title": "Getriebelehre"
-                }
-            ],
             "09.02.2022": [
                 {
                     "course": "TMB19 AM1",
@@ -22892,26 +22681,6 @@
                     "title": "Mathematik 1 - Tutorium"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "TEL21 D",
-                    "end": "2022-02-08T12:00:00Z",
-                    "start": "2022-02-08T08:45:00Z",
-                    "title": "Mathematik 1"
-                },
-                {
-                    "course": "TEL21 D",
-                    "end": "2022-02-08T14:15:00Z",
-                    "start": "2022-02-08T12:45:00Z",
-                    "title": "Messtechnik 1a"
-                },
-                {
-                    "course": "TEL21 D",
-                    "end": "2022-02-08T17:45:00Z",
-                    "start": "2022-02-08T14:30:00Z",
-                    "title": "Grundlagen Informatik 1"
-                }
-            ],
             "09.02.2022": [
                 {
                     "course": "TEL21 D",
@@ -23101,6 +22870,12 @@
                 },
                 {
                     "course": "WWI21 AMA",
+                    "end": "2022-03-01T15:30:00Z",
+                    "start": "2022-03-01T11:30:00Z",
+                    "title": "Betriebliche Informationsversorgung"
+                },
+                {
+                    "course": "WWI21 AMA",
                     "end": "2022-03-01T18:00:00Z",
                     "start": "2022-03-01T15:30:00Z",
                     "title": "Finanzbuchhaltung"
@@ -23161,6 +22936,12 @@
                 },
                 {
                     "course": "WWI21 AMA",
+                    "end": "2022-04-05T14:30:00Z",
+                    "start": "2022-04-05T10:30:00Z",
+                    "title": "Betriebliche Informationsversorgung"
+                },
+                {
+                    "course": "WWI21 AMA",
                     "end": "2022-04-05T17:00:00Z",
                     "start": "2022-04-05T14:30:00Z",
                     "title": "Finanzbuchhaltung"
@@ -23183,6 +22964,12 @@
                 }
             ],
             "08.03.2022": [
+                {
+                    "course": "WWI21 AMA",
+                    "end": "2022-03-08T11:30:00Z",
+                    "start": "2022-03-08T07:30:00Z",
+                    "title": "Betriebliche Informationsversorgung"
+                },
                 {
                     "course": "WWI21 AMA",
                     "end": "2022-03-08T18:00:00Z",
@@ -23281,6 +23068,12 @@
                 },
                 {
                     "course": "WWI21 AMA",
+                    "end": "2022-03-15T15:30:00Z",
+                    "start": "2022-03-15T11:30:00Z",
+                    "title": "Betriebliche Informationsversorgung"
+                },
+                {
+                    "course": "WWI21 AMA",
                     "end": "2022-03-15T18:00:00Z",
                     "start": "2022-03-15T15:30:00Z",
                     "title": "Finanzbuchhaltung"
@@ -23358,14 +23151,26 @@
                     "end": "2022-02-21T12:30:00Z",
                     "start": "2022-02-21T10:00:00Z",
                     "title": "Wissenchaftliches Arbeiten"
+                },
+                {
+                    "course": "WWI21 AMA",
+                    "end": "2022-02-21T16:00:00Z",
+                    "start": "2022-02-21T13:00:00Z",
+                    "title": "Betriebliche Informationsversorgung"
                 }
             ],
             "21.03.2022": [
                 {
                     "course": "WWI21 AMA",
                     "end": "2022-03-21T11:15:00Z",
-                    "start": "2022-03-21T08:30:00Z",
+                    "start": "2022-03-21T09:00:00Z",
                     "title": "Kosten- und Leistungsrechnung"
+                },
+                {
+                    "course": "WWI21 AMA",
+                    "end": "2022-03-21T15:00:00Z",
+                    "start": "2022-03-21T12:00:00Z",
+                    "title": "Betriebliche Informationsversorgung"
                 }
             ],
             "21.04.2022": [
@@ -23493,6 +23298,12 @@
                 },
                 {
                     "course": "WWI21 AMA",
+                    "end": "2022-03-29T14:15:00Z",
+                    "start": "2022-03-29T10:15:00Z",
+                    "title": "Betriebliche Informationsversorgung"
+                },
+                {
+                    "course": "WWI21 AMA",
                     "end": "2022-03-29T17:00:00Z",
                     "start": "2022-03-29T14:30:00Z",
                     "title": "Finanzbuchhaltung"
@@ -23582,14 +23393,6 @@
                     "end": "2022-03-07T14:30:00Z",
                     "start": "2022-03-07T13:00:00Z",
                     "title": "Informatik - Klausur"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "WWI19 DSA",
-                    "end": "2022-02-08T10:15:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Klausur: Advanced Applied Machine Learning"
                 }
             ],
             "08.03.2022": [
@@ -23856,26 +23659,6 @@
                     "end": "2022-03-07T11:00:00Z",
                     "start": "2022-03-07T08:00:00Z",
                     "title": "Mathematik I"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "WWI21 AMC",
-                    "end": "2022-02-08T10:15:00Z",
-                    "start": "2022-02-08T07:30:00Z",
-                    "title": "\u00d6konomische und technische Aspekte der betr. Informationsversorgung"
-                },
-                {
-                    "course": "WWI21 AMC",
-                    "end": "2022-02-08T14:30:00Z",
-                    "start": "2022-02-08T11:30:00Z",
-                    "title": "Marketing"
-                },
-                {
-                    "course": "WWI21 AMC",
-                    "end": "2022-02-08T18:15:00Z",
-                    "start": "2022-02-08T15:00:00Z",
-                    "title": "Einf\u00fchrung in die BWL"
                 }
             ],
             "08.03.2022": [
@@ -24154,14 +23937,6 @@
                     "title": "\"online\" K\u00e4uferverhalten in Immobilienm\u00e4rkten"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "WIW20 A",
-                    "end": "2022-02-08T11:00:00Z",
-                    "start": "2022-02-08T07:00:00Z",
-                    "title": "Immobilienbesteuerung und -versicherung"
-                }
-            ],
             "08.03.2022": [
                 {
                     "course": "WIW20 A",
@@ -24266,14 +24041,6 @@
                     "title": "Bilanzierung und Grundz\u00fcge der Jahresabschlussanalyse"
                 }
             ],
-            "15.03.2022": [
-                {
-                    "course": "WIW20 A",
-                    "end": "2022-03-15T11:00:00Z",
-                    "start": "2022-03-15T07:00:00Z",
-                    "title": "Makro\u00f6konomik"
-                }
-            ],
             "16.02.2022": [
                 {
                     "course": "WIW20 A",
@@ -24332,6 +24099,12 @@
                     "end": "2022-03-18T11:00:00Z",
                     "start": "2022-03-18T07:00:00Z",
                     "title": "Vertiefung normierter Bewertungsverfahren"
+                },
+                {
+                    "course": "WIW20 A",
+                    "end": "2022-03-18T16:00:00Z",
+                    "start": "2022-03-18T12:00:00Z",
+                    "title": "Makro\u00f6konomik"
                 }
             ],
             "21.03.2022": [
@@ -24704,7 +24477,7 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-03-01T18:00:00Z",
                     "start": "2022-03-01T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -24716,13 +24489,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PM",
                     "end": "2022-03-01T18:00:00Z",
                     "start": "2022-03-01T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-03-01T18:00:00Z",
                     "start": "2022-03-01T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -24742,7 +24515,7 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-04-01T14:00:00Z",
                     "start": "2022-04-01T12:30:00Z",
                     "title": "Luftfahrttechnik"
@@ -24754,13 +24527,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PM",
                     "end": "2022-04-01T14:00:00Z",
                     "start": "2022-04-01T12:30:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-04-01T14:00:00Z",
                     "start": "2022-04-01T12:30:00Z",
                     "title": "Luftfahrttechnik"
@@ -24856,13 +24629,13 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PT",
                     "end": "2022-03-07T10:30:00Z",
                     "start": "2022-03-07T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 BV",
                     "end": "2022-03-07T10:30:00Z",
                     "start": "2022-03-07T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -24896,56 +24669,6 @@
                     "end": "2022-03-07T18:15:00Z",
                     "start": "2022-03-07T16:00:00Z",
                     "title": "Fahrzeugtechnik"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "TMB19 KVEM",
-                    "end": "2022-02-08T11:00:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Numerische Str\u00f6mungsmechanik (CFD)"
-                },
-                {
-                    "course": "TMB19 BV",
-                    "end": "2022-02-08T11:00:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Numerische Str\u00f6mungsmechanik (CFD)"
-                },
-                {
-                    "course": "TMB19 AM1",
-                    "end": "2022-02-08T18:00:00Z",
-                    "start": "2022-02-08T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                },
-                {
-                    "course": "TMB19 AM2",
-                    "end": "2022-02-08T18:00:00Z",
-                    "start": "2022-02-08T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                },
-                {
-                    "course": "TMB19 PM",
-                    "end": "2022-02-08T18:00:00Z",
-                    "start": "2022-02-08T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                },
-                {
-                    "course": "TMB19 BV",
-                    "end": "2022-02-08T18:00:00Z",
-                    "start": "2022-02-08T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                },
-                {
-                    "course": "TMB19 KT",
-                    "end": "2022-02-08T18:00:00Z",
-                    "start": "2022-02-08T13:45:00Z",
-                    "title": "Luftfahrttechnik"
-                },
-                {
-                    "course": "TMB19 PT",
-                    "end": "2022-02-08T18:00:00Z",
-                    "start": "2022-02-08T13:45:00Z",
-                    "title": "Luftfahrttechnik"
                 }
             ],
             "08.03.2022": [
@@ -24974,7 +24697,7 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-03-08T18:00:00Z",
                     "start": "2022-03-08T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -24986,13 +24709,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PM",
                     "end": "2022-03-08T18:00:00Z",
                     "start": "2022-03-08T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-03-08T18:00:00Z",
                     "start": "2022-03-08T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -25068,13 +24791,13 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PT",
                     "end": "2022-02-14T10:30:00Z",
                     "start": "2022-02-14T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 BV",
                     "end": "2022-02-14T10:30:00Z",
                     "start": "2022-02-14T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -25124,13 +24847,13 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PT",
                     "end": "2022-03-14T10:30:00Z",
                     "start": "2022-03-14T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 BV",
                     "end": "2022-03-14T10:30:00Z",
                     "start": "2022-03-14T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -25192,7 +24915,7 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-02-15T18:00:00Z",
                     "start": "2022-02-15T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -25204,13 +24927,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PM",
                     "end": "2022-02-15T18:00:00Z",
                     "start": "2022-02-15T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-02-15T18:00:00Z",
                     "start": "2022-02-15T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -25242,7 +24965,7 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-03-15T18:00:00Z",
                     "start": "2022-03-15T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -25254,13 +24977,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PM",
                     "end": "2022-03-15T18:00:00Z",
                     "start": "2022-03-15T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-03-15T18:00:00Z",
                     "start": "2022-03-15T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -25334,13 +25057,13 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PT",
                     "end": "2022-02-21T10:30:00Z",
                     "start": "2022-02-21T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 BV",
                     "end": "2022-02-21T10:30:00Z",
                     "start": "2022-02-21T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -25384,13 +25107,13 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PT",
                     "end": "2022-03-21T10:30:00Z",
                     "start": "2022-03-21T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 BV",
                     "end": "2022-03-21T10:30:00Z",
                     "start": "2022-03-21T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -25446,7 +25169,7 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-02-22T18:00:00Z",
                     "start": "2022-02-22T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -25458,13 +25181,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PM",
                     "end": "2022-02-22T18:00:00Z",
                     "start": "2022-02-22T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-02-22T18:00:00Z",
                     "start": "2022-02-22T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -25484,7 +25207,7 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-03-22T18:00:00Z",
                     "start": "2022-03-22T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -25496,13 +25219,13 @@
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 KT",
+                    "course": "TMB19 PM",
                     "end": "2022-03-22T18:00:00Z",
                     "start": "2022-03-22T13:45:00Z",
                     "title": "Luftfahrttechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 KT",
                     "end": "2022-03-22T18:00:00Z",
                     "start": "2022-03-22T13:45:00Z",
                     "title": "Luftfahrttechnik"
@@ -25594,13 +25317,13 @@
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PT",
                     "end": "2022-02-28T10:30:00Z",
                     "start": "2022-02-28T07:00:00Z",
                     "title": "Mechatronische Systeme"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 BV",
                     "end": "2022-02-28T10:30:00Z",
                     "start": "2022-02-28T07:00:00Z",
                     "title": "Mechatronische Systeme"
@@ -25738,14 +25461,6 @@
                     "end": "2022-03-04T14:00:00Z",
                     "start": "2022-03-04T07:00:00Z",
                     "title": "WF6: Algorithmische Entscheidungsfindung"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "WFD21 A",
-                    "end": "2022-02-08T11:15:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "B: Pr\u00e4sentations- und Kommunikationskompetenz"
                 }
             ],
             "08.03.2022": [
@@ -25924,20 +25639,6 @@
                     "end": "2022-04-04T14:00:00Z",
                     "start": "2022-04-04T11:00:00Z",
                     "title": "Elektrotechnik"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "TMB21 G",
-                    "end": "2022-02-08T10:30:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Mathematik + Tutorium Mathematik"
-                },
-                {
-                    "course": "TMB21 G",
-                    "end": "2022-02-08T14:00:00Z",
-                    "start": "2022-02-08T11:30:00Z",
-                    "title": "!!! f\u00e4llt aus !!! Fertigungstechnik (Umformen)"
                 }
             ],
             "09.02.2022": [
@@ -26560,14 +26261,6 @@
             ]
         },
         "Raum 107A": {
-            "08.02.2022": [
-                {
-                    "course": "TMB19 BV",
-                    "end": "2022-02-08T13:30:00Z",
-                    "start": "2022-02-08T11:30:00Z",
-                    "title": "Product Design Project"
-                }
-            ],
             "15.02.2022": [
                 {
                     "course": "TMB19 BV",
@@ -26740,14 +26433,6 @@
                     "title": "Qualit\u00e4tssicherung"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "TEL18 AAT",
-                    "end": "2022-02-08T09:30:00Z",
-                    "start": "2022-02-08T08:30:00Z",
-                    "title": "STA Besprechung"
-                }
-            ],
             "09.02.2022": [
                 {
                     "course": "TEL19 MED",
@@ -26860,14 +26545,6 @@
                     "end": "2022-03-11T11:15:00Z",
                     "start": "2022-03-11T08:00:00Z",
                     "title": "Regelungstechnik 2"
-                }
-            ],
-            "14.02.2022": [
-                {
-                    "course": "TEL19 MED",
-                    "end": "2022-02-14T13:00:00Z",
-                    "start": "2022-02-14T09:45:00Z",
-                    "title": "Qualit\u00e4tssicherung"
                 }
             ],
             "14.03.2022": [
@@ -27148,14 +26825,6 @@
             ]
         },
         "Raum 110A": {
-            "08.02.2022": [
-                {
-                    "course": "WBK21 B",
-                    "end": "2022-02-08T16:00:00Z",
-                    "start": "2022-02-08T07:45:00Z",
-                    "title": "Pr\u00e4sentations- und Kommunikationskompetenz"
-                }
-            ],
             "09.02.2022": [
                 {
                     "course": "WBK21 B",
@@ -27286,14 +26955,6 @@
                     "end": "2022-04-07T14:45:00Z",
                     "start": "2022-04-07T11:30:00Z",
                     "title": "Finanzierung und Rechnungswesen (W3WI_203)"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "WRSW19 AC2",
-                    "end": "2022-02-08T12:15:00Z",
-                    "start": "2022-02-08T09:45:00Z",
-                    "title": "IFRS-Passiva"
                 }
             ],
             "08.03.2022": [
@@ -27670,14 +27331,6 @@
                     "title": "Mathematik II (W3WI_602)"
                 }
             ],
-            "05.05.2022": [
-                {
-                    "course": "WIMBIT20 A",
-                    "end": "2022-05-05T16:00:00Z",
-                    "start": "2022-05-05T12:00:00Z",
-                    "title": "VWL (W3WI_505)"
-                }
-            ],
             "07.03.2022": [
                 {
                     "course": "WRSW20 AC2",
@@ -27692,26 +27345,6 @@
                     "end": "2022-04-07T10:45:00Z",
                     "start": "2022-04-07T07:30:00Z",
                     "title": "Finanzierung und Rechnungswesen (W3WI_203)"
-                },
-                {
-                    "course": "WIMBIT20 A",
-                    "end": "2022-04-07T16:00:00Z",
-                    "start": "2022-04-07T12:00:00Z",
-                    "title": "VWL (W3WI_505)"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "WRSW20 AC2",
-                    "end": "2022-02-08T11:45:00Z",
-                    "start": "2022-02-08T08:30:00Z",
-                    "title": "strategisches Controlling"
-                },
-                {
-                    "course": "WRSW20 AC2",
-                    "end": "2022-02-08T15:30:00Z",
-                    "start": "2022-02-08T13:00:00Z",
-                    "title": "Erbrecht"
                 }
             ],
             "08.03.2022": [
@@ -27866,14 +27499,6 @@
                     "title": "VWL"
                 }
             ],
-            "21.04.2022": [
-                {
-                    "course": "WIMBIT20 A",
-                    "end": "2022-04-21T16:00:00Z",
-                    "start": "2022-04-21T12:00:00Z",
-                    "title": "VWL (W3WI_505)"
-                }
-            ],
             "22.02.2022": [
                 {
                     "course": "WRSW20 AC2",
@@ -28018,14 +27643,6 @@
                     "end": "2022-03-07T11:00:00Z",
                     "start": "2022-03-07T07:00:00Z",
                     "title": "Maklerrecht"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "WIW20 B",
-                    "end": "2022-02-08T11:00:00Z",
-                    "start": "2022-02-08T07:00:00Z",
-                    "title": "Makro\u00f6konomik"
                 }
             ],
             "08.03.2022": [
@@ -28320,20 +27937,6 @@
                     "end": "2022-03-07T13:15:00Z",
                     "start": "2022-03-07T12:15:00Z",
                     "title": "Schlussbesprechung"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "WRSW21 AC2",
-                    "end": "2022-02-08T11:00:00Z",
-                    "start": "2022-02-08T07:00:00Z",
-                    "title": "FiBu I"
-                },
-                {
-                    "course": "WRSW21 AC2",
-                    "end": "2022-02-08T15:15:00Z",
-                    "start": "2022-02-08T12:00:00Z",
-                    "title": "BGB I"
                 }
             ],
             "08.04.2022": [
@@ -28680,20 +28283,6 @@
                     "end": "2022-04-07T10:45:00Z",
                     "start": "2022-04-07T06:45:00Z",
                     "title": "WF6: Algorithmische Entscheidungsfindung"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "WFD21 A",
-                    "end": "2022-02-08T11:30:00Z",
-                    "start": "2022-02-08T07:30:00Z",
-                    "title": "A: Einf\u00fchrung in die VWL"
-                },
-                {
-                    "course": "WFD21 A",
-                    "end": "2022-02-08T15:15:00Z",
-                    "start": "2022-02-08T12:00:00Z",
-                    "title": "A: Pr\u00e4sentations- und Kommunikationskompetenz"
                 }
             ],
             "08.03.2022": [
@@ -29146,14 +28735,6 @@
                     "title": "Konstruktionslehre und -entwurf"
                 }
             ],
-            "02.03.2022": [
-                {
-                    "course": "TMB21 C",
-                    "end": "2022-03-02T10:30:00Z",
-                    "start": "2022-03-02T08:00:00Z",
-                    "title": "Tutorium Mathematik"
-                }
-            ],
             "03.03.2022": [
                 {
                     "course": "TMB21 C",
@@ -29182,21 +28763,7 @@
                     "title": "Informatik (Gr. 2)"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "TMB21 C",
-                    "end": "2022-02-08T16:30:00Z",
-                    "start": "2022-02-08T13:15:00Z",
-                    "title": "Fertigungstechnik (Spanen + Gie\u00dfen)"
-                }
-            ],
             "09.02.2022": [
-                {
-                    "course": "TMB21 C",
-                    "end": "2022-02-09T10:30:00Z",
-                    "start": "2022-02-09T08:00:00Z",
-                    "title": "Tutorium Mathematik"
-                },
                 {
                     "course": "TMB21 C",
                     "end": "2022-02-09T15:45:00Z",
@@ -29219,12 +28786,6 @@
                 }
             ],
             "11.02.2022": [
-                {
-                    "course": "TMB21 C",
-                    "end": "2022-02-11T11:45:00Z",
-                    "start": "2022-02-11T08:30:00Z",
-                    "title": "Technische Mechanik"
-                },
                 {
                     "course": "TMB21 C",
                     "end": "2022-02-11T15:00:00Z",
@@ -29261,12 +28822,6 @@
                 }
             ],
             "16.02.2022": [
-                {
-                    "course": "TMB21 C",
-                    "end": "2022-02-16T10:30:00Z",
-                    "start": "2022-02-16T08:00:00Z",
-                    "title": "Tutorium Mathematik"
-                },
                 {
                     "course": "TMB21 C",
                     "end": "2022-02-16T15:45:00Z",
@@ -29322,14 +28877,6 @@
                     "end": "2022-02-22T16:30:00Z",
                     "start": "2022-02-22T13:15:00Z",
                     "title": "Fertigungstechnik (Spanen + Gie\u00dfen)"
-                }
-            ],
-            "23.02.2022": [
-                {
-                    "course": "TMB21 C",
-                    "end": "2022-02-23T10:30:00Z",
-                    "start": "2022-02-23T08:00:00Z",
-                    "title": "Tutorium Mathematik"
                 }
             ],
             "24.02.2022": [
@@ -29616,20 +29163,6 @@
                     "title": "Energiewirtschaft"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "TEL19 EU",
-                    "end": "2022-02-08T12:15:00Z",
-                    "start": "2022-02-08T09:00:00Z",
-                    "title": "Regelungstechnik 2"
-                },
-                {
-                    "course": "TEL19 EU",
-                    "end": "2022-02-08T15:45:00Z",
-                    "start": "2022-02-08T13:15:00Z",
-                    "title": "Grundlagen Energietechnik"
-                }
-            ],
             "08.03.2022": [
                 {
                     "course": "TEL19 EU",
@@ -29832,20 +29365,6 @@
                     "title": "Tieftemperaturtechnik: Heliumanlagen"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "TMB19 PT",
-                    "end": "2022-02-08T11:00:00Z",
-                    "start": "2022-02-08T07:15:00Z",
-                    "title": "Produktionsmaschinen"
-                },
-                {
-                    "course": "TMB19 HVT",
-                    "end": "2022-02-08T18:00:00Z",
-                    "start": "2022-02-08T12:00:00Z",
-                    "title": "Regelungstechik"
-                }
-            ],
             "08.03.2022": [
                 {
                     "course": "TMB19 HVT",
@@ -30044,14 +29563,6 @@
                     "end": "2022-03-07T18:15:00Z",
                     "start": "2022-03-07T15:45:00Z",
                     "title": "Anlagen- und Sicherheitstechnik"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "TCT 19",
-                    "end": "2022-02-08T18:00:00Z",
-                    "start": "2022-02-08T13:00:00Z",
-                    "title": "Galenik"
                 }
             ],
             "08.03.2022": [
@@ -30338,14 +29849,6 @@
                     "title": "Informatik"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "TMB21 HVT",
-                    "end": "2022-02-08T15:30:00Z",
-                    "start": "2022-02-08T12:30:00Z",
-                    "title": "Technische Mechanik "
-                }
-            ],
             "08.03.2022": [
                 {
                     "course": "TMB21 HVT",
@@ -30355,12 +29858,6 @@
                 }
             ],
             "09.02.2022": [
-                {
-                    "course": "TMB21 HVT",
-                    "end": "2022-02-09T13:30:00Z",
-                    "start": "2022-02-09T11:00:00Z",
-                    "title": "Mathematik Tutorium"
-                },
                 {
                     "course": "TMB21 HVT",
                     "end": "2022-02-09T17:00:00Z",
@@ -30424,12 +29921,6 @@
                     "end": "2022-02-16T10:30:00Z",
                     "start": "2022-02-16T08:00:00Z",
                     "title": "Informatik"
-                },
-                {
-                    "course": "TMB21 HVT",
-                    "end": "2022-02-16T13:30:00Z",
-                    "start": "2022-02-16T11:00:00Z",
-                    "title": "Mathematik Tutorium"
                 }
             ],
             "17.02.2022": [
@@ -30522,13 +30013,13 @@
                     "title": "Nach- und Wiederholungsklausuren Informatik"
                 },
                 {
-                    "course": "TINF20 AI2",
+                    "course": "TINF20 AI1",
                     "end": "2022-02-15T11:00:00Z",
                     "start": "2022-02-15T09:00:00Z",
                     "title": "Nach- und Wiederholungsklausuren Informatik"
                 },
                 {
-                    "course": "TINF20 AI1",
+                    "course": "TINF20 AI2",
                     "end": "2022-02-15T11:00:00Z",
                     "start": "2022-02-15T09:00:00Z",
                     "title": "Nach- und Wiederholungsklausuren Informatik"
@@ -30572,22 +30063,6 @@
                     "end": "2022-03-29T08:30:00Z",
                     "start": "2022-03-29T07:00:00Z",
                     "title": "WK/NK Lineare Algebra"
-                }
-            ]
-        },
-        "Raum 136B": {
-            "08.02.2022": [
-                {
-                    "course": "WWI19 EG/EH",
-                    "end": "2022-02-08T11:30:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Integrationsseminar - Abschlusspr\u00e4sentationen"
-                },
-                {
-                    "course": "WWI19 EG/EH",
-                    "end": "2022-02-08T15:00:00Z",
-                    "start": "2022-02-08T12:30:00Z",
-                    "title": "Dokumentenmanagement - Gastvortrag"
                 }
             ]
         },
@@ -30642,20 +30117,6 @@
                     "end": "2022-03-07T15:00:00Z",
                     "start": "2022-03-07T12:30:00Z",
                     "title": "Literaturrecherche zur PA 2"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "WBK20 B",
-                    "end": "2022-02-08T11:30:00Z",
-                    "start": "2022-02-08T08:15:00Z",
-                    "title": "Internationale Finanzm\u00e4rkte"
-                },
-                {
-                    "course": "WBK20 B",
-                    "end": "2022-02-08T16:15:00Z",
-                    "start": "2022-02-08T12:15:00Z",
-                    "title": "Auslandsgesch\u00e4ft"
                 }
             ],
             "09.02.2022": [
@@ -30936,14 +30397,6 @@
             ]
         },
         "Raum 138B": {
-            "01.04.2022": [
-                {
-                    "course": "WME19 MPG",
-                    "end": "2022-04-01T10:00:00Z",
-                    "start": "2022-04-01T07:00:00Z",
-                    "title": "User Experience"
-                }
-            ],
             "02.03.2022": [
                 {
                     "course": "WME19 MPG",
@@ -31002,14 +30455,6 @@
                     "end": "2022-04-07T14:30:00Z",
                     "start": "2022-04-07T13:00:00Z",
                     "title": "Integriertes Management 2"
-                }
-            ],
-            "08.04.2022": [
-                {
-                    "course": "WME19 MPG",
-                    "end": "2022-04-08T10:00:00Z",
-                    "start": "2022-04-08T07:00:00Z",
-                    "title": "User Experience"
                 }
             ],
             "09.03.2022": [
@@ -31258,20 +30703,6 @@
                     "end": "2022-03-07T15:45:00Z",
                     "start": "2022-03-07T12:30:00Z",
                     "title": "Vertiefung wissensch. Arbeiten"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "WBK20 A",
-                    "end": "2022-02-08T11:45:00Z",
-                    "start": "2022-02-08T08:30:00Z",
-                    "title": "Bankrechnungswesen"
-                },
-                {
-                    "course": "WBK20 A",
-                    "end": "2022-02-08T15:30:00Z",
-                    "start": "2022-02-08T12:15:00Z",
-                    "title": "Internationale Finanzm\u00e4rkte"
                 }
             ],
             "08.03.2022": [
@@ -31588,14 +31019,6 @@
                     "title": "Werkstoffe"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "TMB21 A",
-                    "end": "2022-02-08T11:00:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Technische Mechanik"
-                }
-            ],
             "09.02.2022": [
                 {
                     "course": "TMB21 A",
@@ -31693,17 +31116,17 @@
                     "start": "2022-02-24T15:00:00Z",
                     "title": "Werkstoffe"
                 }
+            ],
+            "25.02.2022": [
+                {
+                    "course": "TMB21 A",
+                    "end": "2022-02-25T14:30:00Z",
+                    "start": "2022-02-25T12:00:00Z",
+                    "title": "Werkstoffe"
+                }
             ]
         },
         "Raum 153B": {
-            "08.02.2022": [
-                {
-                    "course": "TMB21 B",
-                    "end": "2022-02-08T11:30:00Z",
-                    "start": "2022-02-08T08:30:00Z",
-                    "title": "ONLINE Festigkeitslehre"
-                }
-            ],
             "10.02.2022": [
                 {
                     "course": "TMB21 B",
@@ -31848,20 +31271,6 @@
                     "end": "2022-03-04T12:45:00Z",
                     "start": "2022-03-04T10:30:00Z",
                     "title": "Physik"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "TEL21 B",
-                    "end": "2022-02-08T11:45:00Z",
-                    "start": "2022-02-08T09:30:00Z",
-                    "title": "Grundlagen Elektrotechnik 1"
-                },
-                {
-                    "course": "TEL21 B",
-                    "end": "2022-02-08T15:30:00Z",
-                    "start": "2022-02-08T12:15:00Z",
-                    "title": "Gesch\u00e4ftsprozesse"
                 }
             ],
             "09.02.2022": [
@@ -32126,32 +31535,6 @@
                     "end": "2022-03-04T15:45:00Z",
                     "start": "2022-03-04T09:30:00Z",
                     "title": "Grundlagen Informatik 1 "
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "TEL21 A",
-                    "end": "2022-02-08T11:30:00Z",
-                    "start": "2022-02-08T09:00:00Z",
-                    "title": "Lerngruppe A-Kurs (ABB)"
-                },
-                {
-                    "course": "TEL21 A",
-                    "end": "2022-02-08T14:45:00Z",
-                    "start": "2022-02-08T12:30:00Z",
-                    "title": "Digitaltechnik 1"
-                },
-                {
-                    "course": "TEL21 A",
-                    "end": "2022-02-08T15:45:00Z",
-                    "start": "2022-02-08T15:00:00Z",
-                    "title": "Physik - BSS"
-                },
-                {
-                    "course": "TEL21 A",
-                    "end": "2022-02-08T17:30:00Z",
-                    "start": "2022-02-08T16:00:00Z",
-                    "title": "Mathematik 1 - Tutorium"
                 }
             ],
             "09.02.2022": [
@@ -32752,14 +32135,6 @@
                     "title": "Klausur: Prozessautomatisierung"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "WWI20 SCB",
-                    "end": "2022-02-08T09:20:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Datenbanken I"
-                }
-            ],
             "09.02.2022": [
                 {
                     "course": "WWI19 SEB",
@@ -33044,32 +32419,6 @@
                     "end": "2022-03-07T11:15:00Z",
                     "start": "2022-03-07T08:00:00Z",
                     "title": "Regelungstechnik 2"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "TEL19 EE",
-                    "end": "2022-02-08T09:00:00Z",
-                    "start": "2022-02-08T07:00:00Z",
-                    "title": "Schutztechnik"
-                },
-                {
-                    "course": "TEL19 EU",
-                    "end": "2022-02-08T09:00:00Z",
-                    "start": "2022-02-08T07:00:00Z",
-                    "title": "Schutztechnik"
-                },
-                {
-                    "course": "TEL19 EE",
-                    "end": "2022-02-08T12:00:00Z",
-                    "start": "2022-02-08T09:30:00Z",
-                    "title": "Grundlagen Energietechnik"
-                },
-                {
-                    "course": "TEL19 EE",
-                    "end": "2022-02-08T16:00:00Z",
-                    "start": "2022-02-08T13:00:00Z",
-                    "title": "Embedded Systems"
                 }
             ],
             "08.03.2022": [
@@ -33476,14 +32825,6 @@
                     "title": "Sicherheit in der Luftfracht (Vertiefung)"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "WSTL19 A",
-                    "end": "2022-02-08T12:00:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Supply Chain Management I"
-                }
-            ],
             "09.03.2022": [
                 {
                     "course": "WSTL19 A",
@@ -33614,13 +32955,13 @@
             ],
             "28.03.2022": [
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-03-28T15:30:00Z",
                     "start": "2022-03-28T06:00:00Z",
                     "title": "DGR - Schulung"
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-03-28T15:30:00Z",
                     "start": "2022-03-28T06:00:00Z",
                     "title": "DGR - Schulung"
@@ -33640,13 +32981,13 @@
             ],
             "29.03.2022": [
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-03-29T15:30:00Z",
                     "start": "2022-03-29T06:00:00Z",
                     "title": "DGR - Schulung"
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-03-29T15:30:00Z",
                     "start": "2022-03-29T06:00:00Z",
                     "title": "DGR - Schulung"
@@ -33666,13 +33007,13 @@
             ],
             "30.03.2022": [
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-03-30T15:30:00Z",
                     "start": "2022-03-30T06:00:00Z",
                     "title": "DGR - Schulung"
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-03-30T15:30:00Z",
                     "start": "2022-03-30T06:00:00Z",
                     "title": "DGR - Schulung"
@@ -33692,13 +33033,13 @@
             ],
             "31.03.2022": [
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-03-31T15:30:00Z",
                     "start": "2022-03-31T06:00:00Z",
                     "title": "DGR - Schulung"
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-03-31T15:30:00Z",
                     "start": "2022-03-31T06:00:00Z",
                     "title": "DGR - Schulung"
@@ -33740,14 +33081,6 @@
                     "end": "2022-03-03T12:00:00Z",
                     "start": "2022-03-03T08:00:00Z",
                     "title": "Supply Chain Management I"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "WSTL19 B",
-                    "end": "2022-02-08T11:30:00Z",
-                    "start": "2022-02-08T07:30:00Z",
-                    "title": "Projektkizze zur Bachelorarbeit I"
                 }
             ],
             "08.03.2022": [
@@ -33906,20 +33239,6 @@
                     "end": "2022-03-04T12:30:00Z",
                     "start": "2022-03-04T08:30:00Z",
                     "title": "Umwelt- und Sozialpolitik"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "WSTL19 C",
-                    "end": "2022-02-08T11:30:00Z",
-                    "start": "2022-02-08T07:15:00Z",
-                    "title": "Transforming SCM & Logistics: exploratory creativity I"
-                },
-                {
-                    "course": "WSTL19 C",
-                    "end": "2022-02-08T15:45:00Z",
-                    "start": "2022-02-08T12:30:00Z",
-                    "title": "Anbindung an SAP-Systeme I"
                 }
             ],
             "08.03.2022": [
@@ -34120,14 +33439,6 @@
                     "title": "Haftung/Versicherung II"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "WSTL19 D",
-                    "end": "2022-02-08T16:30:00Z",
-                    "start": "2022-02-08T12:30:00Z",
-                    "title": "Projektskizze zur Bachelorarbeit I"
-                }
-            ],
             "09.02.2022": [
                 {
                     "course": "WSTL19 D",
@@ -34280,13 +33591,13 @@
         "Raum 209A": {
             "01.03.2022": [
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-03-01T12:00:00Z",
                     "start": "2022-03-01T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 PM",
                     "end": "2022-03-01T12:00:00Z",
                     "start": "2022-03-01T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
@@ -34294,13 +33605,13 @@
             ],
             "08.03.2022": [
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-03-08T11:15:00Z",
                     "start": "2022-03-08T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 PM",
                     "end": "2022-03-08T11:15:00Z",
                     "start": "2022-03-08T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
@@ -34316,13 +33627,13 @@
             ],
             "15.03.2022": [
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-03-15T11:15:00Z",
                     "start": "2022-03-15T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 PM",
                     "end": "2022-03-15T11:15:00Z",
                     "start": "2022-03-15T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
@@ -34346,13 +33657,13 @@
             ],
             "22.02.2022": [
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-02-22T12:00:00Z",
                     "start": "2022-02-22T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 PM",
                     "end": "2022-02-22T12:00:00Z",
                     "start": "2022-02-22T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
@@ -34360,13 +33671,13 @@
             ],
             "22.03.2022": [
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-03-22T11:15:00Z",
                     "start": "2022-03-22T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 PM",
                     "end": "2022-03-22T11:15:00Z",
                     "start": "2022-03-22T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
@@ -34374,13 +33685,13 @@
             ],
             "23.02.2022": [
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 PT",
                     "end": "2022-02-23T11:15:00Z",
                     "start": "2022-02-23T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
                 },
                 {
-                    "course": "TMB19 PT",
+                    "course": "TMB19 PM",
                     "end": "2022-02-23T11:15:00Z",
                     "start": "2022-02-23T07:00:00Z",
                     "title": "Schwei\u00dftechnik"
@@ -34408,13 +33719,13 @@
                     "title": "WIEDERHOLUNGSKLAUSUR Simulationstechnik"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 BV",
                     "end": "2022-04-29T13:30:00Z",
                     "start": "2022-04-29T12:00:00Z",
                     "title": "WIEDERHOLUNGSKLAUSUR Simulationstechnik"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PM",
                     "end": "2022-04-29T13:30:00Z",
                     "start": "2022-04-29T12:00:00Z",
                     "title": "WIEDERHOLUNGSKLAUSUR Simulationstechnik"
@@ -34524,14 +33835,6 @@
                     "title": "WF6: Algorithmische Entscheidungsfindung"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "WBK21 A",
-                    "end": "2022-02-08T16:00:00Z",
-                    "start": "2022-02-08T07:45:00Z",
-                    "title": "Pr\u00e4sentations- und Kommunikationskompetenz"
-                }
-            ],
             "09.02.2022": [
                 {
                     "course": "WBK21 A",
@@ -34610,26 +33913,6 @@
                     "end": "2022-03-04T16:45:00Z",
                     "start": "2022-03-04T11:45:00Z",
                     "title": "Mathematik 1"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "TEL21 E",
-                    "end": "2022-02-08T14:00:00Z",
-                    "start": "2022-02-08T08:45:00Z",
-                    "title": "Grundlagen Elektrotechnik 1"
-                },
-                {
-                    "course": "TEL21 E",
-                    "end": "2022-02-08T15:45:00Z",
-                    "start": "2022-02-08T14:15:00Z",
-                    "title": "Mathematik 1 - Tutorium"
-                },
-                {
-                    "course": "TEL21 E",
-                    "end": "2022-02-08T16:45:00Z",
-                    "start": "2022-02-08T16:00:00Z",
-                    "title": "Physik - BSS"
                 }
             ],
             "09.02.2022": [
@@ -34824,14 +34107,6 @@
                     "end": "2022-04-09T15:00:00Z",
                     "start": "2022-04-07T07:00:00Z",
                     "title": "CAS W3M20015"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "WBK20 B",
-                    "end": "2022-02-08T12:30:00Z",
-                    "start": "2022-02-08T12:00:00Z",
-                    "title": "Klausureinsicht - WBK 20"
                 }
             ],
             "11.02.2022": [
@@ -35066,14 +34341,6 @@
                     "title": "Werkzeugkonstruktion"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "TMB19 AM2",
-                    "end": "2022-02-08T10:45:00Z",
-                    "start": "2022-02-08T07:30:00Z",
-                    "title": "Kolbenmaschinen"
-                }
-            ],
             "09.02.2022": [
                 {
                     "course": "TMB19 KT",
@@ -35184,14 +34451,6 @@
                     "end": "2022-03-07T12:00:00Z",
                     "start": "2022-03-07T09:30:00Z",
                     "title": "Informationsmanagement"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "TEL19 AT1",
-                    "end": "2022-02-08T11:15:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Sensorik und Messwertverarbeitung"
                 }
             ],
             "08.03.2022": [
@@ -35727,8 +34986,8 @@
             "09.02.2022": [
                 {
                     "course": "TCT 21",
-                    "end": "2022-02-09T12:00:00Z",
-                    "start": "2022-02-09T09:30:00Z",
+                    "end": "2022-02-09T11:30:00Z",
+                    "start": "2022-02-09T09:00:00Z",
                     "title": "Mathematik I"
                 }
             ],
@@ -35780,6 +35039,14 @@
                     "title": "Physik"
                 }
             ],
+            "21.03.2022": [
+                {
+                    "course": "TCT 20",
+                    "end": "2022-03-21T10:00:00Z",
+                    "start": "2022-03-21T08:00:00Z",
+                    "title": "WIEDERHOLUNGSKLAUSUR Mathe III & Fluidmechanik "
+                }
+            ],
             "23.02.2022": [
                 {
                     "course": "TCT 21",
@@ -35794,6 +35061,14 @@
                     "end": "2022-02-24T11:45:00Z",
                     "start": "2022-02-24T08:30:00Z",
                     "title": "Anorganische Chemie"
+                }
+            ],
+            "25.03.2022": [
+                {
+                    "course": "TCT 20",
+                    "end": "2022-03-25T10:00:00Z",
+                    "start": "2022-03-25T08:00:00Z",
+                    "title": "WIEDERHOLUNGSKLAUSUR Biochemie & Fluidmechanik"
                 }
             ],
             "28.02.2022": [
@@ -35826,20 +35101,6 @@
                     "end": "2022-03-03T11:30:00Z",
                     "start": "2022-03-03T08:00:00Z",
                     "title": "Versorgungstechnik"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "TMB19 KVEM",
-                    "end": "2022-02-08T14:30:00Z",
-                    "start": "2022-02-08T11:30:00Z",
-                    "title": "Heizungstechnik 3"
-                },
-                {
-                    "course": "TMB19 KVEM",
-                    "end": "2022-02-08T18:30:00Z",
-                    "start": "2022-02-08T16:00:00Z",
-                    "title": "Klimatechnik 3"
                 }
             ],
             "08.03.2022": [
@@ -36238,6 +35499,12 @@
                     "end": "2022-02-23T11:30:00Z",
                     "start": "2022-02-23T09:00:00Z",
                     "title": "Bilanzierung"
+                },
+                {
+                    "course": "WWI20 AMA",
+                    "end": "2022-02-23T14:30:00Z",
+                    "start": "2022-02-23T12:15:00Z",
+                    "title": "Operations Research"
                 }
             ],
             "23.03.2022": [
@@ -36654,20 +35921,6 @@
                     "title": "Mathematik"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "TMB21 KVEM",
-                    "end": "2022-02-08T11:00:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "Fertigungstechnik"
-                },
-                {
-                    "course": "TMB21 KVEM",
-                    "end": "2022-02-08T17:00:00Z",
-                    "start": "2022-02-08T13:30:00Z",
-                    "title": "Technische Mechanik"
-                }
-            ],
             "10.02.2022": [
                 {
                     "course": "TMB21 KVEM",
@@ -36808,43 +36061,35 @@
             ]
         },
         "Raum 268C": {
-            "08.02.2022": [
-                {
-                    "course": "WME19 MMK",
-                    "end": "2022-02-08T15:30:00Z",
-                    "start": "2022-02-08T08:30:00Z",
-                    "title": "Medienforschung"
-                }
-            ],
             "08.03.2022": [
                 {
                     "course": "WME19 MMK",
-                    "end": "2022-03-08T15:00:00Z",
-                    "start": "2022-03-08T08:00:00Z",
+                    "end": "2022-03-08T15:15:00Z",
+                    "start": "2022-03-08T08:30:00Z",
                     "title": "Medienforschung"
                 }
             ],
             "09.02.2022": [
                 {
                     "course": "WME19 MMK",
-                    "end": "2022-02-09T15:00:00Z",
-                    "start": "2022-02-09T08:00:00Z",
+                    "end": "2022-02-09T15:15:00Z",
+                    "start": "2022-02-09T08:30:00Z",
                     "title": "Medienforschung"
                 }
             ],
             "09.03.2022": [
                 {
                     "course": "WME19 MMK",
-                    "end": "2022-03-09T15:00:00Z",
-                    "start": "2022-03-09T08:00:00Z",
+                    "end": "2022-03-09T15:15:00Z",
+                    "start": "2022-03-09T08:30:00Z",
                     "title": "Medienforschung"
                 }
             ],
             "10.02.2022": [
                 {
                     "course": "WME19 MMK",
-                    "end": "2022-02-10T11:00:00Z",
-                    "start": "2022-02-10T08:00:00Z",
+                    "end": "2022-02-10T12:00:00Z",
+                    "start": "2022-02-10T08:30:00Z",
                     "title": "Medienforschung"
                 },
                 {
@@ -36857,8 +36102,8 @@
             "10.03.2022": [
                 {
                     "course": "WME19 MMK",
-                    "end": "2022-03-10T11:00:00Z",
-                    "start": "2022-03-10T08:00:00Z",
+                    "end": "2022-03-10T12:00:00Z",
+                    "start": "2022-03-10T08:30:00Z",
                     "title": "Medienforschung"
                 },
                 {
@@ -36933,16 +36178,16 @@
             "22.02.2022": [
                 {
                     "course": "WME19 MMK",
-                    "end": "2022-02-22T15:00:00Z",
-                    "start": "2022-02-22T08:00:00Z",
+                    "end": "2022-02-22T15:15:00Z",
+                    "start": "2022-02-22T08:30:00Z",
                     "title": "Medienforschung"
                 }
             ],
             "23.02.2022": [
                 {
                     "course": "WME19 MMK",
-                    "end": "2022-02-23T15:00:00Z",
-                    "start": "2022-02-23T08:00:00Z",
+                    "end": "2022-02-23T15:15:00Z",
+                    "start": "2022-02-23T08:30:00Z",
                     "title": "Medienforschung"
                 }
             ],
@@ -36957,8 +36202,8 @@
             "24.02.2022": [
                 {
                     "course": "WME19 MMK",
-                    "end": "2022-02-24T11:00:00Z",
-                    "start": "2022-02-24T08:00:00Z",
+                    "end": "2022-02-24T12:00:00Z",
+                    "start": "2022-02-24T08:30:00Z",
                     "title": "Medienforschung"
                 },
                 {
@@ -37377,8 +36622,64 @@
                 }
             ]
         },
+        "Raum 273C": {
+            "05.04.2022": [
+                {
+                    "course": "WWI20 SCA",
+                    "end": "2022-04-05T14:30:00Z",
+                    "start": "2022-04-05T11:15:00Z",
+                    "title": "Produktions- und Servicemanagement"
+                }
+            ],
+            "15.02.2022": [
+                {
+                    "course": "WWI20 SCA",
+                    "end": "2022-02-15T15:30:00Z",
+                    "start": "2022-02-15T12:15:00Z",
+                    "title": "Produktions- und Servicemanagement"
+                }
+            ],
+            "15.03.2022": [
+                {
+                    "course": "WWI20 SCA",
+                    "end": "2022-03-15T15:30:00Z",
+                    "start": "2022-03-15T12:15:00Z",
+                    "title": "Produktions- und Servicemanagement"
+                }
+            ],
+            "19.04.2022": [
+                {
+                    "course": "WWI20 SCA",
+                    "end": "2022-04-19T13:45:00Z",
+                    "start": "2022-04-19T11:15:00Z",
+                    "title": "Produktions- und Servicemanagement"
+                }
+            ],
+            "22.02.2022": [
+                {
+                    "course": "WWI20 SCA",
+                    "end": "2022-02-22T15:30:00Z",
+                    "start": "2022-02-22T12:15:00Z",
+                    "title": "Produktions- und Servicemanagement"
+                }
+            ],
+            "22.03.2022": [
+                {
+                    "course": "WWI20 SCA",
+                    "end": "2022-03-22T15:30:00Z",
+                    "start": "2022-03-22T12:15:00Z",
+                    "title": "Produktions- und Servicemanagement"
+                }
+            ]
+        },
         "Raum 276C": {
             "01.03.2022": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-01T12:00:00Z",
+                    "start": "2022-03-01T07:00:00Z",
+                    "title": "Einf\u00fchrung in die Verwaltungswirtschaft Hr. Gerhards"
+                },
                 {
                     "course": "WWI21 EG/EH",
                     "end": "2022-03-01T16:30:00Z",
@@ -37395,6 +36696,18 @@
                 }
             ],
             "02.03.2022": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-02T11:30:00Z",
+                    "start": "2022-03-02T07:00:00Z",
+                    "title": "Einf\u00fchrung in die Verwaltungswirtschaft Hr. Gerhards"
+                },
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-02T15:30:00Z",
+                    "start": "2022-03-02T12:15:00Z",
+                    "title": "Technik der Finanzbuchf\u00fchrung Hr. Bauh\u00f6fer"
+                },
                 {
                     "course": "WWI21 EG/EH",
                     "end": "2022-03-02T20:00:00Z",
@@ -37440,6 +36753,14 @@
                     "title": "VL Fortgeschrittene Programmierung Hr. Linder"
                 }
             ],
+            "06.04.2022": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-04-06T15:15:00Z",
+                    "start": "2022-04-06T11:15:00Z",
+                    "title": "Technik der Finanzbuchf\u00fchrung Hr. Bauh\u00f6fer"
+                }
+            ],
             "07.03.2022": [
                 {
                     "course": "WWI21 EG/EH",
@@ -37454,12 +36775,56 @@
                     "title": "Systemanalyse und Entwurf Hr. Wolff"
                 }
             ],
+            "07.04.2022": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-04-07T16:00:00Z",
+                    "start": "2022-04-07T12:00:00Z",
+                    "title": "Pr\u00e4sentations-und Kommunikationskompetenz Fr. St\u00f6bener"
+                }
+            ],
             "08.03.2022": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-08T12:00:00Z",
+                    "start": "2022-03-08T07:00:00Z",
+                    "title": "Einf\u00fchrung in die Verwaltungswirtschaft Hr. Gerhards"
+                },
                 {
                     "course": "WWI21 EG/EH",
                     "end": "2022-03-08T16:30:00Z",
                     "start": "2022-03-08T14:00:00Z",
                     "title": "VL Fortgeschrittene Programmierung Hr. Linder"
+                }
+            ],
+            "08.04.2022": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-04-08T16:00:00Z",
+                    "start": "2022-04-08T12:00:00Z",
+                    "title": "Pr\u00e4sentations-und Kommunikationskompetenz Fr. St\u00f6bener"
+                }
+            ],
+            "09.03.2022": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-09T12:00:00Z",
+                    "start": "2022-03-09T07:00:00Z",
+                    "title": "Einf\u00fchrung in die Verwaltungswirtschaft Hr. Gerhards"
+                },
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-09T15:30:00Z",
+                    "start": "2022-03-09T12:15:00Z",
+                    "title": "Technik der Finanzbuchf\u00fchrung Hr. Bauh\u00f6fer"
+                }
+            ],
+            "10.03.2022": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-10T14:30:00Z",
+                    "start": "2022-03-10T07:00:00Z",
+                    "title": "Einf\u00fchrung in die Gesundheitswirtschaft Hr. Bl\u00fcmm"
                 }
             ],
             "11.03.2022": [
@@ -37536,6 +36901,14 @@
                     "title": "Handels- und Gesellschaftsrecht Hr. Dedic"
                 }
             ],
+            "16.03.2022": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-16T15:30:00Z",
+                    "start": "2022-03-16T12:15:00Z",
+                    "title": "Technik der Finanzbuchf\u00fchrung Hr. Bauh\u00f6fer"
+                }
+            ],
             "17.02.2022": [
                 {
                     "course": "WWI21 EG/EH",
@@ -37560,6 +36933,12 @@
             ],
             "18.02.2022": [
                 {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-02-18T11:00:00Z",
+                    "start": "2022-02-18T08:00:00Z",
+                    "title": "Algorithmen und Datenstrukturen Hr. Schidler"
+                },
+                {
                     "course": "WWI20 AMB",
                     "end": "2022-02-18T15:45:00Z",
                     "start": "2022-02-18T12:15:00Z",
@@ -37567,6 +36946,12 @@
                 }
             ],
             "18.03.2022": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-18T12:00:00Z",
+                    "start": "2022-03-18T08:00:00Z",
+                    "title": "Algorithmen und Datenstrukturen Hr. Schidler"
+                },
                 {
                     "course": "WWI20 AMB",
                     "end": "2022-03-18T15:45:00Z",
@@ -37638,14 +37023,42 @@
                     "end": "2022-02-23T11:00:00Z",
                     "start": "2022-02-23T07:00:00Z",
                     "title": "Kommunikations-Betriebssysteme Hr. Gilb"
+                },
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-02-23T15:30:00Z",
+                    "start": "2022-02-23T12:15:00Z",
+                    "title": "Technik der Finanzbuchf\u00fchrung Hr. Bauh\u00f6fer"
+                }
+            ],
+            "23.03.2022": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-23T15:30:00Z",
+                    "start": "2022-03-23T12:15:00Z",
+                    "title": "Technik der Finanzbuchf\u00fchrung Hr. Bauh\u00f6fer"
                 }
             ],
             "24.02.2022": [
                 {
                     "course": "WWI21 EG/EH",
+                    "end": "2022-02-24T12:00:00Z",
+                    "start": "2022-02-24T07:00:00Z",
+                    "title": "Einf\u00fchrung in die Verwaltungswirtschaft Hr. Gerhards"
+                },
+                {
+                    "course": "WWI21 EG/EH",
                     "end": "2022-02-24T18:30:00Z",
                     "start": "2022-02-24T15:00:00Z",
                     "title": "Kommunikations-Betriebssysteme Hr. Gilb"
+                }
+            ],
+            "25.02.2022": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-02-25T17:00:00Z",
+                    "start": "2022-02-25T14:00:00Z",
+                    "title": "Pr\u00e4sentations-und Kommunikationskompetenz Fr. St\u00f6bener"
                 }
             ],
             "25.03.2022": [
@@ -37662,6 +37075,12 @@
                     "end": "2022-02-28T10:45:00Z",
                     "start": "2022-02-28T07:30:00Z",
                     "title": "Kosten- und Leistungsrechnung"
+                },
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-02-28T17:00:00Z",
+                    "start": "2022-02-28T12:00:00Z",
+                    "title": "Einf\u00fchrung in die Verwaltungswirtschaft Hr. Gerhards"
                 }
             ],
             "28.03.2022": [
@@ -37676,6 +37095,14 @@
                     "end": "2022-03-28T15:30:00Z",
                     "start": "2022-03-28T13:00:00Z",
                     "title": "VL Fortgeschrittene Programmierung Hr. Linder"
+                }
+            ],
+            "30.03.2022": [
+                {
+                    "course": "WWI21 EG/EH",
+                    "end": "2022-03-30T15:15:00Z",
+                    "start": "2022-03-30T11:15:00Z",
+                    "title": "Technik der Finanzbuchf\u00fchrung Hr. Bauh\u00f6fer"
                 }
             ]
         },
@@ -37746,14 +37173,6 @@
                     "end": "2022-03-07T17:00:00Z",
                     "start": "2022-03-07T13:00:00Z",
                     "title": "Techn. Grundlagen der Webentwicklung"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "WME21 MMK",
-                    "end": "2022-02-08T14:00:00Z",
-                    "start": "2022-02-08T10:00:00Z",
-                    "title": "Medienprojektplanung"
                 }
             ],
             "08.03.2022": [
@@ -38248,14 +37667,6 @@
                     "title": "SM"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "WMKE19 B",
-                    "end": "2022-02-08T11:15:00Z",
-                    "start": "2022-02-08T08:00:00Z",
-                    "title": "SM"
-                }
-            ],
             "09.02.2022": [
                 {
                     "course": "WMKE19 B",
@@ -38506,14 +37917,6 @@
                     "end": "2022-03-07T16:15:00Z",
                     "start": "2022-03-07T12:00:00Z",
                     "title": "VM"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "WMKE21 B",
-                    "end": "2022-02-08T11:15:00Z",
-                    "start": "2022-02-08T07:00:00Z",
-                    "title": "Wiss"
                 }
             ],
             "08.03.2022": [
@@ -38782,20 +38185,6 @@
                     "title": "LP"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "WMKE20 B",
-                    "end": "2022-02-08T11:15:00Z",
-                    "start": "2022-02-08T07:00:00Z",
-                    "title": "VWL"
-                },
-                {
-                    "course": "WMKE20 B",
-                    "end": "2022-02-08T16:15:00Z",
-                    "start": "2022-02-08T12:00:00Z",
-                    "title": "Eng"
-                }
-            ],
             "09.02.2022": [
                 {
                     "course": "WMKE20 B",
@@ -39032,12 +38421,40 @@
                     "title": "KapGesR"
                 }
             ],
+            "01.04.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-01T08:30:00Z",
+                    "start": "2022-04-01T06:00:00Z",
+                    "title": "ReWe IVa"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-01T11:15:00Z",
+                    "start": "2022-04-01T08:45:00Z",
+                    "title": "GrESt"
+                }
+            ],
             "03.03.2022": [
                 {
                     "course": "WRSW19 ST2",
                     "end": "2022-03-03T09:30:00Z",
                     "start": "2022-03-03T07:00:00Z",
                     "title": "Betriebswirtschaftliche Steuerlehre III "
+                }
+            ],
+            "03.05.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-05-03T09:45:00Z",
+                    "start": "2022-05-03T07:00:00Z",
+                    "title": "Kolloq. mdl. Pr\u00fcfung"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-05-03T14:30:00Z",
+                    "start": "2022-05-03T12:00:00Z",
+                    "title": "ReWeIVb: U-Zusammenschl\u00fcsse"
                 }
             ],
             "04.03.2022": [
@@ -39054,6 +38471,70 @@
                     "title": "Besteuerung komplexer Sachverhalte"
                 }
             ],
+            "04.05.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-05-04T08:30:00Z",
+                    "start": "2022-05-04T06:00:00Z",
+                    "title": "Rep. KapG"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-05-04T11:15:00Z",
+                    "start": "2022-05-04T08:45:00Z",
+                    "title": "Steuerplanung"
+                }
+            ],
+            "05.04.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-05T08:30:00Z",
+                    "start": "2022-04-05T06:00:00Z",
+                    "title": "VWL"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-05T12:00:00Z",
+                    "start": "2022-04-05T08:45:00Z",
+                    "title": "Kolloq. mdl. Pr\u00fcfung"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-05T14:30:00Z",
+                    "start": "2022-04-05T12:00:00Z",
+                    "title": "ReWeIVb: U-Zusammenschl\u00fcsse"
+                }
+            ],
+            "05.05.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-05-05T11:15:00Z",
+                    "start": "2022-05-05T08:45:00Z",
+                    "title": "InsolvenzR"
+                }
+            ],
+            "06.04.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-06T08:30:00Z",
+                    "start": "2022-04-06T06:00:00Z",
+                    "title": "Komplexe Themen Ust"
+                }
+            ],
+            "06.05.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-05-06T08:30:00Z",
+                    "start": "2022-05-06T06:00:00Z",
+                    "title": "ReWe IVa"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-05-06T11:15:00Z",
+                    "start": "2022-05-06T08:45:00Z",
+                    "title": "Rep. ReWe IIIa"
+                }
+            ],
             "07.03.2022": [
                 {
                     "course": "WRSW19 ST2",
@@ -39068,6 +38549,20 @@
                     "title": "Geld und W\u00e4hrung"
                 }
             ],
+            "07.04.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-07T08:30:00Z",
+                    "start": "2022-04-07T06:00:00Z",
+                    "title": "UmwStG"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-07T11:15:00Z",
+                    "start": "2022-04-07T08:45:00Z",
+                    "title": "InsolvenzR"
+                }
+            ],
             "08.03.2022": [
                 {
                     "course": "WRSW19 ST2",
@@ -39080,6 +38575,14 @@
                     "end": "2022-03-08T12:15:00Z",
                     "start": "2022-03-08T09:45:00Z",
                     "title": "KapGesR"
+                }
+            ],
+            "08.04.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-08T08:30:00Z",
+                    "start": "2022-04-08T06:00:00Z",
+                    "title": "ReWe IVa"
                 }
             ],
             "09.03.2022": [
@@ -39140,12 +38643,48 @@
                     "title": "Besteuerung komplexer Sachverhalte"
                 }
             ],
+            "12.04.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-12T14:30:00Z",
+                    "start": "2022-04-12T12:00:00Z",
+                    "title": "ReWeIVb: U-Zusammenschl\u00fcsse"
+                }
+            ],
+            "13.04.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-13T08:30:00Z",
+                    "start": "2022-04-13T06:00:00Z",
+                    "title": "Komplexe Themen Ust"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-13T11:15:00Z",
+                    "start": "2022-04-13T08:45:00Z",
+                    "title": "Integrationsseminar"
+                }
+            ],
             "14.03.2022": [
                 {
                     "course": "WRSW19 ST2",
                     "end": "2022-03-14T12:15:00Z",
                     "start": "2022-03-14T09:45:00Z",
                     "title": "Wahl/Besteuerung d. Rechtsf.-St.planung"
+                }
+            ],
+            "14.04.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-14T08:30:00Z",
+                    "start": "2022-04-14T06:00:00Z",
+                    "title": "UmwStG"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-14T15:15:00Z",
+                    "start": "2022-04-14T12:00:00Z",
+                    "title": "GesR"
                 }
             ],
             "15.02.2022": [
@@ -39214,12 +38753,50 @@
                     "title": "Besteuerung komplexer Sachverhalte"
                 }
             ],
+            "19.04.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-19T14:30:00Z",
+                    "start": "2022-04-19T12:00:00Z",
+                    "title": "ReWeIVb: U-Zusammenschl\u00fcsse"
+                }
+            ],
+            "20.04.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-20T08:30:00Z",
+                    "start": "2022-04-20T06:00:00Z",
+                    "title": "Komplexe Themen Ust"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-20T11:15:00Z",
+                    "start": "2022-04-20T08:45:00Z",
+                    "title": "Integrationsseminar"
+                }
+            ],
+            "21.04.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-21T08:30:00Z",
+                    "start": "2022-04-21T06:00:00Z",
+                    "title": "UmwStG"
+                }
+            ],
             "22.03.2022": [
                 {
                     "course": "WRSW19 ST2",
                     "end": "2022-03-22T09:30:00Z",
                     "start": "2022-03-22T07:00:00Z",
                     "title": "KapGesR"
+                }
+            ],
+            "22.04.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-22T08:30:00Z",
+                    "start": "2022-04-22T06:00:00Z",
+                    "title": "ReWe IVa"
                 }
             ],
             "24.02.2022": [
@@ -39244,12 +38821,120 @@
                     "title": "Internationales Steuerrecht"
                 }
             ],
+            "26.04.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-26T09:45:00Z",
+                    "start": "2022-04-26T07:00:00Z",
+                    "title": "Kolloq. mdl. Pr\u00fcfung"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-26T14:30:00Z",
+                    "start": "2022-04-26T12:00:00Z",
+                    "title": "ReWeIVb: U-Zusammenschl\u00fcsse"
+                }
+            ],
+            "27.04.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-27T08:30:00Z",
+                    "start": "2022-04-27T06:00:00Z",
+                    "title": "VWL"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-27T11:15:00Z",
+                    "start": "2022-04-27T08:45:00Z",
+                    "title": "Integrationsseminar"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-27T15:15:00Z",
+                    "start": "2022-04-27T12:00:00Z",
+                    "title": "Steuerplanung"
+                }
+            ],
             "28.02.2022": [
                 {
                     "course": "WRSW19 ST2",
                     "end": "2022-02-28T12:15:00Z",
                     "start": "2022-02-28T09:45:00Z",
                     "title": "Wahl/Besteuerung d. Rechtsf.-St.planung"
+                }
+            ],
+            "28.04.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-28T08:30:00Z",
+                    "start": "2022-04-28T06:00:00Z",
+                    "title": "UmwStG"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-28T11:15:00Z",
+                    "start": "2022-04-28T08:45:00Z",
+                    "title": "InsolvenzR"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-28T15:15:00Z",
+                    "start": "2022-04-28T12:00:00Z",
+                    "title": "GesR"
+                }
+            ],
+            "29.04.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-29T08:30:00Z",
+                    "start": "2022-04-29T06:00:00Z",
+                    "title": "ReWe IVa"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-04-29T12:00:00Z",
+                    "start": "2022-04-29T08:45:00Z",
+                    "title": "Rep. U.-F\u00fchrung"
+                }
+            ],
+            "30.03.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-03-30T08:30:00Z",
+                    "start": "2022-03-30T06:00:00Z",
+                    "title": "Komplexe Themen Ust"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-03-30T11:15:00Z",
+                    "start": "2022-03-30T08:45:00Z",
+                    "title": "Integrationsseminar"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-03-30T15:15:00Z",
+                    "start": "2022-03-30T12:00:00Z",
+                    "title": "Steuerplanung"
+                }
+            ],
+            "31.03.2022": [
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-03-31T08:30:00Z",
+                    "start": "2022-03-31T06:00:00Z",
+                    "title": "UmwStG"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-03-31T11:15:00Z",
+                    "start": "2022-03-31T08:45:00Z",
+                    "title": "Steuerplanung"
+                },
+                {
+                    "course": "WRSW19 ST1",
+                    "end": "2022-03-31T14:30:00Z",
+                    "start": "2022-03-31T12:00:00Z",
+                    "title": "GrESt"
                 }
             ]
         },
@@ -39438,26 +39123,6 @@
                     "end": "2022-04-07T15:15:00Z",
                     "start": "2022-04-07T12:00:00Z",
                     "title": "ReWe IIa+b"
-                }
-            ],
-            "08.02.2022": [
-                {
-                    "course": "WRSW20 ST2",
-                    "end": "2022-02-08T09:30:00Z",
-                    "start": "2022-02-08T07:00:00Z",
-                    "title": "Handelsrecht (Streaming vom Raum D 316)"
-                },
-                {
-                    "course": "WRSW20 ST2",
-                    "end": "2022-02-08T12:15:00Z",
-                    "start": "2022-02-08T09:45:00Z",
-                    "title": "Bilanz 2"
-                },
-                {
-                    "course": "WRSW20 ST2",
-                    "end": "2022-02-08T15:30:00Z",
-                    "start": "2022-02-08T13:00:00Z",
-                    "title": "Betriebl. Steuerlehre I"
                 }
             ],
             "08.03.2022": [
@@ -39888,32 +39553,6 @@
                     "title": "Elektrische Antriebe"
                 }
             ],
-            "08.02.2022": [
-                {
-                    "course": "TEL18 AAT",
-                    "end": "2022-02-08T10:00:00Z",
-                    "start": "2022-02-08T09:00:00Z",
-                    "title": "STA Besprechung"
-                },
-                {
-                    "course": "TEL19 AT3",
-                    "end": "2022-02-08T15:00:00Z",
-                    "start": "2022-02-08T12:30:00Z",
-                    "title": "Mikrocomputertechnik 3"
-                },
-                {
-                    "course": "TEL19 EO",
-                    "end": "2022-02-08T15:00:00Z",
-                    "start": "2022-02-08T12:30:00Z",
-                    "title": "Mikrocomputertechnik 3"
-                },
-                {
-                    "course": "TEL19 EO",
-                    "end": "2022-02-08T17:15:00Z",
-                    "start": "2022-02-08T15:15:00Z",
-                    "title": "PCB-Design"
-                }
-            ],
             "08.03.2022": [
                 {
                     "course": "TEL18 AAT",
@@ -40256,6 +39895,14 @@
                     "title": "Wissensbasierte Systeme (Prof. Stroetmann)"
                 }
             ],
+            "03.03.2022": [
+                {
+                    "course": "TINF19 CS1",
+                    "end": "2022-03-03T15:15:00Z",
+                    "start": "2022-03-03T12:30:00Z",
+                    "title": "K\u00fcnstliche Intelligenz"
+                }
+            ],
             "07.03.2022": [
                 {
                     "course": "TINF19 CS1",
@@ -40278,6 +39925,14 @@
                     "end": "2022-03-09T15:15:00Z",
                     "start": "2022-03-09T12:30:00Z",
                     "title": "Wissensbasierte Systeme (Prof. Stroetmann)"
+                }
+            ],
+            "10.03.2022": [
+                {
+                    "course": "TINF19 CS1",
+                    "end": "2022-03-10T15:15:00Z",
+                    "start": "2022-03-10T12:30:00Z",
+                    "title": "K\u00fcnstliche Intelligenz"
                 }
             ],
             "14.02.2022": [
@@ -40317,6 +39972,14 @@
                     "course": "TINF19 CS1",
                     "end": "2022-02-17T15:15:00Z",
                     "start": "2022-02-17T12:30:00Z",
+                    "title": "K\u00fcnstliche Intelligenz"
+                }
+            ],
+            "17.03.2022": [
+                {
+                    "course": "TINF19 CS1",
+                    "end": "2022-03-17T15:15:00Z",
+                    "start": "2022-03-17T12:30:00Z",
                     "title": "K\u00fcnstliche Intelligenz"
                 }
             ],
@@ -40394,12 +40057,28 @@
                     "title": "K\u00fcnstliche Intelligenz"
                 }
             ],
+            "28.03.2022": [
+                {
+                    "course": "TINF19 CS1",
+                    "end": "2022-03-28T14:15:00Z",
+                    "start": "2022-03-28T11:30:00Z",
+                    "title": "K\u00fcnstliche Intelligenz"
+                }
+            ],
             "30.03.2022": [
                 {
                     "course": "TINF19 AI1",
                     "end": "2022-03-30T14:15:00Z",
                     "start": "2022-03-30T11:30:00Z",
                     "title": "Wissensbasierte Systeme (Prof. Stroetmann)"
+                }
+            ],
+            "31.03.2022": [
+                {
+                    "course": "TINF19 CS1",
+                    "end": "2022-03-31T14:15:00Z",
+                    "start": "2022-03-31T11:30:00Z",
+                    "title": "K\u00fcnstliche Intelligenz"
                 }
             ]
         },
@@ -40542,13 +40221,13 @@
             ],
             "14.03.2022": [
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-03-14T11:00:00Z",
                     "start": "2022-03-14T08:00:00Z",
                     "title": "Klausur Wahlpflichtfach  /  067C, Altbau"
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-03-14T11:00:00Z",
                     "start": "2022-03-14T08:00:00Z",
                     "title": "Klausur Wahlpflichtfach  /  067C, Altbau"
@@ -40568,13 +40247,13 @@
             ],
             "18.03.2022": [
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-03-18T10:00:00Z",
                     "start": "2022-03-18T08:00:00Z",
                     "title": "Klausur Logistikmanagement (Kulturhaus K\u00e4fertal)"
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-03-18T10:00:00Z",
                     "start": "2022-03-18T08:00:00Z",
                     "title": "Klausur Logistikmanagement (Kulturhaus K\u00e4fertal)"
@@ -40594,13 +40273,13 @@
             ],
             "22.03.2022": [
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-03-22T10:00:00Z",
                     "start": "2022-03-22T08:00:00Z",
                     "title": "Klausur Rahmenbedingungen des G\u00fcterverkehrs (Kulturhaus K\u00e4fertal)"
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-03-22T10:00:00Z",
                     "start": "2022-03-22T08:00:00Z",
                     "title": "Klausur Rahmenbedingungen des G\u00fcterverkehrs (Kulturhaus K\u00e4fertal)"
@@ -40620,13 +40299,13 @@
             ],
             "25.03.2022": [
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-03-25T10:00:00Z",
                     "start": "2022-03-25T08:00:00Z",
                     "title": "Klausur VWL Wirtschaftspolitik (Kulturhaus K\u00e4fertal)"
                 },
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-03-25T10:00:00Z",
                     "start": "2022-03-25T08:00:00Z",
                     "title": "Klausur VWL Wirtschaftspolitik (Kulturhaus K\u00e4fertal)"
@@ -40646,5 +40325,5 @@
             ]
         }
     },
-    "last_updated": "2022-02-08T05:14:24Z"
+    "last_updated": "2022-02-09T05:14:34Z"
 }
