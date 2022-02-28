@@ -18,6 +18,8 @@ Dieses Repository enthält den Quellcode und die Ressourcen für den Raumplan un
 - Anzeige der aktuellen oder zukünftigen Termine eines Raumes.
 - Zeigt die Auslastung der Mensaria Metropol des gewählten Tages nach Uhrzeit an.
 
+**Hinweis**: Nicht alle Räume können über die Suchfunktion gefunden werden: Die Räume werden aus den Terminen der Kurskalender der nächsten 3 Monate ermittelt. Wenn ein Raum dort bei keinem Kurs eingetragen ist, fehlt er auch in der Raumliste.
+
 ## Mensa Auslastung
 
 Die Diagramme für die Mensa-Auslastung werden mit den folgenden Annahmen berechnet:

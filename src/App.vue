@@ -129,13 +129,13 @@
                   rounded
                   custom-class="has-text-white has-background-dark"
                   :data="filteredRoomArray"
-                  placeholder="z.B. Raum 048B"
+                  placeholder="z.B. Raum 051B"
                   icon="magnify"
                   clearable
                   @select="onRoomChanged($event)"
                 >
                   <template #empty>
-                    Keine Ergebnisse gefunden
+                    Keine Ergebnisse gefunden / Raum nicht belegt
                   </template>
                 </b-autocomplete>
               </b-field>
@@ -526,7 +526,7 @@ export default {
 .dropdown-item {
   color: #fff !important;
 }
-a.dropdown-item:hover {
+a.dropdown-item:hover, a.dropdown-item:focus {
   background-color: #485fc7 !important;
 }
 .datepicker-cell.is-selectable {
