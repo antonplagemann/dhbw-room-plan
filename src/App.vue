@@ -529,6 +529,9 @@ export default {
 a.dropdown-item:hover, a.dropdown-item:focus {
   background-color: #485fc7 !important;
 }
+.is-hovered {
+  background-color: #485fc7 !important;
+}
 .datepicker-cell.is-selectable {
   color: #fff !important;
 }
