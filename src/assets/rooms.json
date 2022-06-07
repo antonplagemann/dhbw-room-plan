@@ -247,12 +247,6 @@
             ],
             "Raum folgt": [
                 {
-                    "course": "WSTL21 A",
-                    "end": "2022-07-01T09:00:00Z",
-                    "start": "2022-07-01T07:00:00Z",
-                    "title": "Klausur BWL II Unternehmensrechnung / Kulturhaus K\u00e4fertal"
-                },
-                {
                     "course": "WSTL21 B",
                     "end": "2022-07-01T09:00:00Z",
                     "start": "2022-07-01T07:00:00Z",
@@ -266,6 +260,12 @@
                 },
                 {
                     "course": "WSTL21 D",
+                    "end": "2022-07-01T09:00:00Z",
+                    "start": "2022-07-01T07:00:00Z",
+                    "title": "Klausur BWL II Unternehmensrechnung / Kulturhaus K\u00e4fertal"
+                },
+                {
+                    "course": "WSTL21 A",
                     "end": "2022-07-01T09:00:00Z",
                     "start": "2022-07-01T07:00:00Z",
                     "title": "Klausur BWL II Unternehmensrechnung / Kulturhaus K\u00e4fertal"
@@ -1200,12 +1200,6 @@
             ],
             "Raum folgt": [
                 {
-                    "course": "WSTL21 A",
-                    "end": "2022-07-04T09:00:00Z",
-                    "start": "2022-07-04T07:00:00Z",
-                    "title": "Klausur FiBu / Kulturhaus K\u00e4fertal"
-                },
-                {
                     "course": "WSTL21 B",
                     "end": "2022-07-04T09:00:00Z",
                     "start": "2022-07-04T07:00:00Z",
@@ -1219,6 +1213,12 @@
                 },
                 {
                     "course": "WSTL21 D",
+                    "end": "2022-07-04T09:00:00Z",
+                    "start": "2022-07-04T07:00:00Z",
+                    "title": "Klausur FiBu / Kulturhaus K\u00e4fertal"
+                },
+                {
+                    "course": "WSTL21 A",
                     "end": "2022-07-04T09:00:00Z",
                     "start": "2022-07-04T07:00:00Z",
                     "title": "Klausur FiBu / Kulturhaus K\u00e4fertal"
@@ -1914,7 +1914,6 @@
                 }
             ]
         },
-        "06.06.2022": {},
         "06.07.2022": {
             "Raum 004D": [
                 {
@@ -2304,6 +2303,104 @@
             ]
         },
         "06.08.2022": {},
+        "06.09.2022": {
+            "Raum 138B": [
+                {
+                    "course": "WME21 MPG",
+                    "end": "2022-09-06T10:00:00Z",
+                    "start": "2022-09-06T07:00:00Z",
+                    "title": "Crossmedia Design"
+                }
+            ],
+            "Raum 202D": [
+                {
+                    "course": "CAS Masterkurse",
+                    "end": "2022-09-06T15:00:00Z",
+                    "start": "2022-09-06T05:30:00Z",
+                    "title": "CAS T3M10102"
+                }
+            ],
+            "Raum 209D": [
+                {
+                    "course": "CAS Masterkurse",
+                    "end": "2022-09-06T15:00:00Z",
+                    "start": "2022-09-06T05:30:00Z",
+                    "title": "CAS T3M70303"
+                }
+            ],
+            "Raum 278C": [
+                {
+                    "course": "WME21 MMK",
+                    "end": "2022-09-06T08:15:00Z",
+                    "start": "2022-09-06T07:00:00Z",
+                    "title": "Analysis /Darstellende Geometrie"
+                },
+                {
+                    "course": "WME21 MMK",
+                    "end": "2022-09-06T11:00:00Z",
+                    "start": "2022-09-06T09:00:00Z",
+                    "title": "Corporate Communication"
+                }
+            ],
+            "Raum 301D": [
+                {
+                    "course": "CAS Masterkurse",
+                    "end": "2022-09-06T14:30:00Z",
+                    "start": "2022-09-06T06:30:00Z",
+                    "title": "CAS W3M10903"
+                }
+            ],
+            "Raum 306D": [
+                {
+                    "course": "WMKE19 B",
+                    "end": "2022-09-06T10:15:00Z",
+                    "start": "2022-09-06T06:00:00Z",
+                    "title": "VM"
+                }
+            ],
+            "Raum 311D": [
+                {
+                    "course": "WMKE21 B",
+                    "end": "2022-09-06T10:15:00Z",
+                    "start": "2022-09-06T07:00:00Z",
+                    "title": "SQ"
+                },
+                {
+                    "course": "WMKE21 B",
+                    "end": "2022-09-06T15:15:00Z",
+                    "start": "2022-09-06T11:00:00Z",
+                    "title": "FI"
+                }
+            ],
+            "Raum 313D": [
+                {
+                    "course": "WMKE20 B",
+                    "end": "2022-09-06T15:15:00Z",
+                    "start": "2022-09-06T06:00:00Z",
+                    "title": "Selbststudium"
+                }
+            ],
+            "Raum 316D": [
+                {
+                    "course": "WRSW20 ST2",
+                    "end": "2022-09-06T08:30:00Z",
+                    "start": "2022-09-06T06:00:00Z",
+                    "title": "Betriebsw. Steuerlehre II"
+                },
+                {
+                    "course": "WRSW20 ST2",
+                    "end": "2022-09-06T11:15:00Z",
+                    "start": "2022-09-06T08:45:00Z",
+                    "title": "ESt 4"
+                },
+                {
+                    "course": "WRSW20 ST2",
+                    "end": "2022-09-06T14:30:00Z",
+                    "start": "2022-09-06T12:00:00Z",
+                    "title": "ReLe II: Bilanz 3"
+                }
+            ]
+        },
         "07.06.2022": {
             "CAD-Raum 05A": [
                 {
@@ -2533,13 +2630,13 @@
                     "title": "International Business Law & International Organizations (W3WI_IBI303)"
                 },
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-06-07T15:30:00Z",
                     "start": "2022-06-07T11:30:00Z",
                     "title": "Projekt (W3WI_107)"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-06-07T15:30:00Z",
                     "start": "2022-06-07T11:30:00Z",
                     "title": "Projekt (W3WI_107)"
@@ -5030,12 +5127,6 @@
             ],
             "Raum folgt": [
                 {
-                    "course": "WSTL21 A",
-                    "end": "2022-07-08T09:00:00Z",
-                    "start": "2022-07-08T07:00:00Z",
-                    "title": "Klausur Recht I / Kulturhaus K\u00e4fertal"
-                },
-                {
                     "course": "WSTL21 B",
                     "end": "2022-07-08T09:00:00Z",
                     "start": "2022-07-08T07:00:00Z",
@@ -5049,6 +5140,12 @@
                 },
                 {
                     "course": "WSTL21 D",
+                    "end": "2022-07-08T09:00:00Z",
+                    "start": "2022-07-08T07:00:00Z",
+                    "title": "Klausur Recht I / Kulturhaus K\u00e4fertal"
+                },
+                {
+                    "course": "WSTL21 A",
                     "end": "2022-07-08T09:00:00Z",
                     "start": "2022-07-08T07:00:00Z",
                     "title": "Klausur Recht I / Kulturhaus K\u00e4fertal"
@@ -5342,13 +5439,13 @@
             ],
             "Raum 039B": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-06-09T09:00:00Z",
                     "start": "2022-06-09T07:00:00Z",
                     "title": "Spanisch II / Advanced II (W3WI_IBI306)"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-06-09T09:00:00Z",
                     "start": "2022-06-09T07:00:00Z",
                     "title": "Spanisch II / Advanced II (W3WI_IBI306)"
@@ -6588,13 +6685,13 @@
             ],
             "Raum 104D": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-06-10T11:00:00Z",
                     "start": "2022-06-10T07:00:00Z",
                     "title": "Projekt (W3WI_107)"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-06-10T11:00:00Z",
                     "start": "2022-06-10T07:00:00Z",
                     "title": "Projekt (W3WI_107)"
@@ -9001,13 +9098,13 @@
             ],
             "Raum Carl-Benz-H\u00f6rsaal": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2022-06-13T11:30:00Z",
                     "start": "2022-06-13T10:30:00Z",
                     "title": "Finanzierung und Rechnungswesen (W3WI_203)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2022-06-13T11:30:00Z",
                     "start": "2022-06-13T10:30:00Z",
                     "title": "Finanzierung und Rechnungswesen (W3WI_203)"
@@ -9636,13 +9733,13 @@
             ],
             "Raum 104D": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-06-14T15:30:00Z",
                     "start": "2022-06-14T11:30:00Z",
                     "title": "Projekt (W3WI_107)"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-06-14T15:30:00Z",
                     "start": "2022-06-14T11:30:00Z",
                     "title": "Projekt (W3WI_107)"
@@ -10551,13 +10648,13 @@
                     "title": "Nachhol- und Wiederholungsklausur"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 BV",
                     "end": "2022-06-15T12:30:00Z",
                     "start": "2022-06-15T11:00:00Z",
                     "title": "Nachhol- und Wiederholungsklausur"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PM",
                     "end": "2022-06-15T12:30:00Z",
                     "start": "2022-06-15T11:00:00Z",
                     "title": "Nachhol- und Wiederholungsklausur"
@@ -10649,13 +10746,13 @@
             ],
             "Raum 039B": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-06-15T14:15:00Z",
                     "start": "2022-06-15T11:00:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-06-15T14:15:00Z",
                     "start": "2022-06-15T11:00:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
@@ -10709,13 +10806,13 @@
             ],
             "Raum 067C": [
                 {
-                    "course": "TMB20 B",
+                    "course": "TMB20 A",
                     "end": "2022-06-15T08:30:00Z",
                     "start": "2022-06-15T06:30:00Z",
                     "title": "Klausur Fertigungstechnik II/AV/PLM"
                 },
                 {
-                    "course": "TMB20 A",
+                    "course": "TMB20 B",
                     "end": "2022-06-15T08:30:00Z",
                     "start": "2022-06-15T06:30:00Z",
                     "title": "Klausur Fertigungstechnik II/AV/PLM"
@@ -11005,12 +11102,6 @@
             ],
             "Raum 204D": [
                 {
-                    "course": "WSTL21 A",
-                    "end": "2022-06-15T10:30:00Z",
-                    "start": "2022-06-15T06:00:00Z",
-                    "title": "WDH Pr\u00e4sentation \"Grundlagen und Funktionen der Logistik\""
-                },
-                {
                     "course": "WSTL21 B",
                     "end": "2022-06-15T10:30:00Z",
                     "start": "2022-06-15T06:00:00Z",
@@ -11024,6 +11115,12 @@
                 },
                 {
                     "course": "WSTL21 D",
+                    "end": "2022-06-15T10:30:00Z",
+                    "start": "2022-06-15T06:00:00Z",
+                    "title": "WDH Pr\u00e4sentation \"Grundlagen und Funktionen der Logistik\""
+                },
+                {
+                    "course": "WSTL21 A",
                     "end": "2022-06-15T10:30:00Z",
                     "start": "2022-06-15T06:00:00Z",
                     "title": "WDH Pr\u00e4sentation \"Grundlagen und Funktionen der Logistik\""
@@ -11301,25 +11398,25 @@
             ],
             "Raum Carl-Benz-H\u00f6rsaal": [
                 {
-                    "course": "WIMBIT19 B",
-                    "end": "2022-06-15T10:00:00Z",
-                    "start": "2022-06-15T08:00:00Z",
-                    "title": "IT-Management (W3WI_IBI401)"
-                },
-                {
                     "course": "WIMBIT19 A",
                     "end": "2022-06-15T10:00:00Z",
                     "start": "2022-06-15T08:00:00Z",
                     "title": "IT-Management (W3WI_IBI401)"
                 },
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT19 B",
+                    "end": "2022-06-15T10:00:00Z",
+                    "start": "2022-06-15T08:00:00Z",
+                    "title": "IT-Management (W3WI_IBI401)"
+                },
+                {
+                    "course": "WIMBIT20 B",
                     "end": "2022-06-15T12:00:00Z",
                     "start": "2022-06-15T11:00:00Z",
                     "title": "Mathematik II (W3WI_602)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2022-06-15T12:00:00Z",
                     "start": "2022-06-15T11:00:00Z",
                     "title": "Mathematik II (W3WI_602)"
@@ -11363,13 +11460,13 @@
                     "title": "Klausur Elektronik2+3 & Messtechnik 2"
                 },
                 {
-                    "course": "TEL20 MED",
+                    "course": "TEL20 EU",
                     "end": "2022-06-15T11:30:00Z",
                     "start": "2022-06-15T09:30:00Z",
                     "title": "Klausur Elektronik2+3 & Messtechnik 2"
                 },
                 {
-                    "course": "TEL20 EU",
+                    "course": "TEL20 MED",
                     "end": "2022-06-15T11:30:00Z",
                     "start": "2022-06-15T09:30:00Z",
                     "title": "Klausur Elektronik2+3 & Messtechnik 2"
@@ -11906,13 +12003,13 @@
             ],
             "Raum 104D": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-06-17T11:00:00Z",
                     "start": "2022-06-17T07:00:00Z",
                     "title": "Projekt (W3WI_107)"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-06-17T11:00:00Z",
                     "start": "2022-06-17T07:00:00Z",
                     "title": "Projekt (W3WI_107)"
@@ -12790,7 +12887,7 @@
                     "title": "Nachklausur WSTL 19 A - D"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2022-07-19T14:00:00Z",
                     "start": "2022-07-19T12:00:00Z",
                     "title": "Nachklausur WSTL 19 A - D"
@@ -12802,7 +12899,7 @@
                     "title": "Nachklausur WSTL 19 A - D"
                 },
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 D",
                     "end": "2022-07-19T14:00:00Z",
                     "start": "2022-07-19T12:00:00Z",
                     "title": "Nachklausur WSTL 19 A - D"
@@ -13152,13 +13249,13 @@
                     "title": "Klausur Mikrocomputertechnik"
                 },
                 {
-                    "course": "TEL20 MED",
+                    "course": "TEL20 EU",
                     "end": "2022-06-20T10:30:00Z",
                     "start": "2022-06-20T09:00:00Z",
                     "title": "Klausur Mikrocomputertechnik"
                 },
                 {
-                    "course": "TEL20 EU",
+                    "course": "TEL20 MED",
                     "end": "2022-06-20T10:30:00Z",
                     "start": "2022-06-20T09:00:00Z",
                     "title": "Klausur Mikrocomputertechnik"
@@ -13572,25 +13669,25 @@
                     "title": "Klausur \"Konstruktionslehre II\""
                 },
                 {
-                    "course": "TMB21 KVEM",
-                    "end": "2022-06-20T11:30:00Z",
-                    "start": "2022-06-20T10:00:00Z",
-                    "title": "Klausur \"Konstruktionslehre II\""
-                },
-                {
                     "course": "TMB21 F",
                     "end": "2022-06-20T11:30:00Z",
                     "start": "2022-06-20T10:00:00Z",
                     "title": "Klausur \"Konstruktionslehre II\""
                 },
                 {
-                    "course": "TMB20 G",
+                    "course": "TMB21 KVEM",
+                    "end": "2022-06-20T11:30:00Z",
+                    "start": "2022-06-20T10:00:00Z",
+                    "title": "Klausur \"Konstruktionslehre II\""
+                },
+                {
+                    "course": "TMB20 F",
                     "end": "2022-06-20T14:00:00Z",
                     "start": "2022-06-20T12:30:00Z",
                     "title": "Klausur \"Konstruktionslehre IV\""
                 },
                 {
-                    "course": "TMB20 F",
+                    "course": "TMB20 G",
                     "end": "2022-06-20T14:00:00Z",
                     "start": "2022-06-20T12:30:00Z",
                     "title": "Klausur \"Konstruktionslehre IV\""
@@ -13606,13 +13703,13 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "TINF21 CS2",
+                    "course": "TINF21 IT1",
                     "end": "2022-06-20T08:30:00Z",
                     "start": "2022-06-20T07:00:00Z",
                     "title": "Digitaltechnik"
                 },
                 {
-                    "course": "TINF21 IT1",
+                    "course": "TINF21 CS2",
                     "end": "2022-06-20T08:30:00Z",
                     "start": "2022-06-20T07:00:00Z",
                     "title": "Digitaltechnik"
@@ -13632,12 +13729,6 @@
             ],
             "Raum folgt": [
                 {
-                    "course": "WSTL21 A",
-                    "end": "2022-06-20T13:00:00Z",
-                    "start": "2022-06-20T11:00:00Z",
-                    "title": "Klausur VWL I: Mikro\u00f6konomie / Kulturhaus K\u00e4fertal"
-                },
-                {
                     "course": "WSTL21 B",
                     "end": "2022-06-20T13:00:00Z",
                     "start": "2022-06-20T11:00:00Z",
@@ -13651,6 +13742,12 @@
                 },
                 {
                     "course": "WSTL21 D",
+                    "end": "2022-06-20T13:00:00Z",
+                    "start": "2022-06-20T11:00:00Z",
+                    "title": "Klausur VWL I: Mikro\u00f6konomie / Kulturhaus K\u00e4fertal"
+                },
+                {
+                    "course": "WSTL21 A",
                     "end": "2022-06-20T13:00:00Z",
                     "start": "2022-06-20T11:00:00Z",
                     "title": "Klausur VWL I: Mikro\u00f6konomie / Kulturhaus K\u00e4fertal"
@@ -14057,13 +14154,13 @@
             ],
             "Raum 104D": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-06-21T15:30:00Z",
                     "start": "2022-06-21T11:30:00Z",
                     "title": "Projekt (W3WI_107)"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-06-21T15:30:00Z",
                     "start": "2022-06-21T11:30:00Z",
                     "title": "Projekt (W3WI_107)"
@@ -14487,13 +14584,13 @@
                     "title": "Klausur Statistik"
                 },
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2022-06-21T10:30:00Z",
                     "start": "2022-06-21T08:30:00Z",
                     "title": "Datenbanken (W3WI_105)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2022-06-21T10:30:00Z",
                     "start": "2022-06-21T08:30:00Z",
                     "title": "Datenbanken (W3WI_105)"
@@ -14517,13 +14614,13 @@
                     "title": "!!! Achtung Raum\u00e4nderung !!! Klausur \"Antriebstechnik / Steuerungstechnik\""
                 },
                 {
-                    "course": "TMB20 G",
+                    "course": "TMB20 F",
                     "end": "2022-06-21T16:00:00Z",
                     "start": "2022-06-21T14:00:00Z",
                     "title": "!!! Achtung Raum\u00e4nderung !!! Klausur \"Antriebstechnik / Steuerungstechnik\""
                 },
                 {
-                    "course": "TMB20 F",
+                    "course": "TMB20 G",
                     "end": "2022-06-21T16:00:00Z",
                     "start": "2022-06-21T14:00:00Z",
                     "title": "!!! Achtung Raum\u00e4nderung !!! Klausur \"Antriebstechnik / Steuerungstechnik\""
@@ -14962,13 +15059,13 @@
             ],
             "Raum 112D": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2022-06-22T10:15:00Z",
                     "start": "2022-06-22T07:00:00Z",
                     "title": "Methoden der Wirtschaftsinformatik II (W3WI_102)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2022-06-22T10:15:00Z",
                     "start": "2022-06-22T07:00:00Z",
                     "title": "Methoden der Wirtschaftsinformatik II (W3WI_102)"
@@ -15354,12 +15451,6 @@
             ],
             "Raum folgt": [
                 {
-                    "course": "WSTL21 A",
-                    "end": "2022-06-22T08:00:00Z",
-                    "start": "2022-06-22T07:00:00Z",
-                    "title": "Klausur Statistik / Kulturhaus K\u00e4fertal"
-                },
-                {
                     "course": "WSTL21 B",
                     "end": "2022-06-22T08:00:00Z",
                     "start": "2022-06-22T07:00:00Z",
@@ -15373,6 +15464,12 @@
                 },
                 {
                     "course": "WSTL21 D",
+                    "end": "2022-06-22T08:00:00Z",
+                    "start": "2022-06-22T07:00:00Z",
+                    "title": "Klausur Statistik / Kulturhaus K\u00e4fertal"
+                },
+                {
+                    "course": "WSTL21 A",
                     "end": "2022-06-22T08:00:00Z",
                     "start": "2022-06-22T07:00:00Z",
                     "title": "Klausur Statistik / Kulturhaus K\u00e4fertal"
@@ -15560,13 +15657,13 @@
                     "title": "Wiederholungsklausut WSTL19A-D RDG"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2022-07-22T14:00:00Z",
                     "start": "2022-07-22T12:00:00Z",
                     "title": "Wiederholungsklausut WSTL19A-D RDG"
                 },
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 D",
                     "end": "2022-07-22T14:00:00Z",
                     "start": "2022-07-22T12:00:00Z",
                     "title": "Wiederholungsklausut WSTL19A-D RDG"
@@ -15810,13 +15907,13 @@
             ],
             "Raum 036B": [
                 {
-                    "course": "TMB20 B",
+                    "course": "TMB20 A",
                     "end": "2022-06-23T08:30:00Z",
                     "start": "2022-06-23T07:00:00Z",
                     "title": "Klausur Konstruktion IV"
                 },
                 {
-                    "course": "TMB20 A",
+                    "course": "TMB20 B",
                     "end": "2022-06-23T08:30:00Z",
                     "start": "2022-06-23T07:00:00Z",
                     "title": "Klausur Konstruktion IV"
@@ -17409,13 +17506,13 @@
                     "title": "Wiederholungsklausur WSTL 19 A-D VWL III Wirtschaftspolitik"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2022-07-26T13:00:00Z",
                     "start": "2022-07-26T11:00:00Z",
                     "title": "Wiederholungsklausur WSTL 19 A-D VWL III Wirtschaftspolitik"
                 },
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 D",
                     "end": "2022-07-26T13:00:00Z",
                     "start": "2022-07-26T11:00:00Z",
                     "title": "Wiederholungsklausur WSTL 19 A-D VWL III Wirtschaftspolitik"
@@ -17925,12 +18022,6 @@
             ],
             "Raum folgt": [
                 {
-                    "course": "WSTL21 A",
-                    "end": "2022-06-27T09:00:00Z",
-                    "start": "2022-06-27T07:00:00Z",
-                    "title": "Klausur VBL II / Kulturhaus K\u00e4fertal"
-                },
-                {
                     "course": "WSTL21 B",
                     "end": "2022-06-27T09:00:00Z",
                     "start": "2022-06-27T07:00:00Z",
@@ -17944,6 +18035,12 @@
                 },
                 {
                     "course": "WSTL21 D",
+                    "end": "2022-06-27T09:00:00Z",
+                    "start": "2022-06-27T07:00:00Z",
+                    "title": "Klausur VBL II / Kulturhaus K\u00e4fertal"
+                },
+                {
+                    "course": "WSTL21 A",
                     "end": "2022-06-27T09:00:00Z",
                     "start": "2022-06-27T07:00:00Z",
                     "title": "Klausur VBL II / Kulturhaus K\u00e4fertal"
@@ -18192,13 +18289,13 @@
                     "title": "B\u00fcrgerliches Recht"
                 },
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2022-06-28T11:30:00Z",
                     "start": "2022-06-28T10:00:00Z",
                     "title": "VWL (W3WI_505)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2022-06-28T11:30:00Z",
                     "start": "2022-06-28T10:00:00Z",
                     "title": "VWL (W3WI_505)"
@@ -20717,13 +20814,13 @@
                     "title": "Nachhol- und Wiederholungsklausur"
                 },
                 {
-                    "course": "TMB19 PM",
+                    "course": "TMB19 BV",
                     "end": "2022-06-15T12:30:00Z",
                     "start": "2022-06-15T11:00:00Z",
                     "title": "Nachhol- und Wiederholungsklausur"
                 },
                 {
-                    "course": "TMB19 BV",
+                    "course": "TMB19 PM",
                     "end": "2022-06-15T12:30:00Z",
                     "start": "2022-06-15T11:00:00Z",
                     "title": "Nachhol- und Wiederholungsklausur"
@@ -21557,13 +21654,13 @@
             ],
             "23.06.2022": [
                 {
-                    "course": "TMB20 B",
+                    "course": "TMB20 A",
                     "end": "2022-06-23T08:30:00Z",
                     "start": "2022-06-23T07:00:00Z",
                     "title": "Klausur Konstruktion IV"
                 },
                 {
-                    "course": "TMB20 A",
+                    "course": "TMB20 B",
                     "end": "2022-06-23T08:30:00Z",
                     "start": "2022-06-23T07:00:00Z",
                     "title": "Klausur Konstruktion IV"
@@ -21659,13 +21756,13 @@
                     "title": "B\u00fcrgerliches Recht"
                 },
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2022-06-28T11:30:00Z",
                     "start": "2022-06-28T10:00:00Z",
                     "title": "VWL (W3WI_505)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2022-06-28T11:30:00Z",
                     "start": "2022-06-28T10:00:00Z",
                     "title": "VWL (W3WI_505)"
@@ -21857,13 +21954,13 @@
             ],
             "09.06.2022": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-06-09T09:00:00Z",
                     "start": "2022-06-09T07:00:00Z",
                     "title": "Spanisch II / Advanced II (W3WI_IBI306)"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-06-09T09:00:00Z",
                     "start": "2022-06-09T07:00:00Z",
                     "title": "Spanisch II / Advanced II (W3WI_IBI306)"
@@ -21887,13 +21984,13 @@
             ],
             "15.06.2022": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-06-15T14:15:00Z",
                     "start": "2022-06-15T11:00:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-06-15T14:15:00Z",
                     "start": "2022-06-15T11:00:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
@@ -23075,13 +23172,13 @@
             ],
             "15.06.2022": [
                 {
-                    "course": "TMB20 B",
+                    "course": "TMB20 A",
                     "end": "2022-06-15T08:30:00Z",
                     "start": "2022-06-15T06:30:00Z",
                     "title": "Klausur Fertigungstechnik II/AV/PLM"
                 },
                 {
-                    "course": "TMB20 A",
+                    "course": "TMB20 B",
                     "end": "2022-06-15T08:30:00Z",
                     "start": "2022-06-15T06:30:00Z",
                     "title": "Klausur Fertigungstechnik II/AV/PLM"
@@ -23143,13 +23240,13 @@
                     "title": "Klausur Mikrocomputertechnik"
                 },
                 {
-                    "course": "TEL20 MED",
+                    "course": "TEL20 EU",
                     "end": "2022-06-20T10:30:00Z",
                     "start": "2022-06-20T09:00:00Z",
                     "title": "Klausur Mikrocomputertechnik"
                 },
                 {
-                    "course": "TEL20 EU",
+                    "course": "TEL20 MED",
                     "end": "2022-06-20T10:30:00Z",
                     "start": "2022-06-20T09:00:00Z",
                     "title": "Klausur Mikrocomputertechnik"
@@ -24167,13 +24264,13 @@
                     "title": "International Business Law & International Organizations (W3WI_IBI303)"
                 },
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-06-07T15:30:00Z",
                     "start": "2022-06-07T11:30:00Z",
                     "title": "Projekt (W3WI_107)"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-06-07T15:30:00Z",
                     "start": "2022-06-07T11:30:00Z",
                     "title": "Projekt (W3WI_107)"
@@ -24197,13 +24294,13 @@
             ],
             "10.06.2022": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-06-10T11:00:00Z",
                     "start": "2022-06-10T07:00:00Z",
                     "title": "Projekt (W3WI_107)"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-06-10T11:00:00Z",
                     "start": "2022-06-10T07:00:00Z",
                     "title": "Projekt (W3WI_107)"
@@ -24219,13 +24316,13 @@
             ],
             "14.06.2022": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-06-14T15:30:00Z",
                     "start": "2022-06-14T11:30:00Z",
                     "title": "Projekt (W3WI_107)"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-06-14T15:30:00Z",
                     "start": "2022-06-14T11:30:00Z",
                     "title": "Projekt (W3WI_107)"
@@ -24233,13 +24330,13 @@
             ],
             "17.06.2022": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-06-17T11:00:00Z",
                     "start": "2022-06-17T07:00:00Z",
                     "title": "Projekt (W3WI_107)"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-06-17T11:00:00Z",
                     "start": "2022-06-17T07:00:00Z",
                     "title": "Projekt (W3WI_107)"
@@ -24255,13 +24352,13 @@
             ],
             "21.06.2022": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-06-21T15:30:00Z",
                     "start": "2022-06-21T11:30:00Z",
                     "title": "Projekt (W3WI_107)"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-06-21T15:30:00Z",
                     "start": "2022-06-21T11:30:00Z",
                     "title": "Projekt (W3WI_107)"
@@ -26059,13 +26156,13 @@
             ],
             "22.06.2022": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2022-06-22T10:15:00Z",
                     "start": "2022-06-22T07:00:00Z",
                     "title": "Methoden der Wirtschaftsinformatik II (W3WI_102)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2022-06-22T10:15:00Z",
                     "start": "2022-06-22T07:00:00Z",
                     "title": "Methoden der Wirtschaftsinformatik II (W3WI_102)"
@@ -28359,6 +28456,14 @@
                     "title": "Einf\u00fchrung in Programmiertechniken"
                 }
             ],
+            "06.09.2022": [
+                {
+                    "course": "WME21 MPG",
+                    "end": "2022-09-06T10:00:00Z",
+                    "start": "2022-09-06T07:00:00Z",
+                    "title": "Crossmedia Design"
+                }
+            ],
             "07.07.2022": [
                 {
                     "course": "WME21 MMK",
@@ -29841,7 +29946,7 @@
                     "title": "Nachklausur WSTL 19 A - D"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2022-07-19T14:00:00Z",
                     "start": "2022-07-19T12:00:00Z",
                     "title": "Nachklausur WSTL 19 A - D"
@@ -29853,7 +29958,7 @@
                     "title": "Nachklausur WSTL 19 A - D"
                 },
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 D",
                     "end": "2022-07-19T14:00:00Z",
                     "start": "2022-07-19T12:00:00Z",
                     "title": "Nachklausur WSTL 19 A - D"
@@ -30445,6 +30550,14 @@
                     "title": "CAS T3M10102"
                 }
             ],
+            "06.09.2022": [
+                {
+                    "course": "CAS Masterkurse",
+                    "end": "2022-09-06T15:00:00Z",
+                    "start": "2022-09-06T05:30:00Z",
+                    "title": "CAS T3M10102"
+                }
+            ],
             "19.07.2022": [
                 {
                     "course": "WMKE19 B",
@@ -30559,12 +30672,6 @@
             ],
             "15.06.2022": [
                 {
-                    "course": "WSTL21 A",
-                    "end": "2022-06-15T10:30:00Z",
-                    "start": "2022-06-15T06:00:00Z",
-                    "title": "WDH Pr\u00e4sentation \"Grundlagen und Funktionen der Logistik\""
-                },
-                {
                     "course": "WSTL21 B",
                     "end": "2022-06-15T10:30:00Z",
                     "start": "2022-06-15T06:00:00Z",
@@ -30578,6 +30685,12 @@
                 },
                 {
                     "course": "WSTL21 D",
+                    "end": "2022-06-15T10:30:00Z",
+                    "start": "2022-06-15T06:00:00Z",
+                    "title": "WDH Pr\u00e4sentation \"Grundlagen und Funktionen der Logistik\""
+                },
+                {
+                    "course": "WSTL21 A",
                     "end": "2022-06-15T10:30:00Z",
                     "start": "2022-06-15T06:00:00Z",
                     "title": "WDH Pr\u00e4sentation \"Grundlagen und Funktionen der Logistik\""
@@ -30880,6 +30993,14 @@
                     "course": "CAS Masterkurse",
                     "end": "2022-09-05T14:30:00Z",
                     "start": "2022-09-05T07:30:00Z",
+                    "title": "CAS T3M70303"
+                }
+            ],
+            "06.09.2022": [
+                {
+                    "course": "CAS Masterkurse",
+                    "end": "2022-09-06T15:00:00Z",
+                    "start": "2022-09-06T05:30:00Z",
                     "title": "CAS T3M70303"
                 }
             ],
@@ -31565,13 +31686,13 @@
                     "title": "Wiederholungsklausut WSTL19A-D RDG"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2022-07-22T14:00:00Z",
                     "start": "2022-07-22T12:00:00Z",
                     "title": "Wiederholungsklausut WSTL19A-D RDG"
                 },
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 D",
                     "end": "2022-07-22T14:00:00Z",
                     "start": "2022-07-22T12:00:00Z",
                     "title": "Wiederholungsklausut WSTL19A-D RDG"
@@ -31585,13 +31706,13 @@
                     "title": "Wiederholungsklausur WSTL 19 A-D VWL III Wirtschaftspolitik"
                 },
                 {
-                    "course": "WSTL19 D",
+                    "course": "WSTL19 B",
                     "end": "2022-07-26T13:00:00Z",
                     "start": "2022-07-26T11:00:00Z",
                     "title": "Wiederholungsklausur WSTL 19 A-D VWL III Wirtschaftspolitik"
                 },
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 D",
                     "end": "2022-07-26T13:00:00Z",
                     "start": "2022-07-26T11:00:00Z",
                     "title": "Wiederholungsklausur WSTL 19 A-D VWL III Wirtschaftspolitik"
@@ -34867,6 +34988,20 @@
                     "title": "Medienprojekt Grundlagen (Teil 2)"
                 }
             ],
+            "06.09.2022": [
+                {
+                    "course": "WME21 MMK",
+                    "end": "2022-09-06T08:15:00Z",
+                    "start": "2022-09-06T07:00:00Z",
+                    "title": "Analysis /Darstellende Geometrie"
+                },
+                {
+                    "course": "WME21 MMK",
+                    "end": "2022-09-06T11:00:00Z",
+                    "start": "2022-09-06T09:00:00Z",
+                    "title": "Corporate Communication"
+                }
+            ],
             "08.06.2022": [
                 {
                     "course": "WME20 MPG",
@@ -35297,6 +35432,14 @@
                     "title": "CAS-Klausur W/T"
                 }
             ],
+            "06.09.2022": [
+                {
+                    "course": "CAS Masterkurse",
+                    "end": "2022-09-06T14:30:00Z",
+                    "start": "2022-09-06T06:30:00Z",
+                    "title": "CAS W3M10903"
+                }
+            ],
             "07.07.2022": [
                 {
                     "course": "CAS Masterkurse",
@@ -35651,6 +35794,14 @@
                     "end": "2022-07-06T13:15:00Z",
                     "start": "2022-07-06T11:00:00Z",
                     "title": "Akteneinsicht"
+                }
+            ],
+            "06.09.2022": [
+                {
+                    "course": "WMKE19 B",
+                    "end": "2022-09-06T10:15:00Z",
+                    "start": "2022-09-06T06:00:00Z",
+                    "title": "VM"
                 }
             ],
             "07.06.2022": [
@@ -36325,6 +36476,20 @@
                     "title": "BWL"
                 }
             ],
+            "06.09.2022": [
+                {
+                    "course": "WMKE21 B",
+                    "end": "2022-09-06T10:15:00Z",
+                    "start": "2022-09-06T07:00:00Z",
+                    "title": "SQ"
+                },
+                {
+                    "course": "WMKE21 B",
+                    "end": "2022-09-06T15:15:00Z",
+                    "start": "2022-09-06T11:00:00Z",
+                    "title": "FI"
+                }
+            ],
             "07.06.2022": [
                 {
                     "course": "WMKE21 A",
@@ -36861,6 +37026,14 @@
                     "end": "2022-07-06T15:15:00Z",
                     "start": "2022-07-06T11:00:00Z",
                     "title": "BWL"
+                }
+            ],
+            "06.09.2022": [
+                {
+                    "course": "WMKE20 B",
+                    "end": "2022-09-06T15:15:00Z",
+                    "start": "2022-09-06T06:00:00Z",
+                    "title": "Selbststudium"
                 }
             ],
             "07.06.2022": [
@@ -37979,6 +38152,26 @@
                     "title": "KSt 2"
                 }
             ],
+            "06.09.2022": [
+                {
+                    "course": "WRSW20 ST2",
+                    "end": "2022-09-06T08:30:00Z",
+                    "start": "2022-09-06T06:00:00Z",
+                    "title": "Betriebsw. Steuerlehre II"
+                },
+                {
+                    "course": "WRSW20 ST2",
+                    "end": "2022-09-06T11:15:00Z",
+                    "start": "2022-09-06T08:45:00Z",
+                    "title": "ESt 4"
+                },
+                {
+                    "course": "WRSW20 ST2",
+                    "end": "2022-09-06T14:30:00Z",
+                    "start": "2022-09-06T12:00:00Z",
+                    "title": "ReLe II: Bilanz 3"
+                }
+            ],
             "08.06.2022": [
                 {
                     "course": "WRSW20 ST1",
@@ -38791,13 +38984,13 @@
             ],
             "13.06.2022": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2022-06-13T11:30:00Z",
                     "start": "2022-06-13T10:30:00Z",
                     "title": "Finanzierung und Rechnungswesen (W3WI_203)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2022-06-13T11:30:00Z",
                     "start": "2022-06-13T10:30:00Z",
                     "title": "Finanzierung und Rechnungswesen (W3WI_203)"
@@ -38849,25 +39042,25 @@
             ],
             "15.06.2022": [
                 {
-                    "course": "WIMBIT19 B",
-                    "end": "2022-06-15T10:00:00Z",
-                    "start": "2022-06-15T08:00:00Z",
-                    "title": "IT-Management (W3WI_IBI401)"
-                },
-                {
                     "course": "WIMBIT19 A",
                     "end": "2022-06-15T10:00:00Z",
                     "start": "2022-06-15T08:00:00Z",
                     "title": "IT-Management (W3WI_IBI401)"
                 },
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT19 B",
+                    "end": "2022-06-15T10:00:00Z",
+                    "start": "2022-06-15T08:00:00Z",
+                    "title": "IT-Management (W3WI_IBI401)"
+                },
+                {
+                    "course": "WIMBIT20 B",
                     "end": "2022-06-15T12:00:00Z",
                     "start": "2022-06-15T11:00:00Z",
                     "title": "Mathematik II (W3WI_602)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2022-06-15T12:00:00Z",
                     "start": "2022-06-15T11:00:00Z",
                     "title": "Mathematik II (W3WI_602)"
@@ -38925,25 +39118,25 @@
                     "title": "Klausur \"Konstruktionslehre II\""
                 },
                 {
-                    "course": "TMB21 KVEM",
-                    "end": "2022-06-20T11:30:00Z",
-                    "start": "2022-06-20T10:00:00Z",
-                    "title": "Klausur \"Konstruktionslehre II\""
-                },
-                {
                     "course": "TMB21 F",
                     "end": "2022-06-20T11:30:00Z",
                     "start": "2022-06-20T10:00:00Z",
                     "title": "Klausur \"Konstruktionslehre II\""
                 },
                 {
-                    "course": "TMB20 G",
+                    "course": "TMB21 KVEM",
+                    "end": "2022-06-20T11:30:00Z",
+                    "start": "2022-06-20T10:00:00Z",
+                    "title": "Klausur \"Konstruktionslehre II\""
+                },
+                {
+                    "course": "TMB20 F",
                     "end": "2022-06-20T14:00:00Z",
                     "start": "2022-06-20T12:30:00Z",
                     "title": "Klausur \"Konstruktionslehre IV\""
                 },
                 {
-                    "course": "TMB20 F",
+                    "course": "TMB20 G",
                     "end": "2022-06-20T14:00:00Z",
                     "start": "2022-06-20T12:30:00Z",
                     "title": "Klausur \"Konstruktionslehre IV\""
@@ -38957,13 +39150,13 @@
                     "title": "Klausur Statistik"
                 },
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2022-06-21T10:30:00Z",
                     "start": "2022-06-21T08:30:00Z",
                     "title": "Datenbanken (W3WI_105)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2022-06-21T10:30:00Z",
                     "start": "2022-06-21T08:30:00Z",
                     "title": "Datenbanken (W3WI_105)"
@@ -38987,13 +39180,13 @@
                     "title": "!!! Achtung Raum\u00e4nderung !!! Klausur \"Antriebstechnik / Steuerungstechnik\""
                 },
                 {
-                    "course": "TMB20 G",
+                    "course": "TMB20 F",
                     "end": "2022-06-21T16:00:00Z",
                     "start": "2022-06-21T14:00:00Z",
                     "title": "!!! Achtung Raum\u00e4nderung !!! Klausur \"Antriebstechnik / Steuerungstechnik\""
                 },
                 {
-                    "course": "TMB20 F",
+                    "course": "TMB20 G",
                     "end": "2022-06-21T16:00:00Z",
                     "start": "2022-06-21T14:00:00Z",
                     "title": "!!! Achtung Raum\u00e4nderung !!! Klausur \"Antriebstechnik / Steuerungstechnik\""
@@ -39133,13 +39326,13 @@
                     "title": "Klausur Elektronik2+3 & Messtechnik 2"
                 },
                 {
-                    "course": "TEL20 MED",
+                    "course": "TEL20 EU",
                     "end": "2022-06-15T11:30:00Z",
                     "start": "2022-06-15T09:30:00Z",
                     "title": "Klausur Elektronik2+3 & Messtechnik 2"
                 },
                 {
-                    "course": "TEL20 EU",
+                    "course": "TEL20 MED",
                     "end": "2022-06-15T11:30:00Z",
                     "start": "2022-06-15T09:30:00Z",
                     "title": "Klausur Elektronik2+3 & Messtechnik 2"
@@ -39167,13 +39360,13 @@
             ],
             "20.06.2022": [
                 {
-                    "course": "TINF21 CS2",
+                    "course": "TINF21 IT1",
                     "end": "2022-06-20T08:30:00Z",
                     "start": "2022-06-20T07:00:00Z",
                     "title": "Digitaltechnik"
                 },
                 {
-                    "course": "TINF21 IT1",
+                    "course": "TINF21 CS2",
                     "end": "2022-06-20T08:30:00Z",
                     "start": "2022-06-20T07:00:00Z",
                     "title": "Digitaltechnik"
@@ -39417,12 +39610,6 @@
         "Raum folgt": {
             "01.07.2022": [
                 {
-                    "course": "WSTL21 A",
-                    "end": "2022-07-01T09:00:00Z",
-                    "start": "2022-07-01T07:00:00Z",
-                    "title": "Klausur BWL II Unternehmensrechnung / Kulturhaus K\u00e4fertal"
-                },
-                {
                     "course": "WSTL21 B",
                     "end": "2022-07-01T09:00:00Z",
                     "start": "2022-07-01T07:00:00Z",
@@ -39436,6 +39623,12 @@
                 },
                 {
                     "course": "WSTL21 D",
+                    "end": "2022-07-01T09:00:00Z",
+                    "start": "2022-07-01T07:00:00Z",
+                    "title": "Klausur BWL II Unternehmensrechnung / Kulturhaus K\u00e4fertal"
+                },
+                {
+                    "course": "WSTL21 A",
                     "end": "2022-07-01T09:00:00Z",
                     "start": "2022-07-01T07:00:00Z",
                     "title": "Klausur BWL II Unternehmensrechnung / Kulturhaus K\u00e4fertal"
@@ -39443,12 +39636,6 @@
             ],
             "04.07.2022": [
                 {
-                    "course": "WSTL21 A",
-                    "end": "2022-07-04T09:00:00Z",
-                    "start": "2022-07-04T07:00:00Z",
-                    "title": "Klausur FiBu / Kulturhaus K\u00e4fertal"
-                },
-                {
                     "course": "WSTL21 B",
                     "end": "2022-07-04T09:00:00Z",
                     "start": "2022-07-04T07:00:00Z",
@@ -39462,6 +39649,12 @@
                 },
                 {
                     "course": "WSTL21 D",
+                    "end": "2022-07-04T09:00:00Z",
+                    "start": "2022-07-04T07:00:00Z",
+                    "title": "Klausur FiBu / Kulturhaus K\u00e4fertal"
+                },
+                {
+                    "course": "WSTL21 A",
                     "end": "2022-07-04T09:00:00Z",
                     "start": "2022-07-04T07:00:00Z",
                     "title": "Klausur FiBu / Kulturhaus K\u00e4fertal"
@@ -39469,12 +39662,6 @@
             ],
             "08.07.2022": [
                 {
-                    "course": "WSTL21 A",
-                    "end": "2022-07-08T09:00:00Z",
-                    "start": "2022-07-08T07:00:00Z",
-                    "title": "Klausur Recht I / Kulturhaus K\u00e4fertal"
-                },
-                {
                     "course": "WSTL21 B",
                     "end": "2022-07-08T09:00:00Z",
                     "start": "2022-07-08T07:00:00Z",
@@ -39488,6 +39675,12 @@
                 },
                 {
                     "course": "WSTL21 D",
+                    "end": "2022-07-08T09:00:00Z",
+                    "start": "2022-07-08T07:00:00Z",
+                    "title": "Klausur Recht I / Kulturhaus K\u00e4fertal"
+                },
+                {
+                    "course": "WSTL21 A",
                     "end": "2022-07-08T09:00:00Z",
                     "start": "2022-07-08T07:00:00Z",
                     "title": "Klausur Recht I / Kulturhaus K\u00e4fertal"
@@ -39495,12 +39688,6 @@
             ],
             "20.06.2022": [
                 {
-                    "course": "WSTL21 A",
-                    "end": "2022-06-20T13:00:00Z",
-                    "start": "2022-06-20T11:00:00Z",
-                    "title": "Klausur VWL I: Mikro\u00f6konomie / Kulturhaus K\u00e4fertal"
-                },
-                {
                     "course": "WSTL21 B",
                     "end": "2022-06-20T13:00:00Z",
                     "start": "2022-06-20T11:00:00Z",
@@ -39514,6 +39701,12 @@
                 },
                 {
                     "course": "WSTL21 D",
+                    "end": "2022-06-20T13:00:00Z",
+                    "start": "2022-06-20T11:00:00Z",
+                    "title": "Klausur VWL I: Mikro\u00f6konomie / Kulturhaus K\u00e4fertal"
+                },
+                {
+                    "course": "WSTL21 A",
                     "end": "2022-06-20T13:00:00Z",
                     "start": "2022-06-20T11:00:00Z",
                     "title": "Klausur VWL I: Mikro\u00f6konomie / Kulturhaus K\u00e4fertal"
@@ -39521,12 +39714,6 @@
             ],
             "22.06.2022": [
                 {
-                    "course": "WSTL21 A",
-                    "end": "2022-06-22T08:00:00Z",
-                    "start": "2022-06-22T07:00:00Z",
-                    "title": "Klausur Statistik / Kulturhaus K\u00e4fertal"
-                },
-                {
                     "course": "WSTL21 B",
                     "end": "2022-06-22T08:00:00Z",
                     "start": "2022-06-22T07:00:00Z",
@@ -39540,6 +39727,12 @@
                 },
                 {
                     "course": "WSTL21 D",
+                    "end": "2022-06-22T08:00:00Z",
+                    "start": "2022-06-22T07:00:00Z",
+                    "title": "Klausur Statistik / Kulturhaus K\u00e4fertal"
+                },
+                {
+                    "course": "WSTL21 A",
                     "end": "2022-06-22T08:00:00Z",
                     "start": "2022-06-22T07:00:00Z",
                     "title": "Klausur Statistik / Kulturhaus K\u00e4fertal"
@@ -39547,12 +39740,6 @@
             ],
             "27.06.2022": [
                 {
-                    "course": "WSTL21 A",
-                    "end": "2022-06-27T09:00:00Z",
-                    "start": "2022-06-27T07:00:00Z",
-                    "title": "Klausur VBL II / Kulturhaus K\u00e4fertal"
-                },
-                {
                     "course": "WSTL21 B",
                     "end": "2022-06-27T09:00:00Z",
                     "start": "2022-06-27T07:00:00Z",
@@ -39569,9 +39756,15 @@
                     "end": "2022-06-27T09:00:00Z",
                     "start": "2022-06-27T07:00:00Z",
                     "title": "Klausur VBL II / Kulturhaus K\u00e4fertal"
+                },
+                {
+                    "course": "WSTL21 A",
+                    "end": "2022-06-27T09:00:00Z",
+                    "start": "2022-06-27T07:00:00Z",
+                    "title": "Klausur VBL II / Kulturhaus K\u00e4fertal"
                 }
             ]
         }
     },
-    "last_updated": "2022-06-06T05:18:08Z"
+    "last_updated": "2022-06-07T05:15:48Z"
 }
