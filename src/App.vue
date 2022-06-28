@@ -115,7 +115,7 @@
               animated
               :delay="1000"
             >
-              <template v-slot:content>
+              <template #content>
                 <span>Neu: Aktuelle Mensa-Auslastung ⟶</span>
               </template>
               <b-field
