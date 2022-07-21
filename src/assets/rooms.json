@@ -665,6 +665,20 @@
         "03.09.2022": {},
         "03.10.2022": {},
         "04.08.2022": {
+            "Raum 004D": [
+                {
+                    "course": "GWAG19 .",
+                    "end": "2022-08-04T10:15:00Z",
+                    "start": "2022-08-04T08:00:00Z",
+                    "title": "Innovationsmanagement"
+                },
+                {
+                    "course": "GWAG19 .",
+                    "end": "2022-08-04T15:30:00Z",
+                    "start": "2022-08-04T11:00:00Z",
+                    "title": "Innovationsmanagement "
+                }
+            ],
             "Raum 015D": [
                 {
                     "course": "WOW18 A",
@@ -1046,12 +1060,6 @@
             ],
             "Raum 067C": [
                 {
-                    "course": "TEL21 D",
-                    "end": "2022-09-05T09:30:00Z",
-                    "start": "2022-09-05T08:00:00Z",
-                    "title": "TEL21-WK/NK: Grundl. Elektrotechnik II (90 Min.)"
-                },
-                {
                     "course": "TEL21 B",
                     "end": "2022-09-05T09:30:00Z",
                     "start": "2022-09-05T08:00:00Z",
@@ -1065,6 +1073,12 @@
                 },
                 {
                     "course": "TEL21 E",
+                    "end": "2022-09-05T09:30:00Z",
+                    "start": "2022-09-05T08:00:00Z",
+                    "title": "TEL21-WK/NK: Grundl. Elektrotechnik II (90 Min.)"
+                },
+                {
+                    "course": "TEL21 D",
                     "end": "2022-09-05T09:30:00Z",
                     "start": "2022-09-05T08:00:00Z",
                     "title": "TEL21-WK/NK: Grundl. Elektrotechnik II (90 Min.)"
@@ -1229,6 +1243,12 @@
                 }
             ],
             "Raum 117D": [
+                {
+                    "course": "WIMBIT22 B",
+                    "end": "2022-10-05T10:15:00Z",
+                    "start": "2022-10-05T07:00:00Z",
+                    "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
+                },
                 {
                     "course": "WIMBIT22 B",
                     "end": "2022-10-05T15:00:00Z",
@@ -1436,6 +1456,12 @@
             "Raum 115D": [
                 {
                     "course": "WIMBIT22 A",
+                    "end": "2022-10-06T10:15:00Z",
+                    "start": "2022-10-06T07:00:00Z",
+                    "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
+                },
+                {
+                    "course": "WIMBIT22 A",
                     "end": "2022-10-06T14:15:00Z",
                     "start": "2022-10-06T11:00:00Z",
                     "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
@@ -1473,13 +1499,13 @@
                     "title": "Semestereinf\u00fchrung WSTL 21"
                 },
                 {
-                    "course": "WSTL21 C",
+                    "course": "WSTL21 A",
                     "end": "2022-10-06T09:00:00Z",
                     "start": "2022-10-06T07:00:00Z",
                     "title": "Semestereinf\u00fchrung WSTL 21"
                 },
                 {
-                    "course": "WSTL21 A",
+                    "course": "WSTL21 C",
                     "end": "2022-10-06T09:00:00Z",
                     "start": "2022-10-06T07:00:00Z",
                     "title": "Semestereinf\u00fchrung WSTL 21"
@@ -1496,12 +1522,6 @@
         "07.09.2022": {
             "Raum 067C": [
                 {
-                    "course": "TEL21 D",
-                    "end": "2022-09-07T09:30:00Z",
-                    "start": "2022-09-07T08:00:00Z",
-                    "title": "TEL21-WK/NK: Mathematik II (90 Min.)"
-                },
-                {
                     "course": "TEL21 B",
                     "end": "2022-09-07T09:30:00Z",
                     "start": "2022-09-07T08:00:00Z",
@@ -1515,6 +1535,12 @@
                 },
                 {
                     "course": "TEL21 E",
+                    "end": "2022-09-07T09:30:00Z",
+                    "start": "2022-09-07T08:00:00Z",
+                    "title": "TEL21-WK/NK: Mathematik II (90 Min.)"
+                },
+                {
+                    "course": "TEL21 D",
                     "end": "2022-09-07T09:30:00Z",
                     "start": "2022-09-07T08:00:00Z",
                     "title": "TEL21-WK/NK: Mathematik II (90 Min.)"
@@ -1981,7 +2007,22 @@
                 }
             ]
         },
-        "08.10.2022": {},
+        "08.10.2022": {
+            "Raum 019D": [
+                {
+                    "course": "WIMBIT22 B",
+                    "end": "2022-10-08T10:00:00Z",
+                    "start": "2022-10-08T07:00:00Z",
+                    "title": "Schl\u00fcsselqualifikationen I (W3WI_701)"
+                },
+                {
+                    "course": "WIMBIT22 B",
+                    "end": "2022-10-08T14:00:00Z",
+                    "start": "2022-10-08T11:00:00Z",
+                    "title": "Schl\u00fcsselqualifikationen I (W3WI_701)"
+                }
+            ]
+        },
         "09.08.2022": {
             "Raum 004D": [
                 {
@@ -2115,7 +2156,7 @@
                 {
                     "course": "GWAG19 .",
                     "end": "2022-09-09T09:30:00Z",
-                    "start": "2022-09-09T07:00:00Z",
+                    "start": "2022-09-09T08:00:00Z",
                     "title": "Integrationsseminar - Pr\u00e4sentationen d. Poster"
                 },
                 {
@@ -2135,12 +2176,6 @@
             ],
             "Raum 067C": [
                 {
-                    "course": "TEL21 D",
-                    "end": "2022-09-09T08:30:00Z",
-                    "start": "2022-09-09T07:00:00Z",
-                    "title": "TEL21-WK/NK: Digitaltechnik (90 Min.)"
-                },
-                {
                     "course": "TEL21 B",
                     "end": "2022-09-09T08:30:00Z",
                     "start": "2022-09-09T07:00:00Z",
@@ -2154,6 +2189,12 @@
                 },
                 {
                     "course": "TEL21 E",
+                    "end": "2022-09-09T08:30:00Z",
+                    "start": "2022-09-09T07:00:00Z",
+                    "title": "TEL21-WK/NK: Digitaltechnik (90 Min.)"
+                },
+                {
+                    "course": "TEL21 D",
                     "end": "2022-09-09T08:30:00Z",
                     "start": "2022-09-09T07:00:00Z",
                     "title": "TEL21-WK/NK: Digitaltechnik (90 Min.)"
@@ -2281,12 +2322,6 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "WSTL19 A",
-                    "end": "2022-09-09T10:00:00Z",
-                    "start": "2022-09-09T08:00:00Z",
-                    "title": " Bachelor-Kolloquium WSTL 19 A-D "
-                },
-                {
                     "course": "WSTL19 B",
                     "end": "2022-09-09T10:00:00Z",
                     "start": "2022-09-09T08:00:00Z",
@@ -2294,6 +2329,12 @@
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2022-09-09T10:00:00Z",
+                    "start": "2022-09-09T08:00:00Z",
+                    "title": " Bachelor-Kolloquium WSTL 19 A-D "
+                },
+                {
+                    "course": "WSTL19 A",
                     "end": "2022-09-09T10:00:00Z",
                     "start": "2022-09-09T08:00:00Z",
                     "title": " Bachelor-Kolloquium WSTL 19 A-D "
@@ -2321,14 +2362,14 @@
                 {
                     "course": "GWAG19 .",
                     "end": "2022-08-10T10:15:00Z",
-                    "start": "2022-08-10T07:00:00Z",
-                    "title": "Innovationsmanagement->online!"
+                    "start": "2022-08-10T08:00:00Z",
+                    "title": "Innovationsmanagement"
                 },
                 {
                     "course": "GWAG19 .",
-                    "end": "2022-08-10T14:30:00Z",
+                    "end": "2022-08-10T15:30:00Z",
                     "start": "2022-08-10T11:00:00Z",
-                    "title": "Innovationsmanagement->online!"
+                    "title": "Innovationsmanagement"
                 }
             ],
             "Raum 103D": [
@@ -2907,12 +2948,6 @@
             ],
             "Raum 180C": [
                 {
-                    "course": "TEL21 D",
-                    "end": "2022-09-12T09:30:00Z",
-                    "start": "2022-09-12T08:00:00Z",
-                    "title": "TEL21-WK/NK: Physik (90 Min.)"
-                },
-                {
                     "course": "TEL21 B",
                     "end": "2022-09-12T09:30:00Z",
                     "start": "2022-09-12T08:00:00Z",
@@ -2926,6 +2961,12 @@
                 },
                 {
                     "course": "TEL21 E",
+                    "end": "2022-09-12T09:30:00Z",
+                    "start": "2022-09-12T08:00:00Z",
+                    "title": "TEL21-WK/NK: Physik (90 Min.)"
+                },
+                {
+                    "course": "TEL21 D",
                     "end": "2022-09-12T09:30:00Z",
                     "start": "2022-09-12T08:00:00Z",
                     "title": "TEL21-WK/NK: Physik (90 Min.)"
@@ -3006,6 +3047,12 @@
                 }
             ],
             "Raum 117D": [
+                {
+                    "course": "WIMBIT22 B",
+                    "end": "2022-10-12T10:15:00Z",
+                    "start": "2022-10-12T07:00:00Z",
+                    "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
+                },
                 {
                     "course": "WIMBIT22 B",
                     "end": "2022-10-12T15:00:00Z",
@@ -3227,6 +3274,12 @@
             "Raum 115D": [
                 {
                     "course": "WIMBIT22 A",
+                    "end": "2022-10-13T10:15:00Z",
+                    "start": "2022-10-13T07:00:00Z",
+                    "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
+                },
+                {
+                    "course": "WIMBIT22 A",
                     "end": "2022-10-13T14:15:00Z",
                     "start": "2022-10-13T11:00:00Z",
                     "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
@@ -3319,12 +3372,6 @@
             ],
             "Raum 180C": [
                 {
-                    "course": "TEL21 D",
-                    "end": "2022-09-14T10:00:00Z",
-                    "start": "2022-09-14T08:00:00Z",
-                    "title": "TEL21-WK/NK: Elektronik 1 & Messtechnik 1 (120 Min.)"
-                },
-                {
                     "course": "TEL21 B",
                     "end": "2022-09-14T10:00:00Z",
                     "start": "2022-09-14T08:00:00Z",
@@ -3338,6 +3385,12 @@
                 },
                 {
                     "course": "TEL21 E",
+                    "end": "2022-09-14T10:00:00Z",
+                    "start": "2022-09-14T08:00:00Z",
+                    "title": "TEL21-WK/NK: Elektronik 1 & Messtechnik 1 (120 Min.)"
+                },
+                {
+                    "course": "TEL21 D",
                     "end": "2022-09-14T10:00:00Z",
                     "start": "2022-09-14T08:00:00Z",
                     "title": "TEL21-WK/NK: Elektronik 1 & Messtechnik 1 (120 Min.)"
@@ -3620,7 +3673,22 @@
                 }
             ]
         },
-        "15.10.2022": {},
+        "15.10.2022": {
+            "Raum 019D": [
+                {
+                    "course": "WIMBIT22 B",
+                    "end": "2022-10-15T10:00:00Z",
+                    "start": "2022-10-15T07:00:00Z",
+                    "title": "Schl\u00fcsselqualifikationen I (W3WI_701)"
+                },
+                {
+                    "course": "WIMBIT22 B",
+                    "end": "2022-10-15T14:00:00Z",
+                    "start": "2022-10-15T11:00:00Z",
+                    "title": "Schl\u00fcsselqualifikationen I (W3WI_701)"
+                }
+            ]
+        },
         "16.08.2022": {
             "Raum 004D": [
                 {
@@ -3724,12 +3792,6 @@
         "16.09.2022": {
             "CAD-Raum 05A": [
                 {
-                    "course": "TEL21 D",
-                    "end": "2022-09-16T11:00:00Z",
-                    "start": "2022-09-16T08:00:00Z",
-                    "title": "TEL21-WK/NK: Informatik + Labor 2 (120 Min.)"
-                },
-                {
                     "course": "TEL21 B",
                     "end": "2022-09-16T11:00:00Z",
                     "start": "2022-09-16T08:00:00Z",
@@ -3743,6 +3805,12 @@
                 },
                 {
                     "course": "TEL21 E",
+                    "end": "2022-09-16T11:00:00Z",
+                    "start": "2022-09-16T08:00:00Z",
+                    "title": "TEL21-WK/NK: Informatik + Labor 2 (120 Min.)"
+                },
+                {
+                    "course": "TEL21 D",
                     "end": "2022-09-16T11:00:00Z",
                     "start": "2022-09-16T08:00:00Z",
                     "title": "TEL21-WK/NK: Informatik + Labor 2 (120 Min.)"
@@ -4531,12 +4599,6 @@
                     "title": "TEL21 - Informationsveranstaltung 2. Studienjahr"
                 },
                 {
-                    "course": "TEL21 D",
-                    "end": "2022-09-19T07:00:00Z",
-                    "start": "2022-09-19T06:00:00Z",
-                    "title": "TEL21 - Informationsveranstaltung 2. Studienjahr"
-                },
-                {
                     "course": "TEL21 B",
                     "end": "2022-09-19T07:00:00Z",
                     "start": "2022-09-19T06:00:00Z",
@@ -4544,6 +4606,12 @@
                 },
                 {
                     "course": "TEL21 C",
+                    "end": "2022-09-19T07:00:00Z",
+                    "start": "2022-09-19T06:00:00Z",
+                    "title": "TEL21 - Informationsveranstaltung 2. Studienjahr"
+                },
+                {
+                    "course": "TEL21 D",
                     "end": "2022-09-19T07:00:00Z",
                     "start": "2022-09-19T06:00:00Z",
                     "title": "TEL21 - Informationsveranstaltung 2. Studienjahr"
@@ -4570,6 +4638,12 @@
             "Raum 117D": [
                 {
                     "course": "WIMBIT22 B",
+                    "end": "2022-10-19T10:15:00Z",
+                    "start": "2022-10-19T07:00:00Z",
+                    "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
+                },
+                {
+                    "course": "WIMBIT22 B",
                     "end": "2022-10-19T15:00:00Z",
                     "start": "2022-10-19T11:00:00Z",
                     "title": "Programmierung I (W3WI_108)"
@@ -4589,290 +4663,6 @@
                     "end": "2022-10-19T15:00:00Z",
                     "start": "2022-10-19T07:00:00Z",
                     "title": "Medienprojekt (Strategie)"
-                }
-            ]
-        },
-        "20.07.2022": {
-            "Raum 036B": [
-                {
-                    "course": "WWI20 DSA",
-                    "end": "2022-07-20T09:00:00Z",
-                    "start": "2022-07-20T07:00:00Z",
-                    "title": "Data Analysis and Optimization"
-                },
-                {
-                    "course": "WWI21 AMC",
-                    "end": "2022-07-20T12:00:00Z",
-                    "start": "2022-07-20T10:00:00Z",
-                    "title": " Methoden der Wirtschaftsinformatik I "
-                }
-            ],
-            "Raum 062C": [
-                {
-                    "course": "WWI19 AMC",
-                    "end": "2022-07-20T10:15:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "Arbeitsrecht"
-                }
-            ],
-            "Raum 066C": [
-                {
-                    "course": "WWI19 SEB",
-                    "end": "2022-07-20T09:30:00Z",
-                    "start": "2022-07-20T06:15:00Z",
-                    "title": "IT-Management"
-                }
-            ],
-            "Raum 067C": [
-                {
-                    "course": "WWI20 DSB",
-                    "end": "2022-07-20T09:00:00Z",
-                    "start": "2022-07-20T07:00:00Z",
-                    "title": "Data Analysis and Optimization"
-                },
-                {
-                    "course": "WWI21 DSB",
-                    "end": "2022-07-20T12:00:00Z",
-                    "start": "2022-07-20T10:00:00Z",
-                    "title": "Grundlagen der Rechnungslegung"
-                }
-            ],
-            "Raum 068C": [
-                {
-                    "course": "WWI20 SCB",
-                    "end": "2022-07-20T14:30:00Z",
-                    "start": "2022-07-20T11:00:00Z",
-                    "title": "Portfoliopr\u00fcfung Mobile Applikationen II"
-                }
-            ],
-            "Raum 102D": [
-                {
-                    "course": "WIB21 A",
-                    "end": "2022-07-20T10:00:00Z",
-                    "start": "2022-07-20T08:00:00Z",
-                    "title": "Wiederholungsklausur \"Technik d. Finanzbuchf\u00fchrung\", WIB21A"
-                }
-            ],
-            "Raum 105D": [
-                {
-                    "course": "WFD21 A",
-                    "end": "2022-07-20T09:30:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "A: Finanzbuchf\u00fchrung"
-                },
-                {
-                    "course": "WFD21 A",
-                    "end": "2022-07-20T13:30:00Z",
-                    "start": "2022-07-20T10:00:00Z",
-                    "title": "B: Finanzbuchf\u00fchrung"
-                }
-            ],
-            "Raum 106D": [
-                {
-                    "course": "WRSW21 ST2",
-                    "end": "2022-07-20T08:30:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "USt 2"
-                },
-                {
-                    "course": "WRSW21 ST2",
-                    "end": "2022-07-20T11:15:00Z",
-                    "start": "2022-07-20T08:45:00Z",
-                    "title": "Statistik"
-                },
-                {
-                    "course": "WRSW21 ST2",
-                    "end": "2022-07-20T15:15:00Z",
-                    "start": "2022-07-20T12:00:00Z",
-                    "title": "FiBu II"
-                }
-            ],
-            "Raum 112D": [
-                {
-                    "course": "WRSW19 AC2",
-                    "end": "2022-07-20T08:45:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "Insolvenzrecht"
-                },
-                {
-                    "course": "WRSW19 AC2",
-                    "end": "2022-07-20T15:30:00Z",
-                    "start": "2022-07-20T09:00:00Z",
-                    "title": "Integrationsseminar"
-                }
-            ],
-            "Raum 113D": [
-                {
-                    "course": "WRSW20 AC2",
-                    "end": "2022-07-20T10:00:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "Finance"
-                },
-                {
-                    "course": "WRSW20 AC2",
-                    "end": "2022-07-20T15:00:00Z",
-                    "start": "2022-07-20T11:00:00Z",
-                    "title": "GesR I"
-                }
-            ],
-            "Raum 114D": [
-                {
-                    "course": "WIW20 A",
-                    "end": "2022-07-20T15:00:00Z",
-                    "start": "2022-07-20T11:00:00Z",
-                    "title": "Internationale Verfahren der Immobilienbewertung"
-                }
-            ],
-            "Raum 115D": [
-                {
-                    "course": "WRSW21 AC2",
-                    "end": "2022-07-20T10:15:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "Controlling"
-                }
-            ],
-            "Raum 116D (PC-Pool)": [
-                {
-                    "course": "WFD21 A",
-                    "end": "2022-07-20T16:00:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "Investition und Finanzierung"
-                }
-            ],
-            "Raum 180C": [
-                {
-                    "course": "WWI21 SCB",
-                    "end": "2022-07-20T10:00:00Z",
-                    "start": "2022-07-20T08:00:00Z",
-                    "title": "Methoden der WI"
-                },
-                {
-                    "course": "WWI21 SEB",
-                    "end": "2022-07-20T13:00:00Z",
-                    "start": "2022-07-20T11:00:00Z",
-                    "title": "Grundlegende Konzepte der IT "
-                }
-            ],
-            "Raum 202D": [
-                {
-                    "course": "WMKE20 B",
-                    "end": "2022-07-20T09:00:00Z",
-                    "start": "2022-07-20T07:00:00Z",
-                    "title": "Wiederholungsklausuren WMKE 20"
-                }
-            ],
-            "Raum 242B": [
-                {
-                    "course": "WWI19 SCB",
-                    "end": "2022-07-20T11:30:00Z",
-                    "start": "2022-07-20T07:00:00Z",
-                    "title": "Neue Aspekte des IT-Consultings"
-                }
-            ],
-            "Raum 268C": [
-                {
-                    "course": "WME19 MMK",
-                    "end": "2022-07-20T14:00:00Z",
-                    "start": "2022-07-20T07:00:00Z",
-                    "title": "Werbung und PR"
-                }
-            ],
-            "Raum 278C": [
-                {
-                    "course": "WME21 MMK",
-                    "end": "2022-07-20T12:30:00Z",
-                    "start": "2022-07-20T08:30:00Z",
-                    "title": "Medienprojektrealisierung"
-                },
-                {
-                    "course": "WME21 MMK",
-                    "end": "2022-07-20T15:30:00Z",
-                    "start": "2022-07-20T13:00:00Z",
-                    "title": "Pr\u00e4sentationskompetenz"
-                }
-            ],
-            "Raum 306D": [
-                {
-                    "course": "WMKE19 B",
-                    "end": "2022-07-20T10:15:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "F\u00fchrung"
-                },
-                {
-                    "course": "WMKE19 B",
-                    "end": "2022-07-20T14:15:00Z",
-                    "start": "2022-07-20T11:00:00Z",
-                    "title": "SM"
-                }
-            ],
-            "Raum 311D": [
-                {
-                    "course": "WMKE21 B",
-                    "end": "2022-07-20T15:15:00Z",
-                    "start": "2022-07-20T11:00:00Z",
-                    "title": "Recht"
-                }
-            ],
-            "Raum 313D": [
-                {
-                    "course": "WMKE20 B",
-                    "end": "2022-07-20T10:15:00Z",
-                    "start": "2022-07-20T07:00:00Z",
-                    "title": "Perso"
-                },
-                {
-                    "course": "WMKE20 B",
-                    "end": "2022-07-20T14:15:00Z",
-                    "start": "2022-07-20T11:00:00Z",
-                    "title": "Kom"
-                }
-            ],
-            "Raum 315D": [
-                {
-                    "course": "WRSW19 ST2",
-                    "end": "2022-07-20T08:30:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "VWL III: Stabilisierungspol. und int. Beziehung (ONLINE)"
-                },
-                {
-                    "course": "WRSW19 ST2",
-                    "end": "2022-07-20T11:15:00Z",
-                    "start": "2022-07-20T08:45:00Z",
-                    "title": "ReLe IVb: U-Zusammenschl\u00fcsse (ONLINE)"
-                },
-                {
-                    "course": "WRSW19 ST2",
-                    "end": "2022-07-20T15:15:00Z",
-                    "start": "2022-07-20T12:00:00Z",
-                    "title": "Ausgew. Probleme GesR (ONLINE)"
-                }
-            ],
-            "Raum 316D": [
-                {
-                    "course": "WRSW20 ST2",
-                    "end": "2022-07-20T08:30:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "VWL II: Allokation, Umwelt- und Sozialpolitik"
-                },
-                {
-                    "course": "WRSW20 ST2",
-                    "end": "2022-07-20T11:15:00Z",
-                    "start": "2022-07-20T08:45:00Z",
-                    "title": "ESt 5"
-                },
-                {
-                    "course": "WRSW20 ST2",
-                    "end": "2022-07-20T13:30:00Z",
-                    "start": "2022-07-20T12:00:00Z",
-                    "title": "KSt 2"
-                }
-            ],
-            "Raum 323A": [
-                {
-                    "course": "TEL19 EE",
-                    "end": "2022-07-20T10:00:00Z",
-                    "start": "2022-07-20T08:00:00Z",
-                    "title": "NK: Regelungstechnik 2"
                 }
             ]
         },
@@ -5018,6 +4808,68 @@
                     "end": "2022-09-20T12:48:00Z",
                     "start": "2022-09-20T12:00:00Z",
                     "title": "U.-Recht II"
+                }
+            ]
+        },
+        "20.10.2022": {
+            "Raum 112D": [
+                {
+                    "course": "WIMBIT21 B",
+                    "end": "2022-10-20T10:15:00Z",
+                    "start": "2022-10-20T07:00:00Z",
+                    "title": "Finanzierung und Rechnungswesen (W3WI_203)"
+                }
+            ],
+            "Raum 115D": [
+                {
+                    "course": "WIMBIT22 A",
+                    "end": "2022-10-20T10:15:00Z",
+                    "start": "2022-10-20T07:00:00Z",
+                    "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
+                },
+                {
+                    "course": "WIMBIT22 A",
+                    "end": "2022-10-20T14:15:00Z",
+                    "start": "2022-10-20T11:00:00Z",
+                    "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
+                }
+            ],
+            "Raum 116A": [
+                {
+                    "course": "WFD20 A",
+                    "end": "2022-10-20T10:00:00Z",
+                    "start": "2022-10-20T06:45:00Z",
+                    "title": "Erb- und Steuerrecht"
+                },
+                {
+                    "course": "WFD20 A",
+                    "end": "2022-10-20T13:45:00Z",
+                    "start": "2022-10-20T10:30:00Z",
+                    "title": "Erb- und Steuerrecht"
+                }
+            ],
+            "Raum 117D": [
+                {
+                    "course": "WIMBIT22 B",
+                    "end": "2022-10-20T10:15:00Z",
+                    "start": "2022-10-20T07:00:00Z",
+                    "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
+                }
+            ],
+            "Raum 268C": [
+                {
+                    "course": "WME20 MMK",
+                    "end": "2022-10-20T15:00:00Z",
+                    "start": "2022-10-20T07:00:00Z",
+                    "title": "Medienprojekt (Strategie)"
+                }
+            ],
+            "Raum 280C (L)": [
+                {
+                    "course": "WME21 MPG",
+                    "end": "2022-10-20T10:30:00Z",
+                    "start": "2022-10-20T07:00:00Z",
+                    "title": "Interaktive Medien"
                 }
             ]
         },
@@ -5589,13 +5441,13 @@
             ],
             "Raum 218D": [
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-07-22T14:00:00Z",
                     "start": "2022-07-22T12:00:00Z",
                     "title": "Wiederholungsklausut WSTL19A-D RDG"
                 },
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-07-22T14:00:00Z",
                     "start": "2022-07-22T12:00:00Z",
                     "title": "Wiederholungsklausut WSTL19A-D RDG"
@@ -6807,13 +6659,13 @@
             ],
             "Raum 218D": [
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-07-26T13:00:00Z",
                     "start": "2022-07-26T11:00:00Z",
                     "title": "Wiederholungsklausur WSTL 19 A-D VWL III Wirtschaftspolitik"
                 },
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-07-26T13:00:00Z",
                     "start": "2022-07-26T11:00:00Z",
                     "title": "Wiederholungsklausur WSTL 19 A-D VWL III Wirtschaftspolitik"
@@ -7099,12 +6951,6 @@
             ],
             "Raum 213D": [
                 {
-                    "course": "WSTL19 A",
-                    "end": "2022-09-26T18:00:00Z",
-                    "start": "2022-09-26T06:00:00Z",
-                    "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
-                },
-                {
                     "course": "WSTL19 B",
                     "end": "2022-09-26T18:00:00Z",
                     "start": "2022-09-26T06:00:00Z",
@@ -7112,6 +6958,12 @@
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2022-09-26T18:00:00Z",
+                    "start": "2022-09-26T06:00:00Z",
+                    "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
+                },
+                {
+                    "course": "WSTL19 A",
                     "end": "2022-09-26T18:00:00Z",
                     "start": "2022-09-26T06:00:00Z",
                     "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
@@ -7133,20 +6985,6 @@
             ]
         },
         "27.07.2022": {
-            "Raum 004D": [
-                {
-                    "course": "GWAG19 .",
-                    "end": "2022-07-27T10:15:00Z",
-                    "start": "2022-07-27T07:00:00Z",
-                    "title": "Innovationsmanagement (evtl. Online!!!)"
-                },
-                {
-                    "course": "GWAG19 .",
-                    "end": "2022-07-27T14:30:00Z",
-                    "start": "2022-07-27T11:00:00Z",
-                    "title": "Innovationsmanagement (evtl. Online!!!)"
-                }
-            ],
             "Raum 036B": [
                 {
                     "course": "WWI21 DSA",
@@ -7432,12 +7270,6 @@
             ],
             "Raum 213D": [
                 {
-                    "course": "WSTL19 A",
-                    "end": "2022-09-27T18:00:00Z",
-                    "start": "2022-09-27T06:00:00Z",
-                    "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
-                },
-                {
                     "course": "WSTL19 B",
                     "end": "2022-09-27T18:00:00Z",
                     "start": "2022-09-27T06:00:00Z",
@@ -7445,6 +7277,12 @@
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2022-09-27T18:00:00Z",
+                    "start": "2022-09-27T06:00:00Z",
+                    "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
+                },
+                {
+                    "course": "WSTL19 A",
                     "end": "2022-09-27T18:00:00Z",
                     "start": "2022-09-27T06:00:00Z",
                     "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
@@ -7727,12 +7565,6 @@
             ],
             "Raum 213D": [
                 {
-                    "course": "WSTL19 A",
-                    "end": "2022-09-28T18:00:00Z",
-                    "start": "2022-09-28T06:00:00Z",
-                    "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
-                },
-                {
                     "course": "WSTL19 B",
                     "end": "2022-09-28T18:00:00Z",
                     "start": "2022-09-28T06:00:00Z",
@@ -7740,6 +7572,12 @@
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2022-09-28T18:00:00Z",
+                    "start": "2022-09-28T06:00:00Z",
+                    "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
+                },
+                {
+                    "course": "WSTL19 A",
                     "end": "2022-09-28T18:00:00Z",
                     "start": "2022-09-28T06:00:00Z",
                     "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
@@ -8139,12 +7977,6 @@
             ],
             "Raum 213D": [
                 {
-                    "course": "WSTL19 A",
-                    "end": "2022-09-29T18:00:00Z",
-                    "start": "2022-09-29T06:00:00Z",
-                    "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
-                },
-                {
                     "course": "WSTL19 B",
                     "end": "2022-09-29T18:00:00Z",
                     "start": "2022-09-29T06:00:00Z",
@@ -8152,6 +7984,12 @@
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2022-09-29T18:00:00Z",
+                    "start": "2022-09-29T06:00:00Z",
+                    "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
+                },
+                {
+                    "course": "WSTL19 A",
                     "end": "2022-09-29T18:00:00Z",
                     "start": "2022-09-29T06:00:00Z",
                     "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
@@ -8197,6 +8035,12 @@
                     "end": "2022-08-30T10:00:00Z",
                     "start": "2022-08-30T07:00:00Z",
                     "title": "Qualit\u00e4ts- u. Risikomanagement im Gesundheitssektor"
+                },
+                {
+                    "course": "GWAG19 .",
+                    "end": "2022-08-30T14:15:00Z",
+                    "start": "2022-08-30T11:00:00Z",
+                    "title": "Palliative Care"
                 }
             ],
             "Raum 063C": [
@@ -8482,12 +8326,6 @@
         "CAD-Raum 05A": {
             "16.09.2022": [
                 {
-                    "course": "TEL21 D",
-                    "end": "2022-09-16T11:00:00Z",
-                    "start": "2022-09-16T08:00:00Z",
-                    "title": "TEL21-WK/NK: Informatik + Labor 2 (120 Min.)"
-                },
-                {
                     "course": "TEL21 B",
                     "end": "2022-09-16T11:00:00Z",
                     "start": "2022-09-16T08:00:00Z",
@@ -8501,6 +8339,12 @@
                 },
                 {
                     "course": "TEL21 E",
+                    "end": "2022-09-16T11:00:00Z",
+                    "start": "2022-09-16T08:00:00Z",
+                    "title": "TEL21-WK/NK: Informatik + Labor 2 (120 Min.)"
+                },
+                {
+                    "course": "TEL21 D",
                     "end": "2022-09-16T11:00:00Z",
                     "start": "2022-09-16T08:00:00Z",
                     "title": "TEL21-WK/NK: Informatik + Labor 2 (120 Min.)"
@@ -8560,6 +8404,20 @@
                     "title": "Qualit\u00e4tsmanagement"
                 }
             ],
+            "04.08.2022": [
+                {
+                    "course": "GWAG19 .",
+                    "end": "2022-08-04T10:15:00Z",
+                    "start": "2022-08-04T08:00:00Z",
+                    "title": "Innovationsmanagement"
+                },
+                {
+                    "course": "GWAG19 .",
+                    "end": "2022-08-04T15:30:00Z",
+                    "start": "2022-08-04T11:00:00Z",
+                    "title": "Innovationsmanagement "
+                }
+            ],
             "05.08.2022": [
                 {
                     "course": "GWAG19 .",
@@ -8604,7 +8462,7 @@
                 {
                     "course": "GWAG19 .",
                     "end": "2022-09-09T09:30:00Z",
-                    "start": "2022-09-09T07:00:00Z",
+                    "start": "2022-09-09T08:00:00Z",
                     "title": "Integrationsseminar - Pr\u00e4sentationen d. Poster"
                 },
                 {
@@ -8618,14 +8476,14 @@
                 {
                     "course": "GWAG19 .",
                     "end": "2022-08-10T10:15:00Z",
-                    "start": "2022-08-10T07:00:00Z",
-                    "title": "Innovationsmanagement->online!"
+                    "start": "2022-08-10T08:00:00Z",
+                    "title": "Innovationsmanagement"
                 },
                 {
                     "course": "GWAG19 .",
-                    "end": "2022-08-10T14:30:00Z",
+                    "end": "2022-08-10T15:30:00Z",
                     "start": "2022-08-10T11:00:00Z",
-                    "title": "Innovationsmanagement->online!"
+                    "title": "Innovationsmanagement"
                 }
             ],
             "11.08.2022": [
@@ -8824,20 +8682,6 @@
                     "title": "Pflegediagnostik u. klinische Entscheidungsfindung"
                 }
             ],
-            "27.07.2022": [
-                {
-                    "course": "GWAG19 .",
-                    "end": "2022-07-27T10:15:00Z",
-                    "start": "2022-07-27T07:00:00Z",
-                    "title": "Innovationsmanagement (evtl. Online!!!)"
-                },
-                {
-                    "course": "GWAG19 .",
-                    "end": "2022-07-27T14:30:00Z",
-                    "start": "2022-07-27T11:00:00Z",
-                    "title": "Innovationsmanagement (evtl. Online!!!)"
-                }
-            ],
             "28.07.2022": [
                 {
                     "course": "GWAG19 .",
@@ -8874,6 +8718,12 @@
                     "end": "2022-08-30T10:00:00Z",
                     "start": "2022-08-30T07:00:00Z",
                     "title": "Qualit\u00e4ts- u. Risikomanagement im Gesundheitssektor"
+                },
+                {
+                    "course": "GWAG19 .",
+                    "end": "2022-08-30T14:15:00Z",
+                    "start": "2022-08-30T11:00:00Z",
+                    "title": "Palliative Care"
                 }
             ]
         },
@@ -8948,6 +8798,20 @@
             ]
         },
         "Raum 019D": {
+            "08.10.2022": [
+                {
+                    "course": "WIMBIT22 B",
+                    "end": "2022-10-08T10:00:00Z",
+                    "start": "2022-10-08T07:00:00Z",
+                    "title": "Schl\u00fcsselqualifikationen I (W3WI_701)"
+                },
+                {
+                    "course": "WIMBIT22 B",
+                    "end": "2022-10-08T14:00:00Z",
+                    "start": "2022-10-08T11:00:00Z",
+                    "title": "Schl\u00fcsselqualifikationen I (W3WI_701)"
+                }
+            ],
             "13.09.2022": [
                 {
                     "course": "GWAG21 .",
@@ -8968,6 +8832,20 @@
                     "end": "2022-09-14T10:00:00Z",
                     "start": "2022-09-14T07:00:00Z",
                     "title": "Wissenschaftl. Arbeiten-Infos zur PAI"
+                }
+            ],
+            "15.10.2022": [
+                {
+                    "course": "WIMBIT22 B",
+                    "end": "2022-10-15T10:00:00Z",
+                    "start": "2022-10-15T07:00:00Z",
+                    "title": "Schl\u00fcsselqualifikationen I (W3WI_701)"
+                },
+                {
+                    "course": "WIMBIT22 B",
+                    "end": "2022-10-15T14:00:00Z",
+                    "start": "2022-10-15T11:00:00Z",
+                    "title": "Schl\u00fcsselqualifikationen I (W3WI_701)"
                 }
             ],
             "21.07.2022": [
@@ -9040,20 +8918,6 @@
                     "end": "2022-09-19T08:00:00Z",
                     "start": "2022-09-19T07:00:00Z",
                     "title": "Klausur Statistik"
-                }
-            ],
-            "20.07.2022": [
-                {
-                    "course": "WWI20 DSA",
-                    "end": "2022-07-20T09:00:00Z",
-                    "start": "2022-07-20T07:00:00Z",
-                    "title": "Data Analysis and Optimization"
-                },
-                {
-                    "course": "WWI21 AMC",
-                    "end": "2022-07-20T12:00:00Z",
-                    "start": "2022-07-20T10:00:00Z",
-                    "title": " Methoden der Wirtschaftsinformatik I "
                 }
             ],
             "20.09.2022": [
@@ -9187,16 +9051,6 @@
                 }
             ]
         },
-        "Raum 062C": {
-            "20.07.2022": [
-                {
-                    "course": "WWI19 AMC",
-                    "end": "2022-07-20T10:15:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "Arbeitsrecht"
-                }
-            ]
-        },
         "Raum 063C": {
             "29.08.2022": [
                 {
@@ -9241,24 +9095,8 @@
                 }
             ]
         },
-        "Raum 066C": {
-            "20.07.2022": [
-                {
-                    "course": "WWI19 SEB",
-                    "end": "2022-07-20T09:30:00Z",
-                    "start": "2022-07-20T06:15:00Z",
-                    "title": "IT-Management"
-                }
-            ]
-        },
         "Raum 067C": {
             "05.09.2022": [
-                {
-                    "course": "TEL21 D",
-                    "end": "2022-09-05T09:30:00Z",
-                    "start": "2022-09-05T08:00:00Z",
-                    "title": "TEL21-WK/NK: Grundl. Elektrotechnik II (90 Min.)"
-                },
                 {
                     "course": "TEL21 B",
                     "end": "2022-09-05T09:30:00Z",
@@ -9273,6 +9111,12 @@
                 },
                 {
                     "course": "TEL21 E",
+                    "end": "2022-09-05T09:30:00Z",
+                    "start": "2022-09-05T08:00:00Z",
+                    "title": "TEL21-WK/NK: Grundl. Elektrotechnik II (90 Min.)"
+                },
+                {
+                    "course": "TEL21 D",
                     "end": "2022-09-05T09:30:00Z",
                     "start": "2022-09-05T08:00:00Z",
                     "title": "TEL21-WK/NK: Grundl. Elektrotechnik II (90 Min.)"
@@ -9280,12 +9124,6 @@
             ],
             "07.09.2022": [
                 {
-                    "course": "TEL21 D",
-                    "end": "2022-09-07T09:30:00Z",
-                    "start": "2022-09-07T08:00:00Z",
-                    "title": "TEL21-WK/NK: Mathematik II (90 Min.)"
-                },
-                {
                     "course": "TEL21 B",
                     "end": "2022-09-07T09:30:00Z",
                     "start": "2022-09-07T08:00:00Z",
@@ -9299,6 +9137,12 @@
                 },
                 {
                     "course": "TEL21 E",
+                    "end": "2022-09-07T09:30:00Z",
+                    "start": "2022-09-07T08:00:00Z",
+                    "title": "TEL21-WK/NK: Mathematik II (90 Min.)"
+                },
+                {
+                    "course": "TEL21 D",
                     "end": "2022-09-07T09:30:00Z",
                     "start": "2022-09-07T08:00:00Z",
                     "title": "TEL21-WK/NK: Mathematik II (90 Min.)"
@@ -9306,12 +9150,6 @@
             ],
             "09.09.2022": [
                 {
-                    "course": "TEL21 D",
-                    "end": "2022-09-09T08:30:00Z",
-                    "start": "2022-09-09T07:00:00Z",
-                    "title": "TEL21-WK/NK: Digitaltechnik (90 Min.)"
-                },
-                {
                     "course": "TEL21 B",
                     "end": "2022-09-09T08:30:00Z",
                     "start": "2022-09-09T07:00:00Z",
@@ -9325,6 +9163,12 @@
                 },
                 {
                     "course": "TEL21 E",
+                    "end": "2022-09-09T08:30:00Z",
+                    "start": "2022-09-09T07:00:00Z",
+                    "title": "TEL21-WK/NK: Digitaltechnik (90 Min.)"
+                },
+                {
+                    "course": "TEL21 D",
                     "end": "2022-09-09T08:30:00Z",
                     "start": "2022-09-09T07:00:00Z",
                     "title": "TEL21-WK/NK: Digitaltechnik (90 Min.)"
@@ -9366,20 +9210,6 @@
                     "end": "2022-09-16T11:00:00Z",
                     "start": "2022-09-16T10:00:00Z",
                     "title": "Klausur U-Recht"
-                }
-            ],
-            "20.07.2022": [
-                {
-                    "course": "WWI20 DSB",
-                    "end": "2022-07-20T09:00:00Z",
-                    "start": "2022-07-20T07:00:00Z",
-                    "title": "Data Analysis and Optimization"
-                },
-                {
-                    "course": "WWI21 DSB",
-                    "end": "2022-07-20T12:00:00Z",
-                    "start": "2022-07-20T10:00:00Z",
-                    "title": "Grundlagen der Rechnungslegung"
                 }
             ],
             "20.09.2022": [
@@ -9452,14 +9282,6 @@
             ]
         },
         "Raum 068C": {
-            "20.07.2022": [
-                {
-                    "course": "WWI20 SCB",
-                    "end": "2022-07-20T14:30:00Z",
-                    "start": "2022-07-20T11:00:00Z",
-                    "title": "Portfoliopr\u00fcfung Mobile Applikationen II"
-                }
-            ],
             "21.07.2022": [
                 {
                     "course": "WWI20 SCB",
@@ -9492,14 +9314,6 @@
                     "end": "2022-08-02T10:00:00Z",
                     "start": "2022-08-02T08:00:00Z",
                     "title": "Nach-/Wiederholungsklausur \"IB and its Environment\""
-                }
-            ],
-            "20.07.2022": [
-                {
-                    "course": "WIB21 A",
-                    "end": "2022-07-20T10:00:00Z",
-                    "start": "2022-07-20T08:00:00Z",
-                    "title": "Wiederholungsklausur \"Technik d. Finanzbuchf\u00fchrung\", WIB21A"
                 }
             ],
             "22.07.2022": [
@@ -9846,20 +9660,6 @@
             ]
         },
         "Raum 105D": {
-            "20.07.2022": [
-                {
-                    "course": "WFD21 A",
-                    "end": "2022-07-20T09:30:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "A: Finanzbuchf\u00fchrung"
-                },
-                {
-                    "course": "WFD21 A",
-                    "end": "2022-07-20T13:30:00Z",
-                    "start": "2022-07-20T10:00:00Z",
-                    "title": "B: Finanzbuchf\u00fchrung"
-                }
-            ],
             "21.07.2022": [
                 {
                     "course": "WFD21 A",
@@ -10134,26 +9934,6 @@
                     "end": "2022-08-19T15:15:00Z",
                     "start": "2022-08-19T12:00:00Z",
                     "title": "AO 2"
-                }
-            ],
-            "20.07.2022": [
-                {
-                    "course": "WRSW21 ST2",
-                    "end": "2022-07-20T08:30:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "USt 2"
-                },
-                {
-                    "course": "WRSW21 ST2",
-                    "end": "2022-07-20T11:15:00Z",
-                    "start": "2022-07-20T08:45:00Z",
-                    "title": "Statistik"
-                },
-                {
-                    "course": "WRSW21 ST2",
-                    "end": "2022-07-20T15:15:00Z",
-                    "start": "2022-07-20T12:00:00Z",
-                    "title": "FiBu II"
                 }
             ],
             "21.07.2022": [
@@ -10474,18 +10254,12 @@
                     "title": "Methoden der Wirtschaftsinformatik I (W3WI_101)"
                 }
             ],
-            "20.07.2022": [
+            "20.10.2022": [
                 {
-                    "course": "WRSW19 AC2",
-                    "end": "2022-07-20T08:45:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "Insolvenzrecht"
-                },
-                {
-                    "course": "WRSW19 AC2",
-                    "end": "2022-07-20T15:30:00Z",
-                    "start": "2022-07-20T09:00:00Z",
-                    "title": "Integrationsseminar"
+                    "course": "WIMBIT21 B",
+                    "end": "2022-10-20T10:15:00Z",
+                    "start": "2022-10-20T07:00:00Z",
+                    "title": "Finanzierung und Rechnungswesen (W3WI_203)"
                 }
             ],
             "21.07.2022": [
@@ -10828,20 +10602,6 @@
                     "title": "Finanzierung und Rechnungswesen (W3WI_203)"
                 }
             ],
-            "20.07.2022": [
-                {
-                    "course": "WRSW20 AC2",
-                    "end": "2022-07-20T10:00:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "Finance"
-                },
-                {
-                    "course": "WRSW20 AC2",
-                    "end": "2022-07-20T15:00:00Z",
-                    "start": "2022-07-20T11:00:00Z",
-                    "title": "GesR I"
-                }
-            ],
             "21.07.2022": [
                 {
                     "course": "WRSW20 AC2",
@@ -11044,14 +10804,6 @@
                     "title": "Grundz\u00fcge des Arbeits- und Insolvenzrechts"
                 }
             ],
-            "20.07.2022": [
-                {
-                    "course": "WIW20 A",
-                    "end": "2022-07-20T15:00:00Z",
-                    "start": "2022-07-20T11:00:00Z",
-                    "title": "Internationale Verfahren der Immobilienbewertung"
-                }
-            ],
             "21.07.2022": [
                 {
                     "course": "WIW20 B",
@@ -11223,6 +10975,12 @@
             "06.10.2022": [
                 {
                     "course": "WIMBIT22 A",
+                    "end": "2022-10-06T10:15:00Z",
+                    "start": "2022-10-06T07:00:00Z",
+                    "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
+                },
+                {
+                    "course": "WIMBIT22 A",
                     "end": "2022-10-06T14:15:00Z",
                     "start": "2022-10-06T11:00:00Z",
                     "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
@@ -11333,6 +11091,12 @@
             "13.10.2022": [
                 {
                     "course": "WIMBIT22 A",
+                    "end": "2022-10-13T10:15:00Z",
+                    "start": "2022-10-13T07:00:00Z",
+                    "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
+                },
+                {
+                    "course": "WIMBIT22 A",
                     "end": "2022-10-13T14:15:00Z",
                     "start": "2022-10-13T11:00:00Z",
                     "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
@@ -11422,12 +11186,18 @@
                     "title": "Methoden der Wirtschaftsinformatik I (W3WI_101)"
                 }
             ],
-            "20.07.2022": [
+            "20.10.2022": [
                 {
-                    "course": "WRSW21 AC2",
-                    "end": "2022-07-20T10:15:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "Controlling"
+                    "course": "WIMBIT22 A",
+                    "end": "2022-10-20T10:15:00Z",
+                    "start": "2022-10-20T07:00:00Z",
+                    "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
+                },
+                {
+                    "course": "WIMBIT22 A",
+                    "end": "2022-10-20T14:15:00Z",
+                    "start": "2022-10-20T11:00:00Z",
+                    "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
                 }
             ],
             "21.07.2022": [
@@ -11834,6 +11604,20 @@
                     "title": "WF10: Nachhaltigkeit und Systemzusammenh\u00e4nge"
                 }
             ],
+            "20.10.2022": [
+                {
+                    "course": "WFD20 A",
+                    "end": "2022-10-20T10:00:00Z",
+                    "start": "2022-10-20T06:45:00Z",
+                    "title": "Erb- und Steuerrecht"
+                },
+                {
+                    "course": "WFD20 A",
+                    "end": "2022-10-20T13:45:00Z",
+                    "start": "2022-10-20T10:30:00Z",
+                    "title": "Erb- und Steuerrecht"
+                }
+            ],
             "21.09.2022": [
                 {
                     "course": "WFD20 A",
@@ -11929,18 +11713,14 @@
                 }
             ]
         },
-        "Raum 116D (PC-Pool)": {
-            "20.07.2022": [
-                {
-                    "course": "WFD21 A",
-                    "end": "2022-07-20T16:00:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "Investition und Finanzierung"
-                }
-            ]
-        },
         "Raum 117D": {
             "05.10.2022": [
+                {
+                    "course": "WIMBIT22 B",
+                    "end": "2022-10-05T10:15:00Z",
+                    "start": "2022-10-05T07:00:00Z",
+                    "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
+                },
                 {
                     "course": "WIMBIT22 B",
                     "end": "2022-10-05T15:00:00Z",
@@ -11987,6 +11767,12 @@
             "12.10.2022": [
                 {
                     "course": "WIMBIT22 B",
+                    "end": "2022-10-12T10:15:00Z",
+                    "start": "2022-10-12T07:00:00Z",
+                    "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
+                },
+                {
+                    "course": "WIMBIT22 B",
                     "end": "2022-10-12T15:00:00Z",
                     "start": "2022-10-12T11:00:00Z",
                     "title": "Programmierung I (W3WI_108)"
@@ -12019,9 +11805,23 @@
             "19.10.2022": [
                 {
                     "course": "WIMBIT22 B",
+                    "end": "2022-10-19T10:15:00Z",
+                    "start": "2022-10-19T07:00:00Z",
+                    "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
+                },
+                {
+                    "course": "WIMBIT22 B",
                     "end": "2022-10-19T15:00:00Z",
                     "start": "2022-10-19T11:00:00Z",
                     "title": "Programmierung I (W3WI_108)"
+                }
+            ],
+            "20.10.2022": [
+                {
+                    "course": "WIMBIT22 B",
+                    "end": "2022-10-20T10:15:00Z",
+                    "start": "2022-10-20T07:00:00Z",
+                    "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
                 }
             ],
             "21.07.2022": [
@@ -12528,12 +12328,6 @@
             ],
             "12.09.2022": [
                 {
-                    "course": "TEL21 D",
-                    "end": "2022-09-12T09:30:00Z",
-                    "start": "2022-09-12T08:00:00Z",
-                    "title": "TEL21-WK/NK: Physik (90 Min.)"
-                },
-                {
                     "course": "TEL21 B",
                     "end": "2022-09-12T09:30:00Z",
                     "start": "2022-09-12T08:00:00Z",
@@ -12547,6 +12341,12 @@
                 },
                 {
                     "course": "TEL21 E",
+                    "end": "2022-09-12T09:30:00Z",
+                    "start": "2022-09-12T08:00:00Z",
+                    "title": "TEL21-WK/NK: Physik (90 Min.)"
+                },
+                {
+                    "course": "TEL21 D",
                     "end": "2022-09-12T09:30:00Z",
                     "start": "2022-09-12T08:00:00Z",
                     "title": "TEL21-WK/NK: Physik (90 Min.)"
@@ -12562,12 +12362,6 @@
             ],
             "14.09.2022": [
                 {
-                    "course": "TEL21 D",
-                    "end": "2022-09-14T10:00:00Z",
-                    "start": "2022-09-14T08:00:00Z",
-                    "title": "TEL21-WK/NK: Elektronik 1 & Messtechnik 1 (120 Min.)"
-                },
-                {
                     "course": "TEL21 B",
                     "end": "2022-09-14T10:00:00Z",
                     "start": "2022-09-14T08:00:00Z",
@@ -12581,6 +12375,12 @@
                 },
                 {
                     "course": "TEL21 E",
+                    "end": "2022-09-14T10:00:00Z",
+                    "start": "2022-09-14T08:00:00Z",
+                    "title": "TEL21-WK/NK: Elektronik 1 & Messtechnik 1 (120 Min.)"
+                },
+                {
+                    "course": "TEL21 D",
                     "end": "2022-09-14T10:00:00Z",
                     "start": "2022-09-14T08:00:00Z",
                     "title": "TEL21-WK/NK: Elektronik 1 & Messtechnik 1 (120 Min.)"
@@ -12600,20 +12400,6 @@
                     "end": "2022-09-19T09:00:00Z",
                     "start": "2022-09-19T07:00:00Z",
                     "title": "Dienstl."
-                }
-            ],
-            "20.07.2022": [
-                {
-                    "course": "WWI21 SCB",
-                    "end": "2022-07-20T10:00:00Z",
-                    "start": "2022-07-20T08:00:00Z",
-                    "title": "Methoden der WI"
-                },
-                {
-                    "course": "WWI21 SEB",
-                    "end": "2022-07-20T13:00:00Z",
-                    "start": "2022-07-20T11:00:00Z",
-                    "title": "Grundlegende Konzepte der IT "
                 }
             ],
             "20.09.2022": [
@@ -12762,14 +12548,6 @@
                     "end": "2022-09-07T15:00:00Z",
                     "start": "2022-09-07T05:30:00Z",
                     "title": "CAS T3M10102"
-                }
-            ],
-            "20.07.2022": [
-                {
-                    "course": "WMKE20 B",
-                    "end": "2022-07-20T09:00:00Z",
-                    "start": "2022-07-20T07:00:00Z",
-                    "title": "Wiederholungsklausuren WMKE 20"
                 }
             ],
             "21.07.2022": [
@@ -13036,12 +12814,6 @@
             ],
             "26.09.2022": [
                 {
-                    "course": "WSTL19 A",
-                    "end": "2022-09-26T18:00:00Z",
-                    "start": "2022-09-26T06:00:00Z",
-                    "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
-                },
-                {
                     "course": "WSTL19 B",
                     "end": "2022-09-26T18:00:00Z",
                     "start": "2022-09-26T06:00:00Z",
@@ -13049,6 +12821,12 @@
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2022-09-26T18:00:00Z",
+                    "start": "2022-09-26T06:00:00Z",
+                    "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
+                },
+                {
+                    "course": "WSTL19 A",
                     "end": "2022-09-26T18:00:00Z",
                     "start": "2022-09-26T06:00:00Z",
                     "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
@@ -13070,12 +12848,6 @@
             ],
             "27.09.2022": [
                 {
-                    "course": "WSTL19 A",
-                    "end": "2022-09-27T18:00:00Z",
-                    "start": "2022-09-27T06:00:00Z",
-                    "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
-                },
-                {
                     "course": "WSTL19 B",
                     "end": "2022-09-27T18:00:00Z",
                     "start": "2022-09-27T06:00:00Z",
@@ -13083,6 +12855,12 @@
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2022-09-27T18:00:00Z",
+                    "start": "2022-09-27T06:00:00Z",
+                    "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
+                },
+                {
+                    "course": "WSTL19 A",
                     "end": "2022-09-27T18:00:00Z",
                     "start": "2022-09-27T06:00:00Z",
                     "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
@@ -13096,12 +12874,6 @@
             ],
             "28.09.2022": [
                 {
-                    "course": "WSTL19 A",
-                    "end": "2022-09-28T18:00:00Z",
-                    "start": "2022-09-28T06:00:00Z",
-                    "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
-                },
-                {
                     "course": "WSTL19 B",
                     "end": "2022-09-28T18:00:00Z",
                     "start": "2022-09-28T06:00:00Z",
@@ -13109,6 +12881,12 @@
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2022-09-28T18:00:00Z",
+                    "start": "2022-09-28T06:00:00Z",
+                    "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
+                },
+                {
+                    "course": "WSTL19 A",
                     "end": "2022-09-28T18:00:00Z",
                     "start": "2022-09-28T06:00:00Z",
                     "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
@@ -13122,12 +12900,6 @@
             ],
             "29.09.2022": [
                 {
-                    "course": "WSTL19 A",
-                    "end": "2022-09-29T18:00:00Z",
-                    "start": "2022-09-29T06:00:00Z",
-                    "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
-                },
-                {
                     "course": "WSTL19 B",
                     "end": "2022-09-29T18:00:00Z",
                     "start": "2022-09-29T06:00:00Z",
@@ -13135,6 +12907,12 @@
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2022-09-29T18:00:00Z",
+                    "start": "2022-09-29T06:00:00Z",
+                    "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
+                },
+                {
+                    "course": "WSTL19 A",
                     "end": "2022-09-29T18:00:00Z",
                     "start": "2022-09-29T06:00:00Z",
                     "title": "WSTL 19 A-D m\u00fcndliche Bachelorpr\u00fcfung"
@@ -13176,13 +12954,13 @@
             ],
             "22.07.2022": [
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-07-22T14:00:00Z",
                     "start": "2022-07-22T12:00:00Z",
                     "title": "Wiederholungsklausut WSTL19A-D RDG"
                 },
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-07-22T14:00:00Z",
                     "start": "2022-07-22T12:00:00Z",
                     "title": "Wiederholungsklausut WSTL19A-D RDG"
@@ -13196,13 +12974,13 @@
             ],
             "26.07.2022": [
                 {
-                    "course": "WSTL19 A",
+                    "course": "WSTL19 B",
                     "end": "2022-07-26T13:00:00Z",
                     "start": "2022-07-26T11:00:00Z",
                     "title": "Wiederholungsklausur WSTL 19 A-D VWL III Wirtschaftspolitik"
                 },
                 {
-                    "course": "WSTL19 B",
+                    "course": "WSTL19 A",
                     "end": "2022-07-26T13:00:00Z",
                     "start": "2022-07-26T11:00:00Z",
                     "title": "Wiederholungsklausur WSTL 19 A-D VWL III Wirtschaftspolitik"
@@ -13244,14 +13022,6 @@
             ]
         },
         "Raum 242B": {
-            "20.07.2022": [
-                {
-                    "course": "WWI19 SCB",
-                    "end": "2022-07-20T11:30:00Z",
-                    "start": "2022-07-20T07:00:00Z",
-                    "title": "Neue Aspekte des IT-Consultings"
-                }
-            ],
             "27.07.2022": [
                 {
                     "course": "WWI19 SCB",
@@ -13766,20 +13536,20 @@
                     "title": "Medienprojekt (Strategie)"
                 }
             ],
-            "20.07.2022": [
-                {
-                    "course": "WME19 MMK",
-                    "end": "2022-07-20T14:00:00Z",
-                    "start": "2022-07-20T07:00:00Z",
-                    "title": "Werbung und PR"
-                }
-            ],
             "20.09.2022": [
                 {
                     "course": "WME19 MMK",
                     "end": "2022-09-20T15:00:00Z",
                     "start": "2022-09-20T06:00:00Z",
                     "title": "M\u00fcndliche BA-Pr\u00fcfung "
+                }
+            ],
+            "20.10.2022": [
+                {
+                    "course": "WME20 MMK",
+                    "end": "2022-10-20T15:00:00Z",
+                    "start": "2022-10-20T07:00:00Z",
+                    "title": "Medienprojekt (Strategie)"
                 }
             ],
             "21.07.2022": [
@@ -14182,20 +13952,6 @@
                     "title": "Pr\u00e4sentationskompetenz"
                 }
             ],
-            "20.07.2022": [
-                {
-                    "course": "WME21 MMK",
-                    "end": "2022-07-20T12:30:00Z",
-                    "start": "2022-07-20T08:30:00Z",
-                    "title": "Medienprojektrealisierung"
-                },
-                {
-                    "course": "WME21 MMK",
-                    "end": "2022-07-20T15:30:00Z",
-                    "start": "2022-07-20T13:00:00Z",
-                    "title": "Pr\u00e4sentationskompetenz"
-                }
-            ],
             "21.07.2022": [
                 {
                     "course": "WME21 MMK",
@@ -14337,6 +14093,14 @@
                     "course": "WME21 MPG",
                     "end": "2022-10-13T10:30:00Z",
                     "start": "2022-10-13T07:00:00Z",
+                    "title": "Interaktive Medien"
+                }
+            ],
+            "20.10.2022": [
+                {
+                    "course": "WME21 MPG",
+                    "end": "2022-10-20T10:30:00Z",
+                    "start": "2022-10-20T07:00:00Z",
                     "title": "Interaktive Medien"
                 }
             ],
@@ -14680,20 +14444,6 @@
                     "end": "2022-09-19T15:15:00Z",
                     "start": "2022-09-19T06:00:00Z",
                     "title": "Praxis-modul"
-                }
-            ],
-            "20.07.2022": [
-                {
-                    "course": "WMKE19 B",
-                    "end": "2022-07-20T10:15:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "F\u00fchrung"
-                },
-                {
-                    "course": "WMKE19 B",
-                    "end": "2022-07-20T14:15:00Z",
-                    "start": "2022-07-20T11:00:00Z",
-                    "title": "SM"
                 }
             ],
             "20.09.2022": [
@@ -15094,14 +14844,6 @@
                     "title": "VWL"
                 }
             ],
-            "20.07.2022": [
-                {
-                    "course": "WMKE21 B",
-                    "end": "2022-07-20T15:15:00Z",
-                    "start": "2022-07-20T11:00:00Z",
-                    "title": "Recht"
-                }
-            ],
             "21.07.2022": [
                 {
                     "course": "WMKE21 B",
@@ -15486,20 +15228,6 @@
                     "title": "Recht"
                 }
             ],
-            "20.07.2022": [
-                {
-                    "course": "WMKE20 B",
-                    "end": "2022-07-20T10:15:00Z",
-                    "start": "2022-07-20T07:00:00Z",
-                    "title": "Perso"
-                },
-                {
-                    "course": "WMKE20 B",
-                    "end": "2022-07-20T14:15:00Z",
-                    "start": "2022-07-20T11:00:00Z",
-                    "title": "Kom"
-                }
-            ],
             "21.07.2022": [
                 {
                     "course": "WMKE20 B",
@@ -15824,26 +15552,6 @@
                     "end": "2022-08-18T11:15:00Z",
                     "start": "2022-08-18T08:45:00Z",
                     "title": "Integrationsseminar Pr\u00fcfungswesen"
-                }
-            ],
-            "20.07.2022": [
-                {
-                    "course": "WRSW19 ST2",
-                    "end": "2022-07-20T08:30:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "VWL III: Stabilisierungspol. und int. Beziehung (ONLINE)"
-                },
-                {
-                    "course": "WRSW19 ST2",
-                    "end": "2022-07-20T11:15:00Z",
-                    "start": "2022-07-20T08:45:00Z",
-                    "title": "ReLe IVb: U-Zusammenschl\u00fcsse (ONLINE)"
-                },
-                {
-                    "course": "WRSW19 ST2",
-                    "end": "2022-07-20T15:15:00Z",
-                    "start": "2022-07-20T12:00:00Z",
-                    "title": "Ausgew. Probleme GesR (ONLINE)"
                 }
             ],
             "22.07.2022": [
@@ -16196,26 +15904,6 @@
                     "title": "ESt 4"
                 }
             ],
-            "20.07.2022": [
-                {
-                    "course": "WRSW20 ST2",
-                    "end": "2022-07-20T08:30:00Z",
-                    "start": "2022-07-20T06:00:00Z",
-                    "title": "VWL II: Allokation, Umwelt- und Sozialpolitik"
-                },
-                {
-                    "course": "WRSW20 ST2",
-                    "end": "2022-07-20T11:15:00Z",
-                    "start": "2022-07-20T08:45:00Z",
-                    "title": "ESt 5"
-                },
-                {
-                    "course": "WRSW20 ST2",
-                    "end": "2022-07-20T13:30:00Z",
-                    "start": "2022-07-20T12:00:00Z",
-                    "title": "KSt 2"
-                }
-            ],
             "21.07.2022": [
                 {
                     "course": "WRSW20 ST2",
@@ -16392,14 +16080,6 @@
                     "end": "2022-09-23T09:17:00Z",
                     "start": "2022-09-15T09:17:00Z",
                     "title": "T2000 - TEL20"
-                }
-            ],
-            "20.07.2022": [
-                {
-                    "course": "TEL19 EE",
-                    "end": "2022-07-20T10:00:00Z",
-                    "start": "2022-07-20T08:00:00Z",
-                    "title": "NK: Regelungstechnik 2"
                 }
             ]
         },
@@ -16664,13 +16344,13 @@
                     "title": "Semestereinf\u00fchrung WSTL 21"
                 },
                 {
-                    "course": "WSTL21 C",
+                    "course": "WSTL21 A",
                     "end": "2022-10-06T09:00:00Z",
                     "start": "2022-10-06T07:00:00Z",
                     "title": "Semestereinf\u00fchrung WSTL 21"
                 },
                 {
-                    "course": "WSTL21 A",
+                    "course": "WSTL21 C",
                     "end": "2022-10-06T09:00:00Z",
                     "start": "2022-10-06T07:00:00Z",
                     "title": "Semestereinf\u00fchrung WSTL 21"
@@ -16704,12 +16384,6 @@
             ],
             "09.09.2022": [
                 {
-                    "course": "WSTL19 A",
-                    "end": "2022-09-09T10:00:00Z",
-                    "start": "2022-09-09T08:00:00Z",
-                    "title": " Bachelor-Kolloquium WSTL 19 A-D "
-                },
-                {
                     "course": "WSTL19 B",
                     "end": "2022-09-09T10:00:00Z",
                     "start": "2022-09-09T08:00:00Z",
@@ -16717,6 +16391,12 @@
                 },
                 {
                     "course": "WSTL19 C",
+                    "end": "2022-09-09T10:00:00Z",
+                    "start": "2022-09-09T08:00:00Z",
+                    "title": " Bachelor-Kolloquium WSTL 19 A-D "
+                },
+                {
+                    "course": "WSTL19 A",
                     "end": "2022-09-09T10:00:00Z",
                     "start": "2022-09-09T08:00:00Z",
                     "title": " Bachelor-Kolloquium WSTL 19 A-D "
@@ -16874,12 +16554,6 @@
                     "title": "TEL21 - Informationsveranstaltung 2. Studienjahr"
                 },
                 {
-                    "course": "TEL21 D",
-                    "end": "2022-09-19T07:00:00Z",
-                    "start": "2022-09-19T06:00:00Z",
-                    "title": "TEL21 - Informationsveranstaltung 2. Studienjahr"
-                },
-                {
                     "course": "TEL21 B",
                     "end": "2022-09-19T07:00:00Z",
                     "start": "2022-09-19T06:00:00Z",
@@ -16887,6 +16561,12 @@
                 },
                 {
                     "course": "TEL21 C",
+                    "end": "2022-09-19T07:00:00Z",
+                    "start": "2022-09-19T06:00:00Z",
+                    "title": "TEL21 - Informationsveranstaltung 2. Studienjahr"
+                },
+                {
+                    "course": "TEL21 D",
                     "end": "2022-09-19T07:00:00Z",
                     "start": "2022-09-19T06:00:00Z",
                     "title": "TEL21 - Informationsveranstaltung 2. Studienjahr"
@@ -16928,5 +16608,5 @@
             ]
         }
     },
-    "last_updated": "2022-07-20T05:24:09Z"
+    "last_updated": "2022-07-21T05:28:52Z"
 }
