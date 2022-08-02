@@ -1,175 +1,5 @@
 {
     "events_by_date": {
-        "01.08.2022": {
-            "Raum 004D": [
-                {
-                    "course": "GWAG19 .",
-                    "end": "2022-08-01T10:15:00Z",
-                    "start": "2022-08-01T07:00:00Z",
-                    "title": "Pflegediagnostik u. klinische Entscheidungsfindung"
-                }
-            ],
-            "Raum 103D": [
-                {
-                    "course": "WIW20 A",
-                    "end": "2022-08-01T10:00:00Z",
-                    "start": "2022-08-01T06:00:00Z",
-                    "title": "Organisation und Projektmanagement"
-                },
-                {
-                    "course": "WIW20 A",
-                    "end": "2022-08-01T14:45:00Z",
-                    "start": "2022-08-01T10:45:00Z",
-                    "title": "Methoden in Immobilienbewertung und Marktanalyse"
-                }
-            ],
-            "Raum 106D": [
-                {
-                    "course": "WRSW21 ST2",
-                    "end": "2022-08-01T08:30:00Z",
-                    "start": "2022-08-01T06:00:00Z",
-                    "title": "B\u00fcrgerl. Recht II"
-                },
-                {
-                    "course": "WRSW21 ST2",
-                    "end": "2022-08-01T11:15:00Z",
-                    "start": "2022-08-01T08:45:00Z",
-                    "title": "KLR II"
-                }
-            ],
-            "Raum 112D": [
-                {
-                    "course": "WRSW19 AC2",
-                    "end": "2022-08-01T09:30:00Z",
-                    "start": "2022-08-01T07:00:00Z",
-                    "title": "Gesellschaftsrecht"
-                },
-                {
-                    "course": "WRSW19 AC2",
-                    "end": "2022-08-01T12:30:00Z",
-                    "start": "2022-08-01T10:00:00Z",
-                    "title": "Rechtsformwahl und Besteuerung"
-                }
-            ],
-            "Raum 113D": [
-                {
-                    "course": "WRSW20 AC2",
-                    "end": "2022-08-01T09:45:00Z",
-                    "start": "2022-08-01T06:30:00Z",
-                    "title": "IFRS 2"
-                }
-            ],
-            "Raum 115D": [
-                {
-                    "course": "WRSW21 AC2",
-                    "end": "2022-08-01T10:00:00Z",
-                    "start": "2022-08-01T06:00:00Z",
-                    "title": "FiBu II"
-                },
-                {
-                    "course": "WRSW21 AC2",
-                    "end": "2022-08-01T13:30:00Z",
-                    "start": "2022-08-01T11:00:00Z",
-                    "title": "BGB-Rep."
-                }
-            ],
-            "Raum 208.1D (Gruppenarbeitsraum)": [
-                {
-                    "course": "WMKE20 B",
-                    "end": "2022-08-01T15:15:00Z",
-                    "start": "2022-08-01T11:00:00Z",
-                    "title": "Perso"
-                }
-            ],
-            "Raum 278C": [
-                {
-                    "course": "WME21 MMK",
-                    "end": "2022-08-01T10:00:00Z",
-                    "start": "2022-08-01T07:00:00Z",
-                    "title": "Webpublishing"
-                }
-            ],
-            "Raum 306D": [
-                {
-                    "course": "WMKE19 B",
-                    "end": "2022-08-01T10:15:00Z",
-                    "start": "2022-08-01T06:00:00Z",
-                    "title": "VWL"
-                }
-            ],
-            "Raum 311D": [
-                {
-                    "course": "WMKE21 B",
-                    "end": "2022-08-01T15:15:00Z",
-                    "start": "2022-08-01T11:00:00Z",
-                    "title": "VWL"
-                }
-            ],
-            "Raum 313D": [
-                {
-                    "course": "WMKE20 B",
-                    "end": "2022-08-01T10:15:00Z",
-                    "start": "2022-08-01T06:00:00Z",
-                    "title": "Recht"
-                }
-            ],
-            "Raum 315D": [
-                {
-                    "course": "WRSW20 ST2",
-                    "end": "2022-08-01T09:30:00Z",
-                    "start": "2022-08-01T07:00:00Z",
-                    "title": "Wiederholungsklausuren (20ST2+21ST2)"
-                },
-                {
-                    "course": "WRSW21 ST2",
-                    "end": "2022-08-01T09:30:00Z",
-                    "start": "2022-08-01T07:00:00Z",
-                    "title": "Wiederholungsklausuren (20ST2+21ST2)"
-                }
-            ],
-            "Raum 316D": [
-                {
-                    "course": "WRSW20 ST2",
-                    "end": "2022-08-01T08:30:00Z",
-                    "start": "2022-08-01T06:00:00Z",
-                    "title": "Personengesellschaftsrecht"
-                },
-                {
-                    "course": "WRSW20 ST2",
-                    "end": "2022-08-01T14:30:00Z",
-                    "start": "2022-08-01T08:45:00Z",
-                    "title": "ErbSt"
-                }
-            ],
-            "Raum Carl-Benz-H\u00f6rsaal": [
-                {
-                    "course": "WFD21 A",
-                    "end": "2022-08-01T08:30:00Z",
-                    "start": "2022-08-01T06:30:00Z",
-                    "title": "Klausur WFD21A"
-                }
-            ],
-            "Raum SV-Auditorium (Audimax)": [
-                {
-                    "course": "WMM21 A",
-                    "end": "2022-08-01T13:30:00Z",
-                    "start": "2022-08-01T06:30:00Z",
-                    "title": " Vorlesung WMM21A, WMM21B und WMM21C"
-                },
-                {
-                    "course": "WMM21 B",
-                    "end": "2022-08-01T13:30:00Z",
-                    "start": "2022-08-01T06:30:00Z",
-                    "title": " Vorlesung WMM21A, WMM21B und WMM21C"
-                },
-                {
-                    "course": "WMM21 C",
-                    "end": "2022-08-01T13:30:00Z",
-                    "start": "2022-08-01T06:30:00Z",
-                    "title": " Vorlesung WMM21A, WMM21B und WMM21C"
-                }
-            ]
-        },
         "01.09.2022": {
             "CAD-Raum 05A": [
                 {
@@ -219,13 +49,13 @@
             ],
             "Raum 269C": [
                 {
-                    "course": "TINF19 AI1",
+                    "course": "TINF19 CS1",
                     "end": "2022-09-01T10:00:00Z",
                     "start": "2022-09-01T08:00:00Z",
                     "title": "WK JG19 "
                 },
                 {
-                    "course": "TINF19 CS1",
+                    "course": "TINF19 AI1",
                     "end": "2022-09-01T10:00:00Z",
                     "start": "2022-09-01T08:00:00Z",
                     "title": "WK JG19 "
@@ -289,6 +119,7 @@
             ]
         },
         "01.10.2022": {},
+        "01.11.2022": {},
         "02.08.2022": {
             "Raum 004D": [
                 {
@@ -304,14 +135,6 @@
                     "end": "2022-08-02T10:00:00Z",
                     "start": "2022-08-02T08:00:00Z",
                     "title": "Nach-/Wiederholungsklausur \"IB and its Environment\""
-                }
-            ],
-            "Raum 103D": [
-                {
-                    "course": "WIW20 A",
-                    "end": "2022-08-02T14:45:00Z",
-                    "start": "2022-08-02T10:45:00Z",
-                    "title": "Methoden in Immobilienbewertung und Marktanalyse"
                 }
             ],
             "Raum 106D": [
@@ -348,6 +171,14 @@
                     "end": "2022-08-02T15:00:00Z",
                     "start": "2022-08-02T12:30:00Z",
                     "title": "Quant. Meth."
+                }
+            ],
+            "Raum 114D": [
+                {
+                    "course": "WIW20 B",
+                    "end": "2022-08-02T10:00:00Z",
+                    "start": "2022-08-02T06:00:00Z",
+                    "title": "Methoden in Immobilienbewertung und Marktanalyse (online)"
                 }
             ],
             "Raum 115D": [
@@ -635,14 +466,6 @@
                     "end": "2022-08-03T10:15:00Z",
                     "start": "2022-08-03T07:00:00Z",
                     "title": "VWL II"
-                }
-            ],
-            "Raum 114D": [
-                {
-                    "course": "WIW20 B",
-                    "end": "2022-08-03T14:45:00Z",
-                    "start": "2022-08-03T10:45:00Z",
-                    "title": "Methoden in Immobilienbewertung und Marktanalyse"
                 }
             ],
             "Raum 115D": [
@@ -1250,25 +1073,25 @@
             ],
             "Raum 067C": [
                 {
-                    "course": "TEL21 D",
+                    "course": "TEL21 AT2",
                     "end": "2022-09-05T09:30:00Z",
                     "start": "2022-09-05T08:00:00Z",
                     "title": "TEL21-WK/NK: Grundl. Elektrotechnik II (90 Min.)"
                 },
                 {
-                    "course": "TEL21 B",
+                    "course": "TEL21 EE",
                     "end": "2022-09-05T09:30:00Z",
                     "start": "2022-09-05T08:00:00Z",
                     "title": "TEL21-WK/NK: Grundl. Elektrotechnik II (90 Min.)"
                 },
                 {
-                    "course": "TEL21 C",
+                    "course": "TEL21 EU",
                     "end": "2022-09-05T09:30:00Z",
                     "start": "2022-09-05T08:00:00Z",
                     "title": "TEL21-WK/NK: Grundl. Elektrotechnik II (90 Min.)"
                 },
                 {
-                    "course": "TEL21 E",
+                    "course": "TEL21 MED",
                     "end": "2022-09-05T09:30:00Z",
                     "start": "2022-09-05T08:00:00Z",
                     "title": "TEL21-WK/NK: Grundl. Elektrotechnik II (90 Min.)"
@@ -1890,25 +1713,25 @@
             ],
             "Raum 067C": [
                 {
-                    "course": "TEL21 D",
+                    "course": "TEL21 AT2",
                     "end": "2022-09-07T09:30:00Z",
                     "start": "2022-09-07T08:00:00Z",
                     "title": "TEL21-WK/NK: Mathematik II (90 Min.)"
                 },
                 {
-                    "course": "TEL21 B",
+                    "course": "TEL21 EE",
                     "end": "2022-09-07T09:30:00Z",
                     "start": "2022-09-07T08:00:00Z",
                     "title": "TEL21-WK/NK: Mathematik II (90 Min.)"
                 },
                 {
-                    "course": "TEL21 C",
+                    "course": "TEL21 EU",
                     "end": "2022-09-07T09:30:00Z",
                     "start": "2022-09-07T08:00:00Z",
                     "title": "TEL21-WK/NK: Mathematik II (90 Min.)"
                 },
                 {
-                    "course": "TEL21 E",
+                    "course": "TEL21 MED",
                     "end": "2022-09-07T09:30:00Z",
                     "start": "2022-09-07T08:00:00Z",
                     "title": "TEL21-WK/NK: Mathematik II (90 Min.)"
@@ -2196,14 +2019,6 @@
                     "end": "2022-08-08T12:45:00Z",
                     "start": "2022-08-08T09:30:00Z",
                     "title": "PersG (HB/StB)"
-                }
-            ],
-            "Raum 114D": [
-                {
-                    "course": "WIW20 B",
-                    "end": "2022-08-08T14:45:00Z",
-                    "start": "2022-08-08T10:45:00Z",
-                    "title": "Methoden in Immobilienbewertung und Marktanalyse"
                 }
             ],
             "Raum 115D": [
@@ -2506,12 +2321,6 @@
                     "end": "2022-08-09T10:00:00Z",
                     "start": "2022-08-09T06:00:00Z",
                     "title": "Geld und W\u00e4hrung"
-                },
-                {
-                    "course": "WIW20 A",
-                    "end": "2022-08-09T14:45:00Z",
-                    "start": "2022-08-09T10:45:00Z",
-                    "title": "Methoden in Immobilienbewertung und Marktanalyse"
                 }
             ],
             "Raum 106D": [
@@ -2658,25 +2467,25 @@
             ],
             "Raum 067C": [
                 {
-                    "course": "TEL21 D",
+                    "course": "TEL21 AT2",
                     "end": "2022-09-09T08:30:00Z",
                     "start": "2022-09-09T07:00:00Z",
                     "title": "TEL21-WK/NK: Digitaltechnik (90 Min.)"
                 },
                 {
-                    "course": "TEL21 B",
+                    "course": "TEL21 EE",
                     "end": "2022-09-09T08:30:00Z",
                     "start": "2022-09-09T07:00:00Z",
                     "title": "TEL21-WK/NK: Digitaltechnik (90 Min.)"
                 },
                 {
-                    "course": "TEL21 C",
+                    "course": "TEL21 EU",
                     "end": "2022-09-09T08:30:00Z",
                     "start": "2022-09-09T07:00:00Z",
                     "title": "TEL21-WK/NK: Digitaltechnik (90 Min.)"
                 },
                 {
-                    "course": "TEL21 E",
+                    "course": "TEL21 MED",
                     "end": "2022-09-09T08:30:00Z",
                     "start": "2022-09-09T07:00:00Z",
                     "title": "TEL21-WK/NK: Digitaltechnik (90 Min.)"
@@ -2866,14 +2675,6 @@
                     "end": "2022-08-10T15:30:00Z",
                     "start": "2022-08-10T11:00:00Z",
                     "title": "Innovationsmanagement"
-                }
-            ],
-            "Raum 103D": [
-                {
-                    "course": "WIW20 A",
-                    "end": "2022-08-10T14:45:00Z",
-                    "start": "2022-08-10T10:45:00Z",
-                    "title": "Methoden in Immobilienbewertung und Marktanalyse"
                 }
             ],
             "Raum 106D": [
@@ -3452,12 +3253,6 @@
                     "end": "2022-08-12T10:00:00Z",
                     "start": "2022-08-12T08:30:00Z",
                     "title": "Grundz\u00fcge des Arbeits- und Insolvenzrechts"
-                },
-                {
-                    "course": "WIW20 B",
-                    "end": "2022-08-12T14:45:00Z",
-                    "start": "2022-08-12T10:45:00Z",
-                    "title": "Methoden in Immobilienbewertung und Marktanalyse"
                 }
             ],
             "Raum 115D": [
@@ -3632,25 +3427,25 @@
             ],
             "Raum 180C": [
                 {
-                    "course": "TEL21 D",
+                    "course": "TEL21 AT2",
                     "end": "2022-09-12T09:30:00Z",
                     "start": "2022-09-12T08:00:00Z",
                     "title": "TEL21-WK/NK: Physik (90 Min.)"
                 },
                 {
-                    "course": "TEL21 B",
+                    "course": "TEL21 EE",
                     "end": "2022-09-12T09:30:00Z",
                     "start": "2022-09-12T08:00:00Z",
                     "title": "TEL21-WK/NK: Physik (90 Min.)"
                 },
                 {
-                    "course": "TEL21 C",
+                    "course": "TEL21 EU",
                     "end": "2022-09-12T09:30:00Z",
                     "start": "2022-09-12T08:00:00Z",
                     "title": "TEL21-WK/NK: Physik (90 Min.)"
                 },
                 {
-                    "course": "TEL21 E",
+                    "course": "TEL21 MED",
                     "end": "2022-09-12T09:30:00Z",
                     "start": "2022-09-12T08:00:00Z",
                     "title": "TEL21-WK/NK: Physik (90 Min.)"
@@ -4252,25 +4047,25 @@
             ],
             "Raum 180C": [
                 {
-                    "course": "TEL21 D",
+                    "course": "TEL21 AT2",
                     "end": "2022-09-14T10:00:00Z",
                     "start": "2022-09-14T08:00:00Z",
                     "title": "TEL21-WK/NK: Elektronik 1 & Messtechnik 1 (120 Min.)"
                 },
                 {
-                    "course": "TEL21 B",
+                    "course": "TEL21 EE",
                     "end": "2022-09-14T10:00:00Z",
                     "start": "2022-09-14T08:00:00Z",
                     "title": "TEL21-WK/NK: Elektronik 1 & Messtechnik 1 (120 Min.)"
                 },
                 {
-                    "course": "TEL21 C",
+                    "course": "TEL21 EU",
                     "end": "2022-09-14T10:00:00Z",
                     "start": "2022-09-14T08:00:00Z",
                     "title": "TEL21-WK/NK: Elektronik 1 & Messtechnik 1 (120 Min.)"
                 },
                 {
-                    "course": "TEL21 E",
+                    "course": "TEL21 MED",
                     "end": "2022-09-14T10:00:00Z",
                     "start": "2022-09-14T08:00:00Z",
                     "title": "TEL21-WK/NK: Elektronik 1 & Messtechnik 1 (120 Min.)"
@@ -4740,25 +4535,25 @@
         "16.09.2022": {
             "CAD-Raum 05A": [
                 {
-                    "course": "TEL21 D",
+                    "course": "TEL21 AT2",
                     "end": "2022-09-16T11:00:00Z",
                     "start": "2022-09-16T08:00:00Z",
                     "title": "TEL21-WK/NK: Informatik + Labor 2 (120 Min.)"
                 },
                 {
-                    "course": "TEL21 B",
+                    "course": "TEL21 EE",
                     "end": "2022-09-16T11:00:00Z",
                     "start": "2022-09-16T08:00:00Z",
                     "title": "TEL21-WK/NK: Informatik + Labor 2 (120 Min.)"
                 },
                 {
-                    "course": "TEL21 C",
+                    "course": "TEL21 EU",
                     "end": "2022-09-16T11:00:00Z",
                     "start": "2022-09-16T08:00:00Z",
                     "title": "TEL21-WK/NK: Informatik + Labor 2 (120 Min.)"
                 },
                 {
-                    "course": "TEL21 E",
+                    "course": "TEL21 MED",
                     "end": "2022-09-16T11:00:00Z",
                     "start": "2022-09-16T08:00:00Z",
                     "title": "TEL21-WK/NK: Informatik + Labor 2 (120 Min.)"
@@ -5324,25 +5119,25 @@
             ],
             "Raum 323A": [
                 {
-                    "course": "TEL21 D",
+                    "course": "TEL21 AT2",
                     "end": "2022-08-18T10:00:00Z",
                     "start": "2022-08-18T08:00:00Z",
                     "title": "Klausureinsicht"
                 },
                 {
-                    "course": "TEL21 B",
+                    "course": "TEL21 EE",
                     "end": "2022-08-18T10:00:00Z",
                     "start": "2022-08-18T08:00:00Z",
                     "title": "Klausureinsicht"
                 },
                 {
-                    "course": "TEL21 C",
+                    "course": "TEL21 EU",
                     "end": "2022-08-18T10:00:00Z",
                     "start": "2022-08-18T08:00:00Z",
                     "title": "Klausureinsicht"
                 },
                 {
-                    "course": "TEL21 E",
+                    "course": "TEL21 MED",
                     "end": "2022-08-18T10:00:00Z",
                     "start": "2022-08-18T08:00:00Z",
                     "title": "Klausureinsicht"
@@ -5797,25 +5592,25 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "TEL21 A",
+                    "course": "TEL21 AT1",
                     "end": "2022-09-19T07:00:00Z",
                     "start": "2022-09-19T06:00:00Z",
                     "title": "TEL21 - Informationsveranstaltung 2. Studienjahr"
                 },
                 {
-                    "course": "TEL21 D",
+                    "course": "TEL21 AT2",
                     "end": "2022-09-19T07:00:00Z",
                     "start": "2022-09-19T06:00:00Z",
                     "title": "TEL21 - Informationsveranstaltung 2. Studienjahr"
                 },
                 {
-                    "course": "TEL21 B",
+                    "course": "TEL21 EE",
                     "end": "2022-09-19T07:00:00Z",
                     "start": "2022-09-19T06:00:00Z",
                     "title": "TEL21 - Informationsveranstaltung 2. Studienjahr"
                 },
                 {
-                    "course": "TEL21 C",
+                    "course": "TEL21 EU",
                     "end": "2022-09-19T07:00:00Z",
                     "start": "2022-09-19T06:00:00Z",
                     "title": "TEL21 - Informationsveranstaltung 2. Studienjahr"
@@ -6595,13 +6390,13 @@
             ],
             "Raum 112D": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-09-22T19:00:00Z",
                     "start": "2022-09-22T04:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-09-22T19:00:00Z",
                     "start": "2022-09-22T04:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
@@ -6875,13 +6670,13 @@
                     "title": "Wiedeholungsklausuren"
                 },
                 {
-                    "course": "TEL19 EE",
+                    "course": "TEL19 MED",
                     "end": "2022-08-23T10:00:00Z",
                     "start": "2022-08-23T08:00:00Z",
                     "title": "Wiedeholungsklausuren"
                 },
                 {
-                    "course": "TEL19 MED",
+                    "course": "TEL19 EE",
                     "end": "2022-08-23T10:00:00Z",
                     "start": "2022-08-23T08:00:00Z",
                     "title": "Wiedeholungsklausuren"
@@ -6937,13 +6732,13 @@
             ],
             "Raum 112D": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-09-23T18:00:00Z",
                     "start": "2022-09-23T04:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-09-23T18:00:00Z",
                     "start": "2022-09-23T04:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
@@ -7785,13 +7580,13 @@
             ],
             "Raum 112D": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-09-26T18:00:00Z",
                     "start": "2022-09-26T05:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-09-26T18:00:00Z",
                     "start": "2022-09-26T05:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
@@ -7921,13 +7716,13 @@
                     "title": "WK JG20 + 21"
                 },
                 {
-                    "course": "TINF20 IT1",
+                    "course": "TINF20 IT2",
                     "end": "2022-09-26T10:00:00Z",
                     "start": "2022-09-26T08:00:00Z",
                     "title": "WK JG20 + 21"
                 },
                 {
-                    "course": "TINF20 IT2",
+                    "course": "TINF20 IT1",
                     "end": "2022-09-26T10:00:00Z",
                     "start": "2022-09-26T08:00:00Z",
                     "title": "WK JG20 + 21"
@@ -7939,13 +7734,13 @@
                     "title": "WK JG20 + 21"
                 },
                 {
-                    "course": "TINF21 CS1",
+                    "course": "TINF21 CS2",
                     "end": "2022-09-26T10:00:00Z",
                     "start": "2022-09-26T08:00:00Z",
                     "title": "WK JG20 + 21"
                 },
                 {
-                    "course": "TINF21 CS2",
+                    "course": "TINF21 CS1",
                     "end": "2022-09-26T10:00:00Z",
                     "start": "2022-09-26T08:00:00Z",
                     "title": "WK JG20 + 21"
@@ -8090,13 +7885,13 @@
             ],
             "Raum 112D": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-09-27T18:00:00Z",
                     "start": "2022-09-27T05:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-09-27T18:00:00Z",
                     "start": "2022-09-27T05:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
@@ -8359,13 +8154,13 @@
             ],
             "Raum 112D": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-09-28T18:00:00Z",
                     "start": "2022-09-28T05:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-09-28T18:00:00Z",
                     "start": "2022-09-28T05:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
@@ -8587,6 +8382,14 @@
                     "title": "CAS W3M20020"
                 }
             ],
+            "Raum 102D": [
+                {
+                    "course": "WIB21 BI",
+                    "end": "2022-08-29T10:30:00Z",
+                    "start": "2022-08-29T07:30:00Z",
+                    "title": "Wdh. Klausur VWL_W3BW_501"
+                }
+            ],
             "Raum 106D": [
                 {
                     "course": "WRSW21 ST2",
@@ -8675,13 +8478,13 @@
             ],
             "Raum 112D": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-09-29T18:00:00Z",
                     "start": "2022-09-29T05:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-09-29T18:00:00Z",
                     "start": "2022-09-29T05:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
@@ -8795,25 +8598,25 @@
             ],
             "Raum 269C": [
                 {
-                    "course": "TINF20 IT1",
-                    "end": "2022-09-29T10:00:00Z",
-                    "start": "2022-09-29T08:00:00Z",
-                    "title": "WK JG20 + 21"
-                },
-                {
                     "course": "TINF20 IT2",
                     "end": "2022-09-29T10:00:00Z",
                     "start": "2022-09-29T08:00:00Z",
                     "title": "WK JG20 + 21"
                 },
                 {
-                    "course": "TINF21 CS1",
+                    "course": "TINF20 IT1",
                     "end": "2022-09-29T10:00:00Z",
                     "start": "2022-09-29T08:00:00Z",
                     "title": "WK JG20 + 21"
                 },
                 {
                     "course": "TINF21 CS2",
+                    "end": "2022-09-29T10:00:00Z",
+                    "start": "2022-09-29T08:00:00Z",
+                    "title": "WK JG20 + 21"
+                },
+                {
+                    "course": "TINF21 CS1",
                     "end": "2022-09-29T10:00:00Z",
                     "start": "2022-09-29T08:00:00Z",
                     "title": "WK JG20 + 21"
@@ -9099,13 +8902,13 @@
                     "title": "WK JG20 + 21"
                 },
                 {
-                    "course": "TINF21 CS1",
+                    "course": "TINF21 CS2",
                     "end": "2022-09-30T10:00:00Z",
                     "start": "2022-09-30T08:00:00Z",
                     "title": "WK JG20 + 21"
                 },
                 {
-                    "course": "TINF21 CS2",
+                    "course": "TINF21 CS1",
                     "end": "2022-09-30T10:00:00Z",
                     "start": "2022-09-30T08:00:00Z",
                     "title": "WK JG20 + 21"
@@ -9416,25 +9219,25 @@
             ],
             "16.09.2022": [
                 {
-                    "course": "TEL21 D",
+                    "course": "TEL21 AT2",
                     "end": "2022-09-16T11:00:00Z",
                     "start": "2022-09-16T08:00:00Z",
                     "title": "TEL21-WK/NK: Informatik + Labor 2 (120 Min.)"
                 },
                 {
-                    "course": "TEL21 B",
+                    "course": "TEL21 EE",
                     "end": "2022-09-16T11:00:00Z",
                     "start": "2022-09-16T08:00:00Z",
                     "title": "TEL21-WK/NK: Informatik + Labor 2 (120 Min.)"
                 },
                 {
-                    "course": "TEL21 C",
+                    "course": "TEL21 EU",
                     "end": "2022-09-16T11:00:00Z",
                     "start": "2022-09-16T08:00:00Z",
                     "title": "TEL21-WK/NK: Informatik + Labor 2 (120 Min.)"
                 },
                 {
-                    "course": "TEL21 E",
+                    "course": "TEL21 MED",
                     "end": "2022-09-16T11:00:00Z",
                     "start": "2022-09-16T08:00:00Z",
                     "title": "TEL21-WK/NK: Informatik + Labor 2 (120 Min.)"
@@ -9510,14 +9313,6 @@
             ]
         },
         "Raum 004D": {
-            "01.08.2022": [
-                {
-                    "course": "GWAG19 .",
-                    "end": "2022-08-01T10:15:00Z",
-                    "start": "2022-08-01T07:00:00Z",
-                    "title": "Pflegediagnostik u. klinische Entscheidungsfindung"
-                }
-            ],
             "02.08.2022": [
                 {
                     "course": "GWAG19 .",
@@ -10598,25 +10393,25 @@
         "Raum 067C": {
             "05.09.2022": [
                 {
-                    "course": "TEL21 D",
+                    "course": "TEL21 AT2",
                     "end": "2022-09-05T09:30:00Z",
                     "start": "2022-09-05T08:00:00Z",
                     "title": "TEL21-WK/NK: Grundl. Elektrotechnik II (90 Min.)"
                 },
                 {
-                    "course": "TEL21 B",
+                    "course": "TEL21 EE",
                     "end": "2022-09-05T09:30:00Z",
                     "start": "2022-09-05T08:00:00Z",
                     "title": "TEL21-WK/NK: Grundl. Elektrotechnik II (90 Min.)"
                 },
                 {
-                    "course": "TEL21 C",
+                    "course": "TEL21 EU",
                     "end": "2022-09-05T09:30:00Z",
                     "start": "2022-09-05T08:00:00Z",
                     "title": "TEL21-WK/NK: Grundl. Elektrotechnik II (90 Min.)"
                 },
                 {
-                    "course": "TEL21 E",
+                    "course": "TEL21 MED",
                     "end": "2022-09-05T09:30:00Z",
                     "start": "2022-09-05T08:00:00Z",
                     "title": "TEL21-WK/NK: Grundl. Elektrotechnik II (90 Min.)"
@@ -10624,25 +10419,25 @@
             ],
             "07.09.2022": [
                 {
-                    "course": "TEL21 D",
+                    "course": "TEL21 AT2",
                     "end": "2022-09-07T09:30:00Z",
                     "start": "2022-09-07T08:00:00Z",
                     "title": "TEL21-WK/NK: Mathematik II (90 Min.)"
                 },
                 {
-                    "course": "TEL21 B",
+                    "course": "TEL21 EE",
                     "end": "2022-09-07T09:30:00Z",
                     "start": "2022-09-07T08:00:00Z",
                     "title": "TEL21-WK/NK: Mathematik II (90 Min.)"
                 },
                 {
-                    "course": "TEL21 C",
+                    "course": "TEL21 EU",
                     "end": "2022-09-07T09:30:00Z",
                     "start": "2022-09-07T08:00:00Z",
                     "title": "TEL21-WK/NK: Mathematik II (90 Min.)"
                 },
                 {
-                    "course": "TEL21 E",
+                    "course": "TEL21 MED",
                     "end": "2022-09-07T09:30:00Z",
                     "start": "2022-09-07T08:00:00Z",
                     "title": "TEL21-WK/NK: Mathematik II (90 Min.)"
@@ -10650,25 +10445,25 @@
             ],
             "09.09.2022": [
                 {
-                    "course": "TEL21 D",
+                    "course": "TEL21 AT2",
                     "end": "2022-09-09T08:30:00Z",
                     "start": "2022-09-09T07:00:00Z",
                     "title": "TEL21-WK/NK: Digitaltechnik (90 Min.)"
                 },
                 {
-                    "course": "TEL21 B",
+                    "course": "TEL21 EE",
                     "end": "2022-09-09T08:30:00Z",
                     "start": "2022-09-09T07:00:00Z",
                     "title": "TEL21-WK/NK: Digitaltechnik (90 Min.)"
                 },
                 {
-                    "course": "TEL21 C",
+                    "course": "TEL21 EU",
                     "end": "2022-09-09T08:30:00Z",
                     "start": "2022-09-09T07:00:00Z",
                     "title": "TEL21-WK/NK: Digitaltechnik (90 Min.)"
                 },
                 {
-                    "course": "TEL21 E",
+                    "course": "TEL21 MED",
                     "end": "2022-09-09T08:30:00Z",
                     "start": "2022-09-09T07:00:00Z",
                     "title": "TEL21-WK/NK: Digitaltechnik (90 Min.)"
@@ -10745,31 +10540,17 @@
                     "start": "2022-08-08T08:00:00Z",
                     "title": "WKL \"Unternehmensrechnung\", WIB21A"
                 }
+            ],
+            "29.08.2022": [
+                {
+                    "course": "WIB21 BI",
+                    "end": "2022-08-29T10:30:00Z",
+                    "start": "2022-08-29T07:30:00Z",
+                    "title": "Wdh. Klausur VWL_W3BW_501"
+                }
             ]
         },
         "Raum 103D": {
-            "01.08.2022": [
-                {
-                    "course": "WIW20 A",
-                    "end": "2022-08-01T10:00:00Z",
-                    "start": "2022-08-01T06:00:00Z",
-                    "title": "Organisation und Projektmanagement"
-                },
-                {
-                    "course": "WIW20 A",
-                    "end": "2022-08-01T14:45:00Z",
-                    "start": "2022-08-01T10:45:00Z",
-                    "title": "Methoden in Immobilienbewertung und Marktanalyse"
-                }
-            ],
-            "02.08.2022": [
-                {
-                    "course": "WIW20 A",
-                    "end": "2022-08-02T14:45:00Z",
-                    "start": "2022-08-02T10:45:00Z",
-                    "title": "Methoden in Immobilienbewertung und Marktanalyse"
-                }
-            ],
             "04.08.2022": [
                 {
                     "course": "WIW20 A",
@@ -10800,20 +10581,6 @@
                     "end": "2022-08-09T10:00:00Z",
                     "start": "2022-08-09T06:00:00Z",
                     "title": "Geld und W\u00e4hrung"
-                },
-                {
-                    "course": "WIW20 A",
-                    "end": "2022-08-09T14:45:00Z",
-                    "start": "2022-08-09T10:45:00Z",
-                    "title": "Methoden in Immobilienbewertung und Marktanalyse"
-                }
-            ],
-            "10.08.2022": [
-                {
-                    "course": "WIW20 A",
-                    "end": "2022-08-10T14:45:00Z",
-                    "start": "2022-08-10T10:45:00Z",
-                    "title": "Methoden in Immobilienbewertung und Marktanalyse"
                 }
             ],
             "11.08.2022": [
@@ -11122,20 +10889,6 @@
             ]
         },
         "Raum 106D": {
-            "01.08.2022": [
-                {
-                    "course": "WRSW21 ST2",
-                    "end": "2022-08-01T08:30:00Z",
-                    "start": "2022-08-01T06:00:00Z",
-                    "title": "B\u00fcrgerl. Recht II"
-                },
-                {
-                    "course": "WRSW21 ST2",
-                    "end": "2022-08-01T11:15:00Z",
-                    "start": "2022-08-01T08:45:00Z",
-                    "title": "KLR II"
-                }
-            ],
             "02.08.2022": [
                 {
                     "course": "WRSW21 ST2",
@@ -11414,20 +11167,6 @@
             ]
         },
         "Raum 112D": {
-            "01.08.2022": [
-                {
-                    "course": "WRSW19 AC2",
-                    "end": "2022-08-01T09:30:00Z",
-                    "start": "2022-08-01T07:00:00Z",
-                    "title": "Gesellschaftsrecht"
-                },
-                {
-                    "course": "WRSW19 AC2",
-                    "end": "2022-08-01T12:30:00Z",
-                    "start": "2022-08-01T10:00:00Z",
-                    "title": "Rechtsformwahl und Besteuerung"
-                }
-            ],
             "02.08.2022": [
                 {
                     "course": "WRSW19 AC2",
@@ -11550,13 +11289,13 @@
             ],
             "22.09.2022": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-09-22T19:00:00Z",
                     "start": "2022-09-22T04:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-09-22T19:00:00Z",
                     "start": "2022-09-22T04:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
@@ -11564,13 +11303,13 @@
             ],
             "23.09.2022": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-09-23T18:00:00Z",
                     "start": "2022-09-23T04:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-09-23T18:00:00Z",
                     "start": "2022-09-23T04:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
@@ -11594,13 +11333,13 @@
             ],
             "26.09.2022": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-09-26T18:00:00Z",
                     "start": "2022-09-26T05:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-09-26T18:00:00Z",
                     "start": "2022-09-26T05:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
@@ -11608,13 +11347,13 @@
             ],
             "27.09.2022": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-09-27T18:00:00Z",
                     "start": "2022-09-27T05:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-09-27T18:00:00Z",
                     "start": "2022-09-27T05:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
@@ -11622,13 +11361,13 @@
             ],
             "28.09.2022": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-09-28T18:00:00Z",
                     "start": "2022-09-28T05:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-09-28T18:00:00Z",
                     "start": "2022-09-28T05:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
@@ -11636,13 +11375,13 @@
             ],
             "29.09.2022": [
                 {
-                    "course": "WIMBIT19 B",
+                    "course": "WIMBIT19 A",
                     "end": "2022-09-29T18:00:00Z",
                     "start": "2022-09-29T05:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
                 },
                 {
-                    "course": "WIMBIT19 A",
+                    "course": "WIMBIT19 B",
                     "end": "2022-09-29T18:00:00Z",
                     "start": "2022-09-29T05:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
@@ -11650,14 +11389,6 @@
             ]
         },
         "Raum 113D": {
-            "01.08.2022": [
-                {
-                    "course": "WRSW20 AC2",
-                    "end": "2022-08-01T09:45:00Z",
-                    "start": "2022-08-01T06:30:00Z",
-                    "title": "IFRS 2"
-                }
-            ],
             "02.08.2022": [
                 {
                     "course": "WRSW20 AC2",
@@ -11906,12 +11637,12 @@
             ]
         },
         "Raum 114D": {
-            "03.08.2022": [
+            "02.08.2022": [
                 {
                     "course": "WIW20 B",
-                    "end": "2022-08-03T14:45:00Z",
-                    "start": "2022-08-03T10:45:00Z",
-                    "title": "Methoden in Immobilienbewertung und Marktanalyse"
+                    "end": "2022-08-02T10:00:00Z",
+                    "start": "2022-08-02T06:00:00Z",
+                    "title": "Methoden in Immobilienbewertung und Marktanalyse (online)"
                 }
             ],
             "04.08.2022": [
@@ -11936,26 +11667,12 @@
                     "title": "Internationale Verfahren der Immobilienbewertung"
                 }
             ],
-            "08.08.2022": [
-                {
-                    "course": "WIW20 B",
-                    "end": "2022-08-08T14:45:00Z",
-                    "start": "2022-08-08T10:45:00Z",
-                    "title": "Methoden in Immobilienbewertung und Marktanalyse"
-                }
-            ],
             "12.08.2022": [
                 {
                     "course": "WIW20 B",
                     "end": "2022-08-12T10:00:00Z",
                     "start": "2022-08-12T08:30:00Z",
                     "title": "Grundz\u00fcge des Arbeits- und Insolvenzrechts"
-                },
-                {
-                    "course": "WIW20 B",
-                    "end": "2022-08-12T14:45:00Z",
-                    "start": "2022-08-12T10:45:00Z",
-                    "title": "Methoden in Immobilienbewertung und Marktanalyse"
                 }
             ],
             "25.08.2022": [
@@ -11976,20 +11693,6 @@
             ]
         },
         "Raum 115D": {
-            "01.08.2022": [
-                {
-                    "course": "WRSW21 AC2",
-                    "end": "2022-08-01T10:00:00Z",
-                    "start": "2022-08-01T06:00:00Z",
-                    "title": "FiBu II"
-                },
-                {
-                    "course": "WRSW21 AC2",
-                    "end": "2022-08-01T13:30:00Z",
-                    "start": "2022-08-01T11:00:00Z",
-                    "title": "BGB-Rep."
-                }
-            ],
             "01.09.2022": [
                 {
                     "course": "WRSW21 AC2",
@@ -14568,25 +14271,25 @@
             ],
             "12.09.2022": [
                 {
-                    "course": "TEL21 D",
+                    "course": "TEL21 AT2",
                     "end": "2022-09-12T09:30:00Z",
                     "start": "2022-09-12T08:00:00Z",
                     "title": "TEL21-WK/NK: Physik (90 Min.)"
                 },
                 {
-                    "course": "TEL21 B",
+                    "course": "TEL21 EE",
                     "end": "2022-09-12T09:30:00Z",
                     "start": "2022-09-12T08:00:00Z",
                     "title": "TEL21-WK/NK: Physik (90 Min.)"
                 },
                 {
-                    "course": "TEL21 C",
+                    "course": "TEL21 EU",
                     "end": "2022-09-12T09:30:00Z",
                     "start": "2022-09-12T08:00:00Z",
                     "title": "TEL21-WK/NK: Physik (90 Min.)"
                 },
                 {
-                    "course": "TEL21 E",
+                    "course": "TEL21 MED",
                     "end": "2022-09-12T09:30:00Z",
                     "start": "2022-09-12T08:00:00Z",
                     "title": "TEL21-WK/NK: Physik (90 Min.)"
@@ -14602,25 +14305,25 @@
             ],
             "14.09.2022": [
                 {
-                    "course": "TEL21 D",
+                    "course": "TEL21 AT2",
                     "end": "2022-09-14T10:00:00Z",
                     "start": "2022-09-14T08:00:00Z",
                     "title": "TEL21-WK/NK: Elektronik 1 & Messtechnik 1 (120 Min.)"
                 },
                 {
-                    "course": "TEL21 B",
+                    "course": "TEL21 EE",
                     "end": "2022-09-14T10:00:00Z",
                     "start": "2022-09-14T08:00:00Z",
                     "title": "TEL21-WK/NK: Elektronik 1 & Messtechnik 1 (120 Min.)"
                 },
                 {
-                    "course": "TEL21 C",
+                    "course": "TEL21 EU",
                     "end": "2022-09-14T10:00:00Z",
                     "start": "2022-09-14T08:00:00Z",
                     "title": "TEL21-WK/NK: Elektronik 1 & Messtechnik 1 (120 Min.)"
                 },
                 {
-                    "course": "TEL21 E",
+                    "course": "TEL21 MED",
                     "end": "2022-09-14T10:00:00Z",
                     "start": "2022-09-14T08:00:00Z",
                     "title": "TEL21-WK/NK: Elektronik 1 & Messtechnik 1 (120 Min.)"
@@ -14768,14 +14471,6 @@
             ]
         },
         "Raum 208.1D (Gruppenarbeitsraum)": {
-            "01.08.2022": [
-                {
-                    "course": "WMKE20 B",
-                    "end": "2022-08-01T15:15:00Z",
-                    "start": "2022-08-01T11:00:00Z",
-                    "title": "Perso"
-                }
-            ],
             "04.08.2022": [
                 {
                     "course": "WRSW20 ST1",
@@ -15780,13 +15475,13 @@
         "Raum 269C": {
             "01.09.2022": [
                 {
-                    "course": "TINF19 AI1",
+                    "course": "TINF19 CS1",
                     "end": "2022-09-01T10:00:00Z",
                     "start": "2022-09-01T08:00:00Z",
                     "title": "WK JG19 "
                 },
                 {
-                    "course": "TINF19 CS1",
+                    "course": "TINF19 AI1",
                     "end": "2022-09-01T10:00:00Z",
                     "start": "2022-09-01T08:00:00Z",
                     "title": "WK JG19 "
@@ -15844,13 +15539,13 @@
                     "title": "WK JG20 + 21"
                 },
                 {
-                    "course": "TINF20 IT1",
+                    "course": "TINF20 IT2",
                     "end": "2022-09-26T10:00:00Z",
                     "start": "2022-09-26T08:00:00Z",
                     "title": "WK JG20 + 21"
                 },
                 {
-                    "course": "TINF20 IT2",
+                    "course": "TINF20 IT1",
                     "end": "2022-09-26T10:00:00Z",
                     "start": "2022-09-26T08:00:00Z",
                     "title": "WK JG20 + 21"
@@ -15862,13 +15557,13 @@
                     "title": "WK JG20 + 21"
                 },
                 {
-                    "course": "TINF21 CS1",
+                    "course": "TINF21 CS2",
                     "end": "2022-09-26T10:00:00Z",
                     "start": "2022-09-26T08:00:00Z",
                     "title": "WK JG20 + 21"
                 },
                 {
-                    "course": "TINF21 CS2",
+                    "course": "TINF21 CS1",
                     "end": "2022-09-26T10:00:00Z",
                     "start": "2022-09-26T08:00:00Z",
                     "title": "WK JG20 + 21"
@@ -15922,25 +15617,25 @@
             ],
             "29.09.2022": [
                 {
-                    "course": "TINF20 IT1",
-                    "end": "2022-09-29T10:00:00Z",
-                    "start": "2022-09-29T08:00:00Z",
-                    "title": "WK JG20 + 21"
-                },
-                {
                     "course": "TINF20 IT2",
                     "end": "2022-09-29T10:00:00Z",
                     "start": "2022-09-29T08:00:00Z",
                     "title": "WK JG20 + 21"
                 },
                 {
-                    "course": "TINF21 CS1",
+                    "course": "TINF20 IT1",
                     "end": "2022-09-29T10:00:00Z",
                     "start": "2022-09-29T08:00:00Z",
                     "title": "WK JG20 + 21"
                 },
                 {
                     "course": "TINF21 CS2",
+                    "end": "2022-09-29T10:00:00Z",
+                    "start": "2022-09-29T08:00:00Z",
+                    "title": "WK JG20 + 21"
+                },
+                {
+                    "course": "TINF21 CS1",
                     "end": "2022-09-29T10:00:00Z",
                     "start": "2022-09-29T08:00:00Z",
                     "title": "WK JG20 + 21"
@@ -15984,13 +15679,13 @@
                     "title": "WK JG20 + 21"
                 },
                 {
-                    "course": "TINF21 CS1",
+                    "course": "TINF21 CS2",
                     "end": "2022-09-30T10:00:00Z",
                     "start": "2022-09-30T08:00:00Z",
                     "title": "WK JG20 + 21"
                 },
                 {
-                    "course": "TINF21 CS2",
+                    "course": "TINF21 CS1",
                     "end": "2022-09-30T10:00:00Z",
                     "start": "2022-09-30T08:00:00Z",
                     "title": "WK JG20 + 21"
@@ -16024,14 +15719,6 @@
             ]
         },
         "Raum 278C": {
-            "01.08.2022": [
-                {
-                    "course": "WME21 MMK",
-                    "end": "2022-08-01T10:00:00Z",
-                    "start": "2022-08-01T07:00:00Z",
-                    "title": "Webpublishing"
-                }
-            ],
             "02.08.2022": [
                 {
                     "course": "WME21 MMK",
@@ -16418,14 +16105,6 @@
             ]
         },
         "Raum 306D": {
-            "01.08.2022": [
-                {
-                    "course": "WMKE19 B",
-                    "end": "2022-08-01T10:15:00Z",
-                    "start": "2022-08-01T06:00:00Z",
-                    "title": "VWL"
-                }
-            ],
             "01.09.2022": [
                 {
                     "course": "WMKE19 B",
@@ -16996,14 +16675,6 @@
             ]
         },
         "Raum 311D": {
-            "01.08.2022": [
-                {
-                    "course": "WMKE21 B",
-                    "end": "2022-08-01T15:15:00Z",
-                    "start": "2022-08-01T11:00:00Z",
-                    "title": "VWL"
-                }
-            ],
             "01.09.2022": [
                 {
                     "course": "WMKE21 B",
@@ -17324,14 +16995,6 @@
             ]
         },
         "Raum 313D": {
-            "01.08.2022": [
-                {
-                    "course": "WMKE20 B",
-                    "end": "2022-08-01T10:15:00Z",
-                    "start": "2022-08-01T06:00:00Z",
-                    "title": "Recht"
-                }
-            ],
             "01.09.2022": [
                 {
                     "course": "WMKE20 B",
@@ -17628,20 +17291,6 @@
             ]
         },
         "Raum 315D": {
-            "01.08.2022": [
-                {
-                    "course": "WRSW20 ST2",
-                    "end": "2022-08-01T09:30:00Z",
-                    "start": "2022-08-01T07:00:00Z",
-                    "title": "Wiederholungsklausuren (20ST2+21ST2)"
-                },
-                {
-                    "course": "WRSW21 ST2",
-                    "end": "2022-08-01T09:30:00Z",
-                    "start": "2022-08-01T07:00:00Z",
-                    "title": "Wiederholungsklausuren (20ST2+21ST2)"
-                }
-            ],
             "02.08.2022": [
                 {
                     "course": "WRSW19 ST2",
@@ -17862,20 +17511,6 @@
             ]
         },
         "Raum 316D": {
-            "01.08.2022": [
-                {
-                    "course": "WRSW20 ST2",
-                    "end": "2022-08-01T08:30:00Z",
-                    "start": "2022-08-01T06:00:00Z",
-                    "title": "Personengesellschaftsrecht"
-                },
-                {
-                    "course": "WRSW20 ST2",
-                    "end": "2022-08-01T14:30:00Z",
-                    "start": "2022-08-01T08:45:00Z",
-                    "title": "ErbSt"
-                }
-            ],
             "02.08.2022": [
                 {
                     "course": "WRSW20 ST2",
@@ -18168,25 +17803,25 @@
             ],
             "18.08.2022": [
                 {
-                    "course": "TEL21 D",
+                    "course": "TEL21 AT2",
                     "end": "2022-08-18T10:00:00Z",
                     "start": "2022-08-18T08:00:00Z",
                     "title": "Klausureinsicht"
                 },
                 {
-                    "course": "TEL21 B",
+                    "course": "TEL21 EE",
                     "end": "2022-08-18T10:00:00Z",
                     "start": "2022-08-18T08:00:00Z",
                     "title": "Klausureinsicht"
                 },
                 {
-                    "course": "TEL21 C",
+                    "course": "TEL21 EU",
                     "end": "2022-08-18T10:00:00Z",
                     "start": "2022-08-18T08:00:00Z",
                     "title": "Klausureinsicht"
                 },
                 {
-                    "course": "TEL21 E",
+                    "course": "TEL21 MED",
                     "end": "2022-08-18T10:00:00Z",
                     "start": "2022-08-18T08:00:00Z",
                     "title": "Klausureinsicht"
@@ -18226,13 +17861,13 @@
                     "title": "Wiedeholungsklausuren"
                 },
                 {
-                    "course": "TEL19 EE",
+                    "course": "TEL19 MED",
                     "end": "2022-08-23T10:00:00Z",
                     "start": "2022-08-23T08:00:00Z",
                     "title": "Wiedeholungsklausuren"
                 },
                 {
-                    "course": "TEL19 MED",
+                    "course": "TEL19 EE",
                     "end": "2022-08-23T10:00:00Z",
                     "start": "2022-08-23T08:00:00Z",
                     "title": "Wiedeholungsklausuren"
@@ -18288,14 +17923,6 @@
             ]
         },
         "Raum Carl-Benz-H\u00f6rsaal": {
-            "01.08.2022": [
-                {
-                    "course": "WFD21 A",
-                    "end": "2022-08-01T08:30:00Z",
-                    "start": "2022-08-01T06:30:00Z",
-                    "title": "Klausur WFD21A"
-                }
-            ],
             "03.08.2022": [
                 {
                     "course": "WFD21 A",
@@ -18400,26 +18027,6 @@
             ]
         },
         "Raum SV-Auditorium (Audimax)": {
-            "01.08.2022": [
-                {
-                    "course": "WMM21 A",
-                    "end": "2022-08-01T13:30:00Z",
-                    "start": "2022-08-01T06:30:00Z",
-                    "title": " Vorlesung WMM21A, WMM21B und WMM21C"
-                },
-                {
-                    "course": "WMM21 B",
-                    "end": "2022-08-01T13:30:00Z",
-                    "start": "2022-08-01T06:30:00Z",
-                    "title": " Vorlesung WMM21A, WMM21B und WMM21C"
-                },
-                {
-                    "course": "WMM21 C",
-                    "end": "2022-08-01T13:30:00Z",
-                    "start": "2022-08-01T06:30:00Z",
-                    "title": " Vorlesung WMM21A, WMM21B und WMM21C"
-                }
-            ],
             "01.09.2022": [
                 {
                     "course": "WMM21 A",
@@ -18712,25 +18319,25 @@
             ],
             "19.09.2022": [
                 {
-                    "course": "TEL21 A",
+                    "course": "TEL21 AT1",
                     "end": "2022-09-19T07:00:00Z",
                     "start": "2022-09-19T06:00:00Z",
                     "title": "TEL21 - Informationsveranstaltung 2. Studienjahr"
                 },
                 {
-                    "course": "TEL21 D",
+                    "course": "TEL21 AT2",
                     "end": "2022-09-19T07:00:00Z",
                     "start": "2022-09-19T06:00:00Z",
                     "title": "TEL21 - Informationsveranstaltung 2. Studienjahr"
                 },
                 {
-                    "course": "TEL21 B",
+                    "course": "TEL21 EE",
                     "end": "2022-09-19T07:00:00Z",
                     "start": "2022-09-19T06:00:00Z",
                     "title": "TEL21 - Informationsveranstaltung 2. Studienjahr"
                 },
                 {
-                    "course": "TEL21 C",
+                    "course": "TEL21 EU",
                     "end": "2022-09-19T07:00:00Z",
                     "start": "2022-09-19T06:00:00Z",
                     "title": "TEL21 - Informationsveranstaltung 2. Studienjahr"
@@ -18758,5 +18365,5 @@
             ]
         }
     },
-    "last_updated": "2022-08-01T05:52:52Z"
+    "last_updated": "2022-08-02T05:43:13Z"
 }
