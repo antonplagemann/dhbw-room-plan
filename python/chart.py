@@ -154,7 +154,8 @@ class ChartGenerator:
         legend.get_frame().set_linewidth(0.0)
         # Set y ticks distance
         start, end = ax.get_ylim()
-        ax.yaxis.set_ticks(np.arange(start, end, 5))
+        ticks = 1 if start - end <= 10 else 5
+        ax.yaxis.set_ticks(np.arange(start, end, ticks))
 
         # Set x tick labels
         ax.tick_params(axis='both', which='major', labelsize=10)
