@@ -5,11 +5,9 @@ import os
 import re
 import sys
 import threading
-from datetime import date, datetime, time, timedelta, timezone
+from datetime import date, datetime, timezone
 from typing import Dict, List
 
-import matplotlib.pyplot as plt
-import pandas
 import requests
 from dateutil.relativedelta import relativedelta
 from icalevents import icalevents
@@ -200,14 +198,15 @@ class ICalParser():
         chart.generate()
 
 
-# Start
-print("Parser started")
+if __name__ == "__main__":
+    # Start
+    print("Parser started")
 
-parser = ICalParser()
-parser.download_ical_list()
-parser.parse()
-parser.export_json()
-parser.export_mensa_charts()
+    parser = ICalParser()
+    parser.download_ical_list()
+    parser.parse()
+    parser.export_json()
+    parser.export_mensa_charts()
 
-# Finished
-print("Finished")
+    # Finished
+    print("Finished")
