@@ -1,6 +1,6 @@
+import json
 import os
 import sys
-import json
 import pandas
 from datetime import datetime, timedelta, time
 import matplotlib.pyplot as plt
@@ -152,11 +152,11 @@ class ChartGenerator:
         legend = ax.legend(fontsize="large", frameon=True,
                         facecolor=self.options["grid_bg"], framealpha=1)
         legend.get_frame().set_linewidth(0.0)
-        # Set y ticks distance
-        start, end = ax.get_ylim()
-        ticks = 1 if start - end <= 10 else 5
-        ax.yaxis.set_ticks(np.arange(start, end, ticks))
 
+        # Set y ticks distance
+        max_value = max(self.line_values[1][1].values())
+        ticks = 1 if max_value <= 10 else 5
+        ax.yaxis.set_ticks(np.arange(0, max_value + 1, ticks))
         # Set x tick labels
         ax.tick_params(axis='both', which='major', labelsize=10)
         ax.set_xticklabels([date.strftime("%H:%M") for date in x_series])
