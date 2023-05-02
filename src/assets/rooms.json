@@ -1,53 +1,5 @@
 {
     "events_by_date": {
-        "01.05.2023": {
-            "Raum 035B": [
-                {
-                    "course": "TINF21 CS2",
-                    "end": "2023-05-01T10:15:00Z",
-                    "start": "2023-05-01T07:00:00Z",
-                    "title": "KuN"
-                }
-            ],
-            "Raum 137.1B": [
-                {
-                    "course": "WBK22 B",
-                    "end": "2023-05-01T10:30:00Z",
-                    "start": "2023-05-01T06:30:00Z",
-                    "title": "Digitalisierung im Bankbetrieb"
-                },
-                {
-                    "course": "WBK22 B",
-                    "end": "2023-05-01T15:15:00Z",
-                    "start": "2023-05-01T11:15:00Z",
-                    "title": "Finanzbuchf\u00fchrung 2"
-                }
-            ],
-            "Raum 140B": [
-                {
-                    "course": "WBK22 A",
-                    "end": "2023-05-01T15:15:00Z",
-                    "start": "2023-05-01T11:15:00Z",
-                    "title": "Digitalisierung im Bankbetrieb"
-                }
-            ],
-            "Raum 179C": [
-                {
-                    "course": "TINF22 CS2",
-                    "end": "2023-05-01T09:15:00Z",
-                    "start": "2023-05-01T06:00:00Z",
-                    "title": "Programmieren in Java"
-                }
-            ],
-            "Raum 214A": [
-                {
-                    "course": "WBK20 B",
-                    "end": "2023-05-01T14:30:00Z",
-                    "start": "2023-05-01T11:15:00Z",
-                    "title": "Mitarbeiterf\u00fchrung"
-                }
-            ]
-        },
         "01.06.2023": {
             "CAD-Raum 224A": [
                 {
@@ -319,13 +271,13 @@
             ],
             "Raum 105D": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-06-01T11:00:00Z",
                     "start": "2023-06-01T08:00:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-06-01T11:00:00Z",
                     "start": "2023-06-01T08:00:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
@@ -991,6 +943,88 @@
                     "end": "2023-07-01T11:00:00Z",
                     "start": "2023-07-01T07:00:00Z",
                     "title": "Fortgeschrittene Programmierung II"
+                }
+            ]
+        },
+        "01.08.2023": {
+            "Raum 017D": [
+                {
+                    "course": "GWAG20 .",
+                    "end": "2023-08-01T14:15:00Z",
+                    "start": "2023-08-01T12:30:00Z",
+                    "title": "Public Health und Versorgungsforschung"
+                },
+                {
+                    "course": "GWAG20 .",
+                    "end": "2023-08-01T14:15:00Z",
+                    "start": "2023-08-01T12:30:00Z",
+                    "title": "Public Health und Versorgungsforschung"
+                }
+            ],
+            "Raum 018D": [
+                {
+                    "course": "WRSW20 ST2",
+                    "end": "2023-08-01T08:35:00Z",
+                    "start": "2023-08-01T06:00:00Z",
+                    "title": "VWL III: Stab.politik u. int. Beziehung"
+                },
+                {
+                    "course": "WRSW20 ST2",
+                    "end": "2023-08-01T11:15:00Z",
+                    "start": "2023-08-01T08:45:00Z",
+                    "title": "Integrationsseminar Pr\u00fcfungswesen"
+                }
+            ],
+            "Raum 019D": [
+                {
+                    "course": "WRSW21 ST2",
+                    "end": "2023-08-01T08:30:00Z",
+                    "start": "2023-08-01T06:00:00Z",
+                    "title": "Betriebswirtschaftl. Steuerlehre (II)"
+                },
+                {
+                    "course": "WRSW21 ST2",
+                    "end": "2023-08-01T16:30:00Z",
+                    "start": "2023-08-01T13:30:00Z",
+                    "title": "Personengesellschaftsrecht (ONLINE)"
+                }
+            ],
+            "Raum 306D": [
+                {
+                    "course": "WMKE20 B",
+                    "end": "2023-08-01T15:15:00Z",
+                    "start": "2023-08-01T06:00:00Z",
+                    "title": "SQ"
+                }
+            ],
+            "Raum 311D": [
+                {
+                    "course": "WMKE22 B",
+                    "end": "2023-08-01T15:15:00Z",
+                    "start": "2023-08-01T11:00:00Z",
+                    "title": "VWL"
+                }
+            ],
+            "Raum 313D": [
+                {
+                    "course": "WMKE21 B",
+                    "end": "2023-08-01T14:15:00Z",
+                    "start": "2023-08-01T06:00:00Z",
+                    "title": "VWL"
+                }
+            ],
+            "Raum 315D": [
+                {
+                    "course": "WRSW22 ST2",
+                    "end": "2023-08-01T11:15:00Z",
+                    "start": "2023-08-01T08:45:00Z",
+                    "title": "Statistik"
+                },
+                {
+                    "course": "WRSW22 ST2",
+                    "end": "2023-08-01T15:30:00Z",
+                    "start": "2023-08-01T12:00:00Z",
+                    "title": "Fall\u00fcbungen Steuern"
                 }
             ]
         },
@@ -1737,13 +1771,13 @@
             ],
             "Raum 178C": [
                 {
-                    "course": "TEL21 AT2",
+                    "course": "TEL21 MED",
                     "end": "2023-05-02T15:15:00Z",
                     "start": "2023-05-02T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
                 },
                 {
-                    "course": "TEL21 MED",
+                    "course": "TEL21 AT2",
                     "end": "2023-05-02T15:15:00Z",
                     "start": "2023-05-02T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
@@ -3095,7 +3129,7 @@
                 },
                 {
                     "course": "TMB21 F",
-                    "end": "2023-05-03T14:00:00Z",
+                    "end": "2023-05-03T13:00:00Z",
                     "start": "2023-05-03T11:00:00Z",
                     "title": "Messtechnik"
                 }
@@ -3616,7 +3650,7 @@
                 {
                     "course": "TMB22 B",
                     "end": "2023-05-03T10:00:00Z",
-                    "start": "2023-05-03T07:30:00Z",
+                    "start": "2023-05-03T08:30:00Z",
                     "title": "Fertigungstechnik - Spanen"
                 },
                 {
@@ -5309,13 +5343,13 @@
                     "title": "Ada Klausur WSTL22"
                 },
                 {
-                    "course": "WSTL22 C",
+                    "course": "WSTL22 D",
                     "end": "2023-05-04T12:30:00Z",
                     "start": "2023-05-04T11:30:00Z",
                     "title": "Ada Klausur WSTL22"
                 },
                 {
-                    "course": "WSTL22 D",
+                    "course": "WSTL22 C",
                     "end": "2023-05-04T12:30:00Z",
                     "start": "2023-05-04T11:30:00Z",
                     "title": "Ada Klausur WSTL22"
@@ -6200,13 +6234,13 @@
             ],
             "Raum 105D": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-05-05T15:15:00Z",
                     "start": "2023-05-05T12:00:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-05-05T15:15:00Z",
                     "start": "2023-05-05T12:00:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
@@ -6284,13 +6318,13 @@
                     "title": "Schl\u00fcsselqualifikationen II (W3WI_702)"
                 },
                 {
-                    "course": "WIMBIT21 B",
+                    "course": "WIMBIT22 B",
                     "end": "2023-05-05T10:45:00Z",
                     "start": "2023-05-05T10:15:00Z",
                     "title": "Klausureinsichten vom WiSe 22/23"
                 },
                 {
-                    "course": "WIMBIT22 B",
+                    "course": "WIMBIT21 B",
                     "end": "2023-05-05T10:45:00Z",
                     "start": "2023-05-05T10:15:00Z",
                     "title": "Klausureinsichten vom WiSe 22/23"
@@ -6696,13 +6730,13 @@
             ],
             "Raum 305D": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-05-05T11:00:00Z",
                     "start": "2023-05-05T07:45:00Z",
                     "title": "Management (W3WI_204)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-05-05T11:00:00Z",
                     "start": "2023-05-05T07:45:00Z",
                     "title": "Management (W3WI_204)"
@@ -6816,13 +6850,13 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "WIB22 A",
+                    "course": "WIB22 E",
                     "end": "2023-05-05T09:00:00Z",
                     "start": "2023-05-05T08:00:00Z",
                     "title": "Statistik"
                 },
                 {
-                    "course": "WIB22 E",
+                    "course": "WIB22 A",
                     "end": "2023-05-05T09:00:00Z",
                     "start": "2023-05-05T08:00:00Z",
                     "title": "Statistik"
@@ -7770,13 +7804,13 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "WBK20 B",
+                    "course": "WBK20 A",
                     "end": "2023-06-05T10:00:00Z",
                     "start": "2023-06-05T08:00:00Z",
                     "title": "Finanzmanagement"
                 },
                 {
-                    "course": "WBK20 A",
+                    "course": "WBK20 B",
                     "end": "2023-06-05T10:00:00Z",
                     "start": "2023-06-05T08:00:00Z",
                     "title": "Finanzmanagement"
@@ -8386,13 +8420,13 @@
             ],
             "Raum 105D": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-06-06T11:15:00Z",
                     "start": "2023-06-06T08:00:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-06-06T11:15:00Z",
                     "start": "2023-06-06T08:00:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
@@ -8676,13 +8710,13 @@
             ],
             "Raum 178C": [
                 {
-                    "course": "TEL21 AT2",
+                    "course": "TEL21 MED",
                     "end": "2023-06-06T15:15:00Z",
                     "start": "2023-06-06T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
                 },
                 {
-                    "course": "TEL21 MED",
+                    "course": "TEL21 AT2",
                     "end": "2023-06-06T15:15:00Z",
                     "start": "2023-06-06T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
@@ -9615,13 +9649,13 @@
             ],
             "Raum 105A": [
                 {
-                    "course": "TMB22 VT",
+                    "course": "TMB22 VEM",
                     "end": "2023-06-07T08:00:00Z",
                     "start": "2023-06-07T06:30:00Z",
                     "title": "Werkstoffe Klausur"
                 },
                 {
-                    "course": "TMB22 VEM",
+                    "course": "TMB22 VT",
                     "end": "2023-06-07T08:00:00Z",
                     "start": "2023-06-07T06:30:00Z",
                     "title": "Werkstoffe Klausur"
@@ -10271,13 +10305,13 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "WBK20 B",
+                    "course": "WBK20 A",
                     "end": "2023-06-07T10:00:00Z",
                     "start": "2023-06-07T08:00:00Z",
                     "title": "Integriertes Management"
                 },
                 {
-                    "course": "WBK20 A",
+                    "course": "WBK20 B",
                     "end": "2023-06-07T10:00:00Z",
                     "start": "2023-06-07T08:00:00Z",
                     "title": "Integriertes Management"
@@ -12108,13 +12142,13 @@
             ],
             "Raum 105D": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-05-09T10:45:00Z",
                     "start": "2023-05-09T07:30:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-05-09T10:45:00Z",
                     "start": "2023-05-09T07:30:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
@@ -12222,13 +12256,13 @@
                     "title": "Nachhol- bzw. Wiederholungsklausuren"
                 },
                 {
-                    "course": "WIMBIT21 B",
+                    "course": "WIMBIT22 B",
                     "end": "2023-05-09T14:00:00Z",
                     "start": "2023-05-09T12:00:00Z",
                     "title": "Nachhol- bzw. Wiederholungsklausuren"
                 },
                 {
-                    "course": "WIMBIT22 B",
+                    "course": "WIMBIT21 B",
                     "end": "2023-05-09T14:00:00Z",
                     "start": "2023-05-09T12:00:00Z",
                     "title": "Nachhol- bzw. Wiederholungsklausuren"
@@ -12490,13 +12524,13 @@
             ],
             "Raum 178C": [
                 {
-                    "course": "TEL21 AT2",
+                    "course": "TEL21 MED",
                     "end": "2023-05-09T15:15:00Z",
                     "start": "2023-05-09T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
                 },
                 {
-                    "course": "TEL21 MED",
+                    "course": "TEL21 AT2",
                     "end": "2023-05-09T15:15:00Z",
                     "start": "2023-05-09T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
@@ -16224,13 +16258,13 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "WIB22 A",
+                    "course": "WIB22 E",
                     "end": "2023-05-11T09:00:00Z",
                     "start": "2023-05-11T07:00:00Z",
                     "title": "Technik der Finanzbuchf\u00fchrung"
                 },
                 {
-                    "course": "WIB22 E",
+                    "course": "WIB22 A",
                     "end": "2023-05-11T09:00:00Z",
                     "start": "2023-05-11T07:00:00Z",
                     "title": "Technik der Finanzbuchf\u00fchrung"
@@ -17417,13 +17451,13 @@
             ],
             "Raum 305D": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-05-12T11:00:00Z",
                     "start": "2023-05-12T07:45:00Z",
                     "title": "Management (W3WI_204)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-05-12T11:00:00Z",
                     "start": "2023-05-12T07:45:00Z",
                     "title": "Management (W3WI_204)"
@@ -19215,13 +19249,13 @@
             ],
             "Raum 178C": [
                 {
-                    "course": "TEL21 AT2",
+                    "course": "TEL21 MED",
                     "end": "2023-06-13T15:15:00Z",
                     "start": "2023-06-13T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
                 },
                 {
-                    "course": "TEL21 MED",
+                    "course": "TEL21 AT2",
                     "end": "2023-06-13T15:15:00Z",
                     "start": "2023-06-13T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
@@ -19517,13 +19551,13 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "WBK20 B",
+                    "course": "WBK20 A",
                     "end": "2023-06-13T11:00:00Z",
                     "start": "2023-06-13T08:00:00Z",
                     "title": "Bankmanagement"
                 },
                 {
-                    "course": "WBK20 A",
+                    "course": "WBK20 B",
                     "end": "2023-06-13T11:00:00Z",
                     "start": "2023-06-13T08:00:00Z",
                     "title": "Bankmanagement"
@@ -20768,13 +20802,13 @@
                     "title": "TEL22-WK/NK: INFORMATIK I. (120 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 E",
                     "end": "2023-05-15T10:30:00Z",
                     "start": "2023-05-15T07:30:00Z",
                     "title": "TEL22-WK/NK: INFORMATIK I. (120 Min.)"
                 },
                 {
-                    "course": "TEL22 E",
+                    "course": "TEL22 D",
                     "end": "2023-05-15T10:30:00Z",
                     "start": "2023-05-15T07:30:00Z",
                     "title": "TEL22-WK/NK: INFORMATIK I. (120 Min.)"
@@ -21976,13 +22010,13 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "WIB22 A",
+                    "course": "WIB22 E",
                     "end": "2023-05-15T09:00:00Z",
                     "start": "2023-05-15T07:00:00Z",
                     "title": "Unternehmensrechnung"
                 },
                 {
-                    "course": "WIB22 E",
+                    "course": "WIB22 A",
                     "end": "2023-05-15T09:00:00Z",
                     "start": "2023-05-15T07:00:00Z",
                     "title": "Unternehmensrechnung"
@@ -22634,13 +22668,13 @@
             ],
             "Raum Carl-Benz-H\u00f6rsaal": [
                 {
-                    "course": "WBK20 B",
+                    "course": "WBK20 A",
                     "end": "2023-06-15T10:00:00Z",
                     "start": "2023-06-15T08:00:00Z",
                     "title": "Wertpapiermanagement "
                 },
                 {
-                    "course": "WBK20 A",
+                    "course": "WBK20 B",
                     "end": "2023-06-15T10:00:00Z",
                     "start": "2023-06-15T08:00:00Z",
                     "title": "Wertpapiermanagement "
@@ -22853,12 +22887,6 @@
                     "title": "TEL22-WK/NK: GRUNDL. ELEKTROTECHNIK 2 (90 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
-                    "end": "2023-05-16T09:30:00Z",
-                    "start": "2023-05-16T08:00:00Z",
-                    "title": "TEL22-WK/NK: GRUNDL. ELEKTROTECHNIK 2 (90 Min.)"
-                },
-                {
                     "course": "TEL22 C",
                     "end": "2023-05-16T09:30:00Z",
                     "start": "2023-05-16T08:00:00Z",
@@ -22866,6 +22894,12 @@
                 },
                 {
                     "course": "TEL22 E",
+                    "end": "2023-05-16T09:30:00Z",
+                    "start": "2023-05-16T08:00:00Z",
+                    "title": "TEL22-WK/NK: GRUNDL. ELEKTROTECHNIK 2 (90 Min.)"
+                },
+                {
+                    "course": "TEL22 D",
                     "end": "2023-05-16T09:30:00Z",
                     "start": "2023-05-16T08:00:00Z",
                     "title": "TEL22-WK/NK: GRUNDL. ELEKTROTECHNIK 2 (90 Min.)"
@@ -23383,13 +23417,13 @@
             ],
             "Raum 178C": [
                 {
-                    "course": "TEL21 AT2",
+                    "course": "TEL21 MED",
                     "end": "2023-05-16T15:15:00Z",
                     "start": "2023-05-16T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
                 },
                 {
-                    "course": "TEL21 MED",
+                    "course": "TEL21 AT2",
                     "end": "2023-05-16T15:15:00Z",
                     "start": "2023-05-16T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
@@ -24388,12 +24422,6 @@
                     "title": "TEL22-WK/NK: MATHEMATIK I. (90 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
-                    "end": "2023-05-17T09:30:00Z",
-                    "start": "2023-05-17T08:00:00Z",
-                    "title": "TEL22-WK/NK: MATHEMATIK I. (90 Min.)"
-                },
-                {
                     "course": "TEL22 C",
                     "end": "2023-05-17T09:30:00Z",
                     "start": "2023-05-17T08:00:00Z",
@@ -24401,6 +24429,12 @@
                 },
                 {
                     "course": "TEL22 E",
+                    "end": "2023-05-17T09:30:00Z",
+                    "start": "2023-05-17T08:00:00Z",
+                    "title": "TEL22-WK/NK: MATHEMATIK I. (90 Min.)"
+                },
+                {
+                    "course": "TEL22 D",
                     "end": "2023-05-17T09:30:00Z",
                     "start": "2023-05-17T08:00:00Z",
                     "title": "TEL22-WK/NK: MATHEMATIK I. (90 Min.)"
@@ -25512,13 +25546,13 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "WIB22 A",
+                    "course": "WIB22 E",
                     "end": "2023-05-17T09:00:00Z",
                     "start": "2023-05-17T07:00:00Z",
                     "title": "International Business and its Environment"
                 },
                 {
-                    "course": "WIB22 E",
+                    "course": "WIB22 A",
                     "end": "2023-05-17T09:00:00Z",
                     "start": "2023-05-17T07:00:00Z",
                     "title": "International Business and its Environment"
@@ -25998,12 +26032,6 @@
                     "end": "2023-05-19T06:50:00Z",
                     "start": "2023-05-19T06:00:00Z",
                     "title": "Programmieren mit Rust (Wahlmodul Inf) ONLINE"
-                },
-                {
-                    "course": "TINF22 IT2",
-                    "end": "2023-05-19T13:15:00Z",
-                    "start": "2023-05-19T10:30:00Z",
-                    "title": "Informatik und Ethik"
                 },
                 {
                     "course": "TINF22 IT2",
@@ -26842,13 +26870,13 @@
                     "title": "Technik der Finanzbuchf\u00fchrung"
                 },
                 {
-                    "course": "TEL21 AT2",
+                    "course": "TEL21 MED",
                     "end": "2023-06-19T14:00:00Z",
                     "start": "2023-06-19T12:00:00Z",
                     "title": "Klausur Regelungstechnik 1"
                 },
                 {
-                    "course": "TEL21 MED",
+                    "course": "TEL21 AT2",
                     "end": "2023-06-19T14:00:00Z",
                     "start": "2023-06-19T12:00:00Z",
                     "title": "Klausur Regelungstechnik 1"
@@ -26862,13 +26890,13 @@
                     "title": "TEL22BDE-KL: Digitaltechnik (90 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 E",
                     "end": "2023-06-19T07:30:00Z",
                     "start": "2023-06-19T06:00:00Z",
                     "title": "TEL22BDE-KL: Digitaltechnik (90 Min.)"
                 },
                 {
-                    "course": "TEL22 E",
+                    "course": "TEL22 D",
                     "end": "2023-06-19T07:30:00Z",
                     "start": "2023-06-19T06:00:00Z",
                     "title": "TEL22BDE-KL: Digitaltechnik (90 Min.)"
@@ -26886,13 +26914,13 @@
                     "title": "Personalwirtschaft, Organisation und Projektmanagement "
                 },
                 {
-                    "course": "TMB22 A",
+                    "course": "TMB22 B",
                     "end": "2023-06-19T13:30:00Z",
                     "start": "2023-06-19T12:00:00Z",
                     "title": "Klausur Fertigungstechnik"
                 },
                 {
-                    "course": "TMB22 B",
+                    "course": "TMB22 A",
                     "end": "2023-06-19T13:30:00Z",
                     "start": "2023-06-19T12:00:00Z",
                     "title": "Klausur Fertigungstechnik"
@@ -26938,13 +26966,13 @@
                     "title": "Klausur WVS"
                 },
                 {
-                    "course": "TINF22 IT1",
+                    "course": "TINF22 IT2",
                     "end": "2023-06-19T11:45:00Z",
                     "start": "2023-06-19T10:15:00Z",
                     "title": "Digitaltechnik"
                 },
                 {
-                    "course": "TINF22 IT2",
+                    "course": "TINF22 IT1",
                     "end": "2023-06-19T11:45:00Z",
                     "start": "2023-06-19T10:15:00Z",
                     "title": "Digitaltechnik"
@@ -27519,13 +27547,13 @@
                     "title": "Methoden der Wirtschaftsinformatik I (W3WI_101)"
                 },
                 {
-                    "course": "TMB22 A",
+                    "course": "TMB22 B",
                     "end": "2023-06-20T12:00:00Z",
                     "start": "2023-06-20T10:30:00Z",
                     "title": "Klausur Konstruktion II"
                 },
                 {
-                    "course": "TMB22 B",
+                    "course": "TMB22 A",
                     "end": "2023-06-20T12:00:00Z",
                     "start": "2023-06-20T10:30:00Z",
                     "title": "Klausur Konstruktion II"
@@ -27545,13 +27573,13 @@
                     "title": "Finanzierung und Rechnungswesen (W3WI_203)"
                 },
                 {
-                    "course": "TINF22 AI1",
+                    "course": "TINF22 AI2",
                     "end": "2023-06-20T11:00:00Z",
                     "start": "2023-06-20T09:30:00Z",
                     "title": "Digitaltechnik"
                 },
                 {
-                    "course": "TINF22 AI2",
+                    "course": "TINF22 AI1",
                     "end": "2023-06-20T11:00:00Z",
                     "start": "2023-06-20T09:30:00Z",
                     "title": "Digitaltechnik"
@@ -27563,13 +27591,13 @@
                     "title": "Klausur WuL, Einf. Komm.technik"
                 },
                 {
-                    "course": "TEL21 AT2",
+                    "course": "TEL21 MED",
                     "end": "2023-06-20T14:00:00Z",
                     "start": "2023-06-20T12:00:00Z",
                     "title": "Klausur WuL, Einf. Komm.technik"
                 },
                 {
-                    "course": "TEL21 MED",
+                    "course": "TEL21 AT2",
                     "end": "2023-06-20T14:00:00Z",
                     "start": "2023-06-20T12:00:00Z",
                     "title": "Klausur WuL, Einf. Komm.technik"
@@ -28176,13 +28204,13 @@
                     "title": "Klausur Mikrocomputertechnik"
                 },
                 {
-                    "course": "TINF22 AI1",
+                    "course": "TINF22 AI2",
                     "end": "2023-06-21T11:30:00Z",
                     "start": "2023-06-21T10:00:00Z",
                     "title": "Analysis"
                 },
                 {
-                    "course": "TINF22 AI2",
+                    "course": "TINF22 AI1",
                     "end": "2023-06-21T11:30:00Z",
                     "start": "2023-06-21T10:00:00Z",
                     "title": "Analysis"
@@ -28628,13 +28656,13 @@
             ],
             "Raum 067C": [
                 {
-                    "course": "TMB22 VT",
+                    "course": "TMB22 VEM",
                     "end": "2023-05-22T07:30:00Z",
                     "start": "2023-05-22T06:30:00Z",
                     "title": "Pr\u00fcfungsleistung Informatik -Programmentwurf-"
                 },
                 {
-                    "course": "TMB22 VEM",
+                    "course": "TMB22 VT",
                     "end": "2023-05-22T07:30:00Z",
                     "start": "2023-05-22T06:30:00Z",
                     "title": "Pr\u00fcfungsleistung Informatik -Programmentwurf-"
@@ -29534,13 +29562,13 @@
             ],
             "Raum 036B": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-06-22T10:00:00Z",
                     "start": "2023-06-22T08:00:00Z",
                     "title": "IT-Management (W3WI_IBI401)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-06-22T10:00:00Z",
                     "start": "2023-06-22T08:00:00Z",
                     "title": "IT-Management (W3WI_IBI401)"
@@ -30004,13 +30032,13 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "TINF22 IT1",
+                    "course": "TINF22 IT2",
                     "end": "2023-06-22T07:30:00Z",
                     "start": "2023-06-22T06:00:00Z",
                     "title": "Grundlagen und Logik"
                 },
                 {
-                    "course": "TINF22 IT2",
+                    "course": "TINF22 IT1",
                     "end": "2023-06-22T07:30:00Z",
                     "start": "2023-06-22T06:00:00Z",
                     "title": "Grundlagen und Logik"
@@ -30381,13 +30409,13 @@
             ],
             "Raum 105D": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-05-23T10:45:00Z",
                     "start": "2023-05-23T07:30:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-05-23T10:45:00Z",
                     "start": "2023-05-23T07:30:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
@@ -30751,13 +30779,13 @@
             ],
             "Raum 178C": [
                 {
-                    "course": "TEL21 AT2",
+                    "course": "TEL21 MED",
                     "end": "2023-05-23T15:15:00Z",
                     "start": "2023-05-23T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
                 },
                 {
-                    "course": "TEL21 MED",
+                    "course": "TEL21 AT2",
                     "end": "2023-05-23T15:15:00Z",
                     "start": "2023-05-23T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
@@ -31063,13 +31091,13 @@
             ],
             "Raum 305D": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-05-23T14:15:00Z",
                     "start": "2023-05-23T11:00:00Z",
                     "title": "Management (W3WI_204)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-05-23T14:15:00Z",
                     "start": "2023-05-23T11:00:00Z",
                     "title": "Management (W3WI_204)"
@@ -31151,13 +31179,13 @@
             ],
             "Raum Carl-Benz-H\u00f6rsaal": [
                 {
-                    "course": "TMB22 C",
+                    "course": "TMB22 D",
                     "end": "2023-05-23T16:00:00Z",
                     "start": "2023-05-23T14:00:00Z",
                     "title": "Fertigungstechnik"
                 },
                 {
-                    "course": "TMB22 D",
+                    "course": "TMB22 C",
                     "end": "2023-05-23T16:00:00Z",
                     "start": "2023-05-23T14:00:00Z",
                     "title": "Fertigungstechnik"
@@ -34927,13 +34955,13 @@
             ],
             "Raum Carl-Benz-H\u00f6rsaal": [
                 {
-                    "course": "TMB22 A",
+                    "course": "TMB22 B",
                     "end": "2023-05-26T08:30:00Z",
                     "start": "2023-05-26T07:00:00Z",
                     "title": "Klausur Elektrotechnik"
                 },
                 {
-                    "course": "TMB22 B",
+                    "course": "TMB22 A",
                     "end": "2023-05-26T08:30:00Z",
                     "start": "2023-05-26T07:00:00Z",
                     "title": "Klausur Elektrotechnik"
@@ -35423,13 +35451,13 @@
             ],
             "Raum 036B": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-06-27T09:00:00Z",
                     "start": "2023-06-27T08:00:00Z",
                     "title": "Neue Konzepte (W3WI-111)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-06-27T09:00:00Z",
                     "start": "2023-06-27T08:00:00Z",
                     "title": "Neue Konzepte (W3WI-111)"
@@ -36986,14 +37014,6 @@
                     "title": "Regelungstechnik 1"
                 }
             ],
-            "Raum 120A": [
-                {
-                    "course": "TMB22 VT",
-                    "end": "2023-05-30T14:45:00Z",
-                    "start": "2023-05-30T12:00:00Z",
-                    "title": "Fertigungstechnik - Spanen"
-                }
-            ],
             "Raum 121A": [
                 {
                     "course": "TCT 21",
@@ -37120,13 +37140,13 @@
             ],
             "Raum 178C": [
                 {
-                    "course": "TEL21 AT2",
+                    "course": "TEL21 MED",
                     "end": "2023-05-30T15:15:00Z",
                     "start": "2023-05-30T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
                 },
                 {
-                    "course": "TEL21 MED",
+                    "course": "TEL21 AT2",
                     "end": "2023-05-30T15:15:00Z",
                     "start": "2023-05-30T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
@@ -37400,13 +37420,13 @@
             ],
             "Raum 305D": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-05-30T11:15:00Z",
                     "start": "2023-05-30T07:30:00Z",
                     "title": "Management (W3WI_204)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-05-30T11:15:00Z",
                     "start": "2023-05-30T07:30:00Z",
                     "title": "Management (W3WI_204)"
@@ -39109,13 +39129,13 @@
                     "title": "TEL22-WK/NK: INFORMATIK I. (120 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 E",
                     "end": "2023-05-15T10:30:00Z",
                     "start": "2023-05-15T07:30:00Z",
                     "title": "TEL22-WK/NK: INFORMATIK I. (120 Min.)"
                 },
                 {
-                    "course": "TEL22 E",
+                    "course": "TEL22 D",
                     "end": "2023-05-15T10:30:00Z",
                     "start": "2023-05-15T07:30:00Z",
                     "title": "TEL22-WK/NK: INFORMATIK I. (120 Min.)"
@@ -41541,6 +41561,20 @@
                     "title": "Ausgew\u00e4hlte Themen der Wirtschaftspolitik"
                 }
             ],
+            "01.08.2023": [
+                {
+                    "course": "GWAG20 .",
+                    "end": "2023-08-01T14:15:00Z",
+                    "start": "2023-08-01T12:30:00Z",
+                    "title": "Public Health und Versorgungsforschung"
+                },
+                {
+                    "course": "GWAG20 .",
+                    "end": "2023-08-01T14:15:00Z",
+                    "start": "2023-08-01T12:30:00Z",
+                    "title": "Public Health und Versorgungsforschung"
+                }
+            ],
             "02.05.2023": [
                 {
                     "course": "WOW20 A",
@@ -42055,6 +42089,20 @@
                     "title": "Pr\u00fcfungsvorbereitung Gesundheitsmarketing "
                 }
             ],
+            "01.08.2023": [
+                {
+                    "course": "WRSW20 ST2",
+                    "end": "2023-08-01T08:35:00Z",
+                    "start": "2023-08-01T06:00:00Z",
+                    "title": "VWL III: Stab.politik u. int. Beziehung"
+                },
+                {
+                    "course": "WRSW20 ST2",
+                    "end": "2023-08-01T11:15:00Z",
+                    "start": "2023-08-01T08:45:00Z",
+                    "title": "Integrationsseminar Pr\u00fcfungswesen"
+                }
+            ],
             "02.06.2023": [
                 {
                     "course": "GWAG21 .",
@@ -42561,6 +42609,20 @@
                     "end": "2023-06-01T15:00:00Z",
                     "start": "2023-06-01T11:30:00Z",
                     "title": "Personalwirtschaft"
+                }
+            ],
+            "01.08.2023": [
+                {
+                    "course": "WRSW21 ST2",
+                    "end": "2023-08-01T08:30:00Z",
+                    "start": "2023-08-01T06:00:00Z",
+                    "title": "Betriebswirtschaftl. Steuerlehre (II)"
+                },
+                {
+                    "course": "WRSW21 ST2",
+                    "end": "2023-08-01T16:30:00Z",
+                    "start": "2023-08-01T13:30:00Z",
+                    "title": "Personengesellschaftsrecht (ONLINE)"
                 }
             ],
             "02.05.2023": [
@@ -43190,7 +43252,7 @@
                 },
                 {
                     "course": "TMB21 F",
-                    "end": "2023-05-03T14:00:00Z",
+                    "end": "2023-05-03T13:00:00Z",
                     "start": "2023-05-03T11:00:00Z",
                     "title": "Messtechnik"
                 }
@@ -43747,14 +43809,6 @@
             ]
         },
         "Raum 035B": {
-            "01.05.2023": [
-                {
-                    "course": "TINF21 CS2",
-                    "end": "2023-05-01T10:15:00Z",
-                    "start": "2023-05-01T07:00:00Z",
-                    "title": "KuN"
-                }
-            ],
             "01.06.2023": [
                 {
                     "course": "TINF21 CS2",
@@ -44187,12 +44241,6 @@
                     "title": "TEL22-WK/NK: GRUNDL. ELEKTROTECHNIK 2 (90 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
-                    "end": "2023-05-16T09:30:00Z",
-                    "start": "2023-05-16T08:00:00Z",
-                    "title": "TEL22-WK/NK: GRUNDL. ELEKTROTECHNIK 2 (90 Min.)"
-                },
-                {
                     "course": "TEL22 C",
                     "end": "2023-05-16T09:30:00Z",
                     "start": "2023-05-16T08:00:00Z",
@@ -44200,6 +44248,12 @@
                 },
                 {
                     "course": "TEL22 E",
+                    "end": "2023-05-16T09:30:00Z",
+                    "start": "2023-05-16T08:00:00Z",
+                    "title": "TEL22-WK/NK: GRUNDL. ELEKTROTECHNIK 2 (90 Min.)"
+                },
+                {
+                    "course": "TEL22 D",
                     "end": "2023-05-16T09:30:00Z",
                     "start": "2023-05-16T08:00:00Z",
                     "title": "TEL22-WK/NK: GRUNDL. ELEKTROTECHNIK 2 (90 Min.)"
@@ -44233,12 +44287,6 @@
                     "title": "TEL22-WK/NK: MATHEMATIK I. (90 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
-                    "end": "2023-05-17T09:30:00Z",
-                    "start": "2023-05-17T08:00:00Z",
-                    "title": "TEL22-WK/NK: MATHEMATIK I. (90 Min.)"
-                },
-                {
                     "course": "TEL22 C",
                     "end": "2023-05-17T09:30:00Z",
                     "start": "2023-05-17T08:00:00Z",
@@ -44246,6 +44294,12 @@
                 },
                 {
                     "course": "TEL22 E",
+                    "end": "2023-05-17T09:30:00Z",
+                    "start": "2023-05-17T08:00:00Z",
+                    "title": "TEL22-WK/NK: MATHEMATIK I. (90 Min.)"
+                },
+                {
+                    "course": "TEL22 D",
                     "end": "2023-05-17T09:30:00Z",
                     "start": "2023-05-17T08:00:00Z",
                     "title": "TEL22-WK/NK: MATHEMATIK I. (90 Min.)"
@@ -44361,13 +44415,13 @@
             ],
             "22.06.2023": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-06-22T10:00:00Z",
                     "start": "2023-06-22T08:00:00Z",
                     "title": "IT-Management (W3WI_IBI401)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-06-22T10:00:00Z",
                     "start": "2023-06-22T08:00:00Z",
                     "title": "IT-Management (W3WI_IBI401)"
@@ -44461,13 +44515,13 @@
             ],
             "27.06.2023": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-06-27T09:00:00Z",
                     "start": "2023-06-27T08:00:00Z",
                     "title": "Neue Konzepte (W3WI-111)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-06-27T09:00:00Z",
                     "start": "2023-06-27T08:00:00Z",
                     "title": "Neue Konzepte (W3WI-111)"
@@ -45211,12 +45265,6 @@
                     "end": "2023-05-19T06:50:00Z",
                     "start": "2023-05-19T06:00:00Z",
                     "title": "Programmieren mit Rust (Wahlmodul Inf) ONLINE"
-                },
-                {
-                    "course": "TINF22 IT2",
-                    "end": "2023-05-19T13:15:00Z",
-                    "start": "2023-05-19T10:30:00Z",
-                    "title": "Informatik und Ethik"
                 },
                 {
                     "course": "TINF22 IT2",
@@ -49205,13 +49253,13 @@
             ],
             "22.05.2023": [
                 {
-                    "course": "TMB22 VT",
+                    "course": "TMB22 VEM",
                     "end": "2023-05-22T07:30:00Z",
                     "start": "2023-05-22T06:30:00Z",
                     "title": "Pr\u00fcfungsleistung Informatik -Programmentwurf-"
                 },
                 {
-                    "course": "TMB22 VEM",
+                    "course": "TMB22 VT",
                     "end": "2023-05-22T07:30:00Z",
                     "start": "2023-05-22T06:30:00Z",
                     "title": "Pr\u00fcfungsleistung Informatik -Programmentwurf-"
@@ -51157,13 +51205,13 @@
             ],
             "07.06.2023": [
                 {
-                    "course": "TMB22 VT",
+                    "course": "TMB22 VEM",
                     "end": "2023-06-07T08:00:00Z",
                     "start": "2023-06-07T06:30:00Z",
                     "title": "Werkstoffe Klausur"
                 },
                 {
-                    "course": "TMB22 VEM",
+                    "course": "TMB22 VT",
                     "end": "2023-06-07T08:00:00Z",
                     "start": "2023-06-07T06:30:00Z",
                     "title": "Werkstoffe Klausur"
@@ -51491,13 +51539,13 @@
         "Raum 105D": {
             "01.06.2023": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-06-01T11:00:00Z",
                     "start": "2023-06-01T08:00:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-06-01T11:00:00Z",
                     "start": "2023-06-01T08:00:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
@@ -51541,13 +51589,13 @@
             ],
             "05.05.2023": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-05-05T15:15:00Z",
                     "start": "2023-05-05T12:00:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-05-05T15:15:00Z",
                     "start": "2023-05-05T12:00:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
@@ -51569,13 +51617,13 @@
             ],
             "06.06.2023": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-06-06T11:15:00Z",
                     "start": "2023-06-06T08:00:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-06-06T11:15:00Z",
                     "start": "2023-06-06T08:00:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
@@ -51605,13 +51653,13 @@
             ],
             "09.05.2023": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-05-09T10:45:00Z",
                     "start": "2023-05-09T07:30:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-05-09T10:45:00Z",
                     "start": "2023-05-09T07:30:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
@@ -51713,13 +51761,13 @@
             ],
             "23.05.2023": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-05-23T10:45:00Z",
                     "start": "2023-05-23T07:30:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-05-23T10:45:00Z",
                     "start": "2023-05-23T07:30:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
@@ -53661,13 +53709,13 @@
                     "title": "Schl\u00fcsselqualifikationen II (W3WI_702)"
                 },
                 {
-                    "course": "WIMBIT21 B",
+                    "course": "WIMBIT22 B",
                     "end": "2023-05-05T10:45:00Z",
                     "start": "2023-05-05T10:15:00Z",
                     "title": "Klausureinsichten vom WiSe 22/23"
                 },
                 {
-                    "course": "WIMBIT22 B",
+                    "course": "WIMBIT21 B",
                     "end": "2023-05-05T10:45:00Z",
                     "start": "2023-05-05T10:15:00Z",
                     "title": "Klausureinsichten vom WiSe 22/23"
@@ -53749,13 +53797,13 @@
                     "title": "Nachhol- bzw. Wiederholungsklausuren"
                 },
                 {
-                    "course": "WIMBIT21 B",
+                    "course": "WIMBIT22 B",
                     "end": "2023-05-09T14:00:00Z",
                     "start": "2023-05-09T12:00:00Z",
                     "title": "Nachhol- bzw. Wiederholungsklausuren"
                 },
                 {
-                    "course": "WIMBIT22 B",
+                    "course": "WIMBIT21 B",
                     "end": "2023-05-09T14:00:00Z",
                     "start": "2023-05-09T12:00:00Z",
                     "title": "Nachhol- bzw. Wiederholungsklausuren"
@@ -56585,14 +56633,6 @@
                     "title": "Werkstoffe"
                 }
             ],
-            "30.05.2023": [
-                {
-                    "course": "TMB22 VT",
-                    "end": "2023-05-30T14:45:00Z",
-                    "start": "2023-05-30T12:00:00Z",
-                    "title": "Fertigungstechnik - Spanen"
-                }
-            ],
             "31.05.2023": [
                 {
                     "course": "TMB22 VT",
@@ -57917,20 +57957,6 @@
             ]
         },
         "Raum 137.1B": {
-            "01.05.2023": [
-                {
-                    "course": "WBK22 B",
-                    "end": "2023-05-01T10:30:00Z",
-                    "start": "2023-05-01T06:30:00Z",
-                    "title": "Digitalisierung im Bankbetrieb"
-                },
-                {
-                    "course": "WBK22 B",
-                    "end": "2023-05-01T15:15:00Z",
-                    "start": "2023-05-01T11:15:00Z",
-                    "title": "Finanzbuchf\u00fchrung 2"
-                }
-            ],
             "01.06.2023": [
                 {
                     "course": "WBK22 B",
@@ -59009,14 +59035,6 @@
             ]
         },
         "Raum 140B": {
-            "01.05.2023": [
-                {
-                    "course": "WBK22 A",
-                    "end": "2023-05-01T15:15:00Z",
-                    "start": "2023-05-01T11:15:00Z",
-                    "title": "Digitalisierung im Bankbetrieb"
-                }
-            ],
             "01.06.2023": [
                 {
                     "course": "WBK22 A",
@@ -60181,7 +60199,7 @@
                 {
                     "course": "TMB22 B",
                     "end": "2023-05-03T10:00:00Z",
-                    "start": "2023-05-03T07:30:00Z",
+                    "start": "2023-05-03T08:30:00Z",
                     "title": "Fertigungstechnik - Spanen"
                 },
                 {
@@ -61541,13 +61559,13 @@
             ],
             "02.05.2023": [
                 {
-                    "course": "TEL21 AT2",
+                    "course": "TEL21 MED",
                     "end": "2023-05-02T15:15:00Z",
                     "start": "2023-05-02T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
                 },
                 {
-                    "course": "TEL21 MED",
+                    "course": "TEL21 AT2",
                     "end": "2023-05-02T15:15:00Z",
                     "start": "2023-05-02T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
@@ -61591,13 +61609,13 @@
             ],
             "06.06.2023": [
                 {
-                    "course": "TEL21 AT2",
+                    "course": "TEL21 MED",
                     "end": "2023-06-06T15:15:00Z",
                     "start": "2023-06-06T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
                 },
                 {
-                    "course": "TEL21 MED",
+                    "course": "TEL21 AT2",
                     "end": "2023-06-06T15:15:00Z",
                     "start": "2023-06-06T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
@@ -61645,13 +61663,13 @@
             ],
             "09.05.2023": [
                 {
-                    "course": "TEL21 AT2",
+                    "course": "TEL21 MED",
                     "end": "2023-05-09T15:15:00Z",
                     "start": "2023-05-09T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
                 },
                 {
-                    "course": "TEL21 MED",
+                    "course": "TEL21 AT2",
                     "end": "2023-05-09T15:15:00Z",
                     "start": "2023-05-09T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
@@ -61707,13 +61725,13 @@
             ],
             "13.06.2023": [
                 {
-                    "course": "TEL21 AT2",
+                    "course": "TEL21 MED",
                     "end": "2023-06-13T15:15:00Z",
                     "start": "2023-06-13T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
                 },
                 {
-                    "course": "TEL21 MED",
+                    "course": "TEL21 AT2",
                     "end": "2023-06-13T15:15:00Z",
                     "start": "2023-06-13T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
@@ -61749,13 +61767,13 @@
             ],
             "16.05.2023": [
                 {
-                    "course": "TEL21 AT2",
+                    "course": "TEL21 MED",
                     "end": "2023-05-16T15:15:00Z",
                     "start": "2023-05-16T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
                 },
                 {
-                    "course": "TEL21 MED",
+                    "course": "TEL21 AT2",
                     "end": "2023-05-16T15:15:00Z",
                     "start": "2023-05-16T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
@@ -61791,13 +61809,13 @@
             ],
             "23.05.2023": [
                 {
-                    "course": "TEL21 AT2",
+                    "course": "TEL21 MED",
                     "end": "2023-05-23T15:15:00Z",
                     "start": "2023-05-23T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
                 },
                 {
-                    "course": "TEL21 MED",
+                    "course": "TEL21 AT2",
                     "end": "2023-05-23T15:15:00Z",
                     "start": "2023-05-23T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
@@ -61845,13 +61863,13 @@
             ],
             "30.05.2023": [
                 {
-                    "course": "TEL21 AT2",
+                    "course": "TEL21 MED",
                     "end": "2023-05-30T15:15:00Z",
                     "start": "2023-05-30T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
                 },
                 {
-                    "course": "TEL21 MED",
+                    "course": "TEL21 AT2",
                     "end": "2023-05-30T15:15:00Z",
                     "start": "2023-05-30T12:00:00Z",
                     "title": "Wellen und Leitungen + BSS"
@@ -61873,14 +61891,6 @@
             ]
         },
         "Raum 179C": {
-            "01.05.2023": [
-                {
-                    "course": "TINF22 CS2",
-                    "end": "2023-05-01T09:15:00Z",
-                    "start": "2023-05-01T06:00:00Z",
-                    "title": "Programmieren in Java"
-                }
-            ],
             "01.06.2023": [
                 {
                     "course": "TINF22 CS2",
@@ -65091,14 +65101,6 @@
             ]
         },
         "Raum 214A": {
-            "01.05.2023": [
-                {
-                    "course": "WBK20 B",
-                    "end": "2023-05-01T14:30:00Z",
-                    "start": "2023-05-01T11:15:00Z",
-                    "title": "Mitarbeiterf\u00fchrung"
-                }
-            ],
             "02.05.2023": [
                 {
                     "course": "WBK20 B",
@@ -66283,13 +66285,13 @@
                     "title": "Ada Klausur WSTL22"
                 },
                 {
-                    "course": "WSTL22 C",
+                    "course": "WSTL22 D",
                     "end": "2023-05-04T12:30:00Z",
                     "start": "2023-05-04T11:30:00Z",
                     "title": "Ada Klausur WSTL22"
                 },
                 {
-                    "course": "WSTL22 D",
+                    "course": "WSTL22 C",
                     "end": "2023-05-04T12:30:00Z",
                     "start": "2023-05-04T11:30:00Z",
                     "title": "Ada Klausur WSTL22"
@@ -72073,13 +72075,13 @@
                     "title": "Technik der Finanzbuchf\u00fchrung"
                 },
                 {
-                    "course": "TEL21 AT2",
+                    "course": "TEL21 MED",
                     "end": "2023-06-19T14:00:00Z",
                     "start": "2023-06-19T12:00:00Z",
                     "title": "Klausur Regelungstechnik 1"
                 },
                 {
-                    "course": "TEL21 MED",
+                    "course": "TEL21 AT2",
                     "end": "2023-06-19T14:00:00Z",
                     "start": "2023-06-19T12:00:00Z",
                     "title": "Klausur Regelungstechnik 1"
@@ -72955,13 +72957,13 @@
             ],
             "05.05.2023": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-05-05T11:00:00Z",
                     "start": "2023-05-05T07:45:00Z",
                     "title": "Management (W3WI_204)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-05-05T11:00:00Z",
                     "start": "2023-05-05T07:45:00Z",
                     "title": "Management (W3WI_204)"
@@ -73007,13 +73009,13 @@
             ],
             "12.05.2023": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-05-12T11:00:00Z",
                     "start": "2023-05-12T07:45:00Z",
                     "title": "Management (W3WI_204)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-05-12T11:00:00Z",
                     "start": "2023-05-12T07:45:00Z",
                     "title": "Management (W3WI_204)"
@@ -73073,13 +73075,13 @@
             ],
             "23.05.2023": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-05-23T14:15:00Z",
                     "start": "2023-05-23T11:00:00Z",
                     "title": "Management (W3WI_204)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-05-23T14:15:00Z",
                     "start": "2023-05-23T11:00:00Z",
                     "title": "Management (W3WI_204)"
@@ -73111,13 +73113,13 @@
             ],
             "30.05.2023": [
                 {
-                    "course": "WIMBIT20 A",
+                    "course": "WIMBIT20 B",
                     "end": "2023-05-30T11:15:00Z",
                     "start": "2023-05-30T07:30:00Z",
                     "title": "Management (W3WI_204)"
                 },
                 {
-                    "course": "WIMBIT20 B",
+                    "course": "WIMBIT20 A",
                     "end": "2023-05-30T11:15:00Z",
                     "start": "2023-05-30T07:30:00Z",
                     "title": "Management (W3WI_204)"
@@ -73393,6 +73395,14 @@
                     "end": "2023-06-01T15:15:00Z",
                     "start": "2023-06-01T11:00:00Z",
                     "title": "Pr\u00e4sentation WF"
+                }
+            ],
+            "01.08.2023": [
+                {
+                    "course": "WMKE20 B",
+                    "end": "2023-08-01T15:15:00Z",
+                    "start": "2023-08-01T06:00:00Z",
+                    "title": "SQ"
                 }
             ],
             "02.05.2023": [
@@ -74429,6 +74439,14 @@
                     "title": "FI"
                 }
             ],
+            "01.08.2023": [
+                {
+                    "course": "WMKE22 B",
+                    "end": "2023-08-01T15:15:00Z",
+                    "start": "2023-08-01T11:00:00Z",
+                    "title": "VWL"
+                }
+            ],
             "02.05.2023": [
                 {
                     "course": "WMKE22 A",
@@ -74997,6 +75015,14 @@
                     "end": "2023-06-01T15:15:00Z",
                     "start": "2023-06-01T07:00:00Z",
                     "title": "Pr\u00e4sentation VT / EMIL"
+                }
+            ],
+            "01.08.2023": [
+                {
+                    "course": "WMKE21 B",
+                    "end": "2023-08-01T14:15:00Z",
+                    "start": "2023-08-01T06:00:00Z",
+                    "title": "VWL"
                 }
             ],
             "02.05.2023": [
@@ -75589,6 +75615,20 @@
                     "end": "2023-06-01T08:35:00Z",
                     "start": "2023-06-01T06:00:00Z",
                     "title": "Umwandlungssteuerrecht"
+                }
+            ],
+            "01.08.2023": [
+                {
+                    "course": "WRSW22 ST2",
+                    "end": "2023-08-01T11:15:00Z",
+                    "start": "2023-08-01T08:45:00Z",
+                    "title": "Statistik"
+                },
+                {
+                    "course": "WRSW22 ST2",
+                    "end": "2023-08-01T15:30:00Z",
+                    "start": "2023-08-01T12:00:00Z",
+                    "title": "Fall\u00fcbungen Steuern"
                 }
             ],
             "02.05.2023": [
@@ -76721,13 +76761,13 @@
             ],
             "15.06.2023": [
                 {
-                    "course": "WBK20 B",
+                    "course": "WBK20 A",
                     "end": "2023-06-15T10:00:00Z",
                     "start": "2023-06-15T08:00:00Z",
                     "title": "Wertpapiermanagement "
                 },
                 {
-                    "course": "WBK20 A",
+                    "course": "WBK20 B",
                     "end": "2023-06-15T10:00:00Z",
                     "start": "2023-06-15T08:00:00Z",
                     "title": "Wertpapiermanagement "
@@ -76781,13 +76821,13 @@
                     "title": "TEL22BDE-KL: Digitaltechnik (90 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 E",
                     "end": "2023-06-19T07:30:00Z",
                     "start": "2023-06-19T06:00:00Z",
                     "title": "TEL22BDE-KL: Digitaltechnik (90 Min.)"
                 },
                 {
-                    "course": "TEL22 E",
+                    "course": "TEL22 D",
                     "end": "2023-06-19T07:30:00Z",
                     "start": "2023-06-19T06:00:00Z",
                     "title": "TEL22BDE-KL: Digitaltechnik (90 Min.)"
@@ -76805,13 +76845,13 @@
                     "title": "Personalwirtschaft, Organisation und Projektmanagement "
                 },
                 {
-                    "course": "TMB22 A",
+                    "course": "TMB22 B",
                     "end": "2023-06-19T13:30:00Z",
                     "start": "2023-06-19T12:00:00Z",
                     "title": "Klausur Fertigungstechnik"
                 },
                 {
-                    "course": "TMB22 B",
+                    "course": "TMB22 A",
                     "end": "2023-06-19T13:30:00Z",
                     "start": "2023-06-19T12:00:00Z",
                     "title": "Klausur Fertigungstechnik"
@@ -76843,13 +76883,13 @@
                     "title": "Methoden der Wirtschaftsinformatik I (W3WI_101)"
                 },
                 {
-                    "course": "TMB22 A",
+                    "course": "TMB22 B",
                     "end": "2023-06-20T12:00:00Z",
                     "start": "2023-06-20T10:30:00Z",
                     "title": "Klausur Konstruktion II"
                 },
                 {
-                    "course": "TMB22 B",
+                    "course": "TMB22 A",
                     "end": "2023-06-20T12:00:00Z",
                     "start": "2023-06-20T10:30:00Z",
                     "title": "Klausur Konstruktion II"
@@ -76961,13 +77001,13 @@
             ],
             "23.05.2023": [
                 {
-                    "course": "TMB22 C",
+                    "course": "TMB22 D",
                     "end": "2023-05-23T16:00:00Z",
                     "start": "2023-05-23T14:00:00Z",
                     "title": "Fertigungstechnik"
                 },
                 {
-                    "course": "TMB22 D",
+                    "course": "TMB22 C",
                     "end": "2023-05-23T16:00:00Z",
                     "start": "2023-05-23T14:00:00Z",
                     "title": "Fertigungstechnik"
@@ -77047,13 +77087,13 @@
             ],
             "26.05.2023": [
                 {
-                    "course": "TMB22 A",
+                    "course": "TMB22 B",
                     "end": "2023-05-26T08:30:00Z",
                     "start": "2023-05-26T07:00:00Z",
                     "title": "Klausur Elektrotechnik"
                 },
                 {
-                    "course": "TMB22 B",
+                    "course": "TMB22 A",
                     "end": "2023-05-26T08:30:00Z",
                     "start": "2023-05-26T07:00:00Z",
                     "title": "Klausur Elektrotechnik"
@@ -77331,13 +77371,13 @@
             ],
             "05.05.2023": [
                 {
-                    "course": "WIB22 A",
+                    "course": "WIB22 E",
                     "end": "2023-05-05T09:00:00Z",
                     "start": "2023-05-05T08:00:00Z",
                     "title": "Statistik"
                 },
                 {
-                    "course": "WIB22 E",
+                    "course": "WIB22 A",
                     "end": "2023-05-05T09:00:00Z",
                     "start": "2023-05-05T08:00:00Z",
                     "title": "Statistik"
@@ -77345,13 +77385,13 @@
             ],
             "05.06.2023": [
                 {
-                    "course": "WBK20 B",
+                    "course": "WBK20 A",
                     "end": "2023-06-05T10:00:00Z",
                     "start": "2023-06-05T08:00:00Z",
                     "title": "Finanzmanagement"
                 },
                 {
-                    "course": "WBK20 A",
+                    "course": "WBK20 B",
                     "end": "2023-06-05T10:00:00Z",
                     "start": "2023-06-05T08:00:00Z",
                     "title": "Finanzmanagement"
@@ -77359,13 +77399,13 @@
             ],
             "07.06.2023": [
                 {
-                    "course": "WBK20 B",
+                    "course": "WBK20 A",
                     "end": "2023-06-07T10:00:00Z",
                     "start": "2023-06-07T08:00:00Z",
                     "title": "Integriertes Management"
                 },
                 {
-                    "course": "WBK20 A",
+                    "course": "WBK20 B",
                     "end": "2023-06-07T10:00:00Z",
                     "start": "2023-06-07T08:00:00Z",
                     "title": "Integriertes Management"
@@ -77373,13 +77413,13 @@
             ],
             "11.05.2023": [
                 {
-                    "course": "WIB22 A",
+                    "course": "WIB22 E",
                     "end": "2023-05-11T09:00:00Z",
                     "start": "2023-05-11T07:00:00Z",
                     "title": "Technik der Finanzbuchf\u00fchrung"
                 },
                 {
-                    "course": "WIB22 E",
+                    "course": "WIB22 A",
                     "end": "2023-05-11T09:00:00Z",
                     "start": "2023-05-11T07:00:00Z",
                     "title": "Technik der Finanzbuchf\u00fchrung"
@@ -77387,13 +77427,13 @@
             ],
             "13.06.2023": [
                 {
-                    "course": "WBK20 B",
+                    "course": "WBK20 A",
                     "end": "2023-06-13T11:00:00Z",
                     "start": "2023-06-13T08:00:00Z",
                     "title": "Bankmanagement"
                 },
                 {
-                    "course": "WBK20 A",
+                    "course": "WBK20 B",
                     "end": "2023-06-13T11:00:00Z",
                     "start": "2023-06-13T08:00:00Z",
                     "title": "Bankmanagement"
@@ -77401,13 +77441,13 @@
             ],
             "15.05.2023": [
                 {
-                    "course": "WIB22 A",
+                    "course": "WIB22 E",
                     "end": "2023-05-15T09:00:00Z",
                     "start": "2023-05-15T07:00:00Z",
                     "title": "Unternehmensrechnung"
                 },
                 {
-                    "course": "WIB22 E",
+                    "course": "WIB22 A",
                     "end": "2023-05-15T09:00:00Z",
                     "start": "2023-05-15T07:00:00Z",
                     "title": "Unternehmensrechnung"
@@ -77429,13 +77469,13 @@
             ],
             "17.05.2023": [
                 {
-                    "course": "WIB22 A",
+                    "course": "WIB22 E",
                     "end": "2023-05-17T09:00:00Z",
                     "start": "2023-05-17T07:00:00Z",
                     "title": "International Business and its Environment"
                 },
                 {
-                    "course": "WIB22 E",
+                    "course": "WIB22 A",
                     "end": "2023-05-17T09:00:00Z",
                     "start": "2023-05-17T07:00:00Z",
                     "title": "International Business and its Environment"
@@ -77461,13 +77501,13 @@
                     "title": "Klausur WVS"
                 },
                 {
-                    "course": "TINF22 IT1",
+                    "course": "TINF22 IT2",
                     "end": "2023-06-19T11:45:00Z",
                     "start": "2023-06-19T10:15:00Z",
                     "title": "Digitaltechnik"
                 },
                 {
-                    "course": "TINF22 IT2",
+                    "course": "TINF22 IT1",
                     "end": "2023-06-19T11:45:00Z",
                     "start": "2023-06-19T10:15:00Z",
                     "title": "Digitaltechnik"
@@ -77499,13 +77539,13 @@
                     "title": "Finanzierung und Rechnungswesen (W3WI_203)"
                 },
                 {
-                    "course": "TINF22 AI1",
+                    "course": "TINF22 AI2",
                     "end": "2023-06-20T11:00:00Z",
                     "start": "2023-06-20T09:30:00Z",
                     "title": "Digitaltechnik"
                 },
                 {
-                    "course": "TINF22 AI2",
+                    "course": "TINF22 AI1",
                     "end": "2023-06-20T11:00:00Z",
                     "start": "2023-06-20T09:30:00Z",
                     "title": "Digitaltechnik"
@@ -77517,13 +77557,13 @@
                     "title": "Klausur WuL, Einf. Komm.technik"
                 },
                 {
-                    "course": "TEL21 AT2",
+                    "course": "TEL21 MED",
                     "end": "2023-06-20T14:00:00Z",
                     "start": "2023-06-20T12:00:00Z",
                     "title": "Klausur WuL, Einf. Komm.technik"
                 },
                 {
-                    "course": "TEL21 MED",
+                    "course": "TEL21 AT2",
                     "end": "2023-06-20T14:00:00Z",
                     "start": "2023-06-20T12:00:00Z",
                     "title": "Klausur WuL, Einf. Komm.technik"
@@ -77543,13 +77583,13 @@
                     "title": "Klausur Mikrocomputertechnik"
                 },
                 {
-                    "course": "TINF22 AI1",
+                    "course": "TINF22 AI2",
                     "end": "2023-06-21T11:30:00Z",
                     "start": "2023-06-21T10:00:00Z",
                     "title": "Analysis"
                 },
                 {
-                    "course": "TINF22 AI2",
+                    "course": "TINF22 AI1",
                     "end": "2023-06-21T11:30:00Z",
                     "start": "2023-06-21T10:00:00Z",
                     "title": "Analysis"
@@ -77557,13 +77597,13 @@
             ],
             "22.06.2023": [
                 {
-                    "course": "TINF22 IT1",
+                    "course": "TINF22 IT2",
                     "end": "2023-06-22T07:30:00Z",
                     "start": "2023-06-22T06:00:00Z",
                     "title": "Grundlagen und Logik"
                 },
                 {
-                    "course": "TINF22 IT2",
+                    "course": "TINF22 IT1",
                     "end": "2023-06-22T07:30:00Z",
                     "start": "2023-06-22T06:00:00Z",
                     "title": "Grundlagen und Logik"
@@ -77959,5 +77999,5 @@
             ]
         }
     },
-    "last_updated": "2023-05-01T05:14:04Z"
+    "last_updated": "2023-05-02T05:13:27Z"
 }
