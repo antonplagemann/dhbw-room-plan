@@ -4,28 +4,16 @@ updates:
     directory: /
     schedule:
       interval: daily
-    assignees:
-      - antonplagemann
-    reviewers:
-      - antonplagemann
     target-branch: main
 
   - package-ecosystem: pip
     directory: /python
     schedule:
       interval: daily
-    assignees:
-      - antonplagemann
-    reviewers:
-      - antonplagemann
     target-branch: main
 
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: daily
-    assignees:
-      - antonplagemann
-    reviewers:
-      - antonplagemann
     target-branch: main
