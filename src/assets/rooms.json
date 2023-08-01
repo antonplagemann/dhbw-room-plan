@@ -75,7 +75,7 @@
                     "title": "Personengesellschaftsrecht (ONLINE)"
                 }
             ],
-            "Raum 103D": [
+            "Raum 112D": [
                 {
                     "course": "WIW22 B",
                     "end": "2023-08-01T10:30:00Z",
@@ -87,14 +87,6 @@
                     "end": "2023-08-01T15:00:00Z",
                     "start": "2023-08-01T11:00:00Z",
                     "title": "Technische Grundlagen zur Digitalisierung in der Immobilienwirtschaft"
-                }
-            ],
-            "Raum 106D": [
-                {
-                    "course": "WIW20 A",
-                    "end": "2023-08-01T10:00:00Z",
-                    "start": "2023-08-01T06:00:00Z",
-                    "title": "Fallstudien Recht"
                 }
             ],
             "Raum 113D": [
@@ -109,6 +101,14 @@
                     "end": "2023-08-01T12:00:00Z",
                     "start": "2023-08-01T09:30:00Z",
                     "title": "PersG (HB/StB)"
+                }
+            ],
+            "Raum 114D": [
+                {
+                    "course": "WIW20 A",
+                    "end": "2023-08-01T10:00:00Z",
+                    "start": "2023-08-01T06:00:00Z",
+                    "title": "Fallstudien Recht"
                 }
             ],
             "Raum 115D": [
@@ -221,6 +221,38 @@
                     "end": "2023-09-01T14:15:00Z",
                     "start": "2023-09-01T11:00:00Z",
                     "title": "Logistik"
+                }
+            ],
+            "Raum 065C": [
+                {
+                    "course": "TEL21 AT1",
+                    "end": "2023-09-01T10:00:00Z",
+                    "start": "2023-09-01T08:00:00Z",
+                    "title": "TEL21-WK:Regelungstechn. (AT2, MED), Drehstr./Trafo+Leistungselektr.(EE)+Kraftwerkst. (EU), El.2+El.3+Messt. (AT1)"
+                },
+                {
+                    "course": "TEL21 AT2",
+                    "end": "2023-09-01T10:00:00Z",
+                    "start": "2023-09-01T08:00:00Z",
+                    "title": "TEL21-WK:Regelungstechn. (AT2, MED), Drehstr./Trafo+Leistungselektr.(EE)+Kraftwerkst. (EU), El.2+El.3+Messt. (AT1)"
+                },
+                {
+                    "course": "TEL21 EE",
+                    "end": "2023-09-01T10:00:00Z",
+                    "start": "2023-09-01T08:00:00Z",
+                    "title": "TEL21-WK:Regelungstechn. (AT2, MED), Drehstr./Trafo+Leistungselektr.(EE)+Kraftwerkst. (EU), El.2+El.3+Messt. (AT1)"
+                },
+                {
+                    "course": "TEL21 MED",
+                    "end": "2023-09-01T10:00:00Z",
+                    "start": "2023-09-01T08:00:00Z",
+                    "title": "TEL21-WK:Regelungstechn. (AT2, MED), Drehstr./Trafo+Leistungselektr.(EE)+Kraftwerkst. (EU), El.2+El.3+Messt. (AT1)"
+                },
+                {
+                    "course": "TEL21 EU",
+                    "end": "2023-09-01T10:00:00Z",
+                    "start": "2023-09-01T08:00:00Z",
+                    "title": "TEL21-WK:Regelungstechn. (AT2, MED), Drehstr./Trafo+Leistungselektr.(EE)+Kraftwerkst. (EU), El.2+El.3+Messt. (AT1)"
                 }
             ],
             "Raum 066C": [
@@ -683,13 +715,13 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "TINF23 AI2",
+                    "course": "TINF23 AI1",
                     "end": "2023-10-02T08:30:00Z",
                     "start": "2023-10-02T07:00:00Z",
                     "title": "Erstsemesterbegr\u00fc\u00dfung"
                 },
                 {
-                    "course": "TINF23 AI1",
+                    "course": "TINF23 AI2",
                     "end": "2023-10-02T08:30:00Z",
                     "start": "2023-10-02T07:00:00Z",
                     "title": "Erstsemesterbegr\u00fc\u00dfung"
@@ -1089,13 +1121,13 @@
                     "title": "TEL22-WK/NK: DIGITALTECHNIK (90 Min.)"
                 },
                 {
-                    "course": "TEL22 C",
+                    "course": "TEL22 D",
                     "end": "2023-09-04T09:30:00Z",
                     "start": "2023-09-04T08:00:00Z",
                     "title": "TEL22-WK/NK: DIGITALTECHNIK (90 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 C",
                     "end": "2023-09-04T09:30:00Z",
                     "start": "2023-09-04T08:00:00Z",
                     "title": "TEL22-WK/NK: DIGITALTECHNIK (90 Min.)"
@@ -1493,13 +1525,13 @@
         "05.08.2023": {
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "WIW22 B",
+                    "course": "WIW22 A",
                     "end": "2023-08-05T10:00:00Z",
                     "start": "2023-08-05T06:00:00Z",
                     "title": "Vorlesung"
                 },
                 {
-                    "course": "WIW22 A",
+                    "course": "WIW22 B",
                     "end": "2023-08-05T10:00:00Z",
                     "start": "2023-08-05T06:00:00Z",
                     "title": "Vorlesung"
@@ -1900,13 +1932,13 @@
                     "title": "TEL22-WK/NK: PHYSIK (90 Min.)"
                 },
                 {
-                    "course": "TEL22 C",
+                    "course": "TEL22 D",
                     "end": "2023-09-06T09:30:00Z",
                     "start": "2023-09-06T08:00:00Z",
                     "title": "TEL22-WK/NK: PHYSIK (90 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 C",
                     "end": "2023-09-06T09:30:00Z",
                     "start": "2023-09-06T08:00:00Z",
                     "title": "TEL22-WK/NK: PHYSIK (90 Min.)"
@@ -2721,13 +2753,13 @@
                     "title": "TEL22-WK/NK: GRUNDL. ELEKTROTECHNIK II. (90 Min.)"
                 },
                 {
-                    "course": "TEL22 C",
+                    "course": "TEL22 D",
                     "end": "2023-09-08T09:30:00Z",
                     "start": "2023-09-08T08:00:00Z",
                     "title": "TEL22-WK/NK: GRUNDL. ELEKTROTECHNIK II. (90 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 C",
                     "end": "2023-09-08T09:30:00Z",
                     "start": "2023-09-08T08:00:00Z",
                     "title": "TEL22-WK/NK: GRUNDL. ELEKTROTECHNIK II. (90 Min.)"
@@ -3600,14 +3632,6 @@
                     "title": "AO 4"
                 }
             ],
-            "Raum 106D": [
-                {
-                    "course": "WIW20 A",
-                    "end": "2023-08-11T10:00:00Z",
-                    "start": "2023-08-11T06:00:00Z",
-                    "title": "Mitarbeiterunterweisung und -gespr\u00e4che"
-                }
-            ],
             "Raum 113D": [
                 {
                     "course": "WRSW21 AC2",
@@ -3628,14 +3652,6 @@
                     "end": "2023-08-11T12:30:00Z",
                     "start": "2023-08-11T09:15:00Z",
                     "title": "ESt"
-                }
-            ],
-            "Raum 203D": [
-                {
-                    "course": "WIW20 B",
-                    "end": "2023-08-11T15:00:00Z",
-                    "start": "2023-08-11T11:00:00Z",
-                    "title": "Mitarbeiterunterweisung und -gespr\u00e4che"
                 }
             ],
             "Raum 306D": [
@@ -3710,13 +3726,13 @@
                     "title": "TEL22-WK/NK: MATHEMATIK II. (90 Min.)"
                 },
                 {
-                    "course": "TEL22 C",
+                    "course": "TEL22 D",
                     "end": "2023-09-11T09:30:00Z",
                     "start": "2023-09-11T08:00:00Z",
                     "title": "TEL22-WK/NK: MATHEMATIK II. (90 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 C",
                     "end": "2023-09-11T09:30:00Z",
                     "start": "2023-09-11T08:00:00Z",
                     "title": "TEL22-WK/NK: MATHEMATIK II. (90 Min.)"
@@ -4134,6 +4150,12 @@
                     "title": "Intro 5. Semester (Audimax)"
                 },
                 {
+                    "course": "WSTL21 D",
+                    "end": "2023-10-11T15:00:00Z",
+                    "start": "2023-10-11T07:00:00Z",
+                    "title": "Intro 5. Semester (Audimax)"
+                },
+                {
                     "course": "WSTL21 B",
                     "end": "2023-10-11T15:00:00Z",
                     "start": "2023-10-11T07:00:00Z",
@@ -4141,12 +4163,6 @@
                 },
                 {
                     "course": "WSTL21 C",
-                    "end": "2023-10-11T15:00:00Z",
-                    "start": "2023-10-11T07:00:00Z",
-                    "title": "Intro 5. Semester (Audimax)"
-                },
-                {
-                    "course": "WSTL21 D",
                     "end": "2023-10-11T15:00:00Z",
                     "start": "2023-10-11T07:00:00Z",
                     "title": "Intro 5. Semester (Audimax)"
@@ -4163,13 +4179,13 @@
                     "title": "TEL22-WK/NK: INFORMATIK II. (120 Min.)"
                 },
                 {
-                    "course": "TEL22 C",
+                    "course": "TEL22 D",
                     "end": "2023-09-12T10:00:00Z",
                     "start": "2023-09-12T07:00:00Z",
                     "title": "TEL22-WK/NK: INFORMATIK II. (120 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 C",
                     "end": "2023-09-12T10:00:00Z",
                     "start": "2023-09-12T07:00:00Z",
                     "title": "TEL22-WK/NK: INFORMATIK II. (120 Min.)"
@@ -4557,6 +4573,12 @@
                     "title": "Kick-Off IntSem WSTL21 "
                 },
                 {
+                    "course": "WSTL21 D",
+                    "end": "2023-10-12T16:00:00Z",
+                    "start": "2023-10-12T11:00:00Z",
+                    "title": "Kick-Off IntSem WSTL21 "
+                },
+                {
                     "course": "WSTL21 B",
                     "end": "2023-10-12T16:00:00Z",
                     "start": "2023-10-12T11:00:00Z",
@@ -4564,12 +4586,6 @@
                 },
                 {
                     "course": "WSTL21 C",
-                    "end": "2023-10-12T16:00:00Z",
-                    "start": "2023-10-12T11:00:00Z",
-                    "title": "Kick-Off IntSem WSTL21 "
-                },
-                {
-                    "course": "WSTL21 D",
                     "end": "2023-10-12T16:00:00Z",
                     "start": "2023-10-12T11:00:00Z",
                     "title": "Kick-Off IntSem WSTL21 "
@@ -4752,6 +4768,14 @@
                     "end": "2023-09-13T15:15:00Z",
                     "start": "2023-09-13T12:00:00Z",
                     "title": "Produktions- u. Servicemanagement"
+                }
+            ],
+            "Raum 302D": [
+                {
+                    "course": "WRSW20 AC1",
+                    "end": "2023-09-13T09:00:00Z",
+                    "start": "2023-09-13T07:00:00Z",
+                    "title": "WRSW20AC1: Wiederholungsklausur Unternehmensrecht II"
                 }
             ],
             "Raum 306D": [
@@ -5026,13 +5050,13 @@
             ],
             "Raum Carl-Benz-H\u00f6rsaal": [
                 {
-                    "course": "WIW22 B",
+                    "course": "WIW22 A",
                     "end": "2023-08-14T10:30:00Z",
                     "start": "2023-08-14T09:30:00Z",
                     "title": "Statistik"
                 },
                 {
-                    "course": "WIW22 A",
+                    "course": "WIW22 B",
                     "end": "2023-08-14T10:30:00Z",
                     "start": "2023-08-14T09:30:00Z",
                     "title": "Statistik"
@@ -5070,13 +5094,13 @@
                     "title": "TEL22-WK/NK: ELEKTRONIK und MESSTECHNIK I. (120 Min.)"
                 },
                 {
-                    "course": "TEL22 C",
+                    "course": "TEL22 D",
                     "end": "2023-09-14T10:00:00Z",
                     "start": "2023-09-14T08:00:00Z",
                     "title": "TEL22-WK/NK: ELEKTRONIK und MESSTECHNIK I. (120 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 C",
                     "end": "2023-09-14T10:00:00Z",
                     "start": "2023-09-14T08:00:00Z",
                     "title": "TEL22-WK/NK: ELEKTRONIK und MESSTECHNIK I. (120 Min.)"
@@ -5624,13 +5648,13 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "WIW22 B",
+                    "course": "WIW22 A",
                     "end": "2023-08-16T10:00:00Z",
                     "start": "2023-08-16T08:00:00Z",
                     "title": "Unternehmensrechnung"
                 },
                 {
-                    "course": "WIW22 A",
+                    "course": "WIW22 B",
                     "end": "2023-08-16T10:00:00Z",
                     "start": "2023-08-16T08:00:00Z",
                     "title": "Unternehmensrechnung"
@@ -5917,8 +5941,8 @@
                 {
                     "course": "WMKE21 B",
                     "end": "2023-08-17T15:15:00Z",
-                    "start": "2023-08-17T06:00:00Z",
-                    "title": "Selbststudium"
+                    "start": "2023-08-17T07:00:00Z",
+                    "title": "Perso"
                 }
             ]
         },
@@ -6130,6 +6154,12 @@
                     "title": "Dein Start als F\u00fchrungskraft - Leadership Development f\u00fcr Logistikstudentinnen"
                 },
                 {
+                    "course": "WSTL21 D",
+                    "end": "2023-10-17T17:00:00Z",
+                    "start": "2023-10-17T15:00:00Z",
+                    "title": "Dein Start als F\u00fchrungskraft - Leadership Development f\u00fcr Logistikstudentinnen"
+                },
+                {
                     "course": "WSTL21 B",
                     "end": "2023-10-17T17:00:00Z",
                     "start": "2023-10-17T15:00:00Z",
@@ -6137,12 +6167,6 @@
                 },
                 {
                     "course": "WSTL21 C",
-                    "end": "2023-10-17T17:00:00Z",
-                    "start": "2023-10-17T15:00:00Z",
-                    "title": "Dein Start als F\u00fchrungskraft - Leadership Development f\u00fcr Logistikstudentinnen"
-                },
-                {
-                    "course": "WSTL21 D",
                     "end": "2023-10-17T17:00:00Z",
                     "start": "2023-10-17T15:00:00Z",
                     "title": "Dein Start als F\u00fchrungskraft - Leadership Development f\u00fcr Logistikstudentinnen"
@@ -6276,13 +6300,13 @@
                     "title": "KLAUSUREINSICHT F\u00dcR WIEDERHOLER"
                 },
                 {
-                    "course": "TEL22 C",
+                    "course": "TEL22 D",
                     "end": "2023-08-18T08:00:00Z",
                     "start": "2023-08-18T07:00:00Z",
                     "title": "KLAUSUREINSICHT F\u00dcR WIEDERHOLER"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 C",
                     "end": "2023-08-18T08:00:00Z",
                     "start": "2023-08-18T07:00:00Z",
                     "title": "KLAUSUREINSICHT F\u00dcR WIEDERHOLER"
@@ -6310,13 +6334,13 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "WIW22 B",
+                    "course": "WIW22 A",
                     "end": "2023-08-18T10:00:00Z",
                     "start": "2023-08-18T08:00:00Z",
                     "title": "Technik der Finanzbuchf\u00fchrung"
                 },
                 {
-                    "course": "WIW22 A",
+                    "course": "WIW22 B",
                     "end": "2023-08-18T10:00:00Z",
                     "start": "2023-08-18T08:00:00Z",
                     "title": "Technik der Finanzbuchf\u00fchrung"
@@ -6620,13 +6644,13 @@
                     "title": "Informationsveranstaltung 2. Studienjahr"
                 },
                 {
-                    "course": "TEL22 C",
+                    "course": "TEL22 D",
                     "end": "2023-09-18T07:30:00Z",
                     "start": "2023-09-18T06:00:00Z",
                     "title": "Informationsveranstaltung 2. Studienjahr"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 C",
                     "end": "2023-09-18T07:30:00Z",
                     "start": "2023-09-18T06:00:00Z",
                     "title": "Informationsveranstaltung 2. Studienjahr"
@@ -6656,13 +6680,13 @@
                     "title": "Informationsveranstaltung 2. Studienjahr"
                 },
                 {
-                    "course": "TEL22 EE2",
+                    "course": "TEL22 EU",
                     "end": "2023-09-18T07:30:00Z",
                     "start": "2023-09-18T06:00:00Z",
                     "title": "Informationsveranstaltung 2. Studienjahr"
                 },
                 {
-                    "course": "TEL22 EU",
+                    "course": "TEL22 EE2",
                     "end": "2023-09-18T07:30:00Z",
                     "start": "2023-09-18T06:00:00Z",
                     "title": "Informationsveranstaltung 2. Studienjahr"
@@ -7826,13 +7850,13 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "WIW22 B",
+                    "course": "WIW22 A",
                     "end": "2023-08-21T10:00:00Z",
                     "start": "2023-08-21T08:00:00Z",
                     "title": "Betreiben"
                 },
                 {
-                    "course": "WIW22 A",
+                    "course": "WIW22 B",
                     "end": "2023-08-21T10:00:00Z",
                     "start": "2023-08-21T08:00:00Z",
                     "title": "Betreiben"
@@ -8512,13 +8536,13 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "WIW22 B",
+                    "course": "WIW22 A",
                     "end": "2023-08-23T10:00:00Z",
                     "start": "2023-08-23T08:00:00Z",
                     "title": "Recht "
                 },
                 {
-                    "course": "WIW22 A",
+                    "course": "WIW22 B",
                     "end": "2023-08-23T10:00:00Z",
                     "start": "2023-08-23T08:00:00Z",
                     "title": "Recht "
@@ -8960,6 +8984,12 @@
                     "title": " Integrationsseminar Coachingtag I"
                 },
                 {
+                    "course": "WSTL21 D",
+                    "end": "2023-10-24T16:00:00Z",
+                    "start": "2023-10-24T06:00:00Z",
+                    "title": " Integrationsseminar Coachingtag I"
+                },
+                {
                     "course": "WSTL21 B",
                     "end": "2023-10-24T16:00:00Z",
                     "start": "2023-10-24T06:00:00Z",
@@ -8967,12 +8997,6 @@
                 },
                 {
                     "course": "WSTL21 C",
-                    "end": "2023-10-24T16:00:00Z",
-                    "start": "2023-10-24T06:00:00Z",
-                    "title": " Integrationsseminar Coachingtag I"
-                },
-                {
-                    "course": "WSTL21 D",
                     "end": "2023-10-24T16:00:00Z",
                     "start": "2023-10-24T06:00:00Z",
                     "title": " Integrationsseminar Coachingtag I"
@@ -9182,13 +9206,13 @@
             ],
             "Raum SV-Auditorium (Audimax)": [
                 {
-                    "course": "WIW22 B",
+                    "course": "WIW22 A",
                     "end": "2023-08-25T10:00:00Z",
                     "start": "2023-08-25T08:00:00Z",
                     "title": "VWL"
                 },
                 {
-                    "course": "WIW22 A",
+                    "course": "WIW22 B",
                     "end": "2023-08-25T10:00:00Z",
                     "start": "2023-08-25T08:00:00Z",
                     "title": "VWL"
@@ -9342,12 +9366,6 @@
             ],
             "Raum 211D (Gruppenarbeitsraum)": [
                 {
-                    "course": "WSTL20 D",
-                    "end": "2023-09-25T17:00:00Z",
-                    "start": "2023-09-25T06:00:00Z",
-                    "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
-                },
-                {
                     "course": "WSTL20 B",
                     "end": "2023-09-25T17:00:00Z",
                     "start": "2023-09-25T06:00:00Z",
@@ -9355,6 +9373,12 @@
                 },
                 {
                     "course": "WSTL20 C",
+                    "end": "2023-09-25T17:00:00Z",
+                    "start": "2023-09-25T06:00:00Z",
+                    "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
+                },
+                {
+                    "course": "WSTL20 D",
                     "end": "2023-09-25T17:00:00Z",
                     "start": "2023-09-25T06:00:00Z",
                     "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
@@ -9368,12 +9392,6 @@
             ],
             "Raum 213D": [
                 {
-                    "course": "WSTL20 D",
-                    "end": "2023-09-25T18:00:00Z",
-                    "start": "2023-09-25T06:00:00Z",
-                    "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
-                },
-                {
                     "course": "WSTL20 B",
                     "end": "2023-09-25T18:00:00Z",
                     "start": "2023-09-25T06:00:00Z",
@@ -9381,6 +9399,12 @@
                 },
                 {
                     "course": "WSTL20 C",
+                    "end": "2023-09-25T18:00:00Z",
+                    "start": "2023-09-25T06:00:00Z",
+                    "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
+                },
+                {
+                    "course": "WSTL20 D",
                     "end": "2023-09-25T18:00:00Z",
                     "start": "2023-09-25T06:00:00Z",
                     "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
@@ -9763,12 +9787,6 @@
             ],
             "Raum 211D (Gruppenarbeitsraum)": [
                 {
-                    "course": "WSTL20 D",
-                    "end": "2023-09-26T17:00:00Z",
-                    "start": "2023-09-26T06:00:00Z",
-                    "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
-                },
-                {
                     "course": "WSTL20 B",
                     "end": "2023-09-26T17:00:00Z",
                     "start": "2023-09-26T06:00:00Z",
@@ -9776,6 +9794,12 @@
                 },
                 {
                     "course": "WSTL20 C",
+                    "end": "2023-09-26T17:00:00Z",
+                    "start": "2023-09-26T06:00:00Z",
+                    "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
+                },
+                {
+                    "course": "WSTL20 D",
                     "end": "2023-09-26T17:00:00Z",
                     "start": "2023-09-26T06:00:00Z",
                     "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
@@ -9789,12 +9813,6 @@
             ],
             "Raum 213D": [
                 {
-                    "course": "WSTL20 D",
-                    "end": "2023-09-26T18:00:00Z",
-                    "start": "2023-09-26T06:00:00Z",
-                    "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
-                },
-                {
                     "course": "WSTL20 B",
                     "end": "2023-09-26T18:00:00Z",
                     "start": "2023-09-26T06:00:00Z",
@@ -9802,6 +9820,12 @@
                 },
                 {
                     "course": "WSTL20 C",
+                    "end": "2023-09-26T18:00:00Z",
+                    "start": "2023-09-26T06:00:00Z",
+                    "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
+                },
+                {
+                    "course": "WSTL20 D",
                     "end": "2023-09-26T18:00:00Z",
                     "start": "2023-09-26T06:00:00Z",
                     "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
@@ -10210,12 +10234,6 @@
             ],
             "Raum 211D (Gruppenarbeitsraum)": [
                 {
-                    "course": "WSTL20 D",
-                    "end": "2023-09-27T17:00:00Z",
-                    "start": "2023-09-27T06:00:00Z",
-                    "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
-                },
-                {
                     "course": "WSTL20 B",
                     "end": "2023-09-27T17:00:00Z",
                     "start": "2023-09-27T06:00:00Z",
@@ -10223,6 +10241,12 @@
                 },
                 {
                     "course": "WSTL20 C",
+                    "end": "2023-09-27T17:00:00Z",
+                    "start": "2023-09-27T06:00:00Z",
+                    "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
+                },
+                {
+                    "course": "WSTL20 D",
                     "end": "2023-09-27T17:00:00Z",
                     "start": "2023-09-27T06:00:00Z",
                     "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
@@ -10236,12 +10260,6 @@
             ],
             "Raum 213D": [
                 {
-                    "course": "WSTL20 D",
-                    "end": "2023-09-27T18:00:00Z",
-                    "start": "2023-09-27T06:00:00Z",
-                    "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
-                },
-                {
                     "course": "WSTL20 B",
                     "end": "2023-09-27T18:00:00Z",
                     "start": "2023-09-27T06:00:00Z",
@@ -10249,6 +10267,12 @@
                 },
                 {
                     "course": "WSTL20 C",
+                    "end": "2023-09-27T18:00:00Z",
+                    "start": "2023-09-27T06:00:00Z",
+                    "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
+                },
+                {
+                    "course": "WSTL20 D",
                     "end": "2023-09-27T18:00:00Z",
                     "start": "2023-09-27T06:00:00Z",
                     "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
@@ -10476,6 +10500,32 @@
                     "end": "2023-08-28T14:10:00Z",
                     "start": "2023-08-28T12:00:00Z",
                     "title": "Investition und Finanzierung"
+                }
+            ],
+            "Raum 065C": [
+                {
+                    "course": "TEL21 AT1",
+                    "end": "2023-08-28T09:30:00Z",
+                    "start": "2023-08-28T08:00:00Z",
+                    "title": "TEL21-WK: Automation (AT1, AT2), MCT (EE, EU)"
+                },
+                {
+                    "course": "TEL21 AT2",
+                    "end": "2023-08-28T09:30:00Z",
+                    "start": "2023-08-28T08:00:00Z",
+                    "title": "TEL21-WK: Automation (AT1, AT2), MCT (EE, EU)"
+                },
+                {
+                    "course": "TEL21 EE",
+                    "end": "2023-08-28T09:30:00Z",
+                    "start": "2023-08-28T08:00:00Z",
+                    "title": "TEL21-WK: Automation (AT1, AT2), MCT (EE, EU)"
+                },
+                {
+                    "course": "TEL21 EU",
+                    "end": "2023-08-28T09:30:00Z",
+                    "start": "2023-08-28T08:00:00Z",
+                    "title": "TEL21-WK: Automation (AT1, AT2), MCT (EE, EU)"
                 }
             ],
             "Raum 066C": [
@@ -10732,12 +10782,6 @@
             ],
             "Raum 211D (Gruppenarbeitsraum)": [
                 {
-                    "course": "WSTL20 D",
-                    "end": "2023-09-28T17:00:00Z",
-                    "start": "2023-09-28T06:00:00Z",
-                    "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
-                },
-                {
                     "course": "WSTL20 B",
                     "end": "2023-09-28T17:00:00Z",
                     "start": "2023-09-28T06:00:00Z",
@@ -10745,6 +10789,12 @@
                 },
                 {
                     "course": "WSTL20 C",
+                    "end": "2023-09-28T17:00:00Z",
+                    "start": "2023-09-28T06:00:00Z",
+                    "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
+                },
+                {
+                    "course": "WSTL20 D",
                     "end": "2023-09-28T17:00:00Z",
                     "start": "2023-09-28T06:00:00Z",
                     "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
@@ -10758,12 +10808,6 @@
             ],
             "Raum 213D": [
                 {
-                    "course": "WSTL20 D",
-                    "end": "2023-09-28T18:00:00Z",
-                    "start": "2023-09-28T06:00:00Z",
-                    "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
-                },
-                {
                     "course": "WSTL20 B",
                     "end": "2023-09-28T18:00:00Z",
                     "start": "2023-09-28T06:00:00Z",
@@ -10771,6 +10815,12 @@
                 },
                 {
                     "course": "WSTL20 C",
+                    "end": "2023-09-28T18:00:00Z",
+                    "start": "2023-09-28T06:00:00Z",
+                    "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
+                },
+                {
+                    "course": "WSTL20 D",
                     "end": "2023-09-28T18:00:00Z",
                     "start": "2023-09-28T06:00:00Z",
                     "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
@@ -10935,6 +10985,32 @@
                     "end": "2023-08-29T11:15:00Z",
                     "start": "2023-08-29T08:45:00Z",
                     "title": "Statistik"
+                }
+            ],
+            "Raum Carl-Benz-H\u00f6rsaal": [
+                {
+                    "course": "TEL21 AT1",
+                    "end": "2023-08-29T10:00:00Z",
+                    "start": "2023-08-29T08:00:00Z",
+                    "title": "TEL21-WK: Regelungstechnik ( (AT1, EE), El.2+El.3+Messtechnik (EE, EU, MED)"
+                },
+                {
+                    "course": "TEL21 EE",
+                    "end": "2023-08-29T10:00:00Z",
+                    "start": "2023-08-29T08:00:00Z",
+                    "title": "TEL21-WK: Regelungstechnik ( (AT1, EE), El.2+El.3+Messtechnik (EE, EU, MED)"
+                },
+                {
+                    "course": "TEL21 MED",
+                    "end": "2023-08-29T10:00:00Z",
+                    "start": "2023-08-29T08:00:00Z",
+                    "title": "TEL21-WK: Regelungstechnik ( (AT1, EE), El.2+El.3+Messtechnik (EE, EU, MED)"
+                },
+                {
+                    "course": "TEL21 EU",
+                    "end": "2023-08-29T10:00:00Z",
+                    "start": "2023-08-29T08:00:00Z",
+                    "title": "TEL21-WK: Regelungstechnik ( (AT1, EE), El.2+El.3+Messtechnik (EE, EU, MED)"
                 }
             ]
         },
@@ -11413,204 +11489,6 @@
                 }
             ]
         },
-        "31.07.2023": {
-            "Raum 005D": [
-                {
-                    "course": "WIW22 A",
-                    "end": "2023-07-31T10:30:00Z",
-                    "start": "2023-07-31T06:30:00Z",
-                    "title": "B\u00fcrgerliches Recht"
-                },
-                {
-                    "course": "WIW22 A",
-                    "end": "2023-07-31T15:00:00Z",
-                    "start": "2023-07-31T11:00:00Z",
-                    "title": "Technische Grundlagen zur Digitalisierung in der Immobilienwirtschaft"
-                }
-            ],
-            "Raum 017D": [
-                {
-                    "course": "GWAG20 .",
-                    "end": "2023-07-31T10:15:00Z",
-                    "start": "2023-07-31T07:00:00Z",
-                    "title": "Public Health und Versorgungsforschung"
-                },
-                {
-                    "course": "GWAG20 .",
-                    "end": "2023-07-31T10:15:00Z",
-                    "start": "2023-07-31T07:00:00Z",
-                    "title": "Public Health und Versorgungsforschung"
-                },
-                {
-                    "course": "GWAG20 .",
-                    "end": "2023-07-31T13:00:00Z",
-                    "start": "2023-07-31T11:00:00Z",
-                    "title": "Public Health und Versorgungsforschung"
-                },
-                {
-                    "course": "GWAG20 .",
-                    "end": "2023-07-31T13:00:00Z",
-                    "start": "2023-07-31T11:00:00Z",
-                    "title": "Public Health und Versorgungsforschung"
-                }
-            ],
-            "Raum 019D": [
-                {
-                    "course": "WRSW21 ST2",
-                    "end": "2023-07-31T11:15:00Z",
-                    "start": "2023-07-31T08:45:00Z",
-                    "title": "ESt 5"
-                },
-                {
-                    "course": "WRSW21 ST2",
-                    "end": "2023-07-31T15:15:00Z",
-                    "start": "2023-07-31T12:00:00Z",
-                    "title": "ReWe IV: Bil.3"
-                }
-            ],
-            "Raum 101D": [
-                {
-                    "course": "WIB22 E",
-                    "end": "2023-07-31T10:00:00Z",
-                    "start": "2023-07-31T08:00:00Z",
-                    "title": "Wiederholungsklausur "
-                },
-                {
-                    "course": "WIB22 A",
-                    "end": "2023-07-31T10:00:00Z",
-                    "start": "2023-07-31T08:00:00Z",
-                    "title": "Wiederholungsklausur "
-                }
-            ],
-            "Raum 103D": [
-                {
-                    "course": "WIW22 B",
-                    "end": "2023-07-31T10:30:00Z",
-                    "start": "2023-07-31T06:30:00Z",
-                    "title": "Technische Grundlagen zur Digitalisierung in der Immobilienwirtschaft"
-                },
-                {
-                    "course": "WIW22 B",
-                    "end": "2023-07-31T15:30:00Z",
-                    "start": "2023-07-31T11:30:00Z",
-                    "title": "B\u00fcrgerliches Recht"
-                }
-            ],
-            "Raum 106D": [
-                {
-                    "course": "WIW20 A",
-                    "end": "2023-07-31T10:00:00Z",
-                    "start": "2023-07-31T06:00:00Z",
-                    "title": "Fallstudien Recht"
-                }
-            ],
-            "Raum 112D": [
-                {
-                    "course": "WRSW20 AC2",
-                    "end": "2023-07-31T12:30:00Z",
-                    "start": "2023-07-31T10:00:00Z",
-                    "title": "Rechtsformw."
-                }
-            ],
-            "Raum 113D": [
-                {
-                    "course": "WRSW21 AC2",
-                    "end": "2023-07-31T09:45:00Z",
-                    "start": "2023-07-31T06:30:00Z",
-                    "title": "IFRS 2"
-                }
-            ],
-            "Raum 114D": [
-                {
-                    "course": "WIW20 B",
-                    "end": "2023-07-31T10:00:00Z",
-                    "start": "2023-07-31T06:00:00Z",
-                    "title": "Moderne Immobilienfinanzierung"
-                }
-            ],
-            "Raum 115D": [
-                {
-                    "course": "WRSW22 AC2",
-                    "end": "2023-07-31T14:30:00Z",
-                    "start": "2023-07-31T11:00:00Z",
-                    "title": "BGB II"
-                }
-            ],
-            "Raum 137B": [
-                {
-                    "course": "WWI21 AMA",
-                    "end": "2023-07-31T10:30:00Z",
-                    "start": "2023-07-31T07:30:00Z",
-                    "title": "Wiederholungsklausuren"
-                }
-            ],
-            "Raum 306D": [
-                {
-                    "course": "WMKE20 B",
-                    "end": "2023-07-31T15:15:00Z",
-                    "start": "2023-07-31T06:00:00Z",
-                    "title": "SQ"
-                }
-            ],
-            "Raum 311D": [
-                {
-                    "course": "WMKE22 B",
-                    "end": "2023-07-31T15:15:00Z",
-                    "start": "2023-07-31T11:00:00Z",
-                    "title": "VD"
-                }
-            ],
-            "Raum 313D": [
-                {
-                    "course": "WMKE21 B",
-                    "end": "2023-07-31T15:15:00Z",
-                    "start": "2023-07-31T06:00:00Z",
-                    "title": "VWL"
-                }
-            ],
-            "Raum 323A": [
-                {
-                    "course": "TEL20 AT1",
-                    "end": "2023-07-31T10:30:00Z",
-                    "start": "2023-07-31T08:30:00Z",
-                    "title": "WK: Regelungssysteme, Elek. Anlagen und Netze"
-                },
-                {
-                    "course": "TEL20 EE",
-                    "end": "2023-07-31T10:30:00Z",
-                    "start": "2023-07-31T08:30:00Z",
-                    "title": "WK: Regelungssysteme, Elek. Anlagen und Netze"
-                }
-            ],
-            "Raum Heinrich-Vetter-H\u00f6rsaal": [
-                {
-                    "course": "WFD22 A",
-                    "end": "2023-07-31T08:30:00Z",
-                    "start": "2023-07-31T06:30:00Z",
-                    "title": "Klausur BWL-FDL"
-                }
-            ],
-            "Raum SV-Auditorium (Audimax)": [
-                {
-                    "course": "WMM22 A",
-                    "end": "2023-07-31T14:00:00Z",
-                    "start": "2023-07-31T06:00:00Z",
-                    "title": "Reservierung f\u00fcr WMM22"
-                },
-                {
-                    "course": "WMM22 B",
-                    "end": "2023-07-31T14:00:00Z",
-                    "start": "2023-07-31T06:00:00Z",
-                    "title": "Reservierung f\u00fcr WMM22"
-                },
-                {
-                    "course": "WMM22 C",
-                    "end": "2023-07-31T14:00:00Z",
-                    "start": "2023-07-31T06:00:00Z",
-                    "title": "Reservierung f\u00fcr WMM22"
-                }
-            ]
-        },
         "31.08.2023": {
             "Raum 006D": [
                 {
@@ -11648,6 +11526,26 @@
                     "end": "2023-08-31T15:15:00Z",
                     "start": "2023-08-31T12:00:00Z",
                     "title": "Logistik"
+                }
+            ],
+            "Raum 065C": [
+                {
+                    "course": "TEL21 AT1",
+                    "end": "2023-08-31T10:00:00Z",
+                    "start": "2023-08-31T08:00:00Z",
+                    "title": "TEL21-WK: WuL/Komm.techn. (AT1, AT2), Regelungstechnik (EU)"
+                },
+                {
+                    "course": "TEL21 AT2",
+                    "end": "2023-08-31T10:00:00Z",
+                    "start": "2023-08-31T08:00:00Z",
+                    "title": "TEL21-WK: WuL/Komm.techn. (AT1, AT2), Regelungstechnik (EU)"
+                },
+                {
+                    "course": "TEL21 EU",
+                    "end": "2023-08-31T10:00:00Z",
+                    "start": "2023-08-31T08:00:00Z",
+                    "title": "TEL21-WK: WuL/Komm.techn. (AT1, AT2), Regelungstechnik (EU)"
                 }
             ],
             "Raum 115D": [
@@ -11720,6 +11618,152 @@
                     "title": "Pr\u00e4s. VT"
                 }
             ]
+        },
+        "31.10.2023": {
+            "Raum 062C": [
+                {
+                    "course": "WWI22 AMA",
+                    "end": "2023-10-31T11:30:00Z",
+                    "start": "2023-10-31T08:00:00Z",
+                    "title": "Pr\u00e4sentationen Webprogrammierung"
+                }
+            ],
+            "Raum 113D": [
+                {
+                    "course": "WIMBIT22 B",
+                    "end": "2023-10-31T11:15:00Z",
+                    "start": "2023-10-31T08:00:00Z",
+                    "title": "Wirtschaftsenglisch I (W3WI_IBI305)"
+                },
+                {
+                    "course": "WIMBIT22 A",
+                    "end": "2023-10-31T15:15:00Z",
+                    "start": "2023-10-31T12:00:00Z",
+                    "title": "Wirtschaftsenglisch I (W3WI_IBI305)"
+                },
+                {
+                    "course": "WIMBIT22 B",
+                    "end": "2023-10-31T15:15:00Z",
+                    "start": "2023-10-31T12:00:00Z",
+                    "title": "Wirtschaftsenglisch I (W3WI_IBI305)"
+                }
+            ],
+            "Raum 116A": [
+                {
+                    "course": "WFD21 A",
+                    "end": "2023-10-31T11:15:00Z",
+                    "start": "2023-10-31T08:00:00Z",
+                    "title": "Volkswirtschaftslehre III"
+                },
+                {
+                    "course": "WFD21 A",
+                    "end": "2023-10-31T15:45:00Z",
+                    "start": "2023-10-31T11:45:00Z",
+                    "title": "Integrationsseminar"
+                }
+            ],
+            "Raum 117D": [
+                {
+                    "course": "WIMBIT23 B",
+                    "end": "2023-10-31T11:15:00Z",
+                    "start": "2023-10-31T08:00:00Z",
+                    "title": "Grundlegende Konzepte der IT (W3WI_104)"
+                },
+                {
+                    "course": "WIMBIT23 B",
+                    "end": "2023-10-31T17:15:00Z",
+                    "start": "2023-10-31T13:30:00Z",
+                    "title": "Recht (W3WI_506)"
+                }
+            ],
+            "Raum 152B": [
+                {
+                    "course": "TMB22 A",
+                    "end": "2023-10-31T15:45:00Z",
+                    "start": "2023-10-31T12:15:00Z",
+                    "title": "Messtechnik"
+                },
+                {
+                    "course": "TMB22 A",
+                    "end": "2023-10-31T17:30:00Z",
+                    "start": "2023-10-31T16:00:00Z",
+                    "title": "Thermodynamik 1"
+                }
+            ],
+            "Raum 180C": [
+                {
+                    "course": "WWI22 SEA",
+                    "end": "2023-10-31T15:00:00Z",
+                    "start": "2023-10-31T13:00:00Z",
+                    "title": "Datenbanken"
+                }
+            ],
+            "Raum 202D": [
+                {
+                    "course": "WSTL21 B",
+                    "end": "2023-10-31T17:00:00Z",
+                    "start": "2023-10-31T08:00:00Z",
+                    "title": "Project Management in a tech-trending environment"
+                }
+            ],
+            "Raum 203D": [
+                {
+                    "course": "WSTL21 C",
+                    "end": "2023-10-31T11:45:00Z",
+                    "start": "2023-10-31T07:30:00Z",
+                    "title": "Developing Logistics Strategies"
+                },
+                {
+                    "course": "WSTL21 C",
+                    "end": "2023-10-31T16:30:00Z",
+                    "start": "2023-10-31T12:15:00Z",
+                    "title": "Developing Logistics Strategies Case Study"
+                }
+            ],
+            "Raum 243B": [
+                {
+                    "course": "WWI21 SCA",
+                    "end": "2023-10-31T11:30:00Z",
+                    "start": "2023-10-31T08:15:00Z",
+                    "title": "Gesch\u00e4ftsprozesse"
+                },
+                {
+                    "course": "WWI21 SCA",
+                    "end": "2023-10-31T16:00:00Z",
+                    "start": "2023-10-31T12:30:00Z",
+                    "title": "Wirtschaftspsychologie"
+                }
+            ],
+            "Raum 276C": [
+                {
+                    "course": "WWI22 SCA",
+                    "end": "2023-10-31T10:00:00Z",
+                    "start": "2023-10-31T08:30:00Z",
+                    "title": "Mobile Applikationen I"
+                },
+                {
+                    "course": "WWI22 SCA",
+                    "end": "2023-10-31T15:15:00Z",
+                    "start": "2023-10-31T12:00:00Z",
+                    "title": "Mathematik/Statistik"
+                }
+            ],
+            "Raum 280C (L)": [
+                {
+                    "course": "WME21 MPG",
+                    "end": "2023-10-31T13:00:00Z",
+                    "start": "2023-10-31T09:00:00Z",
+                    "title": "Medienprojekt: Strategie 1"
+                }
+            ],
+            "Raum 301D": [
+                {
+                    "course": "WSTL21 D",
+                    "end": "2023-10-31T16:00:00Z",
+                    "start": "2023-10-31T11:45:00Z",
+                    "title": "Wirtschaftspolitik"
+                }
+            ]
         }
     },
     "events_by_room": {
@@ -11732,13 +11776,13 @@
                     "title": "TEL22-WK/NK: INFORMATIK II. (120 Min.)"
                 },
                 {
-                    "course": "TEL22 C",
+                    "course": "TEL22 D",
                     "end": "2023-09-12T10:00:00Z",
                     "start": "2023-09-12T07:00:00Z",
                     "title": "TEL22-WK/NK: INFORMATIK II. (120 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 C",
                     "end": "2023-09-12T10:00:00Z",
                     "start": "2023-09-12T07:00:00Z",
                     "title": "TEL22-WK/NK: INFORMATIK II. (120 Min.)"
@@ -11796,20 +11840,6 @@
                     "end": "2023-08-08T15:00:00Z",
                     "start": "2023-08-08T11:00:00Z",
                     "title": "Mikro\u00f6konomik"
-                }
-            ],
-            "31.07.2023": [
-                {
-                    "course": "WIW22 A",
-                    "end": "2023-07-31T10:30:00Z",
-                    "start": "2023-07-31T06:30:00Z",
-                    "title": "B\u00fcrgerliches Recht"
-                },
-                {
-                    "course": "WIW22 A",
-                    "end": "2023-07-31T15:00:00Z",
-                    "start": "2023-07-31T11:00:00Z",
-                    "title": "Technische Grundlagen zur Digitalisierung in der Immobilienwirtschaft"
                 }
             ]
         },
@@ -12373,32 +12403,6 @@
                     "start": "2023-09-26T07:00:00Z",
                     "title": "M\u00fcndliche Bachelor-Pr\u00fcfung "
                 }
-            ],
-            "31.07.2023": [
-                {
-                    "course": "GWAG20 .",
-                    "end": "2023-07-31T10:15:00Z",
-                    "start": "2023-07-31T07:00:00Z",
-                    "title": "Public Health und Versorgungsforschung"
-                },
-                {
-                    "course": "GWAG20 .",
-                    "end": "2023-07-31T10:15:00Z",
-                    "start": "2023-07-31T07:00:00Z",
-                    "title": "Public Health und Versorgungsforschung"
-                },
-                {
-                    "course": "GWAG20 .",
-                    "end": "2023-07-31T13:00:00Z",
-                    "start": "2023-07-31T11:00:00Z",
-                    "title": "Public Health und Versorgungsforschung"
-                },
-                {
-                    "course": "GWAG20 .",
-                    "end": "2023-07-31T13:00:00Z",
-                    "start": "2023-07-31T11:00:00Z",
-                    "title": "Public Health und Versorgungsforschung"
-                }
             ]
         },
         "Raum 018D": {
@@ -12816,20 +12820,6 @@
                     "title": "ESt 4"
                 }
             ],
-            "31.07.2023": [
-                {
-                    "course": "WRSW21 ST2",
-                    "end": "2023-07-31T11:15:00Z",
-                    "start": "2023-07-31T08:45:00Z",
-                    "title": "ESt 5"
-                },
-                {
-                    "course": "WRSW21 ST2",
-                    "end": "2023-07-31T15:15:00Z",
-                    "start": "2023-07-31T12:00:00Z",
-                    "title": "ReWe IV: Bil.3"
-                }
-            ],
             "31.08.2023": [
                 {
                     "course": "WRSW21 ST2",
@@ -12868,13 +12858,13 @@
                     "title": "TEL22-WK/NK: DIGITALTECHNIK (90 Min.)"
                 },
                 {
-                    "course": "TEL22 C",
+                    "course": "TEL22 D",
                     "end": "2023-09-04T09:30:00Z",
                     "start": "2023-09-04T08:00:00Z",
                     "title": "TEL22-WK/NK: DIGITALTECHNIK (90 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 C",
                     "end": "2023-09-04T09:30:00Z",
                     "start": "2023-09-04T08:00:00Z",
                     "title": "TEL22-WK/NK: DIGITALTECHNIK (90 Min.)"
@@ -12894,13 +12884,13 @@
                     "title": "TEL22-WK/NK: PHYSIK (90 Min.)"
                 },
                 {
-                    "course": "TEL22 C",
+                    "course": "TEL22 D",
                     "end": "2023-09-06T09:30:00Z",
                     "start": "2023-09-06T08:00:00Z",
                     "title": "TEL22-WK/NK: PHYSIK (90 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 C",
                     "end": "2023-09-06T09:30:00Z",
                     "start": "2023-09-06T08:00:00Z",
                     "title": "TEL22-WK/NK: PHYSIK (90 Min.)"
@@ -12920,13 +12910,13 @@
                     "title": "TEL22-WK/NK: GRUNDL. ELEKTROTECHNIK II. (90 Min.)"
                 },
                 {
-                    "course": "TEL22 C",
+                    "course": "TEL22 D",
                     "end": "2023-09-08T09:30:00Z",
                     "start": "2023-09-08T08:00:00Z",
                     "title": "TEL22-WK/NK: GRUNDL. ELEKTROTECHNIK II. (90 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 C",
                     "end": "2023-09-08T09:30:00Z",
                     "start": "2023-09-08T08:00:00Z",
                     "title": "TEL22-WK/NK: GRUNDL. ELEKTROTECHNIK II. (90 Min.)"
@@ -12946,13 +12936,13 @@
                     "title": "TEL22-WK/NK: MATHEMATIK II. (90 Min.)"
                 },
                 {
-                    "course": "TEL22 C",
+                    "course": "TEL22 D",
                     "end": "2023-09-11T09:30:00Z",
                     "start": "2023-09-11T08:00:00Z",
                     "title": "TEL22-WK/NK: MATHEMATIK II. (90 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 C",
                     "end": "2023-09-11T09:30:00Z",
                     "start": "2023-09-11T08:00:00Z",
                     "title": "TEL22-WK/NK: MATHEMATIK II. (90 Min.)"
@@ -12972,13 +12962,13 @@
                     "title": "TEL22-WK/NK: ELEKTRONIK und MESSTECHNIK I. (120 Min.)"
                 },
                 {
-                    "course": "TEL22 C",
+                    "course": "TEL22 D",
                     "end": "2023-09-14T10:00:00Z",
                     "start": "2023-09-14T08:00:00Z",
                     "title": "TEL22-WK/NK: ELEKTRONIK und MESSTECHNIK I. (120 Min.)"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 C",
                     "end": "2023-09-14T10:00:00Z",
                     "start": "2023-09-14T08:00:00Z",
                     "title": "TEL22-WK/NK: ELEKTRONIK und MESSTECHNIK I. (120 Min.)"
@@ -13422,6 +13412,14 @@
                     "end": "2023-08-30T09:10:00Z",
                     "start": "2023-08-30T07:00:00Z",
                     "title": "Investition und Finanzierung"
+                }
+            ],
+            "31.10.2023": [
+                {
+                    "course": "WWI22 AMA",
+                    "end": "2023-10-31T11:30:00Z",
+                    "start": "2023-10-31T08:00:00Z",
+                    "title": "Pr\u00e4sentationen Webprogrammierung"
                 }
             ]
         },
@@ -13878,6 +13876,86 @@
                     "end": "2023-08-31T15:15:00Z",
                     "start": "2023-08-31T12:00:00Z",
                     "title": "Logistik"
+                }
+            ]
+        },
+        "Raum 065C": {
+            "01.09.2023": [
+                {
+                    "course": "TEL21 AT1",
+                    "end": "2023-09-01T10:00:00Z",
+                    "start": "2023-09-01T08:00:00Z",
+                    "title": "TEL21-WK:Regelungstechn. (AT2, MED), Drehstr./Trafo+Leistungselektr.(EE)+Kraftwerkst. (EU), El.2+El.3+Messt. (AT1)"
+                },
+                {
+                    "course": "TEL21 AT2",
+                    "end": "2023-09-01T10:00:00Z",
+                    "start": "2023-09-01T08:00:00Z",
+                    "title": "TEL21-WK:Regelungstechn. (AT2, MED), Drehstr./Trafo+Leistungselektr.(EE)+Kraftwerkst. (EU), El.2+El.3+Messt. (AT1)"
+                },
+                {
+                    "course": "TEL21 EE",
+                    "end": "2023-09-01T10:00:00Z",
+                    "start": "2023-09-01T08:00:00Z",
+                    "title": "TEL21-WK:Regelungstechn. (AT2, MED), Drehstr./Trafo+Leistungselektr.(EE)+Kraftwerkst. (EU), El.2+El.3+Messt. (AT1)"
+                },
+                {
+                    "course": "TEL21 MED",
+                    "end": "2023-09-01T10:00:00Z",
+                    "start": "2023-09-01T08:00:00Z",
+                    "title": "TEL21-WK:Regelungstechn. (AT2, MED), Drehstr./Trafo+Leistungselektr.(EE)+Kraftwerkst. (EU), El.2+El.3+Messt. (AT1)"
+                },
+                {
+                    "course": "TEL21 EU",
+                    "end": "2023-09-01T10:00:00Z",
+                    "start": "2023-09-01T08:00:00Z",
+                    "title": "TEL21-WK:Regelungstechn. (AT2, MED), Drehstr./Trafo+Leistungselektr.(EE)+Kraftwerkst. (EU), El.2+El.3+Messt. (AT1)"
+                }
+            ],
+            "28.08.2023": [
+                {
+                    "course": "TEL21 AT1",
+                    "end": "2023-08-28T09:30:00Z",
+                    "start": "2023-08-28T08:00:00Z",
+                    "title": "TEL21-WK: Automation (AT1, AT2), MCT (EE, EU)"
+                },
+                {
+                    "course": "TEL21 AT2",
+                    "end": "2023-08-28T09:30:00Z",
+                    "start": "2023-08-28T08:00:00Z",
+                    "title": "TEL21-WK: Automation (AT1, AT2), MCT (EE, EU)"
+                },
+                {
+                    "course": "TEL21 EE",
+                    "end": "2023-08-28T09:30:00Z",
+                    "start": "2023-08-28T08:00:00Z",
+                    "title": "TEL21-WK: Automation (AT1, AT2), MCT (EE, EU)"
+                },
+                {
+                    "course": "TEL21 EU",
+                    "end": "2023-08-28T09:30:00Z",
+                    "start": "2023-08-28T08:00:00Z",
+                    "title": "TEL21-WK: Automation (AT1, AT2), MCT (EE, EU)"
+                }
+            ],
+            "31.08.2023": [
+                {
+                    "course": "TEL21 AT1",
+                    "end": "2023-08-31T10:00:00Z",
+                    "start": "2023-08-31T08:00:00Z",
+                    "title": "TEL21-WK: WuL/Komm.techn. (AT1, AT2), Regelungstechnik (EU)"
+                },
+                {
+                    "course": "TEL21 AT2",
+                    "end": "2023-08-31T10:00:00Z",
+                    "start": "2023-08-31T08:00:00Z",
+                    "title": "TEL21-WK: WuL/Komm.techn. (AT1, AT2), Regelungstechnik (EU)"
+                },
+                {
+                    "course": "TEL21 EU",
+                    "end": "2023-08-31T10:00:00Z",
+                    "start": "2023-08-31T08:00:00Z",
+                    "title": "TEL21-WK: WuL/Komm.techn. (AT1, AT2), Regelungstechnik (EU)"
                 }
             ]
         },
@@ -14913,20 +14991,6 @@
                     "start": "2023-08-14T08:00:00Z",
                     "title": "Wiederholungsklausur \"Strategic Management\""
                 }
-            ],
-            "31.07.2023": [
-                {
-                    "course": "WIB22 E",
-                    "end": "2023-07-31T10:00:00Z",
-                    "start": "2023-07-31T08:00:00Z",
-                    "title": "Wiederholungsklausur "
-                },
-                {
-                    "course": "WIB22 A",
-                    "end": "2023-07-31T10:00:00Z",
-                    "start": "2023-07-31T08:00:00Z",
-                    "title": "Wiederholungsklausur "
-                }
             ]
         },
         "Raum 102D": {
@@ -14940,20 +15004,6 @@
             ]
         },
         "Raum 103D": {
-            "01.08.2023": [
-                {
-                    "course": "WIW22 B",
-                    "end": "2023-08-01T10:30:00Z",
-                    "start": "2023-08-01T06:30:00Z",
-                    "title": "B\u00fcrgerliches Recht"
-                },
-                {
-                    "course": "WIW22 B",
-                    "end": "2023-08-01T15:00:00Z",
-                    "start": "2023-08-01T11:00:00Z",
-                    "title": "Technische Grundlagen zur Digitalisierung in der Immobilienwirtschaft"
-                }
-            ],
             "02.08.2023": [
                 {
                     "course": "WIW22 B",
@@ -14988,20 +15038,6 @@
                     "end": "2023-08-04T15:15:00Z",
                     "start": "2023-08-04T12:00:00Z",
                     "title": "Rep. Organisation"
-                }
-            ],
-            "31.07.2023": [
-                {
-                    "course": "WIW22 B",
-                    "end": "2023-07-31T10:30:00Z",
-                    "start": "2023-07-31T06:30:00Z",
-                    "title": "Technische Grundlagen zur Digitalisierung in der Immobilienwirtschaft"
-                },
-                {
-                    "course": "WIW22 B",
-                    "end": "2023-07-31T15:30:00Z",
-                    "start": "2023-07-31T11:30:00Z",
-                    "title": "B\u00fcrgerliches Recht"
                 }
             ]
         },
@@ -15338,14 +15374,6 @@
             ]
         },
         "Raum 106D": {
-            "01.08.2023": [
-                {
-                    "course": "WIW20 A",
-                    "end": "2023-08-01T10:00:00Z",
-                    "start": "2023-08-01T06:00:00Z",
-                    "title": "Fallstudien Recht"
-                }
-            ],
             "04.08.2023": [
                 {
                     "course": "WIW20 A",
@@ -15368,22 +15396,6 @@
                     "end": "2023-08-08T10:00:00Z",
                     "start": "2023-08-08T06:00:00Z",
                     "title": "Fallstudien gesamtwirtschaftliches Umfeld"
-                }
-            ],
-            "11.08.2023": [
-                {
-                    "course": "WIW20 A",
-                    "end": "2023-08-11T10:00:00Z",
-                    "start": "2023-08-11T06:00:00Z",
-                    "title": "Mitarbeiterunterweisung und -gespr\u00e4che"
-                }
-            ],
-            "31.07.2023": [
-                {
-                    "course": "WIW20 A",
-                    "end": "2023-07-31T10:00:00Z",
-                    "start": "2023-07-31T06:00:00Z",
-                    "title": "Fallstudien Recht"
                 }
             ]
         },
@@ -15458,6 +15470,20 @@
             ]
         },
         "Raum 112D": {
+            "01.08.2023": [
+                {
+                    "course": "WIW22 B",
+                    "end": "2023-08-01T10:30:00Z",
+                    "start": "2023-08-01T06:30:00Z",
+                    "title": "B\u00fcrgerliches Recht"
+                },
+                {
+                    "course": "WIW22 B",
+                    "end": "2023-08-01T15:00:00Z",
+                    "start": "2023-08-01T11:00:00Z",
+                    "title": "Technische Grundlagen zur Digitalisierung in der Immobilienwirtschaft"
+                }
+            ],
             "02.08.2023": [
                 {
                     "course": "WRSW20 AC2",
@@ -15630,14 +15656,6 @@
                     "end": "2023-09-28T17:00:00Z",
                     "start": "2023-09-28T06:00:00Z",
                     "title": "M\u00fcndliche Abschlusspr\u00fcfungen"
-                }
-            ],
-            "31.07.2023": [
-                {
-                    "course": "WRSW20 AC2",
-                    "end": "2023-07-31T12:30:00Z",
-                    "start": "2023-07-31T10:00:00Z",
-                    "title": "Rechtsformw."
                 }
             ]
         },
@@ -15976,16 +15994,36 @@
                     "title": "IFRS 2"
                 }
             ],
-            "31.07.2023": [
+            "31.10.2023": [
                 {
-                    "course": "WRSW21 AC2",
-                    "end": "2023-07-31T09:45:00Z",
-                    "start": "2023-07-31T06:30:00Z",
-                    "title": "IFRS 2"
+                    "course": "WIMBIT22 B",
+                    "end": "2023-10-31T11:15:00Z",
+                    "start": "2023-10-31T08:00:00Z",
+                    "title": "Wirtschaftsenglisch I (W3WI_IBI305)"
+                },
+                {
+                    "course": "WIMBIT22 A",
+                    "end": "2023-10-31T15:15:00Z",
+                    "start": "2023-10-31T12:00:00Z",
+                    "title": "Wirtschaftsenglisch I (W3WI_IBI305)"
+                },
+                {
+                    "course": "WIMBIT22 B",
+                    "end": "2023-10-31T15:15:00Z",
+                    "start": "2023-10-31T12:00:00Z",
+                    "title": "Wirtschaftsenglisch I (W3WI_IBI305)"
                 }
             ]
         },
         "Raum 114D": {
+            "01.08.2023": [
+                {
+                    "course": "WIW20 A",
+                    "end": "2023-08-01T10:00:00Z",
+                    "start": "2023-08-01T06:00:00Z",
+                    "title": "Fallstudien Recht"
+                }
+            ],
             "02.08.2023": [
                 {
                     "course": "WIW20 B",
@@ -16024,14 +16062,6 @@
                     "end": "2023-08-09T10:00:00Z",
                     "start": "2023-08-09T06:00:00Z",
                     "title": "Fallstudien gesamtwirtschaftliches Umfeld"
-                }
-            ],
-            "31.07.2023": [
-                {
-                    "course": "WIW20 B",
-                    "end": "2023-07-31T10:00:00Z",
-                    "start": "2023-07-31T06:00:00Z",
-                    "title": "Moderne Immobilienfinanzierung"
                 }
             ]
         },
@@ -16328,14 +16358,6 @@
                     "end": "2023-10-30T11:15:00Z",
                     "start": "2023-10-30T08:00:00Z",
                     "title": "Grundlagen der Betriebswirtschaftslehre (W3WI_201)"
-                }
-            ],
-            "31.07.2023": [
-                {
-                    "course": "WRSW22 AC2",
-                    "end": "2023-07-31T14:30:00Z",
-                    "start": "2023-07-31T11:00:00Z",
-                    "title": "BGB II"
                 }
             ],
             "31.08.2023": [
@@ -16763,6 +16785,20 @@
                     "start": "2023-10-30T12:00:00Z",
                     "title": "Projektskizze zur Bachelorarbeit"
                 }
+            ],
+            "31.10.2023": [
+                {
+                    "course": "WFD21 A",
+                    "end": "2023-10-31T11:15:00Z",
+                    "start": "2023-10-31T08:00:00Z",
+                    "title": "Volkswirtschaftslehre III"
+                },
+                {
+                    "course": "WFD21 A",
+                    "end": "2023-10-31T15:45:00Z",
+                    "start": "2023-10-31T11:45:00Z",
+                    "title": "Integrationsseminar"
+                }
             ]
         },
         "Raum 116D (PC-Pool)": {
@@ -16983,6 +17019,20 @@
                     "start": "2023-10-30T12:00:00Z",
                     "title": "Betriebswirtschaftliche Standardl\u00f6sungen (W3WI_IBI402)"
                 }
+            ],
+            "31.10.2023": [
+                {
+                    "course": "WIMBIT23 B",
+                    "end": "2023-10-31T11:15:00Z",
+                    "start": "2023-10-31T08:00:00Z",
+                    "title": "Grundlegende Konzepte der IT (W3WI_104)"
+                },
+                {
+                    "course": "WIMBIT23 B",
+                    "end": "2023-10-31T17:15:00Z",
+                    "start": "2023-10-31T13:30:00Z",
+                    "title": "Recht (W3WI_506)"
+                }
             ]
         },
         "Raum 121A": {
@@ -17000,16 +17050,6 @@
                     "end": "2023-09-22T14:00:00Z",
                     "start": "2023-09-22T06:00:00Z",
                     "title": "T2000-Pr\u00fcfung"
-                }
-            ]
-        },
-        "Raum 137B": {
-            "31.07.2023": [
-                {
-                    "course": "WWI21 AMA",
-                    "end": "2023-07-31T10:30:00Z",
-                    "start": "2023-07-31T07:30:00Z",
-                    "title": "Wiederholungsklausuren"
                 }
             ]
         },
@@ -17631,6 +17671,20 @@
                     "start": "2023-10-30T12:15:00Z",
                     "title": "Mathematik (inkl. \u00dcbung)"
                 }
+            ],
+            "31.10.2023": [
+                {
+                    "course": "TMB22 A",
+                    "end": "2023-10-31T15:45:00Z",
+                    "start": "2023-10-31T12:15:00Z",
+                    "title": "Messtechnik"
+                },
+                {
+                    "course": "TMB22 A",
+                    "end": "2023-10-31T17:30:00Z",
+                    "start": "2023-10-31T16:00:00Z",
+                    "title": "Thermodynamik 1"
+                }
             ]
         },
         "Raum 153B": {
@@ -18127,6 +18181,14 @@
                     "start": "2023-08-31T08:00:00Z",
                     "title": "Integr. M."
                 }
+            ],
+            "31.10.2023": [
+                {
+                    "course": "WWI22 SEA",
+                    "end": "2023-10-31T15:00:00Z",
+                    "start": "2023-10-31T13:00:00Z",
+                    "title": "Datenbanken"
+                }
             ]
         },
         "Raum 201D": {
@@ -18387,17 +18449,17 @@
                     "start": "2023-10-30T08:15:00Z",
                     "title": "Einf\u00fchrung in die Informationstechnologie "
                 }
+            ],
+            "31.10.2023": [
+                {
+                    "course": "WSTL21 B",
+                    "end": "2023-10-31T17:00:00Z",
+                    "start": "2023-10-31T08:00:00Z",
+                    "title": "Project Management in a tech-trending environment"
+                }
             ]
         },
         "Raum 203D": {
-            "11.08.2023": [
-                {
-                    "course": "WIW20 B",
-                    "end": "2023-08-11T15:00:00Z",
-                    "start": "2023-08-11T11:00:00Z",
-                    "title": "Mitarbeiterunterweisung und -gespr\u00e4che"
-                }
-            ],
             "16.10.2023": [
                 {
                     "course": "WSTL21 C",
@@ -18521,6 +18583,20 @@
                     "start": "2023-10-30T08:00:00Z",
                     "title": "Intralogistik I"
                 }
+            ],
+            "31.10.2023": [
+                {
+                    "course": "WSTL21 C",
+                    "end": "2023-10-31T11:45:00Z",
+                    "start": "2023-10-31T07:30:00Z",
+                    "title": "Developing Logistics Strategies"
+                },
+                {
+                    "course": "WSTL21 C",
+                    "end": "2023-10-31T16:30:00Z",
+                    "start": "2023-10-31T12:15:00Z",
+                    "title": "Developing Logistics Strategies Case Study"
+                }
             ]
         },
         "Raum 208.1D (Gruppenarbeitsraum)": {
@@ -18546,6 +18622,12 @@
                     "title": " Integrationsseminar Coachingtag I"
                 },
                 {
+                    "course": "WSTL21 D",
+                    "end": "2023-10-24T16:00:00Z",
+                    "start": "2023-10-24T06:00:00Z",
+                    "title": " Integrationsseminar Coachingtag I"
+                },
+                {
                     "course": "WSTL21 B",
                     "end": "2023-10-24T16:00:00Z",
                     "start": "2023-10-24T06:00:00Z",
@@ -18553,12 +18635,6 @@
                 },
                 {
                     "course": "WSTL21 C",
-                    "end": "2023-10-24T16:00:00Z",
-                    "start": "2023-10-24T06:00:00Z",
-                    "title": " Integrationsseminar Coachingtag I"
-                },
-                {
-                    "course": "WSTL21 D",
                     "end": "2023-10-24T16:00:00Z",
                     "start": "2023-10-24T06:00:00Z",
                     "title": " Integrationsseminar Coachingtag I"
@@ -18602,12 +18678,6 @@
         "Raum 211D (Gruppenarbeitsraum)": {
             "25.09.2023": [
                 {
-                    "course": "WSTL20 D",
-                    "end": "2023-09-25T17:00:00Z",
-                    "start": "2023-09-25T06:00:00Z",
-                    "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
-                },
-                {
                     "course": "WSTL20 B",
                     "end": "2023-09-25T17:00:00Z",
                     "start": "2023-09-25T06:00:00Z",
@@ -18615,6 +18685,12 @@
                 },
                 {
                     "course": "WSTL20 C",
+                    "end": "2023-09-25T17:00:00Z",
+                    "start": "2023-09-25T06:00:00Z",
+                    "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
+                },
+                {
+                    "course": "WSTL20 D",
                     "end": "2023-09-25T17:00:00Z",
                     "start": "2023-09-25T06:00:00Z",
                     "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
@@ -18628,12 +18704,6 @@
             ],
             "26.09.2023": [
                 {
-                    "course": "WSTL20 D",
-                    "end": "2023-09-26T17:00:00Z",
-                    "start": "2023-09-26T06:00:00Z",
-                    "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
-                },
-                {
                     "course": "WSTL20 B",
                     "end": "2023-09-26T17:00:00Z",
                     "start": "2023-09-26T06:00:00Z",
@@ -18641,6 +18711,12 @@
                 },
                 {
                     "course": "WSTL20 C",
+                    "end": "2023-09-26T17:00:00Z",
+                    "start": "2023-09-26T06:00:00Z",
+                    "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
+                },
+                {
+                    "course": "WSTL20 D",
                     "end": "2023-09-26T17:00:00Z",
                     "start": "2023-09-26T06:00:00Z",
                     "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
@@ -18654,12 +18730,6 @@
             ],
             "27.09.2023": [
                 {
-                    "course": "WSTL20 D",
-                    "end": "2023-09-27T17:00:00Z",
-                    "start": "2023-09-27T06:00:00Z",
-                    "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
-                },
-                {
                     "course": "WSTL20 B",
                     "end": "2023-09-27T17:00:00Z",
                     "start": "2023-09-27T06:00:00Z",
@@ -18667,6 +18737,12 @@
                 },
                 {
                     "course": "WSTL20 C",
+                    "end": "2023-09-27T17:00:00Z",
+                    "start": "2023-09-27T06:00:00Z",
+                    "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
+                },
+                {
+                    "course": "WSTL20 D",
                     "end": "2023-09-27T17:00:00Z",
                     "start": "2023-09-27T06:00:00Z",
                     "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
@@ -18680,12 +18756,6 @@
             ],
             "28.09.2023": [
                 {
-                    "course": "WSTL20 D",
-                    "end": "2023-09-28T17:00:00Z",
-                    "start": "2023-09-28T06:00:00Z",
-                    "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
-                },
-                {
                     "course": "WSTL20 B",
                     "end": "2023-09-28T17:00:00Z",
                     "start": "2023-09-28T06:00:00Z",
@@ -18693,6 +18763,12 @@
                 },
                 {
                     "course": "WSTL20 C",
+                    "end": "2023-09-28T17:00:00Z",
+                    "start": "2023-09-28T06:00:00Z",
+                    "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
+                },
+                {
+                    "course": "WSTL20 D",
                     "end": "2023-09-28T17:00:00Z",
                     "start": "2023-09-28T06:00:00Z",
                     "title": "M\u00fcndliche Bachelorpr\u00fcfungen"
@@ -18708,12 +18784,6 @@
         "Raum 213D": {
             "25.09.2023": [
                 {
-                    "course": "WSTL20 D",
-                    "end": "2023-09-25T18:00:00Z",
-                    "start": "2023-09-25T06:00:00Z",
-                    "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
-                },
-                {
                     "course": "WSTL20 B",
                     "end": "2023-09-25T18:00:00Z",
                     "start": "2023-09-25T06:00:00Z",
@@ -18721,6 +18791,12 @@
                 },
                 {
                     "course": "WSTL20 C",
+                    "end": "2023-09-25T18:00:00Z",
+                    "start": "2023-09-25T06:00:00Z",
+                    "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
+                },
+                {
+                    "course": "WSTL20 D",
                     "end": "2023-09-25T18:00:00Z",
                     "start": "2023-09-25T06:00:00Z",
                     "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
@@ -18734,12 +18810,6 @@
             ],
             "26.09.2023": [
                 {
-                    "course": "WSTL20 D",
-                    "end": "2023-09-26T18:00:00Z",
-                    "start": "2023-09-26T06:00:00Z",
-                    "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
-                },
-                {
                     "course": "WSTL20 B",
                     "end": "2023-09-26T18:00:00Z",
                     "start": "2023-09-26T06:00:00Z",
@@ -18747,6 +18817,12 @@
                 },
                 {
                     "course": "WSTL20 C",
+                    "end": "2023-09-26T18:00:00Z",
+                    "start": "2023-09-26T06:00:00Z",
+                    "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
+                },
+                {
+                    "course": "WSTL20 D",
                     "end": "2023-09-26T18:00:00Z",
                     "start": "2023-09-26T06:00:00Z",
                     "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
@@ -18760,12 +18836,6 @@
             ],
             "27.09.2023": [
                 {
-                    "course": "WSTL20 D",
-                    "end": "2023-09-27T18:00:00Z",
-                    "start": "2023-09-27T06:00:00Z",
-                    "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
-                },
-                {
                     "course": "WSTL20 B",
                     "end": "2023-09-27T18:00:00Z",
                     "start": "2023-09-27T06:00:00Z",
@@ -18773,6 +18843,12 @@
                 },
                 {
                     "course": "WSTL20 C",
+                    "end": "2023-09-27T18:00:00Z",
+                    "start": "2023-09-27T06:00:00Z",
+                    "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
+                },
+                {
+                    "course": "WSTL20 D",
                     "end": "2023-09-27T18:00:00Z",
                     "start": "2023-09-27T06:00:00Z",
                     "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
@@ -18786,12 +18862,6 @@
             ],
             "28.09.2023": [
                 {
-                    "course": "WSTL20 D",
-                    "end": "2023-09-28T18:00:00Z",
-                    "start": "2023-09-28T06:00:00Z",
-                    "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
-                },
-                {
                     "course": "WSTL20 B",
                     "end": "2023-09-28T18:00:00Z",
                     "start": "2023-09-28T06:00:00Z",
@@ -18799,6 +18869,12 @@
                 },
                 {
                     "course": "WSTL20 C",
+                    "end": "2023-09-28T18:00:00Z",
+                    "start": "2023-09-28T06:00:00Z",
+                    "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
+                },
+                {
+                    "course": "WSTL20 D",
                     "end": "2023-09-28T18:00:00Z",
                     "start": "2023-09-28T06:00:00Z",
                     "title": "M\u00fcndliche Bachelorpr\u00fcfung WSTL20"
@@ -19662,6 +19738,20 @@
                     "end": "2023-08-31T17:00:00Z",
                     "start": "2023-08-31T12:00:00Z",
                     "title": "Neue Konzepte I"
+                }
+            ],
+            "31.10.2023": [
+                {
+                    "course": "WWI21 SCA",
+                    "end": "2023-10-31T11:30:00Z",
+                    "start": "2023-10-31T08:15:00Z",
+                    "title": "Gesch\u00e4ftsprozesse"
+                },
+                {
+                    "course": "WWI21 SCA",
+                    "end": "2023-10-31T16:00:00Z",
+                    "start": "2023-10-31T12:30:00Z",
+                    "title": "Wirtschaftspsychologie"
                 }
             ]
         },
@@ -21283,6 +21373,20 @@
                     "start": "2023-08-31T12:00:00Z",
                     "title": "IT-Consulting/Recht"
                 }
+            ],
+            "31.10.2023": [
+                {
+                    "course": "WWI22 SCA",
+                    "end": "2023-10-31T10:00:00Z",
+                    "start": "2023-10-31T08:30:00Z",
+                    "title": "Mobile Applikationen I"
+                },
+                {
+                    "course": "WWI22 SCA",
+                    "end": "2023-10-31T15:15:00Z",
+                    "start": "2023-10-31T12:00:00Z",
+                    "title": "Mathematik/Statistik"
+                }
             ]
         },
         "Raum 278C": {
@@ -21399,6 +21503,14 @@
                     "start": "2023-09-26T08:00:00Z",
                     "title": "Medienprojekt: Strategie 1"
                 }
+            ],
+            "31.10.2023": [
+                {
+                    "course": "WME21 MPG",
+                    "end": "2023-10-31T13:00:00Z",
+                    "start": "2023-10-31T09:00:00Z",
+                    "title": "Medienprojekt: Strategie 1"
+                }
             ]
         },
         "Raum 301D": {
@@ -21507,6 +21619,14 @@
                     "start": "2023-10-30T12:15:00Z",
                     "title": "Developing Logistics Strategies Case Study"
                 }
+            ],
+            "31.10.2023": [
+                {
+                    "course": "WSTL21 D",
+                    "end": "2023-10-31T16:00:00Z",
+                    "start": "2023-10-31T11:45:00Z",
+                    "title": "Wirtschaftspolitik"
+                }
             ]
         },
         "Raum 302D": {
@@ -21516,6 +21636,14 @@
                     "end": "2023-08-07T09:00:00Z",
                     "start": "2023-08-07T07:00:00Z",
                     "title": "WRSW20AC1: Wdh.-Klausur VWL III u. Steuern III"
+                }
+            ],
+            "13.09.2023": [
+                {
+                    "course": "WRSW20 AC1",
+                    "end": "2023-09-13T09:00:00Z",
+                    "start": "2023-09-13T07:00:00Z",
+                    "title": "WRSW20AC1: Wiederholungsklausur Unternehmensrecht II"
                 }
             ],
             "21.08.2023": [
@@ -21826,14 +21954,6 @@
                     "end": "2023-08-30T15:15:00Z",
                     "start": "2023-08-30T11:00:00Z",
                     "title": "IK"
-                }
-            ],
-            "31.07.2023": [
-                {
-                    "course": "WMKE20 B",
-                    "end": "2023-07-31T15:15:00Z",
-                    "start": "2023-07-31T06:00:00Z",
-                    "title": "SQ"
                 }
             ],
             "31.08.2023": [
@@ -22164,14 +22284,6 @@
                     "title": "SQ"
                 }
             ],
-            "31.07.2023": [
-                {
-                    "course": "WMKE22 B",
-                    "end": "2023-07-31T15:15:00Z",
-                    "start": "2023-07-31T11:00:00Z",
-                    "title": "VD"
-                }
-            ],
             "31.08.2023": [
                 {
                     "course": "WMKE22 B",
@@ -22406,8 +22518,8 @@
                 {
                     "course": "WMKE21 B",
                     "end": "2023-08-17T15:15:00Z",
-                    "start": "2023-08-17T06:00:00Z",
-                    "title": "Selbststudium"
+                    "start": "2023-08-17T07:00:00Z",
+                    "title": "Perso"
                 }
             ],
             "18.08.2023": [
@@ -22494,14 +22606,6 @@
                     "end": "2023-08-30T15:15:00Z",
                     "start": "2023-08-30T11:00:00Z",
                     "title": "Recht"
-                }
-            ],
-            "31.07.2023": [
-                {
-                    "course": "WMKE21 B",
-                    "end": "2023-07-31T15:15:00Z",
-                    "start": "2023-07-31T06:00:00Z",
-                    "title": "VWL"
                 }
             ],
             "31.08.2023": [
@@ -22854,13 +22958,13 @@
                     "title": "KLAUSUREINSICHT F\u00dcR WIEDERHOLER"
                 },
                 {
-                    "course": "TEL22 C",
+                    "course": "TEL22 D",
                     "end": "2023-08-18T08:00:00Z",
                     "start": "2023-08-18T07:00:00Z",
                     "title": "KLAUSUREINSICHT F\u00dcR WIEDERHOLER"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 C",
                     "end": "2023-08-18T08:00:00Z",
                     "start": "2023-08-18T07:00:00Z",
                     "title": "KLAUSUREINSICHT F\u00dcR WIEDERHOLER"
@@ -22870,20 +22974,6 @@
                     "end": "2023-08-18T08:00:00Z",
                     "start": "2023-08-18T07:00:00Z",
                     "title": "KLAUSUREINSICHT F\u00dcR WIEDERHOLER"
-                }
-            ],
-            "31.07.2023": [
-                {
-                    "course": "TEL20 AT1",
-                    "end": "2023-07-31T10:30:00Z",
-                    "start": "2023-07-31T08:30:00Z",
-                    "title": "WK: Regelungssysteme, Elek. Anlagen und Netze"
-                },
-                {
-                    "course": "TEL20 EE",
-                    "end": "2023-07-31T10:30:00Z",
-                    "start": "2023-07-31T08:30:00Z",
-                    "title": "WK: Regelungssysteme, Elek. Anlagen und Netze"
                 }
             ]
         },
@@ -22910,6 +23000,12 @@
                     "title": "Kick-Off IntSem WSTL21 "
                 },
                 {
+                    "course": "WSTL21 D",
+                    "end": "2023-10-12T16:00:00Z",
+                    "start": "2023-10-12T11:00:00Z",
+                    "title": "Kick-Off IntSem WSTL21 "
+                },
+                {
                     "course": "WSTL21 B",
                     "end": "2023-10-12T16:00:00Z",
                     "start": "2023-10-12T11:00:00Z",
@@ -22920,23 +23016,17 @@
                     "end": "2023-10-12T16:00:00Z",
                     "start": "2023-10-12T11:00:00Z",
                     "title": "Kick-Off IntSem WSTL21 "
-                },
-                {
-                    "course": "WSTL21 D",
-                    "end": "2023-10-12T16:00:00Z",
-                    "start": "2023-10-12T11:00:00Z",
-                    "title": "Kick-Off IntSem WSTL21 "
                 }
             ],
             "14.08.2023": [
                 {
-                    "course": "WIW22 B",
+                    "course": "WIW22 A",
                     "end": "2023-08-14T10:30:00Z",
                     "start": "2023-08-14T09:30:00Z",
                     "title": "Statistik"
                 },
                 {
-                    "course": "WIW22 A",
+                    "course": "WIW22 B",
                     "end": "2023-08-14T10:30:00Z",
                     "start": "2023-08-14T09:30:00Z",
                     "title": "Statistik"
@@ -23000,6 +23090,32 @@
                     "end": "2023-10-24T17:00:00Z",
                     "start": "2023-10-24T13:30:00Z",
                     "title": "Master- Informationsveranstaltungen"
+                }
+            ],
+            "29.08.2023": [
+                {
+                    "course": "TEL21 AT1",
+                    "end": "2023-08-29T10:00:00Z",
+                    "start": "2023-08-29T08:00:00Z",
+                    "title": "TEL21-WK: Regelungstechnik ( (AT1, EE), El.2+El.3+Messtechnik (EE, EU, MED)"
+                },
+                {
+                    "course": "TEL21 EE",
+                    "end": "2023-08-29T10:00:00Z",
+                    "start": "2023-08-29T08:00:00Z",
+                    "title": "TEL21-WK: Regelungstechnik ( (AT1, EE), El.2+El.3+Messtechnik (EE, EU, MED)"
+                },
+                {
+                    "course": "TEL21 MED",
+                    "end": "2023-08-29T10:00:00Z",
+                    "start": "2023-08-29T08:00:00Z",
+                    "title": "TEL21-WK: Regelungstechnik ( (AT1, EE), El.2+El.3+Messtechnik (EE, EU, MED)"
+                },
+                {
+                    "course": "TEL21 EU",
+                    "end": "2023-08-29T10:00:00Z",
+                    "start": "2023-08-29T08:00:00Z",
+                    "title": "TEL21-WK: Regelungstechnik ( (AT1, EE), El.2+El.3+Messtechnik (EE, EU, MED)"
                 }
             ]
         },
@@ -23099,26 +23215,18 @@
                     "start": "2023-08-28T07:00:00Z",
                     "title": "Klausur ReWe V (Trennwand bitte schlie\u00dfen)"
                 }
-            ],
-            "31.07.2023": [
-                {
-                    "course": "WFD22 A",
-                    "end": "2023-07-31T08:30:00Z",
-                    "start": "2023-07-31T06:30:00Z",
-                    "title": "Klausur BWL-FDL"
-                }
             ]
         },
         "Raum SV-Auditorium (Audimax)": {
             "02.10.2023": [
                 {
-                    "course": "TINF23 AI2",
+                    "course": "TINF23 AI1",
                     "end": "2023-10-02T08:30:00Z",
                     "start": "2023-10-02T07:00:00Z",
                     "title": "Erstsemesterbegr\u00fc\u00dfung"
                 },
                 {
-                    "course": "TINF23 AI1",
+                    "course": "TINF23 AI2",
                     "end": "2023-10-02T08:30:00Z",
                     "start": "2023-10-02T07:00:00Z",
                     "title": "Erstsemesterbegr\u00fc\u00dfung"
@@ -23126,13 +23234,13 @@
             ],
             "05.08.2023": [
                 {
-                    "course": "WIW22 B",
+                    "course": "WIW22 A",
                     "end": "2023-08-05T10:00:00Z",
                     "start": "2023-08-05T06:00:00Z",
                     "title": "Vorlesung"
                 },
                 {
-                    "course": "WIW22 A",
+                    "course": "WIW22 B",
                     "end": "2023-08-05T10:00:00Z",
                     "start": "2023-08-05T06:00:00Z",
                     "title": "Vorlesung"
@@ -23166,6 +23274,12 @@
                     "title": "Intro 5. Semester (Audimax)"
                 },
                 {
+                    "course": "WSTL21 D",
+                    "end": "2023-10-11T15:00:00Z",
+                    "start": "2023-10-11T07:00:00Z",
+                    "title": "Intro 5. Semester (Audimax)"
+                },
+                {
                     "course": "WSTL21 B",
                     "end": "2023-10-11T15:00:00Z",
                     "start": "2023-10-11T07:00:00Z",
@@ -23173,12 +23287,6 @@
                 },
                 {
                     "course": "WSTL21 C",
-                    "end": "2023-10-11T15:00:00Z",
-                    "start": "2023-10-11T07:00:00Z",
-                    "title": "Intro 5. Semester (Audimax)"
-                },
-                {
-                    "course": "WSTL21 D",
                     "end": "2023-10-11T15:00:00Z",
                     "start": "2023-10-11T07:00:00Z",
                     "title": "Intro 5. Semester (Audimax)"
@@ -23200,13 +23308,13 @@
             ],
             "16.08.2023": [
                 {
-                    "course": "WIW22 B",
+                    "course": "WIW22 A",
                     "end": "2023-08-16T10:00:00Z",
                     "start": "2023-08-16T08:00:00Z",
                     "title": "Unternehmensrechnung"
                 },
                 {
-                    "course": "WIW22 A",
+                    "course": "WIW22 B",
                     "end": "2023-08-16T10:00:00Z",
                     "start": "2023-08-16T08:00:00Z",
                     "title": "Unternehmensrechnung"
@@ -23215,6 +23323,12 @@
             "17.10.2023": [
                 {
                     "course": "WSTL21 A",
+                    "end": "2023-10-17T17:00:00Z",
+                    "start": "2023-10-17T15:00:00Z",
+                    "title": "Dein Start als F\u00fchrungskraft - Leadership Development f\u00fcr Logistikstudentinnen"
+                },
+                {
+                    "course": "WSTL21 D",
                     "end": "2023-10-17T17:00:00Z",
                     "start": "2023-10-17T15:00:00Z",
                     "title": "Dein Start als F\u00fchrungskraft - Leadership Development f\u00fcr Logistikstudentinnen"
@@ -23230,23 +23344,17 @@
                     "end": "2023-10-17T17:00:00Z",
                     "start": "2023-10-17T15:00:00Z",
                     "title": "Dein Start als F\u00fchrungskraft - Leadership Development f\u00fcr Logistikstudentinnen"
-                },
-                {
-                    "course": "WSTL21 D",
-                    "end": "2023-10-17T17:00:00Z",
-                    "start": "2023-10-17T15:00:00Z",
-                    "title": "Dein Start als F\u00fchrungskraft - Leadership Development f\u00fcr Logistikstudentinnen"
                 }
             ],
             "18.08.2023": [
                 {
-                    "course": "WIW22 B",
+                    "course": "WIW22 A",
                     "end": "2023-08-18T10:00:00Z",
                     "start": "2023-08-18T08:00:00Z",
                     "title": "Technik der Finanzbuchf\u00fchrung"
                 },
                 {
-                    "course": "WIW22 A",
+                    "course": "WIW22 B",
                     "end": "2023-08-18T10:00:00Z",
                     "start": "2023-08-18T08:00:00Z",
                     "title": "Technik der Finanzbuchf\u00fchrung"
@@ -23266,13 +23374,13 @@
                     "title": "Informationsveranstaltung 2. Studienjahr"
                 },
                 {
-                    "course": "TEL22 C",
+                    "course": "TEL22 D",
                     "end": "2023-09-18T07:30:00Z",
                     "start": "2023-09-18T06:00:00Z",
                     "title": "Informationsveranstaltung 2. Studienjahr"
                 },
                 {
-                    "course": "TEL22 D",
+                    "course": "TEL22 C",
                     "end": "2023-09-18T07:30:00Z",
                     "start": "2023-09-18T06:00:00Z",
                     "title": "Informationsveranstaltung 2. Studienjahr"
@@ -23302,13 +23410,13 @@
                     "title": "Informationsveranstaltung 2. Studienjahr"
                 },
                 {
-                    "course": "TEL22 EE2",
+                    "course": "TEL22 EU",
                     "end": "2023-09-18T07:30:00Z",
                     "start": "2023-09-18T06:00:00Z",
                     "title": "Informationsveranstaltung 2. Studienjahr"
                 },
                 {
-                    "course": "TEL22 EU",
+                    "course": "TEL22 EE2",
                     "end": "2023-09-18T07:30:00Z",
                     "start": "2023-09-18T06:00:00Z",
                     "title": "Informationsveranstaltung 2. Studienjahr"
@@ -23330,13 +23438,13 @@
             ],
             "21.08.2023": [
                 {
-                    "course": "WIW22 B",
+                    "course": "WIW22 A",
                     "end": "2023-08-21T10:00:00Z",
                     "start": "2023-08-21T08:00:00Z",
                     "title": "Betreiben"
                 },
                 {
-                    "course": "WIW22 A",
+                    "course": "WIW22 B",
                     "end": "2023-08-21T10:00:00Z",
                     "start": "2023-08-21T08:00:00Z",
                     "title": "Betreiben"
@@ -23344,13 +23452,13 @@
             ],
             "23.08.2023": [
                 {
-                    "course": "WIW22 B",
+                    "course": "WIW22 A",
                     "end": "2023-08-23T10:00:00Z",
                     "start": "2023-08-23T08:00:00Z",
                     "title": "Recht "
                 },
                 {
-                    "course": "WIW22 A",
+                    "course": "WIW22 B",
                     "end": "2023-08-23T10:00:00Z",
                     "start": "2023-08-23T08:00:00Z",
                     "title": "Recht "
@@ -23358,13 +23466,13 @@
             ],
             "25.08.2023": [
                 {
-                    "course": "WIW22 B",
+                    "course": "WIW22 A",
                     "end": "2023-08-25T10:00:00Z",
                     "start": "2023-08-25T08:00:00Z",
                     "title": "VWL"
                 },
                 {
-                    "course": "WIW22 A",
+                    "course": "WIW22 B",
                     "end": "2023-08-25T10:00:00Z",
                     "start": "2023-08-25T08:00:00Z",
                     "title": "VWL"
@@ -23409,28 +23517,8 @@
                     "start": "2023-08-30T06:00:00Z",
                     "title": "Reservierung f\u00fcr WMM22"
                 }
-            ],
-            "31.07.2023": [
-                {
-                    "course": "WMM22 A",
-                    "end": "2023-07-31T14:00:00Z",
-                    "start": "2023-07-31T06:00:00Z",
-                    "title": "Reservierung f\u00fcr WMM22"
-                },
-                {
-                    "course": "WMM22 B",
-                    "end": "2023-07-31T14:00:00Z",
-                    "start": "2023-07-31T06:00:00Z",
-                    "title": "Reservierung f\u00fcr WMM22"
-                },
-                {
-                    "course": "WMM22 C",
-                    "end": "2023-07-31T14:00:00Z",
-                    "start": "2023-07-31T06:00:00Z",
-                    "title": "Reservierung f\u00fcr WMM22"
-                }
             ]
         }
     },
-    "last_updated": "2023-07-31T05:13:25Z"
+    "last_updated": "2023-08-01T05:13:20Z"
 }
